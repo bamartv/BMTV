@@ -1,39 +1,29 @@
 {
-  "scraped_at": "2026-05-25T06:51:31+00:00",
+  "scraped_at": "2026-05-25T12:56:01+00:00",
   "base_url": "https://roxiestreams.su",
   "domains": [
     "shadow-ran.online"
   ],
   "events": [
     {
-      "name": "Premier League Final Day",
-      "page": "https://roxiestreams.su/soccer",
-      "start_time": "May 24, 2026 8:00 AM"
-    },
-    {
-      "name": "Indycar - Indianapolis 500",
-      "page": "https://roxiestreams.su/indycar",
-      "start_time": "May 24, 2026 9:30 AM"
-    },
-    {
-      "name": "Formula 1 Grand Prix",
-      "page": "https://roxiestreams.su/f1",
-      "start_time": "May 24, 2026 1:00 PM"
-    },
-    {
-      "name": "AEW Double OR Nothing",
-      "page": "https://roxiestreams.su/aew",
-      "start_time": "May 24, 2026 5:00 PM"
-    },
-    {
-      "name": "NHL West Finals",
+      "name": "NHL East Finals",
       "page": "https://roxiestreams.su/nhl-streams-1",
-      "start_time": "May 24, 2026 5:00 PM"
+      "start_time": "May 25, 2026 5:00 PM"
     },
     {
-      "name": "NBA West Finals",
+      "name": "NHL East Finals",
+      "page": "https://roxiestreams.su/nhl-streams-1",
+      "start_time": "May 25, 2026 5:00 PM"
+    },
+    {
+      "name": "NBA East Finals",
       "page": "https://roxiestreams.su/nba-streams-1",
-      "start_time": "May 24, 2026 5:00 PM"
+      "start_time": "May 25, 2026 5:00 PM"
+    },
+    {
+      "name": "WWE RAW",
+      "page": "https://roxiestreams.su/wwe-streams",
+      "start_time": "May 25, 2026 5:00 PM"
     }
   ],
   "events_by_sport": {
@@ -49,12 +39,12 @@
         "streams": [
           {
             "label": "Stream 1",
-            "url": "https://daffodil.shadow-ran.online/main.m3u8",
+            "url": "https://daffodil.shadow-ran.online/golazo.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.su/soccer-streams-1",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "daffodil",
-            "path": "main.m3u8",
+            "path": "golazo.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.su/soccer-streams-1",
               "Origin": "https://roxiestreams.su",
@@ -83,12 +73,12 @@
         "streams": [
           {
             "label": "Stream 1",
-            "url": "https://daffodil.shadow-ran.online/epl.m3u8",
+            "url": "https://daffodil.shadow-ran.online/calcio.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.su/soccer-streams-2",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "daffodil",
-            "path": "epl.m3u8",
+            "path": "calcio.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.su/soccer-streams-2",
               "Origin": "https://roxiestreams.su",
@@ -117,12 +107,12 @@
         "streams": [
           {
             "label": "Stream 1",
-            "url": "https://601.shadow-ran.online/epl2.m3u8",
+            "url": "https://601.shadow-ran.online/fana.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.su/soccer-streams-3",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "601",
-            "path": "epl2.m3u8",
+            "path": "fana.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.su/soccer-streams-3",
               "Origin": "https://roxiestreams.su",
@@ -139,13 +129,13 @@
             "display_name": "Coritiba vs Bahia - Stream 1"
           },
           {
-            "label": "epl2.m3u8",
-            "url": "https://daffodil.shadow-ran.online/epl2.m3u8",
+            "label": "fana.m3u8",
+            "url": "https://daffodil.shadow-ran.online/fana.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.su/soccer-streams-3",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "daffodil",
-            "path": "epl2.m3u8",
+            "path": "fana.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.su/soccer-streams-3",
               "Origin": "https://roxiestreams.su",
@@ -159,7 +149,7 @@
               "home": "Coritiba",
               "away": "Bahia"
             },
-            "display_name": "Coritiba vs Bahia - epl2.m3u8"
+            "display_name": "Coritiba vs Bahia - fana.m3u8"
           }
         ]
       }
@@ -965,10 +955,59 @@
         ]
       }
     ],
-    "motorsports": [],
+    "motorsports": [
+      {
+        "title": "Isle of Man TT - Coverage",
+        "sport": "motorsports",
+        "matchup": null,
+        "page": "https://roxiestreams.su/ppv-streams-1",
+        "streams": [
+          {
+            "label": "Stream 1",
+            "url": "https://601.shadow-ran.online/tt.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.su/ppv-streams-1",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "601",
+            "path": "tt.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.su/ppv-streams-1",
+              "Origin": "https://roxiestreams.su",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "motorsports",
+            "event_title": "Isle of Man TT - Coverage",
+            "matchup": null,
+            "display_name": "Isle of Man TT - Coverage - Stream 1"
+          },
+          {
+            "label": "tt.m3u8",
+            "url": "https://daffodil.shadow-ran.online/tt.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.su/ppv-streams-1",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "tt.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.su/ppv-streams-1",
+              "Origin": "https://roxiestreams.su",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "motorsports",
+            "event_title": "Isle of Man TT - Coverage",
+            "matchup": null,
+            "display_name": "Isle of Man TT - Coverage - tt.m3u8"
+          }
+        ]
+      }
+    ],
     "aew": [
       {
-        "title": "AEW Double OR Nothing",
+        "title": "Stream 1",
         "sport": "aew",
         "matchup": null,
         "page": "https://roxiestreams.su/aew",
@@ -989,10 +1028,18 @@
             },
             "drm_keys": null,
             "sport": "aew",
-            "event_title": "AEW Double OR Nothing",
+            "event_title": "Stream 1",
             "matchup": null,
-            "display_name": "AEW Double OR Nothing - Stream 1"
-          },
+            "display_name": "Stream 1"
+          }
+        ]
+      },
+      {
+        "title": "Stream 2",
+        "sport": "aew",
+        "matchup": null,
+        "page": "https://roxiestreams.su/aew",
+        "streams": [
           {
             "label": "Stream 2",
             "url": "https://daffodil.shadow-ran.online/aew.m3u8",
@@ -1009,163 +1056,78 @@
             },
             "drm_keys": null,
             "sport": "aew",
-            "event_title": "AEW Double OR Nothing",
+            "event_title": "Stream 2",
             "matchup": null,
-            "display_name": "AEW Double OR Nothing - Stream 2"
+            "display_name": "Stream 2"
           }
         ]
       }
     ],
-    "indycar": [
+    "wwe": [
       {
-        "title": "Indycar - Indianapolis 500",
-        "sport": "indycar",
+        "title": "WWE RAW",
+        "sport": "wwe",
         "matchup": null,
-        "page": "https://roxiestreams.su/indycar",
+        "page": "https://roxiestreams.su/wwe-streams",
         "streams": [
           {
             "label": "Direct Link",
-            "url": "https://601.formaturamaxi.com.br/mix.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.su/indycar",
+            "url": "https://g003-sle-us-cmaf-prd-fy.cdn.peacocktv.com/pck-sle/us-west-2/v1/dash/6f3f45fea6332a47667932dede90d20a96f2690c/peacock-dash-sle-4s-generic-cfd/co01/pcksle2/Content/CMAF_CTR-4s-v2/Live/channel(5021679-723537-491336fa411)/master_2hr.mpd?c3.ri=6a1240f9_Q1ZYMDc_1_RkFTVExZ_ad65ca814d83&aws.sessionId=29752015-7604-4ed6-b138-e56a8d98b382&ck=eyIwMDIyNDI4YWQxYmIyNjJmZDg4MzRmOTZkNWUyOTg4NyI6Ijc1OTBhMjYxNjhjY2Q2YWQzNmNlZjlkM2VmYTc5MTc4In0%3D",
+            "type": "mpd",
+            "source_page": "https://roxiestreams.su/wwe-streams",
             "headers": {
-              "Referer": "https://roxiestreams.su/indycar",
+              "Referer": "https://roxiestreams.su/wwe-streams",
               "Origin": "https://roxiestreams.su",
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
               "Accept": "*/*"
             },
-            "drm_keys": null,
-            "sport": "indycar",
-            "event_title": "Indycar - Indianapolis 500",
+            "drm_keys": {
+              "0022428ad1bb262fd8834f96d5e29887": "7590a26168ccd6ad36cef9d3efa79178"
+            },
+            "sport": "wwe",
+            "event_title": "WWE RAW",
             "matchup": null,
-            "display_name": "Indycar - Indianapolis 500"
+            "display_name": "WWE RAW"
           },
           {
-            "label": "Direct Link",
-            "url": "https://601.formaturamaxi.com.br/indy.m3u8",
+            "label": "Stream 2",
+            "url": "https://daffodil.shadow-ran.online/wwe.m3u8",
             "type": "m3u8",
-            "source_page": "https://roxiestreams.su/indycar",
-            "headers": {
-              "Referer": "https://roxiestreams.su/indycar",
-              "Origin": "https://roxiestreams.su",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "indycar",
-            "event_title": "Indycar - Indianapolis 500",
-            "matchup": null,
-            "display_name": "Indycar - Indianapolis 500"
-          }
-        ]
-      }
-    ],
-    "f1": [
-      {
-        "title": "Formula 1 Grand Prix",
-        "sport": "f1",
-        "matchup": null,
-        "page": "https://roxiestreams.su/f1",
-        "streams": [
-          {
-            "label": "TSN",
-            "url": "https://daffodil.shadow-ran.online/f1.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.su/f1",
+            "source_page": "https://roxiestreams.su/wwe-streams",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "daffodil",
-            "path": "f1.m3u8",
+            "path": "wwe.m3u8",
             "headers": {
-              "Referer": "https://roxiestreams.su/f1",
+              "Referer": "https://roxiestreams.su/wwe-streams",
               "Origin": "https://roxiestreams.su",
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
               "Accept": "*/*"
             },
             "drm_keys": null,
-            "sport": "f1",
-            "event_title": "Formula 1 Grand Prix",
+            "sport": "wwe",
+            "event_title": "WWE RAW",
             "matchup": null,
-            "display_name": "Formula 1 Grand Prix - TSN"
+            "display_name": "WWE RAW - Stream 2"
           },
           {
-            "label": "Sky",
-            "url": "https://601.shadow-ran.online/main.m3u8",
+            "label": "wwe.m3u8",
+            "url": "https://601.shadow-ran.online/wwe.m3u8",
             "type": "m3u8",
-            "source_page": "https://roxiestreams.su/f1",
+            "source_page": "https://roxiestreams.su/wwe-streams",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "601",
-            "path": "main.m3u8",
+            "path": "wwe.m3u8",
             "headers": {
-              "Referer": "https://roxiestreams.su/f1",
+              "Referer": "https://roxiestreams.su/wwe-streams",
               "Origin": "https://roxiestreams.su",
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
               "Accept": "*/*"
             },
             "drm_keys": null,
-            "sport": "f1",
-            "event_title": "Formula 1 Grand Prix",
+            "sport": "wwe",
+            "event_title": "WWE RAW",
             "matchup": null,
-            "display_name": "Formula 1 Grand Prix - Sky"
-          },
-          {
-            "label": "F1TV",
-            "url": "https://700.shadow-ran.online/f1tv.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.su/f1",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "700",
-            "path": "f1tv.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.su/f1",
-              "Origin": "https://roxiestreams.su",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "f1",
-            "event_title": "Formula 1 Grand Prix",
-            "matchup": null,
-            "display_name": "Formula 1 Grand Prix - F1TV"
-          },
-          {
-            "label": "Stream 3 (IT)",
-            "url": "https://601.shadow-ran.online/italy.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.su/f1",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "601",
-            "path": "italy.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.su/f1",
-              "Origin": "https://roxiestreams.su",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "f1",
-            "event_title": "Formula 1 Grand Prix",
-            "matchup": null,
-            "display_name": "Formula 1 Grand Prix - Stream 3 (IT)"
-          },
-          {
-            "label": "Stream 4 (ESPAÑOL)",
-            "url": "https://601.shadow-ran.online/skyf1mx.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.su/f1",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "601",
-            "path": "skyf1mx.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.su/f1",
-              "Origin": "https://roxiestreams.su",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "f1",
-            "event_title": "Formula 1 Grand Prix",
-            "matchup": null,
-            "display_name": "Formula 1 Grand Prix - Stream 4 (ESPAÑOL)"
+            "display_name": "WWE RAW - wwe.m3u8"
           }
         ]
       }
@@ -2758,7 +2720,6 @@
         "Fighting",
         "Motorsports",
         "Stream Request (Discord)",
-        "AEW Double OR Nothing",
         "WWE RAW",
         "Stream Request (Discord)"
       ],
@@ -2798,10 +2759,6 @@
         {
           "label": "Stream Request (Discord)",
           "url": "https://discord.gg/JhkVmejRmn"
-        },
-        {
-          "label": "AEW Double OR Nothing",
-          "url": "https://roxiestreams.su/aew"
         },
         {
           "label": "WWE RAW",
@@ -2892,11 +2849,7 @@
         "Fighting",
         "Motorsports",
         "Stream Request (Discord)",
-        "MXGP & MX2 - Race 1",
-        "MXGP & MX2 - Race 2",
-        "Indycar Series - Indianapolis 500",
-        "Formula 1 - Canada Grand Prix",
-        "NASCAR Cup Series - Race",
+        "Isle of Man TT - Coverage",
         "Stream Request (Discord)"
       ],
       "links": [
@@ -2937,24 +2890,69 @@
           "url": "https://discord.gg/JhkVmejRmn"
         },
         {
-          "label": "MXGP & MX2 - Race 1",
-          "url": "https://roxiestreams.su/mxgp"
+          "label": "Isle of Man TT - Coverage",
+          "url": "https://roxiestreams.su/ppv-streams-1"
         },
         {
-          "label": "MXGP & MX2 - Race 2",
-          "url": "https://roxiestreams.su/mxgp"
+          "label": "Stream Request (Discord)",
+          "url": "https://discord.gg/JhkVmejRmn"
+        }
+      ]
+    },
+    "https://roxiestreams.su/ppv-streams-1": {
+      "url": "https://roxiestreams.su/ppv-streams-1",
+      "title": "Roxiestreams - Watch Live Sports, F1, UFC, NFL, TV",
+      "headings": [],
+      "controls": [
+        "RoxieStreams",
+        "Soccer",
+        "MLB",
+        "NBA",
+        "NFL",
+        "NHL",
+        "Fighting",
+        "Motorsports",
+        "Stream Request (Discord)",
+        "Stream 1",
+        "Switch to Chatango",
+        "Stream Request (Discord)"
+      ],
+      "links": [
+        {
+          "label": "RoxieStreams",
+          "url": "https://roxiestreams.su/"
         },
         {
-          "label": "Indycar Series - Indianapolis 500",
-          "url": "https://roxiestreams.su/indycar"
+          "label": "Soccer",
+          "url": "https://roxiestreams.su/soccer"
         },
         {
-          "label": "Formula 1 - Canada Grand Prix",
-          "url": "https://roxiestreams.su/f1"
+          "label": "MLB",
+          "url": "https://roxiestreams.su/mlb"
         },
         {
-          "label": "NASCAR Cup Series - Race",
-          "url": "https://roxiestreams.su/nascar"
+          "label": "NBA",
+          "url": "https://roxiestreams.su/nba"
+        },
+        {
+          "label": "NFL",
+          "url": "https://roxiestreams.su/nfl"
+        },
+        {
+          "label": "NHL",
+          "url": "https://roxiestreams.su/nhl"
+        },
+        {
+          "label": "Fighting",
+          "url": "https://roxiestreams.su/fighting"
+        },
+        {
+          "label": "Motorsports",
+          "url": "https://roxiestreams.su/motorsports"
+        },
+        {
+          "label": "Stream Request (Discord)",
+          "url": "https://discord.gg/JhkVmejRmn"
         },
         {
           "label": "Stream Request (Discord)",
@@ -3023,133 +3021,6 @@
           "url": "https://discord.gg/JhkVmejRmn"
         }
       ]
-    },
-    "https://roxiestreams.su/indycar": {
-      "url": "https://roxiestreams.su/indycar",
-      "title": "Roxiestreams - Watch Live Sports, F1, UFC, NFL, TV",
-      "headings": [],
-      "controls": [
-        "RoxieStreams",
-        "Soccer",
-        "MLB",
-        "NBA",
-        "NFL",
-        "NHL",
-        "Fighting",
-        "Motorsports",
-        "Stream Request (Discord)",
-        "Stream 1",
-        "Stream 2",
-        "Switch to Chatango",
-        "Stream Request (Discord)"
-      ],
-      "links": [
-        {
-          "label": "RoxieStreams",
-          "url": "https://roxiestreams.su/"
-        },
-        {
-          "label": "Soccer",
-          "url": "https://roxiestreams.su/soccer"
-        },
-        {
-          "label": "MLB",
-          "url": "https://roxiestreams.su/mlb"
-        },
-        {
-          "label": "NBA",
-          "url": "https://roxiestreams.su/nba"
-        },
-        {
-          "label": "NFL",
-          "url": "https://roxiestreams.su/nfl"
-        },
-        {
-          "label": "NHL",
-          "url": "https://roxiestreams.su/nhl"
-        },
-        {
-          "label": "Fighting",
-          "url": "https://roxiestreams.su/fighting"
-        },
-        {
-          "label": "Motorsports",
-          "url": "https://roxiestreams.su/motorsports"
-        },
-        {
-          "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/JhkVmejRmn"
-        },
-        {
-          "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/JhkVmejRmn"
-        }
-      ]
-    },
-    "https://roxiestreams.su/f1": {
-      "url": "https://roxiestreams.su/f1",
-      "title": "Roxiestreams - Watch Live Sports, F1, UFC, NFL, TV",
-      "headings": [],
-      "controls": [
-        "RoxieStreams",
-        "Soccer",
-        "MLB",
-        "NBA",
-        "NFL",
-        "NHL",
-        "Fighting",
-        "Motorsports",
-        "Stream Request (Discord)",
-        "TSN",
-        "Sky",
-        "F1TV",
-        "Stream 3 (IT)",
-        "Stream 4 (ESPAÑOL)",
-        "Switch to Chatango",
-        "Stream Request (Discord)"
-      ],
-      "links": [
-        {
-          "label": "RoxieStreams",
-          "url": "https://roxiestreams.su/"
-        },
-        {
-          "label": "Soccer",
-          "url": "https://roxiestreams.su/soccer"
-        },
-        {
-          "label": "MLB",
-          "url": "https://roxiestreams.su/mlb"
-        },
-        {
-          "label": "NBA",
-          "url": "https://roxiestreams.su/nba"
-        },
-        {
-          "label": "NFL",
-          "url": "https://roxiestreams.su/nfl"
-        },
-        {
-          "label": "NHL",
-          "url": "https://roxiestreams.su/nhl"
-        },
-        {
-          "label": "Fighting",
-          "url": "https://roxiestreams.su/fighting"
-        },
-        {
-          "label": "Motorsports",
-          "url": "https://roxiestreams.su/motorsports"
-        },
-        {
-          "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/JhkVmejRmn"
-        },
-        {
-          "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/JhkVmejRmn"
-        }
-      ]
     }
   },
   "sports": {
@@ -3163,12 +3034,12 @@
       "streams": [
         {
           "label": "Stream 1",
-          "url": "https://daffodil.shadow-ran.online/main.m3u8",
+          "url": "https://daffodil.shadow-ran.online/golazo.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.su/soccer-streams-1",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "daffodil",
-          "path": "main.m3u8",
+          "path": "golazo.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.su/soccer-streams-1",
             "Origin": "https://roxiestreams.su",
@@ -3186,12 +3057,12 @@
         },
         {
           "label": "Stream 1",
-          "url": "https://daffodil.shadow-ran.online/epl.m3u8",
+          "url": "https://daffodil.shadow-ran.online/calcio.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.su/soccer-streams-2",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "daffodil",
-          "path": "epl.m3u8",
+          "path": "calcio.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.su/soccer-streams-2",
             "Origin": "https://roxiestreams.su",
@@ -3209,12 +3080,12 @@
         },
         {
           "label": "Stream 1",
-          "url": "https://601.shadow-ran.online/epl2.m3u8",
+          "url": "https://601.shadow-ran.online/fana.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.su/soccer-streams-3",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "601",
-          "path": "epl2.m3u8",
+          "path": "fana.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.su/soccer-streams-3",
             "Origin": "https://roxiestreams.su",
@@ -3231,13 +3102,13 @@
           "display_name": "Coritiba vs Bahia - Stream 1"
         },
         {
-          "label": "epl2.m3u8",
-          "url": "https://daffodil.shadow-ran.online/epl2.m3u8",
+          "label": "fana.m3u8",
+          "url": "https://daffodil.shadow-ran.online/fana.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.su/soccer-streams-3",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "daffodil",
-          "path": "epl2.m3u8",
+          "path": "fana.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.su/soccer-streams-3",
             "Origin": "https://roxiestreams.su",
@@ -3251,7 +3122,7 @@
             "home": "Coritiba",
             "away": "Bahia"
           },
-          "display_name": "Coritiba vs Bahia - epl2.m3u8"
+          "display_name": "Coritiba vs Bahia - fana.m3u8"
         }
       ]
     },
@@ -3919,9 +3790,51 @@
     },
     "motorsports": {
       "pages": [
-        "https://roxiestreams.su/motorsports"
+        "https://roxiestreams.su/motorsports",
+        "https://roxiestreams.su/ppv-streams-1"
       ],
-      "streams": []
+      "streams": [
+        {
+          "label": "Stream 1",
+          "url": "https://601.shadow-ran.online/tt.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.su/ppv-streams-1",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "601",
+          "path": "tt.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.su/ppv-streams-1",
+            "Origin": "https://roxiestreams.su",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "motorsports",
+          "event_title": "Isle of Man TT - Coverage",
+          "matchup": null,
+          "display_name": "Isle of Man TT - Coverage - Stream 1"
+        },
+        {
+          "label": "tt.m3u8",
+          "url": "https://daffodil.shadow-ran.online/tt.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.su/ppv-streams-1",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "tt.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.su/ppv-streams-1",
+            "Origin": "https://roxiestreams.su",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "motorsports",
+          "event_title": "Isle of Man TT - Coverage",
+          "matchup": null,
+          "display_name": "Isle of Man TT - Coverage - tt.m3u8"
+        }
+      ]
     },
     "aew": {
       "pages": [
@@ -3944,9 +3857,9 @@
           },
           "drm_keys": null,
           "sport": "aew",
-          "event_title": "AEW Double OR Nothing",
+          "event_title": "Stream 1",
           "matchup": null,
-          "display_name": "AEW Double OR Nothing - Stream 1"
+          "display_name": "Stream 1"
         },
         {
           "label": "Stream 2",
@@ -3964,162 +3877,80 @@
           },
           "drm_keys": null,
           "sport": "aew",
-          "event_title": "AEW Double OR Nothing",
+          "event_title": "Stream 2",
           "matchup": null,
-          "display_name": "AEW Double OR Nothing - Stream 2"
+          "display_name": "Stream 2"
         }
       ]
     },
-    "indycar": {
+    "wwe": {
       "pages": [
-        "https://roxiestreams.su/indycar"
+        "https://roxiestreams.su/wwe-streams"
       ],
       "streams": [
         {
           "label": "Direct Link",
-          "url": "https://601.formaturamaxi.com.br/mix.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.su/indycar",
+          "url": "https://g003-sle-us-cmaf-prd-fy.cdn.peacocktv.com/pck-sle/us-west-2/v1/dash/6f3f45fea6332a47667932dede90d20a96f2690c/peacock-dash-sle-4s-generic-cfd/co01/pcksle2/Content/CMAF_CTR-4s-v2/Live/channel(5021679-723537-491336fa411)/master_2hr.mpd?c3.ri=6a1240f9_Q1ZYMDc_1_RkFTVExZ_ad65ca814d83&aws.sessionId=29752015-7604-4ed6-b138-e56a8d98b382&ck=eyIwMDIyNDI4YWQxYmIyNjJmZDg4MzRmOTZkNWUyOTg4NyI6Ijc1OTBhMjYxNjhjY2Q2YWQzNmNlZjlkM2VmYTc5MTc4In0%3D",
+          "type": "mpd",
+          "source_page": "https://roxiestreams.su/wwe-streams",
           "headers": {
-            "Referer": "https://roxiestreams.su/indycar",
+            "Referer": "https://roxiestreams.su/wwe-streams",
             "Origin": "https://roxiestreams.su",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
             "Accept": "*/*"
           },
-          "drm_keys": null,
-          "sport": "indycar",
-          "event_title": "Indycar - Indianapolis 500",
+          "drm_keys": {
+            "0022428ad1bb262fd8834f96d5e29887": "7590a26168ccd6ad36cef9d3efa79178"
+          },
+          "sport": "wwe",
+          "event_title": "WWE RAW",
           "matchup": null,
-          "display_name": "Indycar - Indianapolis 500"
+          "display_name": "WWE RAW"
         },
         {
-          "label": "Direct Link",
-          "url": "https://601.formaturamaxi.com.br/indy.m3u8",
+          "label": "Stream 2",
+          "url": "https://daffodil.shadow-ran.online/wwe.m3u8",
           "type": "m3u8",
-          "source_page": "https://roxiestreams.su/indycar",
-          "headers": {
-            "Referer": "https://roxiestreams.su/indycar",
-            "Origin": "https://roxiestreams.su",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "indycar",
-          "event_title": "Indycar - Indianapolis 500",
-          "matchup": null,
-          "display_name": "Indycar - Indianapolis 500"
-        }
-      ]
-    },
-    "f1": {
-      "pages": [
-        "https://roxiestreams.su/f1"
-      ],
-      "streams": [
-        {
-          "label": "TSN",
-          "url": "https://daffodil.shadow-ran.online/f1.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.su/f1",
+          "source_page": "https://roxiestreams.su/wwe-streams",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "daffodil",
-          "path": "f1.m3u8",
+          "path": "wwe.m3u8",
           "headers": {
-            "Referer": "https://roxiestreams.su/f1",
+            "Referer": "https://roxiestreams.su/wwe-streams",
             "Origin": "https://roxiestreams.su",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
             "Accept": "*/*"
           },
           "drm_keys": null,
-          "sport": "f1",
-          "event_title": "Formula 1 Grand Prix",
+          "sport": "wwe",
+          "event_title": "WWE RAW",
           "matchup": null,
-          "display_name": "Formula 1 Grand Prix - TSN"
+          "display_name": "WWE RAW - Stream 2"
         },
         {
-          "label": "Sky",
-          "url": "https://601.shadow-ran.online/main.m3u8",
+          "label": "wwe.m3u8",
+          "url": "https://601.shadow-ran.online/wwe.m3u8",
           "type": "m3u8",
-          "source_page": "https://roxiestreams.su/f1",
+          "source_page": "https://roxiestreams.su/wwe-streams",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "601",
-          "path": "main.m3u8",
+          "path": "wwe.m3u8",
           "headers": {
-            "Referer": "https://roxiestreams.su/f1",
+            "Referer": "https://roxiestreams.su/wwe-streams",
             "Origin": "https://roxiestreams.su",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
             "Accept": "*/*"
           },
           "drm_keys": null,
-          "sport": "f1",
-          "event_title": "Formula 1 Grand Prix",
+          "sport": "wwe",
+          "event_title": "WWE RAW",
           "matchup": null,
-          "display_name": "Formula 1 Grand Prix - Sky"
-        },
-        {
-          "label": "F1TV",
-          "url": "https://700.shadow-ran.online/f1tv.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.su/f1",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "700",
-          "path": "f1tv.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.su/f1",
-            "Origin": "https://roxiestreams.su",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "f1",
-          "event_title": "Formula 1 Grand Prix",
-          "matchup": null,
-          "display_name": "Formula 1 Grand Prix - F1TV"
-        },
-        {
-          "label": "Stream 3 (IT)",
-          "url": "https://601.shadow-ran.online/italy.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.su/f1",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "601",
-          "path": "italy.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.su/f1",
-            "Origin": "https://roxiestreams.su",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "f1",
-          "event_title": "Formula 1 Grand Prix",
-          "matchup": null,
-          "display_name": "Formula 1 Grand Prix - Stream 3 (IT)"
-        },
-        {
-          "label": "Stream 4 (ESPAÑOL)",
-          "url": "https://601.shadow-ran.online/skyf1mx.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.su/f1",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "601",
-          "path": "skyf1mx.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.su/f1",
-            "Origin": "https://roxiestreams.su",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "f1",
-          "event_title": "Formula 1 Grand Prix",
-          "matchup": null,
-          "display_name": "Formula 1 Grand Prix - Stream 4 (ESPAÑOL)"
+          "display_name": "WWE RAW - wwe.m3u8"
         }
       ]
     }
   },
-  "stream_count": 42,
+  "stream_count": 40,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
