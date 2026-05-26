@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-05-25T19:17:04+00:00",
+  "scraped_at": "2026-05-26T00:54:43+00:00",
   "base_url": "https://roxiestreams.su",
   "domains": [
     "shadow-ran.online"
@@ -153,12 +153,12 @@
         "streams": [
           {
             "label": "Stream 1",
-            "url": "https://601.shadow-ran.online/fana.m3u8",
+            "url": "https://601.shadow-ran.online/fana8.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.su/soccer-streams-3",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "601",
-            "path": "fana.m3u8",
+            "path": "fana8.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.su/soccer-streams-3",
               "Origin": "https://roxiestreams.su",
@@ -175,13 +175,13 @@
             "display_name": "Coritiba vs Bahia - Stream 1"
           },
           {
-            "label": "fana.m3u8",
-            "url": "https://daffodil.shadow-ran.online/fana.m3u8",
+            "label": "Stream 2 (NAT)",
+            "url": "https://601.shadow-ran.online/fana8nat.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.su/soccer-streams-3",
             "cdn_domain": "shadow-ran.online",
-            "subdomain": "daffodil",
-            "path": "fana.m3u8",
+            "subdomain": "601",
+            "path": "fana8nat.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.su/soccer-streams-3",
               "Origin": "https://roxiestreams.su",
@@ -195,7 +195,30 @@
               "home": "Coritiba",
               "away": "Bahia"
             },
-            "display_name": "Coritiba vs Bahia - fana.m3u8"
+            "display_name": "Coritiba vs Bahia - Stream 2 (NAT)"
+          },
+          {
+            "label": "fana8.m3u8",
+            "url": "https://daffodil.shadow-ran.online/fana8.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.su/soccer-streams-3",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "fana8.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.su/soccer-streams-3",
+              "Origin": "https://roxiestreams.su",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Coritiba vs Bahia",
+            "matchup": {
+              "home": "Coritiba",
+              "away": "Bahia"
+            },
+            "display_name": "Coritiba vs Bahia - fana8.m3u8"
           }
         ]
       }
@@ -348,6 +371,26 @@
               "away": "Los Angeles Dodgers"
             },
             "display_name": "Colorado Rockies vs Los Angeles Dodgers"
+          },
+          {
+            "label": "Direct Link",
+            "url": "https://daffodil.formaturamaxi.com.br/alt.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.su/mlb-streams-12",
+            "headers": {
+              "Referer": "https://roxiestreams.su/mlb-streams-12",
+              "Origin": "https://roxiestreams.su",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "mlb",
+            "event_title": "Colorado Rockies vs Los Angeles Dodgers",
+            "matchup": {
+              "home": "Colorado Rockies",
+              "away": "Los Angeles Dodgers"
+            },
+            "display_name": "Colorado Rockies vs Los Angeles Dodgers"
           }
         ]
       },
@@ -363,26 +406,6 @@
           {
             "label": "Direct Link",
             "url": "https://601.formaturamaxi.com.br/mlb13.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.su/mlb-streams-13",
-            "headers": {
-              "Referer": "https://roxiestreams.su/mlb-streams-13",
-              "Origin": "https://roxiestreams.su",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "mlb",
-            "event_title": "Seattle Mariners vs Athletics",
-            "matchup": {
-              "home": "Seattle Mariners",
-              "away": "Athletics"
-            },
-            "display_name": "Seattle Mariners vs Athletics"
-          },
-          {
-            "label": "Direct Link",
-            "url": "https://601.formaturamaxi.com.br/mlbaalt.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.su/mlb-streams-13",
             "headers": {
@@ -940,23 +963,24 @@
         "page": "https://roxiestreams.su/wwe-streams",
         "streams": [
           {
-            "label": "Direct Link",
-            "url": "https://g003-sle-us-cmaf-prd-fy.cdn.peacocktv.com/pck-sle/us-west-2/v1/dash/6f3f45fea6332a47667932dede90d20a96f2690c/peacock-dash-sle-4s-generic-cfd/co01/pcksle2/Content/CMAF_CTR-4s-v2/Live/channel(5021679-723537-491336fa411)/master_2hr.mpd?c3.ri=6a1240f9_Q1ZYMDc_1_RkFTVExZ_ad65ca814d83&aws.sessionId=29752015-7604-4ed6-b138-e56a8d98b382&ck=eyIwMDIyNDI4YWQxYmIyNjJmZDg4MzRmOTZkNWUyOTg4NyI6Ijc1OTBhMjYxNjhjY2Q2YWQzNmNlZjlkM2VmYTc5MTc4In0%3D",
-            "type": "mpd",
+            "label": "Stream 1",
+            "url": "https://601.shadow-ran.online/wwe.m3u8",
+            "type": "m3u8",
             "source_page": "https://roxiestreams.su/wwe-streams",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "601",
+            "path": "wwe.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.su/wwe-streams",
               "Origin": "https://roxiestreams.su",
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
               "Accept": "*/*"
             },
-            "drm_keys": {
-              "0022428ad1bb262fd8834f96d5e29887": "7590a26168ccd6ad36cef9d3efa79178"
-            },
+            "drm_keys": null,
             "sport": "fighting",
             "event_title": "WWE RAW",
             "matchup": null,
-            "display_name": "WWE RAW"
+            "display_name": "WWE RAW - Stream 1"
           },
           {
             "label": "Stream 2",
@@ -977,26 +1001,6 @@
             "event_title": "WWE RAW",
             "matchup": null,
             "display_name": "WWE RAW - Stream 2"
-          },
-          {
-            "label": "wwe.m3u8",
-            "url": "https://601.shadow-ran.online/wwe.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.su/wwe-streams",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "601",
-            "path": "wwe.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.su/wwe-streams",
-              "Origin": "https://roxiestreams.su",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "fighting",
-            "event_title": "WWE RAW",
-            "matchup": null,
-            "display_name": "WWE RAW - wwe.m3u8"
           }
         ]
       }
@@ -1117,23 +1121,24 @@
         "page": "https://roxiestreams.su/wwe-streams",
         "streams": [
           {
-            "label": "Direct Link",
-            "url": "https://g003-sle-us-cmaf-prd-fy.cdn.peacocktv.com/pck-sle/us-west-2/v1/dash/6f3f45fea6332a47667932dede90d20a96f2690c/peacock-dash-sle-4s-generic-cfd/co01/pcksle2/Content/CMAF_CTR-4s-v2/Live/channel(5021679-723537-491336fa411)/master_2hr.mpd?c3.ri=6a1240f9_Q1ZYMDc_1_RkFTVExZ_ad65ca814d83&aws.sessionId=29752015-7604-4ed6-b138-e56a8d98b382&ck=eyIwMDIyNDI4YWQxYmIyNjJmZDg4MzRmOTZkNWUyOTg4NyI6Ijc1OTBhMjYxNjhjY2Q2YWQzNmNlZjlkM2VmYTc5MTc4In0%3D",
-            "type": "mpd",
+            "label": "Stream 1",
+            "url": "https://601.shadow-ran.online/wwe.m3u8",
+            "type": "m3u8",
             "source_page": "https://roxiestreams.su/wwe-streams",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "601",
+            "path": "wwe.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.su/wwe-streams",
               "Origin": "https://roxiestreams.su",
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
               "Accept": "*/*"
             },
-            "drm_keys": {
-              "0022428ad1bb262fd8834f96d5e29887": "7590a26168ccd6ad36cef9d3efa79178"
-            },
+            "drm_keys": null,
             "sport": "wwe",
             "event_title": "WWE RAW",
             "matchup": null,
-            "display_name": "WWE RAW"
+            "display_name": "WWE RAW - Stream 1"
           },
           {
             "label": "Stream 2",
@@ -1154,26 +1159,6 @@
             "event_title": "WWE RAW",
             "matchup": null,
             "display_name": "WWE RAW - Stream 2"
-          },
-          {
-            "label": "wwe.m3u8",
-            "url": "https://601.shadow-ran.online/wwe.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.su/wwe-streams",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "601",
-            "path": "wwe.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.su/wwe-streams",
-              "Origin": "https://roxiestreams.su",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "wwe",
-            "event_title": "WWE RAW",
-            "matchup": null,
-            "display_name": "WWE RAW - wwe.m3u8"
           }
         ]
       }
@@ -1399,6 +1384,7 @@
         "Motorsports",
         "Stream Request (Discord)",
         "Stream 1",
+        "Stream 2 (NAT)",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -1769,6 +1755,7 @@
         "Motorsports",
         "Stream Request (Discord)",
         "Stream 1",
+        "Stream 2",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -1830,7 +1817,6 @@
         "Motorsports",
         "Stream Request (Discord)",
         "Stream 1",
-        "Stream 2",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -2833,7 +2819,6 @@
         "Stream Request (Discord)",
         "Stream 1",
         "Stream 2",
-        "PC US ONLY (DIRECT)",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -3173,12 +3158,12 @@
         },
         {
           "label": "Stream 1",
-          "url": "https://601.shadow-ran.online/fana.m3u8",
+          "url": "https://601.shadow-ran.online/fana8.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.su/soccer-streams-3",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "601",
-          "path": "fana.m3u8",
+          "path": "fana8.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.su/soccer-streams-3",
             "Origin": "https://roxiestreams.su",
@@ -3195,13 +3180,13 @@
           "display_name": "Coritiba vs Bahia - Stream 1"
         },
         {
-          "label": "fana.m3u8",
-          "url": "https://daffodil.shadow-ran.online/fana.m3u8",
+          "label": "Stream 2 (NAT)",
+          "url": "https://601.shadow-ran.online/fana8nat.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.su/soccer-streams-3",
           "cdn_domain": "shadow-ran.online",
-          "subdomain": "daffodil",
-          "path": "fana.m3u8",
+          "subdomain": "601",
+          "path": "fana8nat.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.su/soccer-streams-3",
             "Origin": "https://roxiestreams.su",
@@ -3215,7 +3200,30 @@
             "home": "Coritiba",
             "away": "Bahia"
           },
-          "display_name": "Coritiba vs Bahia - fana.m3u8"
+          "display_name": "Coritiba vs Bahia - Stream 2 (NAT)"
+        },
+        {
+          "label": "fana8.m3u8",
+          "url": "https://daffodil.shadow-ran.online/fana8.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.su/soccer-streams-3",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "fana8.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.su/soccer-streams-3",
+            "Origin": "https://roxiestreams.su",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Coritiba vs Bahia",
+          "matchup": {
+            "home": "Coritiba",
+            "away": "Bahia"
+          },
+          "display_name": "Coritiba vs Bahia - fana8.m3u8"
         }
       ]
     },
@@ -3345,27 +3353,27 @@
         },
         {
           "label": "Direct Link",
-          "url": "https://601.formaturamaxi.com.br/mlb13.m3u8",
+          "url": "https://daffodil.formaturamaxi.com.br/alt.m3u8",
           "type": "m3u8",
-          "source_page": "https://roxiestreams.su/mlb-streams-13",
+          "source_page": "https://roxiestreams.su/mlb-streams-12",
           "headers": {
-            "Referer": "https://roxiestreams.su/mlb-streams-13",
+            "Referer": "https://roxiestreams.su/mlb-streams-12",
             "Origin": "https://roxiestreams.su",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
             "Accept": "*/*"
           },
           "drm_keys": null,
           "sport": "mlb",
-          "event_title": "Seattle Mariners vs Athletics",
+          "event_title": "Colorado Rockies vs Los Angeles Dodgers",
           "matchup": {
-            "home": "Seattle Mariners",
-            "away": "Athletics"
+            "home": "Colorado Rockies",
+            "away": "Los Angeles Dodgers"
           },
-          "display_name": "Seattle Mariners vs Athletics"
+          "display_name": "Colorado Rockies vs Los Angeles Dodgers"
         },
         {
           "label": "Direct Link",
-          "url": "https://601.formaturamaxi.com.br/mlbaalt.m3u8",
+          "url": "https://601.formaturamaxi.com.br/mlb13.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.su/mlb-streams-13",
           "headers": {
@@ -3821,23 +3829,24 @@
       ],
       "streams": [
         {
-          "label": "Direct Link",
-          "url": "https://g003-sle-us-cmaf-prd-fy.cdn.peacocktv.com/pck-sle/us-west-2/v1/dash/6f3f45fea6332a47667932dede90d20a96f2690c/peacock-dash-sle-4s-generic-cfd/co01/pcksle2/Content/CMAF_CTR-4s-v2/Live/channel(5021679-723537-491336fa411)/master_2hr.mpd?c3.ri=6a1240f9_Q1ZYMDc_1_RkFTVExZ_ad65ca814d83&aws.sessionId=29752015-7604-4ed6-b138-e56a8d98b382&ck=eyIwMDIyNDI4YWQxYmIyNjJmZDg4MzRmOTZkNWUyOTg4NyI6Ijc1OTBhMjYxNjhjY2Q2YWQzNmNlZjlkM2VmYTc5MTc4In0%3D",
-          "type": "mpd",
+          "label": "Stream 1",
+          "url": "https://601.shadow-ran.online/wwe.m3u8",
+          "type": "m3u8",
           "source_page": "https://roxiestreams.su/wwe-streams",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "601",
+          "path": "wwe.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.su/wwe-streams",
             "Origin": "https://roxiestreams.su",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
             "Accept": "*/*"
           },
-          "drm_keys": {
-            "0022428ad1bb262fd8834f96d5e29887": "7590a26168ccd6ad36cef9d3efa79178"
-          },
+          "drm_keys": null,
           "sport": "fighting",
           "event_title": "WWE RAW",
           "matchup": null,
-          "display_name": "WWE RAW"
+          "display_name": "WWE RAW - Stream 1"
         },
         {
           "label": "Stream 2",
@@ -3858,26 +3867,6 @@
           "event_title": "WWE RAW",
           "matchup": null,
           "display_name": "WWE RAW - Stream 2"
-        },
-        {
-          "label": "wwe.m3u8",
-          "url": "https://601.shadow-ran.online/wwe.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.su/wwe-streams",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "601",
-          "path": "wwe.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.su/wwe-streams",
-            "Origin": "https://roxiestreams.su",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "fighting",
-          "event_title": "WWE RAW",
-          "matchup": null,
-          "display_name": "WWE RAW - wwe.m3u8"
         }
       ]
     },
@@ -3982,23 +3971,24 @@
       ],
       "streams": [
         {
-          "label": "Direct Link",
-          "url": "https://g003-sle-us-cmaf-prd-fy.cdn.peacocktv.com/pck-sle/us-west-2/v1/dash/6f3f45fea6332a47667932dede90d20a96f2690c/peacock-dash-sle-4s-generic-cfd/co01/pcksle2/Content/CMAF_CTR-4s-v2/Live/channel(5021679-723537-491336fa411)/master_2hr.mpd?c3.ri=6a1240f9_Q1ZYMDc_1_RkFTVExZ_ad65ca814d83&aws.sessionId=29752015-7604-4ed6-b138-e56a8d98b382&ck=eyIwMDIyNDI4YWQxYmIyNjJmZDg4MzRmOTZkNWUyOTg4NyI6Ijc1OTBhMjYxNjhjY2Q2YWQzNmNlZjlkM2VmYTc5MTc4In0%3D",
-          "type": "mpd",
+          "label": "Stream 1",
+          "url": "https://601.shadow-ran.online/wwe.m3u8",
+          "type": "m3u8",
           "source_page": "https://roxiestreams.su/wwe-streams",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "601",
+          "path": "wwe.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.su/wwe-streams",
             "Origin": "https://roxiestreams.su",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
             "Accept": "*/*"
           },
-          "drm_keys": {
-            "0022428ad1bb262fd8834f96d5e29887": "7590a26168ccd6ad36cef9d3efa79178"
-          },
+          "drm_keys": null,
           "sport": "wwe",
           "event_title": "WWE RAW",
           "matchup": null,
-          "display_name": "WWE RAW"
+          "display_name": "WWE RAW - Stream 1"
         },
         {
           "label": "Stream 2",
@@ -4019,31 +4009,11 @@
           "event_title": "WWE RAW",
           "matchup": null,
           "display_name": "WWE RAW - Stream 2"
-        },
-        {
-          "label": "wwe.m3u8",
-          "url": "https://601.shadow-ran.online/wwe.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.su/wwe-streams",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "601",
-          "path": "wwe.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.su/wwe-streams",
-            "Origin": "https://roxiestreams.su",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "wwe",
-          "event_title": "WWE RAW",
-          "matchup": null,
-          "display_name": "WWE RAW - wwe.m3u8"
         }
       ]
     }
   },
-  "stream_count": 42,
+  "stream_count": 41,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
