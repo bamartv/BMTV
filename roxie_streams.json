@@ -1,50 +1,72 @@
 {
-  "scraped_at": "2026-05-27T00:56:38+00:00",
+  "scraped_at": "2026-05-27T12:37:58+00:00",
   "base_url": "https://roxiestreams.su",
   "domains": [
     "shadow-ran.online"
   ],
   "events": [
     {
-      "name": "Copa Libertadores",
-      "page": "https://roxiestreams.su/nhl-streams-1",
-      "start_time": "May 26, 2026 3:00 PM"
+      "name": "UEFA Conference League (FINAL)",
+      "page": "https://roxiestreams.su/soccer-streams-1",
+      "start_time": "May 27, 2026 3:00 PM"
+    },
+    {
+      "name": "UEFA Conference League (FINAL)",
+      "page": "https://roxiestreams.su/soccer-streams-1",
+      "start_time": "May 27, 2026 3:00 PM"
     },
     {
       "name": "Copa Libertadores",
-      "page": "https://roxiestreams.su/nhl-streams-1",
-      "start_time": "May 26, 2026 3:00 PM"
+      "page": "https://roxiestreams.su/soccer",
+      "start_time": "May 27, 2026 3:00 PM"
     },
     {
-      "name": "WWE NXT",
-      "page": "https://roxiestreams.su/wwe-streams",
-      "start_time": "May 26, 2026 5:00 PM"
-    },
-    {
-      "name": "NHL West Finals",
-      "page": "https://roxiestreams.su/nhl-streams-1",
-      "start_time": "May 26, 2026 6:00 PM"
+      "name": "AEW",
+      "page": "https://roxiestreams.su/aew",
+      "start_time": "May 27, 2026 5:00 PM"
     }
   ],
   "events_by_sport": {
     "soccer": [
       {
-        "title": "Gremio vs Torque",
+        "title": "Crystal Palace vs Rayo Vallecano (FINAL)",
         "sport": "soccer",
         "matchup": {
-          "home": "Gremio",
-          "away": "Torque"
+          "home": "Crystal Palace",
+          "away": "Rayo Vallecano (FINAL)"
         },
         "page": "https://roxiestreams.su/soccer-streams-1",
         "streams": [
           {
-            "label": "Stream 1",
-            "url": "https://daffodil.shadow-ran.online/gremio.m3u8",
+            "label": "Direct Link",
+            "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cllekigzzn/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd",
+            "type": "mpd",
+            "source_page": "https://roxiestreams.su/soccer-streams-1",
+            "headers": {
+              "Referer": "https://roxiestreams.su/soccer-streams-1",
+              "Origin": "https://roxiestreams.su",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": {
+              "294b5761cefc22d0c6312939e13d8278": "52148f1042d238849f0a7813f1da8a7b"
+            },
+            "sport": "soccer",
+            "event_title": "Crystal Palace vs Rayo Vallecano (FINAL)",
+            "matchup": {
+              "home": "Crystal Palace",
+              "away": "Rayo Vallecano (FINAL)"
+            },
+            "display_name": "Crystal Palace vs Rayo Vallecano (FINAL)"
+          },
+          {
+            "label": "Stream 2",
+            "url": "https://daffodil.shadow-ran.online/cbssn.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.su/soccer-streams-1",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "daffodil",
-            "path": "gremio.m3u8",
+            "path": "cbssn.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.su/soccer-streams-1",
               "Origin": "https://roxiestreams.su",
@@ -53,21 +75,44 @@
             },
             "drm_keys": null,
             "sport": "soccer",
-            "event_title": "Gremio vs Torque",
+            "event_title": "Crystal Palace vs Rayo Vallecano (FINAL)",
             "matchup": {
-              "home": "Gremio",
-              "away": "Torque"
+              "home": "Crystal Palace",
+              "away": "Rayo Vallecano (FINAL)"
             },
-            "display_name": "Gremio vs Torque - Stream 1"
+            "display_name": "Crystal Palace vs Rayo Vallecano (FINAL) - Stream 2"
+          },
+          {
+            "label": "tnt.m3u8",
+            "url": "https://601.shadow-ran.online/tnt.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.su/soccer-streams-1",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "601",
+            "path": "tnt.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.su/soccer-streams-1",
+              "Origin": "https://roxiestreams.su",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Crystal Palace vs Rayo Vallecano (FINAL)",
+            "matchup": {
+              "home": "Crystal Palace",
+              "away": "Rayo Vallecano (FINAL)"
+            },
+            "display_name": "Crystal Palace vs Rayo Vallecano (FINAL) - tnt.m3u8"
           }
         ]
       },
       {
-        "title": "Universitario vs Tolima",
+        "title": "Bragantino vs Carabobo",
         "sport": "soccer",
         "matchup": {
-          "home": "Universitario",
-          "away": "Tolima"
+          "home": "Bragantino",
+          "away": "Carabobo"
         },
         "page": "https://roxiestreams.su/soccer-streams-2",
         "streams": [
@@ -87,21 +132,21 @@
             },
             "drm_keys": null,
             "sport": "soccer",
-            "event_title": "Universitario vs Tolima",
+            "event_title": "Bragantino vs Carabobo",
             "matchup": {
-              "home": "Universitario",
-              "away": "Tolima"
+              "home": "Bragantino",
+              "away": "Carabobo"
             },
-            "display_name": "Universitario vs Tolima - Stream 1"
+            "display_name": "Bragantino vs Carabobo - Stream 1"
           }
         ]
       },
       {
-        "title": "San Lorenzo vs Recoleta",
+        "title": "Peñarol vs Santa Fe",
         "sport": "soccer",
         "matchup": {
-          "home": "San Lorenzo",
-          "away": "Recoleta"
+          "home": "Peñarol",
+          "away": "Santa Fe"
         },
         "page": "https://roxiestreams.su/soccer-streams-3",
         "streams": [
@@ -121,21 +166,21 @@
             },
             "drm_keys": null,
             "sport": "soccer",
-            "event_title": "San Lorenzo vs Recoleta",
+            "event_title": "Peñarol vs Santa Fe",
             "matchup": {
-              "home": "San Lorenzo",
-              "away": "Recoleta"
+              "home": "Peñarol",
+              "away": "Santa Fe"
             },
-            "display_name": "San Lorenzo vs Recoleta - Stream 1"
+            "display_name": "Peñarol vs Santa Fe - Stream 1"
           }
         ]
       },
       {
-        "title": "Flamengo vs Cusco",
+        "title": "Vasco Gama vs Barracas",
         "sport": "soccer",
         "matchup": {
-          "home": "Flamengo",
-          "away": "Cusco"
+          "home": "Vasco Gama",
+          "away": "Barracas"
         },
         "page": "https://roxiestreams.su/soccer-streams-4",
         "streams": [
@@ -155,12 +200,12 @@
             },
             "drm_keys": null,
             "sport": "soccer",
-            "event_title": "Flamengo vs Cusco",
+            "event_title": "Vasco Gama vs Barracas",
             "matchup": {
-              "home": "Flamengo",
-              "away": "Cusco"
+              "home": "Vasco Gama",
+              "away": "Barracas"
             },
-            "display_name": "Flamengo vs Cusco - Stream 1"
+            "display_name": "Vasco Gama vs Barracas - Stream 1"
           },
           {
             "label": "bein4.m3u8",
@@ -178,21 +223,21 @@
             },
             "drm_keys": null,
             "sport": "soccer",
-            "event_title": "Flamengo vs Cusco",
+            "event_title": "Vasco Gama vs Barracas",
             "matchup": {
-              "home": "Flamengo",
-              "away": "Cusco"
+              "home": "Vasco Gama",
+              "away": "Barracas"
             },
-            "display_name": "Flamengo vs Cusco - bein4.m3u8"
+            "display_name": "Vasco Gama vs Barracas - bein4.m3u8"
           }
         ]
       },
       {
-        "title": "Santos vs Deportivo Cuenca",
+        "title": "Corinthians vs Platense",
         "sport": "soccer",
         "matchup": {
-          "home": "Santos",
-          "away": "Deportivo Cuenca"
+          "home": "Corinthians",
+          "away": "Platense"
         },
         "page": "https://roxiestreams.su/soccer-streams-5",
         "streams": [
@@ -212,23 +257,137 @@
             },
             "drm_keys": null,
             "sport": "soccer",
-            "event_title": "Santos vs Deportivo Cuenca",
+            "event_title": "Corinthians vs Platense",
             "matchup": {
-              "home": "Santos",
-              "away": "Deportivo Cuenca"
+              "home": "Corinthians",
+              "away": "Platense"
             },
-            "display_name": "Santos vs Deportivo Cuenca - Stream 1"
+            "display_name": "Corinthians vs Platense - Stream 1"
+          }
+        ]
+      },
+      {
+        "title": "Fluminense vs Deportivo Guaira",
+        "sport": "soccer",
+        "matchup": {
+          "home": "Fluminense",
+          "away": "Deportivo Guaira"
+        },
+        "page": "https://roxiestreams.su/soccer-streams-6",
+        "streams": [
+          {
+            "label": "Stream 1",
+            "url": "https://601.shadow-ran.online/epl5.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.su/soccer-streams-6",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "601",
+            "path": "epl5.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.su/soccer-streams-6",
+              "Origin": "https://roxiestreams.su",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Fluminense vs Deportivo Guaira",
+            "matchup": {
+              "home": "Fluminense",
+              "away": "Deportivo Guaira"
+            },
+            "display_name": "Fluminense vs Deportivo Guaira - Stream 1"
+          },
+          {
+            "label": "Stream 2",
+            "url": "https://daffodil.shadow-ran.online/epl5.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.su/soccer-streams-6",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "epl5.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.su/soccer-streams-6",
+              "Origin": "https://roxiestreams.su",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Fluminense vs Deportivo Guaira",
+            "matchup": {
+              "home": "Fluminense",
+              "away": "Deportivo Guaira"
+            },
+            "display_name": "Fluminense vs Deportivo Guaira - Stream 2"
+          }
+        ]
+      },
+      {
+        "title": "River Plate vs Blooming",
+        "sport": "soccer",
+        "matchup": {
+          "home": "River Plate",
+          "away": "Blooming"
+        },
+        "page": "https://roxiestreams.su/soccer-streams-7",
+        "streams": [
+          {
+            "label": "Stream 1",
+            "url": "https://601.shadow-ran.online/epl6.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.su/soccer-streams-7",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "601",
+            "path": "epl6.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.su/soccer-streams-7",
+              "Origin": "https://roxiestreams.su",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "River Plate vs Blooming",
+            "matchup": {
+              "home": "River Plate",
+              "away": "Blooming"
+            },
+            "display_name": "River Plate vs Blooming - Stream 1"
+          },
+          {
+            "label": "epl6.m3u8",
+            "url": "https://daffodil.shadow-ran.online/epl6.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.su/soccer-streams-7",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "epl6.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.su/soccer-streams-7",
+              "Origin": "https://roxiestreams.su",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "River Plate vs Blooming",
+            "matchup": {
+              "home": "River Plate",
+              "away": "Blooming"
+            },
+            "display_name": "River Plate vs Blooming - epl6.m3u8"
           }
         ]
       }
     ],
     "mlb": [
       {
-        "title": "Washington Nationals vs Cleveland Guardians",
+        "title": "Miami Marlins vs Toronto Blue Jays",
         "sport": "mlb",
         "matchup": {
-          "home": "Washington Nationals",
-          "away": "Cleveland Guardians"
+          "home": "Miami Marlins",
+          "away": "Toronto Blue Jays"
         },
         "page": "https://roxiestreams.su/mlb-streams-1",
         "streams": [
@@ -248,12 +407,12 @@
             },
             "drm_keys": null,
             "sport": "mlb",
-            "event_title": "Washington Nationals vs Cleveland Guardians",
+            "event_title": "Miami Marlins vs Toronto Blue Jays",
             "matchup": {
-              "home": "Washington Nationals",
-              "away": "Cleveland Guardians"
+              "home": "Miami Marlins",
+              "away": "Toronto Blue Jays"
             },
-            "display_name": "Washington Nationals vs Cleveland Guardians - Stream 1"
+            "display_name": "Miami Marlins vs Toronto Blue Jays - Stream 1"
           },
           {
             "label": "mlb.m3u8",
@@ -271,21 +430,21 @@
             },
             "drm_keys": null,
             "sport": "mlb",
-            "event_title": "Washington Nationals vs Cleveland Guardians",
+            "event_title": "Miami Marlins vs Toronto Blue Jays",
             "matchup": {
-              "home": "Washington Nationals",
-              "away": "Cleveland Guardians"
+              "home": "Miami Marlins",
+              "away": "Toronto Blue Jays"
             },
-            "display_name": "Washington Nationals vs Cleveland Guardians - mlb.m3u8"
+            "display_name": "Miami Marlins vs Toronto Blue Jays - mlb.m3u8"
           }
         ]
       },
       {
-        "title": "St. Louis Cardinals vs Milwaukee Brewers",
+        "title": "Atlanta Braves vs Boston Red Sox",
         "sport": "mlb",
         "matchup": {
-          "home": "St. Louis Cardinals",
-          "away": "Milwaukee Brewers"
+          "home": "Atlanta Braves",
+          "away": "Boston Red Sox"
         },
         "page": "https://roxiestreams.su/mlb-streams-10",
         "streams": [
@@ -302,21 +461,21 @@
             },
             "drm_keys": null,
             "sport": "mlb",
-            "event_title": "St. Louis Cardinals vs Milwaukee Brewers",
+            "event_title": "Atlanta Braves vs Boston Red Sox",
             "matchup": {
-              "home": "St. Louis Cardinals",
-              "away": "Milwaukee Brewers"
+              "home": "Atlanta Braves",
+              "away": "Boston Red Sox"
             },
-            "display_name": "St. Louis Cardinals vs Milwaukee Brewers"
+            "display_name": "Atlanta Braves vs Boston Red Sox"
           }
         ]
       },
       {
-        "title": "Houston Astros vs Texas Rangers",
+        "title": "Cincinnati Reds vs New York Mets",
         "sport": "mlb",
         "matchup": {
-          "home": "Houston Astros",
-          "away": "Texas Rangers"
+          "home": "Cincinnati Reds",
+          "away": "New York Mets"
         },
         "page": "https://roxiestreams.su/mlb-streams-11",
         "streams": [
@@ -333,21 +492,21 @@
             },
             "drm_keys": null,
             "sport": "mlb",
-            "event_title": "Houston Astros vs Texas Rangers",
+            "event_title": "Cincinnati Reds vs New York Mets",
             "matchup": {
-              "home": "Houston Astros",
-              "away": "Texas Rangers"
+              "home": "Cincinnati Reds",
+              "away": "New York Mets"
             },
-            "display_name": "Houston Astros vs Texas Rangers"
+            "display_name": "Cincinnati Reds vs New York Mets"
           }
         ]
       },
       {
-        "title": "Seattle Mariners vs Athletics",
+        "title": "Minnesota Twins vs Chicago White Sox",
         "sport": "mlb",
         "matchup": {
-          "home": "Seattle Mariners",
-          "away": "Athletics"
+          "home": "Minnesota Twins",
+          "away": "Chicago White Sox"
         },
         "page": "https://roxiestreams.su/mlb-streams-12",
         "streams": [
@@ -364,12 +523,12 @@
             },
             "drm_keys": null,
             "sport": "mlb",
-            "event_title": "Seattle Mariners vs Athletics",
+            "event_title": "Minnesota Twins vs Chicago White Sox",
             "matchup": {
-              "home": "Seattle Mariners",
-              "away": "Athletics"
+              "home": "Minnesota Twins",
+              "away": "Chicago White Sox"
             },
-            "display_name": "Seattle Mariners vs Athletics"
+            "display_name": "Minnesota Twins vs Chicago White Sox"
           },
           {
             "label": "Direct Link",
@@ -384,21 +543,21 @@
             },
             "drm_keys": null,
             "sport": "mlb",
-            "event_title": "Seattle Mariners vs Athletics",
+            "event_title": "Minnesota Twins vs Chicago White Sox",
             "matchup": {
-              "home": "Seattle Mariners",
-              "away": "Athletics"
+              "home": "Minnesota Twins",
+              "away": "Chicago White Sox"
             },
-            "display_name": "Seattle Mariners vs Athletics"
+            "display_name": "Minnesota Twins vs Chicago White Sox"
           }
         ]
       },
       {
-        "title": "Philadelphia Phillies vs San Diego Padres",
+        "title": "New York Yankees vs Kansas City Royals",
         "sport": "mlb",
         "matchup": {
-          "home": "Philadelphia Phillies",
-          "away": "San Diego Padres"
+          "home": "New York Yankees",
+          "away": "Kansas City Royals"
         },
         "page": "https://roxiestreams.su/mlb-streams-13",
         "streams": [
@@ -415,21 +574,21 @@
             },
             "drm_keys": null,
             "sport": "mlb",
-            "event_title": "Philadelphia Phillies vs San Diego Padres",
+            "event_title": "New York Yankees vs Kansas City Royals",
             "matchup": {
-              "home": "Philadelphia Phillies",
-              "away": "San Diego Padres"
+              "home": "New York Yankees",
+              "away": "Kansas City Royals"
             },
-            "display_name": "Philadelphia Phillies vs San Diego Padres"
+            "display_name": "New York Yankees vs Kansas City Royals"
           }
         ]
       },
       {
-        "title": "Arizona Diamondbacks vs San Francisco Giants",
+        "title": "Houston Astros vs Texas Rangers",
         "sport": "mlb",
         "matchup": {
-          "home": "Arizona Diamondbacks",
-          "away": "San Francisco Giants"
+          "home": "Houston Astros",
+          "away": "Texas Rangers"
         },
         "page": "https://roxiestreams.su/mlb-streams-14",
         "streams": [
@@ -446,12 +605,12 @@
             },
             "drm_keys": null,
             "sport": "mlb",
-            "event_title": "Arizona Diamondbacks vs San Francisco Giants",
+            "event_title": "Houston Astros vs Texas Rangers",
             "matchup": {
-              "home": "Arizona Diamondbacks",
-              "away": "San Francisco Giants"
+              "home": "Houston Astros",
+              "away": "Texas Rangers"
             },
-            "display_name": "Arizona Diamondbacks vs San Francisco Giants"
+            "display_name": "Houston Astros vs Texas Rangers"
           }
         ]
       },
@@ -487,11 +646,11 @@
         ]
       },
       {
-        "title": "Tampa Bay Rays vs Baltimore Orioles",
+        "title": "Washington Nationals vs Cleveland Guardians",
         "sport": "mlb",
         "matchup": {
-          "home": "Tampa Bay Rays",
-          "away": "Baltimore Orioles"
+          "home": "Washington Nationals",
+          "away": "Cleveland Guardians"
         },
         "page": "https://roxiestreams.su/mlb-streams-2",
         "streams": [
@@ -511,12 +670,12 @@
             },
             "drm_keys": null,
             "sport": "mlb",
-            "event_title": "Tampa Bay Rays vs Baltimore Orioles",
+            "event_title": "Washington Nationals vs Cleveland Guardians",
             "matchup": {
-              "home": "Tampa Bay Rays",
-              "away": "Baltimore Orioles"
+              "home": "Washington Nationals",
+              "away": "Cleveland Guardians"
             },
-            "display_name": "Tampa Bay Rays vs Baltimore Orioles - Stream 1"
+            "display_name": "Washington Nationals vs Cleveland Guardians - Stream 1"
           },
           {
             "label": "mlb2.m3u8",
@@ -534,21 +693,21 @@
             },
             "drm_keys": null,
             "sport": "mlb",
-            "event_title": "Tampa Bay Rays vs Baltimore Orioles",
+            "event_title": "Washington Nationals vs Cleveland Guardians",
             "matchup": {
-              "home": "Tampa Bay Rays",
-              "away": "Baltimore Orioles"
+              "home": "Washington Nationals",
+              "away": "Cleveland Guardians"
             },
-            "display_name": "Tampa Bay Rays vs Baltimore Orioles - mlb2.m3u8"
+            "display_name": "Washington Nationals vs Cleveland Guardians - mlb2.m3u8"
           }
         ]
       },
       {
-        "title": "Los Angeles Angels vs Detroit Tigers",
+        "title": "St. Louis Cardinals vs Milwaukee Brewers",
         "sport": "mlb",
         "matchup": {
-          "home": "Los Angeles Angels",
-          "away": "Detroit Tigers"
+          "home": "St. Louis Cardinals",
+          "away": "Milwaukee Brewers"
         },
         "page": "https://roxiestreams.su/mlb-streams-3",
         "streams": [
@@ -559,6 +718,187 @@
             "source_page": "https://roxiestreams.su/mlb-streams-3",
             "headers": {
               "Referer": "https://roxiestreams.su/mlb-streams-3",
+              "Origin": "https://roxiestreams.su",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "mlb",
+            "event_title": "St. Louis Cardinals vs Milwaukee Brewers",
+            "matchup": {
+              "home": "St. Louis Cardinals",
+              "away": "Milwaukee Brewers"
+            },
+            "display_name": "St. Louis Cardinals vs Milwaukee Brewers"
+          }
+        ]
+      },
+      {
+        "title": "Seattle Mariners vs Athletics",
+        "sport": "mlb",
+        "matchup": {
+          "home": "Seattle Mariners",
+          "away": "Athletics"
+        },
+        "page": "https://roxiestreams.su/mlb-streams-4",
+        "streams": [
+          {
+            "label": "Stream 1",
+            "url": "https://601.shadow-ran.online/mlb4.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.su/mlb-streams-4",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "601",
+            "path": "mlb4.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.su/mlb-streams-4",
+              "Origin": "https://roxiestreams.su",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "mlb",
+            "event_title": "Seattle Mariners vs Athletics",
+            "matchup": {
+              "home": "Seattle Mariners",
+              "away": "Athletics"
+            },
+            "display_name": "Seattle Mariners vs Athletics - Stream 1"
+          },
+          {
+            "label": "mlb4.m3u8",
+            "url": "https://daffodil.shadow-ran.online/mlb4.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.su/mlb-streams-4",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "mlb4.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.su/mlb-streams-4",
+              "Origin": "https://roxiestreams.su",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "mlb",
+            "event_title": "Seattle Mariners vs Athletics",
+            "matchup": {
+              "home": "Seattle Mariners",
+              "away": "Athletics"
+            },
+            "display_name": "Seattle Mariners vs Athletics - mlb4.m3u8"
+          }
+        ]
+      },
+      {
+        "title": "Arizona Diamondbacks vs San Francisco Giants",
+        "sport": "mlb",
+        "matchup": {
+          "home": "Arizona Diamondbacks",
+          "away": "San Francisco Giants"
+        },
+        "page": "https://roxiestreams.su/mlb-streams-5",
+        "streams": [
+          {
+            "label": "Direct Link",
+            "url": "https://601.formaturamaxi.com.br/mlb5.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.su/mlb-streams-5",
+            "headers": {
+              "Referer": "https://roxiestreams.su/mlb-streams-5",
+              "Origin": "https://roxiestreams.su",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "mlb",
+            "event_title": "Arizona Diamondbacks vs San Francisco Giants",
+            "matchup": {
+              "home": "Arizona Diamondbacks",
+              "away": "San Francisco Giants"
+            },
+            "display_name": "Arizona Diamondbacks vs San Francisco Giants"
+          }
+        ]
+      },
+      {
+        "title": "Philadelphia Phillies vs San Diego Padres",
+        "sport": "mlb",
+        "matchup": {
+          "home": "Philadelphia Phillies",
+          "away": "San Diego Padres"
+        },
+        "page": "https://roxiestreams.su/mlb-streams-6",
+        "streams": [
+          {
+            "label": "Direct Link",
+            "url": "https://601.formaturamaxi.com.br/mlb6.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.su/mlb-streams-6",
+            "headers": {
+              "Referer": "https://roxiestreams.su/mlb-streams-6",
+              "Origin": "https://roxiestreams.su",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "mlb",
+            "event_title": "Philadelphia Phillies vs San Diego Padres",
+            "matchup": {
+              "home": "Philadelphia Phillies",
+              "away": "San Diego Padres"
+            },
+            "display_name": "Philadelphia Phillies vs San Diego Padres"
+          }
+        ]
+      },
+      {
+        "title": "Tampa Bay Rays vs Baltimore Orioles",
+        "sport": "mlb",
+        "matchup": {
+          "home": "Tampa Bay Rays",
+          "away": "Baltimore Orioles"
+        },
+        "page": "https://roxiestreams.su/mlb-streams-7",
+        "streams": [
+          {
+            "label": "Direct Link",
+            "url": "https://601.formaturamaxi.com.br/mlb7.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.su/mlb-streams-7",
+            "headers": {
+              "Referer": "https://roxiestreams.su/mlb-streams-7",
+              "Origin": "https://roxiestreams.su",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "mlb",
+            "event_title": "Tampa Bay Rays vs Baltimore Orioles",
+            "matchup": {
+              "home": "Tampa Bay Rays",
+              "away": "Baltimore Orioles"
+            },
+            "display_name": "Tampa Bay Rays vs Baltimore Orioles"
+          }
+        ]
+      },
+      {
+        "title": "Los Angeles Angels vs Detroit Tigers",
+        "sport": "mlb",
+        "matchup": {
+          "home": "Los Angeles Angels",
+          "away": "Detroit Tigers"
+        },
+        "page": "https://roxiestreams.su/mlb-streams-8",
+        "streams": [
+          {
+            "label": "Direct Link",
+            "url": "https://601.formaturamaxi.com.br/mlb8.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.su/mlb-streams-8",
+            "headers": {
+              "Referer": "https://roxiestreams.su/mlb-streams-8",
               "Origin": "https://roxiestreams.su",
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
               "Accept": "*/*"
@@ -581,187 +921,6 @@
           "home": "Chicago Cubs",
           "away": "Pittsburgh Pirates"
         },
-        "page": "https://roxiestreams.su/mlb-streams-4",
-        "streams": [
-          {
-            "label": "Stream 1",
-            "url": "https://601.shadow-ran.online/mlb4.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.su/mlb-streams-4",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "601",
-            "path": "mlb4.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.su/mlb-streams-4",
-              "Origin": "https://roxiestreams.su",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "mlb",
-            "event_title": "Chicago Cubs vs Pittsburgh Pirates",
-            "matchup": {
-              "home": "Chicago Cubs",
-              "away": "Pittsburgh Pirates"
-            },
-            "display_name": "Chicago Cubs vs Pittsburgh Pirates - Stream 1"
-          },
-          {
-            "label": "mlb4.m3u8",
-            "url": "https://daffodil.shadow-ran.online/mlb4.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.su/mlb-streams-4",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "daffodil",
-            "path": "mlb4.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.su/mlb-streams-4",
-              "Origin": "https://roxiestreams.su",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "mlb",
-            "event_title": "Chicago Cubs vs Pittsburgh Pirates",
-            "matchup": {
-              "home": "Chicago Cubs",
-              "away": "Pittsburgh Pirates"
-            },
-            "display_name": "Chicago Cubs vs Pittsburgh Pirates - mlb4.m3u8"
-          }
-        ]
-      },
-      {
-        "title": "Atlanta Braves vs Boston Red Sox",
-        "sport": "mlb",
-        "matchup": {
-          "home": "Atlanta Braves",
-          "away": "Boston Red Sox"
-        },
-        "page": "https://roxiestreams.su/mlb-streams-5",
-        "streams": [
-          {
-            "label": "Direct Link",
-            "url": "https://601.formaturamaxi.com.br/mlb5.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.su/mlb-streams-5",
-            "headers": {
-              "Referer": "https://roxiestreams.su/mlb-streams-5",
-              "Origin": "https://roxiestreams.su",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "mlb",
-            "event_title": "Atlanta Braves vs Boston Red Sox",
-            "matchup": {
-              "home": "Atlanta Braves",
-              "away": "Boston Red Sox"
-            },
-            "display_name": "Atlanta Braves vs Boston Red Sox"
-          }
-        ]
-      },
-      {
-        "title": "Miami Marlins vs Toronto Blue Jays",
-        "sport": "mlb",
-        "matchup": {
-          "home": "Miami Marlins",
-          "away": "Toronto Blue Jays"
-        },
-        "page": "https://roxiestreams.su/mlb-streams-6",
-        "streams": [
-          {
-            "label": "Direct Link",
-            "url": "https://601.formaturamaxi.com.br/mlb6.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.su/mlb-streams-6",
-            "headers": {
-              "Referer": "https://roxiestreams.su/mlb-streams-6",
-              "Origin": "https://roxiestreams.su",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "mlb",
-            "event_title": "Miami Marlins vs Toronto Blue Jays",
-            "matchup": {
-              "home": "Miami Marlins",
-              "away": "Toronto Blue Jays"
-            },
-            "display_name": "Miami Marlins vs Toronto Blue Jays"
-          }
-        ]
-      },
-      {
-        "title": "Cincinnati Reds vs New York Mets",
-        "sport": "mlb",
-        "matchup": {
-          "home": "Cincinnati Reds",
-          "away": "New York Mets"
-        },
-        "page": "https://roxiestreams.su/mlb-streams-7",
-        "streams": [
-          {
-            "label": "Direct Link",
-            "url": "https://601.formaturamaxi.com.br/mlb7.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.su/mlb-streams-7",
-            "headers": {
-              "Referer": "https://roxiestreams.su/mlb-streams-7",
-              "Origin": "https://roxiestreams.su",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "mlb",
-            "event_title": "Cincinnati Reds vs New York Mets",
-            "matchup": {
-              "home": "Cincinnati Reds",
-              "away": "New York Mets"
-            },
-            "display_name": "Cincinnati Reds vs New York Mets"
-          }
-        ]
-      },
-      {
-        "title": "Minnesota Twins vs Chicago White Sox",
-        "sport": "mlb",
-        "matchup": {
-          "home": "Minnesota Twins",
-          "away": "Chicago White Sox"
-        },
-        "page": "https://roxiestreams.su/mlb-streams-8",
-        "streams": [
-          {
-            "label": "Direct Link",
-            "url": "https://601.formaturamaxi.com.br/mlb8.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.su/mlb-streams-8",
-            "headers": {
-              "Referer": "https://roxiestreams.su/mlb-streams-8",
-              "Origin": "https://roxiestreams.su",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "mlb",
-            "event_title": "Minnesota Twins vs Chicago White Sox",
-            "matchup": {
-              "home": "Minnesota Twins",
-              "away": "Chicago White Sox"
-            },
-            "display_name": "Minnesota Twins vs Chicago White Sox"
-          }
-        ]
-      },
-      {
-        "title": "New York Yankees vs Kansas City Royals",
-        "sport": "mlb",
-        "matchup": {
-          "home": "New York Yankees",
-          "away": "Kansas City Royals"
-        },
         "page": "https://roxiestreams.su/mlb-streams-9",
         "streams": [
           {
@@ -777,23 +936,23 @@
             },
             "drm_keys": null,
             "sport": "mlb",
-            "event_title": "New York Yankees vs Kansas City Royals",
+            "event_title": "Chicago Cubs vs Pittsburgh Pirates",
             "matchup": {
-              "home": "New York Yankees",
-              "away": "Kansas City Royals"
+              "home": "Chicago Cubs",
+              "away": "Pittsburgh Pirates"
             },
-            "display_name": "New York Yankees vs Kansas City Royals"
+            "display_name": "Chicago Cubs vs Pittsburgh Pirates"
           }
         ]
       }
     ],
     "nba": [
       {
-        "title": "San Antonio Spurs vs Oklahoma City Thunder",
+        "title": "Oklahoma City Thunder vs San Antonio Spurs",
         "sport": "nba",
         "matchup": {
-          "home": "San Antonio Spurs",
-          "away": "Oklahoma City Thunder"
+          "home": "Oklahoma City Thunder",
+          "away": "San Antonio Spurs"
         },
         "page": "https://roxiestreams.su/nba-streams-1",
         "streams": [
@@ -810,12 +969,12 @@
             },
             "drm_keys": null,
             "sport": "nba",
-            "event_title": "San Antonio Spurs vs Oklahoma City Thunder",
+            "event_title": "Oklahoma City Thunder vs San Antonio Spurs",
             "matchup": {
-              "home": "San Antonio Spurs",
-              "away": "Oklahoma City Thunder"
+              "home": "Oklahoma City Thunder",
+              "away": "San Antonio Spurs"
             },
-            "display_name": "San Antonio Spurs vs Oklahoma City Thunder"
+            "display_name": "Oklahoma City Thunder vs San Antonio Spurs"
           },
           {
             "label": "Direct Link",
@@ -832,21 +991,21 @@
               "45d4b06cf3345219a4184135abbefc18": "1d28c167b64f628c23a89a84ce4a3b09"
             },
             "sport": "nba",
-            "event_title": "San Antonio Spurs vs Oklahoma City Thunder",
+            "event_title": "Oklahoma City Thunder vs San Antonio Spurs",
             "matchup": {
-              "home": "San Antonio Spurs",
-              "away": "Oklahoma City Thunder"
+              "home": "Oklahoma City Thunder",
+              "away": "San Antonio Spurs"
             },
-            "display_name": "San Antonio Spurs vs Oklahoma City Thunder"
+            "display_name": "Oklahoma City Thunder vs San Antonio Spurs"
           },
           {
-            "label": "nba.m3u8",
-            "url": "https://daffodil.shadow-ran.online/nba.m3u8",
+            "label": "nbasat.m3u8",
+            "url": "https://601.shadow-ran.online/nbasat.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.su/nba-streams-1",
             "cdn_domain": "shadow-ran.online",
-            "subdomain": "daffodil",
-            "path": "nba.m3u8",
+            "subdomain": "601",
+            "path": "nbasat.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.su/nba-streams-1",
               "Origin": "https://roxiestreams.su",
@@ -855,12 +1014,12 @@
             },
             "drm_keys": null,
             "sport": "nba",
-            "event_title": "San Antonio Spurs vs Oklahoma City Thunder",
+            "event_title": "Oklahoma City Thunder vs San Antonio Spurs",
             "matchup": {
-              "home": "San Antonio Spurs",
-              "away": "Oklahoma City Thunder"
+              "home": "Oklahoma City Thunder",
+              "away": "San Antonio Spurs"
             },
-            "display_name": "San Antonio Spurs vs Oklahoma City Thunder - nba.m3u8"
+            "display_name": "Oklahoma City Thunder vs San Antonio Spurs - nbasat.m3u8"
           }
         ]
       }
@@ -937,11 +1096,11 @@
     ],
     "nhl": [
       {
-        "title": "Colorado Avalanche vs Vegas Golden Knights",
+        "title": "Carolina Hurricanes vs Montreal Canadiens",
         "sport": "nhl",
         "matchup": {
-          "home": "Colorado Avalanche",
-          "away": "Vegas Golden Knights"
+          "home": "Carolina Hurricanes",
+          "away": "Montreal Canadiens"
         },
         "page": "https://roxiestreams.su/nhl-streams-1",
         "streams": [
@@ -960,12 +1119,12 @@
               "458272fe4bc45eb6968556743b063f50": "61ebeccd86058fb0e57cc9c039ed1a74"
             },
             "sport": "nhl",
-            "event_title": "Colorado Avalanche vs Vegas Golden Knights",
+            "event_title": "Carolina Hurricanes vs Montreal Canadiens",
             "matchup": {
-              "home": "Colorado Avalanche",
-              "away": "Vegas Golden Knights"
+              "home": "Carolina Hurricanes",
+              "away": "Montreal Canadiens"
             },
-            "display_name": "Colorado Avalanche vs Vegas Golden Knights"
+            "display_name": "Carolina Hurricanes vs Montreal Canadiens"
           },
           {
             "label": "Stream 2",
@@ -983,12 +1142,12 @@
             },
             "drm_keys": null,
             "sport": "nhl",
-            "event_title": "Colorado Avalanche vs Vegas Golden Knights",
+            "event_title": "Carolina Hurricanes vs Montreal Canadiens",
             "matchup": {
-              "home": "Colorado Avalanche",
-              "away": "Vegas Golden Knights"
+              "home": "Carolina Hurricanes",
+              "away": "Montreal Canadiens"
             },
-            "display_name": "Colorado Avalanche vs Vegas Golden Knights - Stream 2"
+            "display_name": "Carolina Hurricanes vs Montreal Canadiens - Stream 2"
           },
           {
             "label": "nhl.m3u8",
@@ -1006,66 +1165,17 @@
             },
             "drm_keys": null,
             "sport": "nhl",
-            "event_title": "Colorado Avalanche vs Vegas Golden Knights",
+            "event_title": "Carolina Hurricanes vs Montreal Canadiens",
             "matchup": {
-              "home": "Colorado Avalanche",
-              "away": "Vegas Golden Knights"
+              "home": "Carolina Hurricanes",
+              "away": "Montreal Canadiens"
             },
-            "display_name": "Colorado Avalanche vs Vegas Golden Knights - nhl.m3u8"
+            "display_name": "Carolina Hurricanes vs Montreal Canadiens - nhl.m3u8"
           }
         ]
       }
     ],
-    "fighting": [
-      {
-        "title": "WWE NXT",
-        "sport": "fighting",
-        "matchup": null,
-        "page": "https://roxiestreams.su/wwe-streams",
-        "streams": [
-          {
-            "label": "Stream 1",
-            "url": "https://601.shadow-ran.online/wwe.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.su/wwe-streams",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "601",
-            "path": "wwe.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.su/wwe-streams",
-              "Origin": "https://roxiestreams.su",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "fighting",
-            "event_title": "WWE NXT",
-            "matchup": null,
-            "display_name": "WWE NXT - Stream 1"
-          },
-          {
-            "label": "wwe.m3u8",
-            "url": "https://daffodil.shadow-ran.online/wwe.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.su/wwe-streams",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "daffodil",
-            "path": "wwe.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.su/wwe-streams",
-              "Origin": "https://roxiestreams.su",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "fighting",
-            "event_title": "WWE NXT",
-            "matchup": null,
-            "display_name": "WWE NXT - wwe.m3u8"
-          }
-        ]
-      }
-    ],
+    "fighting": [],
     "motorsports": [
       {
         "title": "Isle of Man TT - Coverage",
@@ -1118,7 +1228,7 @@
     ],
     "aew": [
       {
-        "title": "Stream 1",
+        "title": "AEW",
         "sport": "aew",
         "matchup": null,
         "page": "https://roxiestreams.su/aew",
@@ -1139,18 +1249,10 @@
             },
             "drm_keys": null,
             "sport": "aew",
-            "event_title": "Stream 1",
+            "event_title": "AEW",
             "matchup": null,
-            "display_name": "Stream 1"
-          }
-        ]
-      },
-      {
-        "title": "Stream 2",
-        "sport": "aew",
-        "matchup": null,
-        "page": "https://roxiestreams.su/aew",
-        "streams": [
+            "display_name": "AEW - Stream 1"
+          },
           {
             "label": "Stream 2",
             "url": "https://daffodil.shadow-ran.online/aew.m3u8",
@@ -1167,59 +1269,9 @@
             },
             "drm_keys": null,
             "sport": "aew",
-            "event_title": "Stream 2",
+            "event_title": "AEW",
             "matchup": null,
-            "display_name": "Stream 2"
-          }
-        ]
-      }
-    ],
-    "wwe": [
-      {
-        "title": "WWE NXT",
-        "sport": "wwe",
-        "matchup": null,
-        "page": "https://roxiestreams.su/wwe-streams",
-        "streams": [
-          {
-            "label": "Stream 1",
-            "url": "https://601.shadow-ran.online/wwe.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.su/wwe-streams",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "601",
-            "path": "wwe.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.su/wwe-streams",
-              "Origin": "https://roxiestreams.su",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "wwe",
-            "event_title": "WWE NXT",
-            "matchup": null,
-            "display_name": "WWE NXT - Stream 1"
-          },
-          {
-            "label": "wwe.m3u8",
-            "url": "https://daffodil.shadow-ran.online/wwe.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.su/wwe-streams",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "daffodil",
-            "path": "wwe.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.su/wwe-streams",
-              "Origin": "https://roxiestreams.su",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "wwe",
-            "event_title": "WWE NXT",
-            "matchup": null,
-            "display_name": "WWE NXT - wwe.m3u8"
+            "display_name": "AEW - Stream 2"
           }
         ]
       }
@@ -1242,13 +1294,15 @@
         "Fighting",
         "Motorsports",
         "Stream Request (Discord)",
-        "Gremio vs Torque",
-        "LDU Quito vs Always Ready",
-        "Palestino vs Riestra",
-        "Flamengo vs Cusco",
-        "San Lorenzo vs Recoleta",
-        "Santos vs Deportivo Cuenca",
-        "Universitario vs Tolima",
+        "Crystal Palace vs Rayo Vallecano (FINAL)",
+        "Cienciano vs Juventud",
+        "Independiente Del Valle vs Rosario Central",
+        "Vasco Gama vs Barracas",
+        "Corinthians vs Platense",
+        "Fluminense vs Deportivo Guaira",
+        "Bragantino vs Carabobo",
+        "Peñarol vs Santa Fe",
+        "River Plate vs Blooming",
         "Stream Request (Discord)"
       ],
       "links": [
@@ -1289,32 +1343,40 @@
           "url": "https://discord.gg/JhkVmejRmn"
         },
         {
-          "label": "Gremio vs Torque",
+          "label": "Crystal Palace vs Rayo Vallecano (FINAL)",
           "url": "https://roxiestreams.su/soccer-streams-1"
         },
         {
-          "label": "LDU Quito vs Always Ready",
+          "label": "Cienciano vs Juventud",
           "url": "https://roxiestreams.su/soccer-streams-2"
         },
         {
-          "label": "Palestino vs Riestra",
+          "label": "Independiente Del Valle vs Rosario Central",
           "url": "https://roxiestreams.su/soccer-streams-3"
         },
         {
-          "label": "Flamengo vs Cusco",
+          "label": "Vasco Gama vs Barracas",
           "url": "https://roxiestreams.su/soccer-streams-4"
         },
         {
-          "label": "San Lorenzo vs Recoleta",
-          "url": "https://roxiestreams.su/soccer-streams-3"
-        },
-        {
-          "label": "Santos vs Deportivo Cuenca",
+          "label": "Corinthians vs Platense",
           "url": "https://roxiestreams.su/soccer-streams-5"
         },
         {
-          "label": "Universitario vs Tolima",
+          "label": "Fluminense vs Deportivo Guaira",
+          "url": "https://roxiestreams.su/soccer-streams-6"
+        },
+        {
+          "label": "Bragantino vs Carabobo",
           "url": "https://roxiestreams.su/soccer-streams-2"
+        },
+        {
+          "label": "Peñarol vs Santa Fe",
+          "url": "https://roxiestreams.su/soccer-streams-3"
+        },
+        {
+          "label": "River Plate vs Blooming",
+          "url": "https://roxiestreams.su/soccer-streams-7"
         },
         {
           "label": "Stream Request (Discord)",
@@ -1337,6 +1399,8 @@
         "Motorsports",
         "Stream Request (Discord)",
         "Stream 1",
+        "Stream 2",
+        "PC ONLY (DIRECT)",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -1627,6 +1691,129 @@
         }
       ]
     },
+    "https://roxiestreams.su/soccer-streams-6": {
+      "url": "https://roxiestreams.su/soccer-streams-6",
+      "title": "Roxiestreams - Watch Live Sports, F1, UFC, NFL, TV",
+      "headings": [],
+      "controls": [
+        "RoxieStreams",
+        "Soccer",
+        "MLB",
+        "NBA",
+        "NFL",
+        "NHL",
+        "Fighting",
+        "Motorsports",
+        "Stream Request (Discord)",
+        "Stream 1",
+        "Stream 2",
+        "Switch to Chatango",
+        "Stream Request (Discord)"
+      ],
+      "links": [
+        {
+          "label": "RoxieStreams",
+          "url": "https://roxiestreams.su/"
+        },
+        {
+          "label": "Soccer",
+          "url": "https://roxiestreams.su/soccer"
+        },
+        {
+          "label": "MLB",
+          "url": "https://roxiestreams.su/mlb"
+        },
+        {
+          "label": "NBA",
+          "url": "https://roxiestreams.su/nba"
+        },
+        {
+          "label": "NFL",
+          "url": "https://roxiestreams.su/nfl"
+        },
+        {
+          "label": "NHL",
+          "url": "https://roxiestreams.su/nhl"
+        },
+        {
+          "label": "Fighting",
+          "url": "https://roxiestreams.su/fighting"
+        },
+        {
+          "label": "Motorsports",
+          "url": "https://roxiestreams.su/motorsports"
+        },
+        {
+          "label": "Stream Request (Discord)",
+          "url": "https://discord.gg/JhkVmejRmn"
+        },
+        {
+          "label": "Stream Request (Discord)",
+          "url": "https://discord.gg/JhkVmejRmn"
+        }
+      ]
+    },
+    "https://roxiestreams.su/soccer-streams-7": {
+      "url": "https://roxiestreams.su/soccer-streams-7",
+      "title": "Roxiestreams - Watch Live Sports, F1, UFC, NFL, TV",
+      "headings": [],
+      "controls": [
+        "RoxieStreams",
+        "Soccer",
+        "MLB",
+        "NBA",
+        "NFL",
+        "NHL",
+        "Fighting",
+        "Motorsports",
+        "Stream Request (Discord)",
+        "Stream 1",
+        "Switch to Chatango",
+        "Stream Request (Discord)"
+      ],
+      "links": [
+        {
+          "label": "RoxieStreams",
+          "url": "https://roxiestreams.su/"
+        },
+        {
+          "label": "Soccer",
+          "url": "https://roxiestreams.su/soccer"
+        },
+        {
+          "label": "MLB",
+          "url": "https://roxiestreams.su/mlb"
+        },
+        {
+          "label": "NBA",
+          "url": "https://roxiestreams.su/nba"
+        },
+        {
+          "label": "NFL",
+          "url": "https://roxiestreams.su/nfl"
+        },
+        {
+          "label": "NHL",
+          "url": "https://roxiestreams.su/nhl"
+        },
+        {
+          "label": "Fighting",
+          "url": "https://roxiestreams.su/fighting"
+        },
+        {
+          "label": "Motorsports",
+          "url": "https://roxiestreams.su/motorsports"
+        },
+        {
+          "label": "Stream Request (Discord)",
+          "url": "https://discord.gg/JhkVmejRmn"
+        },
+        {
+          "label": "Stream Request (Discord)",
+          "url": "https://discord.gg/JhkVmejRmn"
+        }
+      ]
+    },
     "https://roxiestreams.su/mlb": {
       "url": "https://roxiestreams.su/mlb",
       "title": "Roxiestreams - Watch Live Sports, F1, UFC, NFL, TV",
@@ -1643,20 +1830,20 @@
         "Fighting",
         "Motorsports",
         "Stream Request (Discord)",
+        "Miami Marlins vs Toronto Blue Jays",
         "Washington Nationals vs Cleveland Guardians",
+        "St. Louis Cardinals vs Milwaukee Brewers",
+        "Seattle Mariners vs Athletics",
+        "Arizona Diamondbacks vs San Francisco Giants",
+        "Philadelphia Phillies vs San Diego Padres",
         "Tampa Bay Rays vs Baltimore Orioles",
         "Los Angeles Angels vs Detroit Tigers",
         "Chicago Cubs vs Pittsburgh Pirates",
         "Atlanta Braves vs Boston Red Sox",
-        "Miami Marlins vs Toronto Blue Jays",
         "Cincinnati Reds vs New York Mets",
         "Minnesota Twins vs Chicago White Sox",
         "New York Yankees vs Kansas City Royals",
-        "St. Louis Cardinals vs Milwaukee Brewers",
         "Houston Astros vs Texas Rangers",
-        "Seattle Mariners vs Athletics",
-        "Philadelphia Phillies vs San Diego Padres",
-        "Arizona Diamondbacks vs San Francisco Giants",
         "Colorado Rockies vs Los Angeles Dodgers",
         "Stream Request (Discord)"
       ],
@@ -1698,59 +1885,59 @@
           "url": "https://discord.gg/JhkVmejRmn"
         },
         {
-          "label": "Washington Nationals vs Cleveland Guardians",
+          "label": "Miami Marlins vs Toronto Blue Jays",
           "url": "https://roxiestreams.su/mlb-streams-1"
         },
         {
-          "label": "Tampa Bay Rays vs Baltimore Orioles",
+          "label": "Washington Nationals vs Cleveland Guardians",
           "url": "https://roxiestreams.su/mlb-streams-2"
         },
         {
-          "label": "Los Angeles Angels vs Detroit Tigers",
+          "label": "St. Louis Cardinals vs Milwaukee Brewers",
           "url": "https://roxiestreams.su/mlb-streams-3"
         },
         {
-          "label": "Chicago Cubs vs Pittsburgh Pirates",
+          "label": "Seattle Mariners vs Athletics",
           "url": "https://roxiestreams.su/mlb-streams-4"
         },
         {
-          "label": "Atlanta Braves vs Boston Red Sox",
+          "label": "Arizona Diamondbacks vs San Francisco Giants",
           "url": "https://roxiestreams.su/mlb-streams-5"
         },
         {
-          "label": "Miami Marlins vs Toronto Blue Jays",
+          "label": "Philadelphia Phillies vs San Diego Padres",
           "url": "https://roxiestreams.su/mlb-streams-6"
         },
         {
-          "label": "Cincinnati Reds vs New York Mets",
+          "label": "Tampa Bay Rays vs Baltimore Orioles",
           "url": "https://roxiestreams.su/mlb-streams-7"
         },
         {
-          "label": "Minnesota Twins vs Chicago White Sox",
+          "label": "Los Angeles Angels vs Detroit Tigers",
           "url": "https://roxiestreams.su/mlb-streams-8"
         },
         {
-          "label": "New York Yankees vs Kansas City Royals",
+          "label": "Chicago Cubs vs Pittsburgh Pirates",
           "url": "https://roxiestreams.su/mlb-streams-9"
         },
         {
-          "label": "St. Louis Cardinals vs Milwaukee Brewers",
+          "label": "Atlanta Braves vs Boston Red Sox",
           "url": "https://roxiestreams.su/mlb-streams-10"
         },
         {
-          "label": "Houston Astros vs Texas Rangers",
+          "label": "Cincinnati Reds vs New York Mets",
           "url": "https://roxiestreams.su/mlb-streams-11"
         },
         {
-          "label": "Seattle Mariners vs Athletics",
+          "label": "Minnesota Twins vs Chicago White Sox",
           "url": "https://roxiestreams.su/mlb-streams-12"
         },
         {
-          "label": "Philadelphia Phillies vs San Diego Padres",
+          "label": "New York Yankees vs Kansas City Royals",
           "url": "https://roxiestreams.su/mlb-streams-13"
         },
         {
-          "label": "Arizona Diamondbacks vs San Francisco Giants",
+          "label": "Houston Astros vs Texas Rangers",
           "url": "https://roxiestreams.su/mlb-streams-14"
         },
         {
@@ -2695,7 +2882,7 @@
         "Fighting",
         "Motorsports",
         "Stream Request (Discord)",
-        "San Antonio Spurs vs Oklahoma City Thunder",
+        "Oklahoma City Thunder vs San Antonio Spurs",
         "Stream Request (Discord)"
       ],
       "links": [
@@ -2736,7 +2923,7 @@
           "url": "https://discord.gg/JhkVmejRmn"
         },
         {
-          "label": "San Antonio Spurs vs Oklahoma City Thunder",
+          "label": "Oklahoma City Thunder vs San Antonio Spurs",
           "url": "https://roxiestreams.su/nba-streams-1"
         },
         {
@@ -2952,7 +3139,7 @@
         "Fighting",
         "Motorsports",
         "Stream Request (Discord)",
-        "Colorado Avalanche vs Vegas Golden Knights",
+        "Carolina Hurricanes vs Montreal Canadiens",
         "Stream Request (Discord)"
       ],
       "links": [
@@ -2993,7 +3180,7 @@
           "url": "https://discord.gg/JhkVmejRmn"
         },
         {
-          "label": "Colorado Avalanche vs Vegas Golden Knights",
+          "label": "Carolina Hurricanes vs Montreal Canadiens",
           "url": "https://roxiestreams.su/nhl-streams-1"
         },
         {
@@ -3081,7 +3268,7 @@
         "Fighting",
         "Motorsports",
         "Stream Request (Discord)",
-        "WWE NXT",
+        "AEW",
         "Stream Request (Discord)"
       ],
       "links": [
@@ -3122,69 +3309,8 @@
           "url": "https://discord.gg/JhkVmejRmn"
         },
         {
-          "label": "WWE NXT",
-          "url": "https://roxiestreams.su/wwe-streams"
-        },
-        {
-          "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/JhkVmejRmn"
-        }
-      ]
-    },
-    "https://roxiestreams.su/wwe-streams": {
-      "url": "https://roxiestreams.su/wwe-streams",
-      "title": "Roxiestreams - Watch Live Sports, F1, UFC, NFL, TV",
-      "headings": [],
-      "controls": [
-        "RoxieStreams",
-        "Soccer",
-        "MLB",
-        "NBA",
-        "NFL",
-        "NHL",
-        "Fighting",
-        "Motorsports",
-        "Stream Request (Discord)",
-        "Stream 1",
-        "Switch to Chatango",
-        "Stream Request (Discord)"
-      ],
-      "links": [
-        {
-          "label": "RoxieStreams",
-          "url": "https://roxiestreams.su/"
-        },
-        {
-          "label": "Soccer",
-          "url": "https://roxiestreams.su/soccer"
-        },
-        {
-          "label": "MLB",
-          "url": "https://roxiestreams.su/mlb"
-        },
-        {
-          "label": "NBA",
-          "url": "https://roxiestreams.su/nba"
-        },
-        {
-          "label": "NFL",
-          "url": "https://roxiestreams.su/nfl"
-        },
-        {
-          "label": "NHL",
-          "url": "https://roxiestreams.su/nhl"
-        },
-        {
-          "label": "Fighting",
-          "url": "https://roxiestreams.su/fighting"
-        },
-        {
-          "label": "Motorsports",
-          "url": "https://roxiestreams.su/motorsports"
-        },
-        {
-          "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/JhkVmejRmn"
+          "label": "AEW",
+          "url": "https://roxiestreams.su/aew"
         },
         {
           "label": "Stream Request (Discord)",
@@ -3390,17 +3516,41 @@
         "https://roxiestreams.su/soccer-streams-2",
         "https://roxiestreams.su/soccer-streams-3",
         "https://roxiestreams.su/soccer-streams-4",
-        "https://roxiestreams.su/soccer-streams-5"
+        "https://roxiestreams.su/soccer-streams-5",
+        "https://roxiestreams.su/soccer-streams-6",
+        "https://roxiestreams.su/soccer-streams-7"
       ],
       "streams": [
         {
-          "label": "Stream 1",
-          "url": "https://daffodil.shadow-ran.online/gremio.m3u8",
+          "label": "Direct Link",
+          "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cllekigzzn/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd",
+          "type": "mpd",
+          "source_page": "https://roxiestreams.su/soccer-streams-1",
+          "headers": {
+            "Referer": "https://roxiestreams.su/soccer-streams-1",
+            "Origin": "https://roxiestreams.su",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": {
+            "294b5761cefc22d0c6312939e13d8278": "52148f1042d238849f0a7813f1da8a7b"
+          },
+          "sport": "soccer",
+          "event_title": "Crystal Palace vs Rayo Vallecano (FINAL)",
+          "matchup": {
+            "home": "Crystal Palace",
+            "away": "Rayo Vallecano (FINAL)"
+          },
+          "display_name": "Crystal Palace vs Rayo Vallecano (FINAL)"
+        },
+        {
+          "label": "Stream 2",
+          "url": "https://daffodil.shadow-ran.online/cbssn.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.su/soccer-streams-1",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "daffodil",
-          "path": "gremio.m3u8",
+          "path": "cbssn.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.su/soccer-streams-1",
             "Origin": "https://roxiestreams.su",
@@ -3409,12 +3559,35 @@
           },
           "drm_keys": null,
           "sport": "soccer",
-          "event_title": "Gremio vs Torque",
+          "event_title": "Crystal Palace vs Rayo Vallecano (FINAL)",
           "matchup": {
-            "home": "Gremio",
-            "away": "Torque"
+            "home": "Crystal Palace",
+            "away": "Rayo Vallecano (FINAL)"
           },
-          "display_name": "Gremio vs Torque - Stream 1"
+          "display_name": "Crystal Palace vs Rayo Vallecano (FINAL) - Stream 2"
+        },
+        {
+          "label": "tnt.m3u8",
+          "url": "https://601.shadow-ran.online/tnt.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.su/soccer-streams-1",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "601",
+          "path": "tnt.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.su/soccer-streams-1",
+            "Origin": "https://roxiestreams.su",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Crystal Palace vs Rayo Vallecano (FINAL)",
+          "matchup": {
+            "home": "Crystal Palace",
+            "away": "Rayo Vallecano (FINAL)"
+          },
+          "display_name": "Crystal Palace vs Rayo Vallecano (FINAL) - tnt.m3u8"
         },
         {
           "label": "Stream 1",
@@ -3432,12 +3605,12 @@
           },
           "drm_keys": null,
           "sport": "soccer",
-          "event_title": "Universitario vs Tolima",
+          "event_title": "Bragantino vs Carabobo",
           "matchup": {
-            "home": "Universitario",
-            "away": "Tolima"
+            "home": "Bragantino",
+            "away": "Carabobo"
           },
-          "display_name": "Universitario vs Tolima - Stream 1"
+          "display_name": "Bragantino vs Carabobo - Stream 1"
         },
         {
           "label": "Stream 1",
@@ -3455,12 +3628,12 @@
           },
           "drm_keys": null,
           "sport": "soccer",
-          "event_title": "San Lorenzo vs Recoleta",
+          "event_title": "Peñarol vs Santa Fe",
           "matchup": {
-            "home": "San Lorenzo",
-            "away": "Recoleta"
+            "home": "Peñarol",
+            "away": "Santa Fe"
           },
-          "display_name": "San Lorenzo vs Recoleta - Stream 1"
+          "display_name": "Peñarol vs Santa Fe - Stream 1"
         },
         {
           "label": "Stream 1",
@@ -3478,12 +3651,12 @@
           },
           "drm_keys": null,
           "sport": "soccer",
-          "event_title": "Flamengo vs Cusco",
+          "event_title": "Vasco Gama vs Barracas",
           "matchup": {
-            "home": "Flamengo",
-            "away": "Cusco"
+            "home": "Vasco Gama",
+            "away": "Barracas"
           },
-          "display_name": "Flamengo vs Cusco - Stream 1"
+          "display_name": "Vasco Gama vs Barracas - Stream 1"
         },
         {
           "label": "bein4.m3u8",
@@ -3501,12 +3674,12 @@
           },
           "drm_keys": null,
           "sport": "soccer",
-          "event_title": "Flamengo vs Cusco",
+          "event_title": "Vasco Gama vs Barracas",
           "matchup": {
-            "home": "Flamengo",
-            "away": "Cusco"
+            "home": "Vasco Gama",
+            "away": "Barracas"
           },
-          "display_name": "Flamengo vs Cusco - bein4.m3u8"
+          "display_name": "Vasco Gama vs Barracas - bein4.m3u8"
         },
         {
           "label": "Stream 1",
@@ -3524,12 +3697,104 @@
           },
           "drm_keys": null,
           "sport": "soccer",
-          "event_title": "Santos vs Deportivo Cuenca",
+          "event_title": "Corinthians vs Platense",
           "matchup": {
-            "home": "Santos",
-            "away": "Deportivo Cuenca"
+            "home": "Corinthians",
+            "away": "Platense"
           },
-          "display_name": "Santos vs Deportivo Cuenca - Stream 1"
+          "display_name": "Corinthians vs Platense - Stream 1"
+        },
+        {
+          "label": "Stream 1",
+          "url": "https://601.shadow-ran.online/epl5.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.su/soccer-streams-6",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "601",
+          "path": "epl5.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.su/soccer-streams-6",
+            "Origin": "https://roxiestreams.su",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Fluminense vs Deportivo Guaira",
+          "matchup": {
+            "home": "Fluminense",
+            "away": "Deportivo Guaira"
+          },
+          "display_name": "Fluminense vs Deportivo Guaira - Stream 1"
+        },
+        {
+          "label": "Stream 2",
+          "url": "https://daffodil.shadow-ran.online/epl5.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.su/soccer-streams-6",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "epl5.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.su/soccer-streams-6",
+            "Origin": "https://roxiestreams.su",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Fluminense vs Deportivo Guaira",
+          "matchup": {
+            "home": "Fluminense",
+            "away": "Deportivo Guaira"
+          },
+          "display_name": "Fluminense vs Deportivo Guaira - Stream 2"
+        },
+        {
+          "label": "Stream 1",
+          "url": "https://601.shadow-ran.online/epl6.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.su/soccer-streams-7",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "601",
+          "path": "epl6.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.su/soccer-streams-7",
+            "Origin": "https://roxiestreams.su",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "River Plate vs Blooming",
+          "matchup": {
+            "home": "River Plate",
+            "away": "Blooming"
+          },
+          "display_name": "River Plate vs Blooming - Stream 1"
+        },
+        {
+          "label": "epl6.m3u8",
+          "url": "https://daffodil.shadow-ran.online/epl6.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.su/soccer-streams-7",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "epl6.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.su/soccer-streams-7",
+            "Origin": "https://roxiestreams.su",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "River Plate vs Blooming",
+          "matchup": {
+            "home": "River Plate",
+            "away": "Blooming"
+          },
+          "display_name": "River Plate vs Blooming - epl6.m3u8"
         }
       ]
     },
@@ -3569,12 +3834,12 @@
           },
           "drm_keys": null,
           "sport": "mlb",
-          "event_title": "Washington Nationals vs Cleveland Guardians",
+          "event_title": "Miami Marlins vs Toronto Blue Jays",
           "matchup": {
-            "home": "Washington Nationals",
-            "away": "Cleveland Guardians"
+            "home": "Miami Marlins",
+            "away": "Toronto Blue Jays"
           },
-          "display_name": "Washington Nationals vs Cleveland Guardians - Stream 1"
+          "display_name": "Miami Marlins vs Toronto Blue Jays - Stream 1"
         },
         {
           "label": "mlb.m3u8",
@@ -3592,12 +3857,12 @@
           },
           "drm_keys": null,
           "sport": "mlb",
-          "event_title": "Washington Nationals vs Cleveland Guardians",
+          "event_title": "Miami Marlins vs Toronto Blue Jays",
           "matchup": {
-            "home": "Washington Nationals",
-            "away": "Cleveland Guardians"
+            "home": "Miami Marlins",
+            "away": "Toronto Blue Jays"
           },
-          "display_name": "Washington Nationals vs Cleveland Guardians - mlb.m3u8"
+          "display_name": "Miami Marlins vs Toronto Blue Jays - mlb.m3u8"
         },
         {
           "label": "Direct Link",
@@ -3612,12 +3877,12 @@
           },
           "drm_keys": null,
           "sport": "mlb",
-          "event_title": "St. Louis Cardinals vs Milwaukee Brewers",
+          "event_title": "Atlanta Braves vs Boston Red Sox",
           "matchup": {
-            "home": "St. Louis Cardinals",
-            "away": "Milwaukee Brewers"
+            "home": "Atlanta Braves",
+            "away": "Boston Red Sox"
           },
-          "display_name": "St. Louis Cardinals vs Milwaukee Brewers"
+          "display_name": "Atlanta Braves vs Boston Red Sox"
         },
         {
           "label": "Direct Link",
@@ -3632,12 +3897,12 @@
           },
           "drm_keys": null,
           "sport": "mlb",
-          "event_title": "Houston Astros vs Texas Rangers",
+          "event_title": "Cincinnati Reds vs New York Mets",
           "matchup": {
-            "home": "Houston Astros",
-            "away": "Texas Rangers"
+            "home": "Cincinnati Reds",
+            "away": "New York Mets"
           },
-          "display_name": "Houston Astros vs Texas Rangers"
+          "display_name": "Cincinnati Reds vs New York Mets"
         },
         {
           "label": "Direct Link",
@@ -3652,12 +3917,12 @@
           },
           "drm_keys": null,
           "sport": "mlb",
-          "event_title": "Seattle Mariners vs Athletics",
+          "event_title": "Minnesota Twins vs Chicago White Sox",
           "matchup": {
-            "home": "Seattle Mariners",
-            "away": "Athletics"
+            "home": "Minnesota Twins",
+            "away": "Chicago White Sox"
           },
-          "display_name": "Seattle Mariners vs Athletics"
+          "display_name": "Minnesota Twins vs Chicago White Sox"
         },
         {
           "label": "Direct Link",
@@ -3672,12 +3937,12 @@
           },
           "drm_keys": null,
           "sport": "mlb",
-          "event_title": "Seattle Mariners vs Athletics",
+          "event_title": "Minnesota Twins vs Chicago White Sox",
           "matchup": {
-            "home": "Seattle Mariners",
-            "away": "Athletics"
+            "home": "Minnesota Twins",
+            "away": "Chicago White Sox"
           },
-          "display_name": "Seattle Mariners vs Athletics"
+          "display_name": "Minnesota Twins vs Chicago White Sox"
         },
         {
           "label": "Direct Link",
@@ -3692,12 +3957,12 @@
           },
           "drm_keys": null,
           "sport": "mlb",
-          "event_title": "Philadelphia Phillies vs San Diego Padres",
+          "event_title": "New York Yankees vs Kansas City Royals",
           "matchup": {
-            "home": "Philadelphia Phillies",
-            "away": "San Diego Padres"
+            "home": "New York Yankees",
+            "away": "Kansas City Royals"
           },
-          "display_name": "Philadelphia Phillies vs San Diego Padres"
+          "display_name": "New York Yankees vs Kansas City Royals"
         },
         {
           "label": "Direct Link",
@@ -3712,12 +3977,12 @@
           },
           "drm_keys": null,
           "sport": "mlb",
-          "event_title": "Arizona Diamondbacks vs San Francisco Giants",
+          "event_title": "Houston Astros vs Texas Rangers",
           "matchup": {
-            "home": "Arizona Diamondbacks",
-            "away": "San Francisco Giants"
+            "home": "Houston Astros",
+            "away": "Texas Rangers"
           },
-          "display_name": "Arizona Diamondbacks vs San Francisco Giants"
+          "display_name": "Houston Astros vs Texas Rangers"
         },
         {
           "label": "Direct Link",
@@ -3755,12 +4020,12 @@
           },
           "drm_keys": null,
           "sport": "mlb",
-          "event_title": "Tampa Bay Rays vs Baltimore Orioles",
+          "event_title": "Washington Nationals vs Cleveland Guardians",
           "matchup": {
-            "home": "Tampa Bay Rays",
-            "away": "Baltimore Orioles"
+            "home": "Washington Nationals",
+            "away": "Cleveland Guardians"
           },
-          "display_name": "Tampa Bay Rays vs Baltimore Orioles - Stream 1"
+          "display_name": "Washington Nationals vs Cleveland Guardians - Stream 1"
         },
         {
           "label": "mlb2.m3u8",
@@ -3778,12 +4043,12 @@
           },
           "drm_keys": null,
           "sport": "mlb",
-          "event_title": "Tampa Bay Rays vs Baltimore Orioles",
+          "event_title": "Washington Nationals vs Cleveland Guardians",
           "matchup": {
-            "home": "Tampa Bay Rays",
-            "away": "Baltimore Orioles"
+            "home": "Washington Nationals",
+            "away": "Cleveland Guardians"
           },
-          "display_name": "Tampa Bay Rays vs Baltimore Orioles - mlb2.m3u8"
+          "display_name": "Washington Nationals vs Cleveland Guardians - mlb2.m3u8"
         },
         {
           "label": "Direct Link",
@@ -3798,12 +4063,12 @@
           },
           "drm_keys": null,
           "sport": "mlb",
-          "event_title": "Los Angeles Angels vs Detroit Tigers",
+          "event_title": "St. Louis Cardinals vs Milwaukee Brewers",
           "matchup": {
-            "home": "Los Angeles Angels",
-            "away": "Detroit Tigers"
+            "home": "St. Louis Cardinals",
+            "away": "Milwaukee Brewers"
           },
-          "display_name": "Los Angeles Angels vs Detroit Tigers"
+          "display_name": "St. Louis Cardinals vs Milwaukee Brewers"
         },
         {
           "label": "Stream 1",
@@ -3821,12 +4086,12 @@
           },
           "drm_keys": null,
           "sport": "mlb",
-          "event_title": "Chicago Cubs vs Pittsburgh Pirates",
+          "event_title": "Seattle Mariners vs Athletics",
           "matchup": {
-            "home": "Chicago Cubs",
-            "away": "Pittsburgh Pirates"
+            "home": "Seattle Mariners",
+            "away": "Athletics"
           },
-          "display_name": "Chicago Cubs vs Pittsburgh Pirates - Stream 1"
+          "display_name": "Seattle Mariners vs Athletics - Stream 1"
         },
         {
           "label": "mlb4.m3u8",
@@ -3844,12 +4109,12 @@
           },
           "drm_keys": null,
           "sport": "mlb",
-          "event_title": "Chicago Cubs vs Pittsburgh Pirates",
+          "event_title": "Seattle Mariners vs Athletics",
           "matchup": {
-            "home": "Chicago Cubs",
-            "away": "Pittsburgh Pirates"
+            "home": "Seattle Mariners",
+            "away": "Athletics"
           },
-          "display_name": "Chicago Cubs vs Pittsburgh Pirates - mlb4.m3u8"
+          "display_name": "Seattle Mariners vs Athletics - mlb4.m3u8"
         },
         {
           "label": "Direct Link",
@@ -3864,12 +4129,12 @@
           },
           "drm_keys": null,
           "sport": "mlb",
-          "event_title": "Atlanta Braves vs Boston Red Sox",
+          "event_title": "Arizona Diamondbacks vs San Francisco Giants",
           "matchup": {
-            "home": "Atlanta Braves",
-            "away": "Boston Red Sox"
+            "home": "Arizona Diamondbacks",
+            "away": "San Francisco Giants"
           },
-          "display_name": "Atlanta Braves vs Boston Red Sox"
+          "display_name": "Arizona Diamondbacks vs San Francisco Giants"
         },
         {
           "label": "Direct Link",
@@ -3884,12 +4149,12 @@
           },
           "drm_keys": null,
           "sport": "mlb",
-          "event_title": "Miami Marlins vs Toronto Blue Jays",
+          "event_title": "Philadelphia Phillies vs San Diego Padres",
           "matchup": {
-            "home": "Miami Marlins",
-            "away": "Toronto Blue Jays"
+            "home": "Philadelphia Phillies",
+            "away": "San Diego Padres"
           },
-          "display_name": "Miami Marlins vs Toronto Blue Jays"
+          "display_name": "Philadelphia Phillies vs San Diego Padres"
         },
         {
           "label": "Direct Link",
@@ -3904,12 +4169,12 @@
           },
           "drm_keys": null,
           "sport": "mlb",
-          "event_title": "Cincinnati Reds vs New York Mets",
+          "event_title": "Tampa Bay Rays vs Baltimore Orioles",
           "matchup": {
-            "home": "Cincinnati Reds",
-            "away": "New York Mets"
+            "home": "Tampa Bay Rays",
+            "away": "Baltimore Orioles"
           },
-          "display_name": "Cincinnati Reds vs New York Mets"
+          "display_name": "Tampa Bay Rays vs Baltimore Orioles"
         },
         {
           "label": "Direct Link",
@@ -3924,12 +4189,12 @@
           },
           "drm_keys": null,
           "sport": "mlb",
-          "event_title": "Minnesota Twins vs Chicago White Sox",
+          "event_title": "Los Angeles Angels vs Detroit Tigers",
           "matchup": {
-            "home": "Minnesota Twins",
-            "away": "Chicago White Sox"
+            "home": "Los Angeles Angels",
+            "away": "Detroit Tigers"
           },
-          "display_name": "Minnesota Twins vs Chicago White Sox"
+          "display_name": "Los Angeles Angels vs Detroit Tigers"
         },
         {
           "label": "Direct Link",
@@ -3944,12 +4209,12 @@
           },
           "drm_keys": null,
           "sport": "mlb",
-          "event_title": "New York Yankees vs Kansas City Royals",
+          "event_title": "Chicago Cubs vs Pittsburgh Pirates",
           "matchup": {
-            "home": "New York Yankees",
-            "away": "Kansas City Royals"
+            "home": "Chicago Cubs",
+            "away": "Pittsburgh Pirates"
           },
-          "display_name": "New York Yankees vs Kansas City Royals"
+          "display_name": "Chicago Cubs vs Pittsburgh Pirates"
         }
       ]
     },
@@ -3972,12 +4237,12 @@
           },
           "drm_keys": null,
           "sport": "nba",
-          "event_title": "San Antonio Spurs vs Oklahoma City Thunder",
+          "event_title": "Oklahoma City Thunder vs San Antonio Spurs",
           "matchup": {
-            "home": "San Antonio Spurs",
-            "away": "Oklahoma City Thunder"
+            "home": "Oklahoma City Thunder",
+            "away": "San Antonio Spurs"
           },
-          "display_name": "San Antonio Spurs vs Oklahoma City Thunder"
+          "display_name": "Oklahoma City Thunder vs San Antonio Spurs"
         },
         {
           "label": "Direct Link",
@@ -3994,21 +4259,21 @@
             "45d4b06cf3345219a4184135abbefc18": "1d28c167b64f628c23a89a84ce4a3b09"
           },
           "sport": "nba",
-          "event_title": "San Antonio Spurs vs Oklahoma City Thunder",
+          "event_title": "Oklahoma City Thunder vs San Antonio Spurs",
           "matchup": {
-            "home": "San Antonio Spurs",
-            "away": "Oklahoma City Thunder"
+            "home": "Oklahoma City Thunder",
+            "away": "San Antonio Spurs"
           },
-          "display_name": "San Antonio Spurs vs Oklahoma City Thunder"
+          "display_name": "Oklahoma City Thunder vs San Antonio Spurs"
         },
         {
-          "label": "nba.m3u8",
-          "url": "https://daffodil.shadow-ran.online/nba.m3u8",
+          "label": "nbasat.m3u8",
+          "url": "https://601.shadow-ran.online/nbasat.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.su/nba-streams-1",
           "cdn_domain": "shadow-ran.online",
-          "subdomain": "daffodil",
-          "path": "nba.m3u8",
+          "subdomain": "601",
+          "path": "nbasat.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.su/nba-streams-1",
             "Origin": "https://roxiestreams.su",
@@ -4017,12 +4282,12 @@
           },
           "drm_keys": null,
           "sport": "nba",
-          "event_title": "San Antonio Spurs vs Oklahoma City Thunder",
+          "event_title": "Oklahoma City Thunder vs San Antonio Spurs",
           "matchup": {
-            "home": "San Antonio Spurs",
-            "away": "Oklahoma City Thunder"
+            "home": "Oklahoma City Thunder",
+            "away": "San Antonio Spurs"
           },
-          "display_name": "San Antonio Spurs vs Oklahoma City Thunder - nba.m3u8"
+          "display_name": "Oklahoma City Thunder vs San Antonio Spurs - nbasat.m3u8"
         }
       ]
     },
@@ -4115,12 +4380,12 @@
             "458272fe4bc45eb6968556743b063f50": "61ebeccd86058fb0e57cc9c039ed1a74"
           },
           "sport": "nhl",
-          "event_title": "Colorado Avalanche vs Vegas Golden Knights",
+          "event_title": "Carolina Hurricanes vs Montreal Canadiens",
           "matchup": {
-            "home": "Colorado Avalanche",
-            "away": "Vegas Golden Knights"
+            "home": "Carolina Hurricanes",
+            "away": "Montreal Canadiens"
           },
-          "display_name": "Colorado Avalanche vs Vegas Golden Knights"
+          "display_name": "Carolina Hurricanes vs Montreal Canadiens"
         },
         {
           "label": "Stream 2",
@@ -4138,12 +4403,12 @@
           },
           "drm_keys": null,
           "sport": "nhl",
-          "event_title": "Colorado Avalanche vs Vegas Golden Knights",
+          "event_title": "Carolina Hurricanes vs Montreal Canadiens",
           "matchup": {
-            "home": "Colorado Avalanche",
-            "away": "Vegas Golden Knights"
+            "home": "Carolina Hurricanes",
+            "away": "Montreal Canadiens"
           },
-          "display_name": "Colorado Avalanche vs Vegas Golden Knights - Stream 2"
+          "display_name": "Carolina Hurricanes vs Montreal Canadiens - Stream 2"
         },
         {
           "label": "nhl.m3u8",
@@ -4161,62 +4426,20 @@
           },
           "drm_keys": null,
           "sport": "nhl",
-          "event_title": "Colorado Avalanche vs Vegas Golden Knights",
+          "event_title": "Carolina Hurricanes vs Montreal Canadiens",
           "matchup": {
-            "home": "Colorado Avalanche",
-            "away": "Vegas Golden Knights"
+            "home": "Carolina Hurricanes",
+            "away": "Montreal Canadiens"
           },
-          "display_name": "Colorado Avalanche vs Vegas Golden Knights - nhl.m3u8"
+          "display_name": "Carolina Hurricanes vs Montreal Canadiens - nhl.m3u8"
         }
       ]
     },
     "fighting": {
       "pages": [
-        "https://roxiestreams.su/fighting",
-        "https://roxiestreams.su/wwe-streams"
+        "https://roxiestreams.su/fighting"
       ],
-      "streams": [
-        {
-          "label": "Stream 1",
-          "url": "https://601.shadow-ran.online/wwe.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.su/wwe-streams",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "601",
-          "path": "wwe.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.su/wwe-streams",
-            "Origin": "https://roxiestreams.su",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "fighting",
-          "event_title": "WWE NXT",
-          "matchup": null,
-          "display_name": "WWE NXT - Stream 1"
-        },
-        {
-          "label": "wwe.m3u8",
-          "url": "https://daffodil.shadow-ran.online/wwe.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.su/wwe-streams",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "daffodil",
-          "path": "wwe.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.su/wwe-streams",
-            "Origin": "https://roxiestreams.su",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "fighting",
-          "event_title": "WWE NXT",
-          "matchup": null,
-          "display_name": "WWE NXT - wwe.m3u8"
-        }
-      ]
+      "streams": []
     },
     "motorsports": {
       "pages": [
@@ -4287,9 +4510,9 @@
           },
           "drm_keys": null,
           "sport": "aew",
-          "event_title": "Stream 1",
+          "event_title": "AEW",
           "matchup": null,
-          "display_name": "Stream 1"
+          "display_name": "AEW - Stream 1"
         },
         {
           "label": "Stream 2",
@@ -4307,61 +4530,14 @@
           },
           "drm_keys": null,
           "sport": "aew",
-          "event_title": "Stream 2",
+          "event_title": "AEW",
           "matchup": null,
-          "display_name": "Stream 2"
-        }
-      ]
-    },
-    "wwe": {
-      "pages": [
-        "https://roxiestreams.su/wwe-streams"
-      ],
-      "streams": [
-        {
-          "label": "Stream 1",
-          "url": "https://601.shadow-ran.online/wwe.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.su/wwe-streams",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "601",
-          "path": "wwe.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.su/wwe-streams",
-            "Origin": "https://roxiestreams.su",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "wwe",
-          "event_title": "WWE NXT",
-          "matchup": null,
-          "display_name": "WWE NXT - Stream 1"
-        },
-        {
-          "label": "wwe.m3u8",
-          "url": "https://daffodil.shadow-ran.online/wwe.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.su/wwe-streams",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "daffodil",
-          "path": "wwe.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.su/wwe-streams",
-            "Origin": "https://roxiestreams.su",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "wwe",
-          "event_title": "WWE NXT",
-          "matchup": null,
-          "display_name": "WWE NXT - wwe.m3u8"
+          "display_name": "AEW - Stream 2"
         }
       ]
     }
   },
-  "stream_count": 42,
+  "stream_count": 44,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
