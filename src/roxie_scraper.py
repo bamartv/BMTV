@@ -32,7 +32,7 @@ OUTPUT_FILES = {
 }
 
 KNOWN_STREAM_PAGES = {
-    "soccer": ["/soccer", "/soccer-streams-1"],
+    "soccer": ["/soccer", "/soccer-streams-1", "/soccer-streams-2"],
     "mlb": ["/mlb"],
     "nba": ["/nba", "/nba-streams-1"],
     "nfl": ["/nfl"],
