@@ -25,7 +25,7 @@ from urllib.parse import quote, urlencode, urljoin, urlparse
 import requests
 from bs4 import BeautifulSoup
 
-BASE_URL = "https://roxiestreams.su"
+BASE_URL = "https://roxiestreams.info"
 OUTPUT_FILES = {
     "json": Path("roxie_streams.json"),
     "m3u8": Path("roxie_streams.m3u8"),
