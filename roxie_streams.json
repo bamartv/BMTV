@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-04T11:36:45+00:00",
+  "scraped_at": "2026-06-04T19:48:49+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
@@ -13,7 +13,7 @@
     {
       "name": "NHL Finals",
       "page": "https://roxiestreams.info/nhl-streams-1",
-      "start_time": "June 3, 2026 5:00 PM"
+      "start_time": "June 4, 2026 5:00 PM"
     }
   ],
   "events_by_sport": {
@@ -154,12 +154,12 @@
         "streams": [
           {
             "label": "Stream 1",
-            "url": "https://daffodil.shadow-ran.online/byu.m3u8",
+            "url": "https://daffodil.shadow-ran.online/la.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-4",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "daffodil",
-            "path": "byu.m3u8",
+            "path": "la.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-4",
               "Origin": "https://roxiestreams.info",
@@ -174,6 +174,29 @@
               "away": "Iraq"
             },
             "display_name": "Spain vs Iraq - Stream 1"
+          },
+          {
+            "label": "Stream 2",
+            "url": "https://601.shadow-ran.online/la.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-4",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "601",
+            "path": "la.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-4",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Spain vs Iraq",
+            "matchup": {
+              "home": "Spain",
+              "away": "Iraq"
+            },
+            "display_name": "Spain vs Iraq - Stream 2"
           }
         ]
       },
@@ -187,13 +210,13 @@
         "page": "https://roxiestreams.info/soccer-streams-5",
         "streams": [
           {
-            "label": "Stream 1",
-            "url": "https://daffodil.shadow-ran.online/tnt.m3u8",
+            "label": "Stream 2",
+            "url": "https://601.shadow-ran.online/sky.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-5",
             "cdn_domain": "shadow-ran.online",
-            "subdomain": "daffodil",
-            "path": "tnt.m3u8",
+            "subdomain": "601",
+            "path": "sky.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-5",
               "Origin": "https://roxiestreams.info",
@@ -207,7 +230,7 @@
               "home": "France",
               "away": "Cote D'Ivoire"
             },
-            "display_name": "France vs Cote D'Ivoire - Stream 1"
+            "display_name": "France vs Cote D'Ivoire - Stream 2"
           }
         ]
       },
@@ -965,6 +988,118 @@
           }
         ]
       }
+    ],
+    "multiview": [
+      {
+        "title": "MultiView (NEW)",
+        "sport": "multiview",
+        "matchup": null,
+        "page": "https://roxiestreams.info/multiview",
+        "streams": [
+          {
+            "label": "Direct Link",
+            "url": "https://601.formaturamaxi.com.br/mlb3.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/multiview",
+            "headers": {
+              "Referer": "https://roxiestreams.info/multiview",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "multiview",
+            "event_title": "MultiView (NEW)",
+            "matchup": null,
+            "display_name": "MultiView (NEW)"
+          },
+          {
+            "label": "Direct Link",
+            "url": "https://601.formaturamaxi.com.br/mlb5.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/multiview",
+            "headers": {
+              "Referer": "https://roxiestreams.info/multiview",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "multiview",
+            "event_title": "MultiView (NEW)",
+            "matchup": null,
+            "display_name": "MultiView (NEW)"
+          },
+          {
+            "label": "Direct Link",
+            "url": "https://601.formaturamaxi.com.br/mlb6.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/multiview",
+            "headers": {
+              "Referer": "https://roxiestreams.info/multiview",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "multiview",
+            "event_title": "MultiView (NEW)",
+            "matchup": null,
+            "display_name": "MultiView (NEW)"
+          },
+          {
+            "label": "Direct Link",
+            "url": "https://601.formaturamaxi.com.br/mlb7.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/multiview",
+            "headers": {
+              "Referer": "https://roxiestreams.info/multiview",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "multiview",
+            "event_title": "MultiView (NEW)",
+            "matchup": null,
+            "display_name": "MultiView (NEW)"
+          },
+          {
+            "label": "Direct Link",
+            "url": "https://601.formaturamaxi.com.br/mlb8.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/multiview",
+            "headers": {
+              "Referer": "https://roxiestreams.info/multiview",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "multiview",
+            "event_title": "MultiView (NEW)",
+            "matchup": null,
+            "display_name": "MultiView (NEW)"
+          },
+          {
+            "label": "Direct Link",
+            "url": "https://601.formaturamaxi.com.br/mlb9.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/multiview",
+            "headers": {
+              "Referer": "https://roxiestreams.info/multiview",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "multiview",
+            "event_title": "MultiView (NEW)",
+            "matchup": null,
+            "display_name": "MultiView (NEW)"
+          }
+        ]
+      }
     ]
   },
   "pages": {
@@ -984,6 +1119,7 @@
         "Fighting",
         "Motorsports",
         "Stream Request (Discord)",
+        "MultiView (NEW)",
         "Slovenia vs Cyprus",
         "Sweden vs Greece",
         "Andorra vs Liechtenstein",
@@ -1029,6 +1165,10 @@
         {
           "label": "Stream Request (Discord)",
           "url": "https://discord.gg/JhkVmejRmn"
+        },
+        {
+          "label": "MultiView (NEW)",
+          "url": "https://roxiestreams.info/multiview"
         },
         {
           "label": "Slovenia vs Cyprus",
@@ -1078,6 +1218,7 @@
         "Fighting",
         "Motorsports",
         "Stream Request (Discord)",
+        "MultiView (NEW)",
         "Stream 1",
         "Switch to Chatango",
         "Stream Request (Discord)"
@@ -1118,6 +1259,10 @@
         {
           "label": "Stream Request (Discord)",
           "url": "https://discord.gg/JhkVmejRmn"
+        },
+        {
+          "label": "MultiView (NEW)",
+          "url": "https://roxiestreams.info/multiview"
         },
         {
           "label": "Stream Request (Discord)",
@@ -1139,6 +1284,7 @@
         "Fighting",
         "Motorsports",
         "Stream Request (Discord)",
+        "MultiView (NEW)",
         "Stream 1",
         "Switch to Chatango",
         "Stream Request (Discord)"
@@ -1179,6 +1325,10 @@
         {
           "label": "Stream Request (Discord)",
           "url": "https://discord.gg/JhkVmejRmn"
+        },
+        {
+          "label": "MultiView (NEW)",
+          "url": "https://roxiestreams.info/multiview"
         },
         {
           "label": "Stream Request (Discord)",
@@ -1200,6 +1350,7 @@
         "Fighting",
         "Motorsports",
         "Stream Request (Discord)",
+        "MultiView (NEW)",
         "Stream 1",
         "Switch to Chatango",
         "Stream Request (Discord)"
@@ -1240,6 +1391,10 @@
         {
           "label": "Stream Request (Discord)",
           "url": "https://discord.gg/JhkVmejRmn"
+        },
+        {
+          "label": "MultiView (NEW)",
+          "url": "https://roxiestreams.info/multiview"
         },
         {
           "label": "Stream Request (Discord)",
@@ -1261,7 +1416,9 @@
         "Fighting",
         "Motorsports",
         "Stream Request (Discord)",
+        "MultiView (NEW)",
         "Stream 1",
+        "Stream 2",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -1301,6 +1458,10 @@
         {
           "label": "Stream Request (Discord)",
           "url": "https://discord.gg/JhkVmejRmn"
+        },
+        {
+          "label": "MultiView (NEW)",
+          "url": "https://roxiestreams.info/multiview"
         },
         {
           "label": "Stream Request (Discord)",
@@ -1322,7 +1483,9 @@
         "Fighting",
         "Motorsports",
         "Stream Request (Discord)",
+        "MultiView (NEW)",
         "Stream 1",
+        "Stream 2",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -1362,6 +1525,10 @@
         {
           "label": "Stream Request (Discord)",
           "url": "https://discord.gg/JhkVmejRmn"
+        },
+        {
+          "label": "MultiView (NEW)",
+          "url": "https://roxiestreams.info/multiview"
         },
         {
           "label": "Stream Request (Discord)",
@@ -1383,6 +1550,7 @@
         "Fighting",
         "Motorsports",
         "Stream Request (Discord)",
+        "MultiView (NEW)",
         "Stream 1",
         "Switch to Chatango",
         "Stream Request (Discord)"
@@ -1423,6 +1591,10 @@
         {
           "label": "Stream Request (Discord)",
           "url": "https://discord.gg/JhkVmejRmn"
+        },
+        {
+          "label": "MultiView (NEW)",
+          "url": "https://roxiestreams.info/multiview"
         },
         {
           "label": "Stream Request (Discord)",
@@ -1444,6 +1616,7 @@
         "Fighting",
         "Motorsports",
         "Stream Request (Discord)",
+        "MultiView (NEW)",
         "Stream 1",
         "Switch to Chatango",
         "Stream Request (Discord)"
@@ -1484,6 +1657,10 @@
         {
           "label": "Stream Request (Discord)",
           "url": "https://discord.gg/JhkVmejRmn"
+        },
+        {
+          "label": "MultiView (NEW)",
+          "url": "https://roxiestreams.info/multiview"
         },
         {
           "label": "Stream Request (Discord)",
@@ -1507,6 +1684,7 @@
         "Fighting",
         "Motorsports",
         "Stream Request (Discord)",
+        "MultiView (NEW)",
         "San Diego Padres vs Philadelphia Phillies",
         "Baltimore Orioles vs Boston Red Sox",
         "Cleveland Guardians vs New York Yankees",
@@ -1554,6 +1732,10 @@
         {
           "label": "Stream Request (Discord)",
           "url": "https://discord.gg/JhkVmejRmn"
+        },
+        {
+          "label": "MultiView (NEW)",
+          "url": "https://roxiestreams.info/multiview"
         },
         {
           "label": "San Diego Padres vs Philadelphia Phillies",
@@ -1611,6 +1793,7 @@
         "Fighting",
         "Motorsports",
         "Stream Request (Discord)",
+        "MultiView (NEW)",
         "Stream 1",
         "Switch to Chatango",
         "Stream Request (Discord)"
@@ -1651,6 +1834,10 @@
         {
           "label": "Stream Request (Discord)",
           "url": "https://discord.gg/JhkVmejRmn"
+        },
+        {
+          "label": "MultiView (NEW)",
+          "url": "https://roxiestreams.info/multiview"
         },
         {
           "label": "Stream Request (Discord)",
@@ -1672,6 +1859,7 @@
         "Fighting",
         "Motorsports",
         "Stream Request (Discord)",
+        "MultiView (NEW)",
         "Stream 1",
         "Switch to Chatango",
         "Stream Request (Discord)"
@@ -1712,6 +1900,10 @@
         {
           "label": "Stream Request (Discord)",
           "url": "https://discord.gg/JhkVmejRmn"
+        },
+        {
+          "label": "MultiView (NEW)",
+          "url": "https://roxiestreams.info/multiview"
         },
         {
           "label": "Stream Request (Discord)",
@@ -1733,6 +1925,7 @@
         "Fighting",
         "Motorsports",
         "Stream Request (Discord)",
+        "MultiView (NEW)",
         "Stream 1",
         "Switch to Chatango",
         "Stream Request (Discord)"
@@ -1773,6 +1966,10 @@
         {
           "label": "Stream Request (Discord)",
           "url": "https://discord.gg/JhkVmejRmn"
+        },
+        {
+          "label": "MultiView (NEW)",
+          "url": "https://roxiestreams.info/multiview"
         },
         {
           "label": "Stream Request (Discord)",
@@ -1794,6 +1991,7 @@
         "Fighting",
         "Motorsports",
         "Stream Request (Discord)",
+        "MultiView (NEW)",
         "Stream 1",
         "Switch to Chatango",
         "Stream Request (Discord)"
@@ -1834,6 +2032,10 @@
         {
           "label": "Stream Request (Discord)",
           "url": "https://discord.gg/JhkVmejRmn"
+        },
+        {
+          "label": "MultiView (NEW)",
+          "url": "https://roxiestreams.info/multiview"
         },
         {
           "label": "Stream Request (Discord)",
@@ -1855,6 +2057,7 @@
         "Fighting",
         "Motorsports",
         "Stream Request (Discord)",
+        "MultiView (NEW)",
         "Stream 1",
         "Switch to Chatango",
         "Stream Request (Discord)"
@@ -1895,6 +2098,10 @@
         {
           "label": "Stream Request (Discord)",
           "url": "https://discord.gg/JhkVmejRmn"
+        },
+        {
+          "label": "MultiView (NEW)",
+          "url": "https://roxiestreams.info/multiview"
         },
         {
           "label": "Stream Request (Discord)",
@@ -1916,6 +2123,7 @@
         "Fighting",
         "Motorsports",
         "Stream Request (Discord)",
+        "MultiView (NEW)",
         "Stream 1",
         "Switch to Chatango",
         "Stream Request (Discord)"
@@ -1956,6 +2164,10 @@
         {
           "label": "Stream Request (Discord)",
           "url": "https://discord.gg/JhkVmejRmn"
+        },
+        {
+          "label": "MultiView (NEW)",
+          "url": "https://roxiestreams.info/multiview"
         },
         {
           "label": "Stream Request (Discord)",
@@ -1977,6 +2189,7 @@
         "Fighting",
         "Motorsports",
         "Stream Request (Discord)",
+        "MultiView (NEW)",
         "Stream 1",
         "Switch to Chatango",
         "Stream Request (Discord)"
@@ -2017,6 +2230,10 @@
         {
           "label": "Stream Request (Discord)",
           "url": "https://discord.gg/JhkVmejRmn"
+        },
+        {
+          "label": "MultiView (NEW)",
+          "url": "https://roxiestreams.info/multiview"
         },
         {
           "label": "Stream Request (Discord)",
@@ -2038,6 +2255,7 @@
         "Fighting",
         "Motorsports",
         "Stream Request (Discord)",
+        "MultiView (NEW)",
         "Stream 1",
         "Switch to Chatango",
         "Stream Request (Discord)"
@@ -2078,6 +2296,10 @@
         {
           "label": "Stream Request (Discord)",
           "url": "https://discord.gg/JhkVmejRmn"
+        },
+        {
+          "label": "MultiView (NEW)",
+          "url": "https://roxiestreams.info/multiview"
         },
         {
           "label": "Stream Request (Discord)",
@@ -2099,6 +2321,7 @@
         "Fighting",
         "Motorsports",
         "Stream Request (Discord)",
+        "MultiView (NEW)",
         "Stream 1",
         "Switch to Chatango",
         "Stream Request (Discord)"
@@ -2139,6 +2362,10 @@
         {
           "label": "Stream Request (Discord)",
           "url": "https://discord.gg/JhkVmejRmn"
+        },
+        {
+          "label": "MultiView (NEW)",
+          "url": "https://roxiestreams.info/multiview"
         },
         {
           "label": "Stream Request (Discord)",
@@ -2162,6 +2389,7 @@
         "Fighting",
         "Motorsports",
         "Stream Request (Discord)",
+        "MultiView (NEW)",
         "New York Knicks vs San Antonio Spurs",
         "Stream Request (Discord)"
       ],
@@ -2203,6 +2431,10 @@
           "url": "https://discord.gg/JhkVmejRmn"
         },
         {
+          "label": "MultiView (NEW)",
+          "url": "https://roxiestreams.info/multiview"
+        },
+        {
           "label": "New York Knicks vs San Antonio Spurs",
           "url": "https://roxiestreams.info/nba-streams-1"
         },
@@ -2226,6 +2458,7 @@
         "Fighting",
         "Motorsports",
         "Stream Request (Discord)",
+        "MultiView (NEW)",
         "Stream 1",
         "Stream 2",
         "Switch to Chatango",
@@ -2269,6 +2502,10 @@
           "url": "https://discord.gg/JhkVmejRmn"
         },
         {
+          "label": "MultiView (NEW)",
+          "url": "https://roxiestreams.info/multiview"
+        },
+        {
           "label": "Stream Request (Discord)",
           "url": "https://discord.gg/JhkVmejRmn"
         }
@@ -2290,6 +2527,7 @@
         "Fighting",
         "Motorsports",
         "Stream Request (Discord)",
+        "MultiView (NEW)",
         "Stream Request (Discord)"
       ],
       "links": [
@@ -2330,6 +2568,10 @@
           "url": "https://discord.gg/JhkVmejRmn"
         },
         {
+          "label": "MultiView (NEW)",
+          "url": "https://roxiestreams.info/multiview"
+        },
+        {
           "label": "Stream Request (Discord)",
           "url": "https://discord.gg/JhkVmejRmn"
         }
@@ -2351,6 +2593,7 @@
         "Fighting",
         "Motorsports",
         "Stream Request (Discord)",
+        "MultiView (NEW)",
         "Vegas Golden Knights vs Carolina Hurricanes",
         "Stream Request (Discord)"
       ],
@@ -2392,6 +2635,10 @@
           "url": "https://discord.gg/JhkVmejRmn"
         },
         {
+          "label": "MultiView (NEW)",
+          "url": "https://roxiestreams.info/multiview"
+        },
+        {
           "label": "Vegas Golden Knights vs Carolina Hurricanes",
           "url": "https://roxiestreams.info/nhl-streams-1"
         },
@@ -2415,6 +2662,7 @@
         "Fighting",
         "Motorsports",
         "Stream Request (Discord)",
+        "MultiView (NEW)",
         "Stream 1",
         "Stream 2",
         "PC ONLY (DIRECT)",
@@ -2459,6 +2707,10 @@
           "url": "https://discord.gg/JhkVmejRmn"
         },
         {
+          "label": "MultiView (NEW)",
+          "url": "https://roxiestreams.info/multiview"
+        },
+        {
           "label": "Stream Request (Discord)",
           "url": "https://discord.gg/JhkVmejRmn"
         }
@@ -2480,6 +2732,7 @@
         "Fighting",
         "Motorsports",
         "Stream Request (Discord)",
+        "MultiView (NEW)",
         "WWE Smackdown",
         "Stream Request (Discord)"
       ],
@@ -2521,6 +2774,10 @@
           "url": "https://discord.gg/JhkVmejRmn"
         },
         {
+          "label": "MultiView (NEW)",
+          "url": "https://roxiestreams.info/multiview"
+        },
+        {
           "label": "WWE Smackdown",
           "url": "https://roxiestreams.info/wwe-streams"
         },
@@ -2544,6 +2801,7 @@
         "Fighting",
         "Motorsports",
         "Stream Request (Discord)",
+        "MultiView (NEW)",
         "Stream 1",
         "Switch to Chatango",
         "Stream Request (Discord)"
@@ -2586,6 +2844,10 @@
           "url": "https://discord.gg/JhkVmejRmn"
         },
         {
+          "label": "MultiView (NEW)",
+          "url": "https://roxiestreams.info/multiview"
+        },
+        {
           "label": "Stream Request (Discord)",
           "url": "https://discord.gg/JhkVmejRmn"
         }
@@ -2607,6 +2869,7 @@
         "Fighting",
         "Motorsports",
         "Stream Request (Discord)",
+        "MultiView (NEW)",
         "Isle of Man TT - Coverage (CANCELLED)",
         "TEST",
         "Stream Request (Discord)"
@@ -2649,6 +2912,10 @@
           "url": "https://discord.gg/JhkVmejRmn"
         },
         {
+          "label": "MultiView (NEW)",
+          "url": "https://roxiestreams.info/multiview"
+        },
+        {
           "label": "Isle of Man TT - Coverage (CANCELLED)",
           "url": "https://roxiestreams.info/ppv-streams-1"
         },
@@ -2676,6 +2943,7 @@
         "Fighting",
         "Motorsports",
         "Stream Request (Discord)",
+        "MultiView (NEW)",
         "Stream 1",
         "Switch to Chatango",
         "Stream Request (Discord)"
@@ -2718,6 +2986,10 @@
           "url": "https://discord.gg/JhkVmejRmn"
         },
         {
+          "label": "MultiView (NEW)",
+          "url": "https://roxiestreams.info/multiview"
+        },
+        {
           "label": "Stream Request (Discord)",
           "url": "https://discord.gg/JhkVmejRmn"
         }
@@ -2737,6 +3009,7 @@
         "Fighting",
         "Motorsports",
         "Stream Request (Discord)",
+        "MultiView (NEW)",
         "Stream 1",
         "Stream 2",
         "Switch to Chatango",
@@ -2780,6 +3053,10 @@
           "url": "https://discord.gg/JhkVmejRmn"
         },
         {
+          "label": "MultiView (NEW)",
+          "url": "https://roxiestreams.info/multiview"
+        },
+        {
           "label": "Stream Request (Discord)",
           "url": "https://discord.gg/JhkVmejRmn"
         }
@@ -2799,6 +3076,7 @@
         "Fighting",
         "Motorsports",
         "Stream Request (Discord)",
+        "MultiView (NEW)",
         "Stream 1",
         "Switch to Chatango",
         "Stream Request (Discord)"
@@ -2841,8 +3119,76 @@
           "url": "https://discord.gg/JhkVmejRmn"
         },
         {
+          "label": "MultiView (NEW)",
+          "url": "https://roxiestreams.info/multiview"
+        },
+        {
           "label": "Stream Request (Discord)",
           "url": "https://discord.gg/JhkVmejRmn"
+        }
+      ]
+    },
+    "https://roxiestreams.info/multiview": {
+      "url": "https://roxiestreams.info/multiview",
+      "title": "Roxiestreams - Watch Live Sports, F1, UFC, NFL, TV",
+      "headings": [],
+      "controls": [
+        "RoxieStreams",
+        "Soccer",
+        "MLB",
+        "NBA",
+        "NFL",
+        "NHL",
+        "Fighting",
+        "Motorsports",
+        "Stream Request (Discord)",
+        "MultiView (NEW)",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "links": [
+        {
+          "label": "RoxieStreams",
+          "url": "https://roxiestreams.info/"
+        },
+        {
+          "label": "Soccer",
+          "url": "https://roxiestreams.info/soccer"
+        },
+        {
+          "label": "MLB",
+          "url": "https://roxiestreams.info/mlb"
+        },
+        {
+          "label": "NBA",
+          "url": "https://roxiestreams.info/nba"
+        },
+        {
+          "label": "NFL",
+          "url": "https://roxiestreams.info/nfl"
+        },
+        {
+          "label": "NHL",
+          "url": "https://roxiestreams.info/nhl"
+        },
+        {
+          "label": "Fighting",
+          "url": "https://roxiestreams.info/fighting"
+        },
+        {
+          "label": "Motorsports",
+          "url": "https://roxiestreams.info/motorsports"
+        },
+        {
+          "label": "Stream Request (Discord)",
+          "url": "https://discord.gg/JhkVmejRmn"
+        },
+        {
+          "label": "MultiView (NEW)",
+          "url": "https://roxiestreams.info/multiview"
         }
       ]
     }
@@ -2954,12 +3300,12 @@
         },
         {
           "label": "Stream 1",
-          "url": "https://daffodil.shadow-ran.online/byu.m3u8",
+          "url": "https://daffodil.shadow-ran.online/la.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-4",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "daffodil",
-          "path": "byu.m3u8",
+          "path": "la.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-4",
             "Origin": "https://roxiestreams.info",
@@ -2976,13 +3322,36 @@
           "display_name": "Spain vs Iraq - Stream 1"
         },
         {
-          "label": "Stream 1",
-          "url": "https://daffodil.shadow-ran.online/tnt.m3u8",
+          "label": "Stream 2",
+          "url": "https://601.shadow-ran.online/la.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-4",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "601",
+          "path": "la.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-4",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Spain vs Iraq",
+          "matchup": {
+            "home": "Spain",
+            "away": "Iraq"
+          },
+          "display_name": "Spain vs Iraq - Stream 2"
+        },
+        {
+          "label": "Stream 2",
+          "url": "https://601.shadow-ran.online/sky.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-5",
           "cdn_domain": "shadow-ran.online",
-          "subdomain": "daffodil",
-          "path": "tnt.m3u8",
+          "subdomain": "601",
+          "path": "sky.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-5",
             "Origin": "https://roxiestreams.info",
@@ -2996,7 +3365,7 @@
             "home": "France",
             "away": "Cote D'Ivoire"
           },
-          "display_name": "France vs Cote D'Ivoire - Stream 1"
+          "display_name": "France vs Cote D'Ivoire - Stream 2"
         },
         {
           "label": "Stream 1",
@@ -3619,9 +3988,118 @@
           "display_name": "aew.m3u8"
         }
       ]
+    },
+    "multiview": {
+      "pages": [
+        "https://roxiestreams.info/multiview"
+      ],
+      "streams": [
+        {
+          "label": "Direct Link",
+          "url": "https://601.formaturamaxi.com.br/mlb3.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/multiview",
+          "headers": {
+            "Referer": "https://roxiestreams.info/multiview",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "multiview",
+          "event_title": "MultiView (NEW)",
+          "matchup": null,
+          "display_name": "MultiView (NEW)"
+        },
+        {
+          "label": "Direct Link",
+          "url": "https://601.formaturamaxi.com.br/mlb5.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/multiview",
+          "headers": {
+            "Referer": "https://roxiestreams.info/multiview",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "multiview",
+          "event_title": "MultiView (NEW)",
+          "matchup": null,
+          "display_name": "MultiView (NEW)"
+        },
+        {
+          "label": "Direct Link",
+          "url": "https://601.formaturamaxi.com.br/mlb6.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/multiview",
+          "headers": {
+            "Referer": "https://roxiestreams.info/multiview",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "multiview",
+          "event_title": "MultiView (NEW)",
+          "matchup": null,
+          "display_name": "MultiView (NEW)"
+        },
+        {
+          "label": "Direct Link",
+          "url": "https://601.formaturamaxi.com.br/mlb7.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/multiview",
+          "headers": {
+            "Referer": "https://roxiestreams.info/multiview",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "multiview",
+          "event_title": "MultiView (NEW)",
+          "matchup": null,
+          "display_name": "MultiView (NEW)"
+        },
+        {
+          "label": "Direct Link",
+          "url": "https://601.formaturamaxi.com.br/mlb8.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/multiview",
+          "headers": {
+            "Referer": "https://roxiestreams.info/multiview",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "multiview",
+          "event_title": "MultiView (NEW)",
+          "matchup": null,
+          "display_name": "MultiView (NEW)"
+        },
+        {
+          "label": "Direct Link",
+          "url": "https://601.formaturamaxi.com.br/mlb9.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/multiview",
+          "headers": {
+            "Referer": "https://roxiestreams.info/multiview",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "multiview",
+          "event_title": "MultiView (NEW)",
+          "matchup": null,
+          "display_name": "MultiView (NEW)"
+        }
+      ]
     }
   },
-  "stream_count": 32,
+  "stream_count": 39,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
