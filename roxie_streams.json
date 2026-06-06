@@ -1,29 +1,44 @@
 {
-  "scraped_at": "2026-06-06T08:17:33+00:00",
+  "scraped_at": "2026-06-06T12:59:00+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
   ],
   "events": [
     {
-      "name": "Isle of Man TT",
+      "name": "Formula 1",
+      "page": "https://roxiestreams.info/f1",
+      "start_time": "June 6, 2026 3:30 AM"
+    },
+    {
+      "name": "Isle of Man TT - Coverage",
       "page": "https://roxiestreams.info/ppv-streams-1",
-      "start_time": "June 5, 2026 2:50 AM"
+      "start_time": "June 6, 2026 4:00 AM"
+    },
+    {
+      "name": "AMA Motocross (10/1PM)",
+      "page": "https://roxiestreams.info/supercross",
+      "start_time": "June 6, 2026 10:00 AM"
     },
     {
       "name": "Friendlies",
       "page": "https://roxiestreams.info/soccer",
-      "start_time": "June 5, 2026 9:30 AM"
+      "start_time": "June 6, 2026 10:45 AM"
     },
     {
-      "name": "WWE Smackdown",
-      "page": "https://roxiestreams.info/wwe-streams",
-      "start_time": "June 5, 2026 11:00 AM"
+      "name": "East vs West XXIV",
+      "page": "https://roxiestreams.info/ppv-streams-4",
+      "start_time": "June 6, 2026 10:00 AM"
     },
     {
-      "name": "NBA Finals",
-      "page": "https://roxiestreams.info/nba-streams-1",
-      "start_time": "June 5, 2026 5:30 PM"
+      "name": "UFC Vegas: Muhammad vs Bonfim",
+      "page": "https://roxiestreams.info/ufc",
+      "start_time": "June 6, 2026 2:00 PM"
+    },
+    {
+      "name": "NHL Finals",
+      "page": "https://roxiestreams.info/nhl-streams-1",
+      "start_time": "June 6, 2026 5:00 PM"
     }
   ],
   "events_by_sport": {
@@ -1249,12 +1264,12 @@
         "streams": [
           {
             "label": "Stream 1",
-            "url": "https://601.shadow-ran.online/ppv2.m3u8",
+            "url": "https://601.shadow-ran.online/ncaa6.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/ppv-streams-2",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "601",
-            "path": "ppv2.m3u8",
+            "path": "ncaa6.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/ppv-streams-2",
               "Origin": "https://roxiestreams.info",
@@ -1271,13 +1286,13 @@
             "display_name": "Zuffa Boxing 7: Billam Smith vs Rozicki - Stream 1"
           },
           {
-            "label": "ppv2.m3u8",
-            "url": "https://daffodil.shadow-ran.online/ppv2.m3u8",
+            "label": "ncaa6.m3u8",
+            "url": "https://daffodil.shadow-ran.online/ncaa6.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/ppv-streams-2",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "daffodil",
-            "path": "ppv2.m3u8",
+            "path": "ncaa6.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/ppv-streams-2",
               "Origin": "https://roxiestreams.info",
@@ -1291,7 +1306,7 @@
               "home": "Zuffa Boxing 7: Billam Smith",
               "away": "Rozicki"
             },
-            "display_name": "Zuffa Boxing 7: Billam Smith vs Rozicki - ppv2.m3u8"
+            "display_name": "Zuffa Boxing 7: Billam Smith vs Rozicki - ncaa6.m3u8"
           }
         ]
       },
@@ -1732,6 +1747,56 @@
         ]
       }
     ],
+    "f1": [
+      {
+        "title": "Formula 1",
+        "sport": "f1",
+        "matchup": null,
+        "page": "https://roxiestreams.info/f1",
+        "streams": [
+          {
+            "label": "Stream 1",
+            "url": "https://601.shadow-ran.online/f1.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/f1",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "601",
+            "path": "f1.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/f1",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "f1",
+            "event_title": "Formula 1",
+            "matchup": null,
+            "display_name": "Formula 1 - Stream 1"
+          },
+          {
+            "label": "Stream 2",
+            "url": "https://daffodil.shadow-ran.online/f1.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/f1",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "f1.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/f1",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "f1",
+            "event_title": "Formula 1",
+            "matchup": null,
+            "display_name": "Formula 1 - Stream 2"
+          }
+        ]
+      }
+    ],
     "ppv": [
       {
         "title": "Isle of Man TT - Coverage",
@@ -1780,54 +1845,190 @@
             "display_name": "Isle of Man TT - Coverage - tt.m3u8"
           }
         ]
-      }
-    ],
-    "wwe": [
+      },
       {
-        "title": "WWE Smackdown",
-        "sport": "wwe",
-        "matchup": null,
-        "page": "https://roxiestreams.info/wwe-streams",
+        "title": "East vs West XXIV",
+        "sport": "ppv",
+        "matchup": {
+          "home": "East",
+          "away": "West XXIV"
+        },
+        "page": "https://roxiestreams.info/ppv-streams-4",
         "streams": [
           {
             "label": "Stream 1",
-            "url": "https://601.shadow-ran.online/wwe.m3u8",
+            "url": "https://601.shadow-ran.online/ppv4.m3u8",
             "type": "m3u8",
-            "source_page": "https://roxiestreams.info/wwe-streams",
+            "source_page": "https://roxiestreams.info/ppv-streams-4",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "601",
-            "path": "wwe.m3u8",
+            "path": "ppv4.m3u8",
             "headers": {
-              "Referer": "https://roxiestreams.info/wwe-streams",
+              "Referer": "https://roxiestreams.info/ppv-streams-4",
               "Origin": "https://roxiestreams.info",
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
               "Accept": "*/*"
             },
             "drm_keys": null,
-            "sport": "wwe",
-            "event_title": "WWE Smackdown",
-            "matchup": null,
-            "display_name": "WWE Smackdown - Stream 1"
+            "sport": "ppv",
+            "event_title": "East vs West XXIV",
+            "matchup": {
+              "home": "East",
+              "away": "West XXIV"
+            },
+            "display_name": "East vs West XXIV - Stream 1"
           },
           {
-            "label": "wwe.m3u8",
-            "url": "https://daffodil.shadow-ran.online/wwe.m3u8",
+            "label": "ppv4.m3u8",
+            "url": "https://daffodil.shadow-ran.online/ppv4.m3u8",
             "type": "m3u8",
-            "source_page": "https://roxiestreams.info/wwe-streams",
+            "source_page": "https://roxiestreams.info/ppv-streams-4",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "daffodil",
-            "path": "wwe.m3u8",
+            "path": "ppv4.m3u8",
             "headers": {
-              "Referer": "https://roxiestreams.info/wwe-streams",
+              "Referer": "https://roxiestreams.info/ppv-streams-4",
               "Origin": "https://roxiestreams.info",
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
               "Accept": "*/*"
             },
             "drm_keys": null,
-            "sport": "wwe",
-            "event_title": "WWE Smackdown",
+            "sport": "ppv",
+            "event_title": "East vs West XXIV",
+            "matchup": {
+              "home": "East",
+              "away": "West XXIV"
+            },
+            "display_name": "East vs West XXIV - ppv4.m3u8"
+          }
+        ]
+      }
+    ],
+    "supercross": [
+      {
+        "title": "AMA Motocross (10/1PM)",
+        "sport": "supercross",
+        "matchup": null,
+        "page": "https://roxiestreams.info/supercross",
+        "streams": [
+          {
+            "label": "Stream 1",
+            "url": "https://601.shadow-ran.online/sx.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/supercross",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "601",
+            "path": "sx.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/supercross",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "supercross",
+            "event_title": "AMA Motocross (10/1PM)",
             "matchup": null,
-            "display_name": "WWE Smackdown - wwe.m3u8"
+            "display_name": "AMA Motocross (10/1PM) - Stream 1"
+          },
+          {
+            "label": "Stream 2",
+            "url": "https://daffodil.shadow-ran.online/sxalt.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/supercross",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "sxalt.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/supercross",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "supercross",
+            "event_title": "AMA Motocross (10/1PM)",
+            "matchup": null,
+            "display_name": "AMA Motocross (10/1PM) - Stream 2"
+          },
+          {
+            "label": "sx.m3u8",
+            "url": "https://daffodil.shadow-ran.online/sx.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/supercross",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "sx.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/supercross",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "supercross",
+            "event_title": "AMA Motocross (10/1PM)",
+            "matchup": null,
+            "display_name": "AMA Motocross (10/1PM) - sx.m3u8"
+          }
+        ]
+      }
+    ],
+    "ufc": [
+      {
+        "title": "UFC Vegas: Muhammad vs Bonfim",
+        "sport": "ufc",
+        "matchup": {
+          "home": "UFC Vegas: Muhammad",
+          "away": "Bonfim"
+        },
+        "page": "https://roxiestreams.info/ufc",
+        "streams": [
+          {
+            "label": "Stream 1",
+            "url": "https://601.shadow-ran.online/ataide.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/ufc",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "601",
+            "path": "ataide.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/ufc",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "ufc",
+            "event_title": "UFC Vegas: Muhammad vs Bonfim",
+            "matchup": {
+              "home": "UFC Vegas: Muhammad",
+              "away": "Bonfim"
+            },
+            "display_name": "UFC Vegas: Muhammad vs Bonfim - Stream 1"
+          },
+          {
+            "label": "Stream 2",
+            "url": "https://daffodil.shadow-ran.online/ataide.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/ufc",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "ataide.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/ufc",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "ufc",
+            "event_title": "UFC Vegas: Muhammad vs Bonfim",
+            "matchup": {
+              "home": "UFC Vegas: Muhammad",
+              "away": "Bonfim"
+            },
+            "display_name": "UFC Vegas: Muhammad vs Bonfim - Stream 2"
           }
         ]
       }
@@ -4699,8 +4900,8 @@
         }
       ]
     },
-    "https://roxiestreams.info/wwe-streams": {
-      "url": "https://roxiestreams.info/wwe-streams",
+    "https://roxiestreams.info/f1": {
+      "url": "https://roxiestreams.info/f1",
       "title": "Roxiestreams - Watch Live Sports, F1, UFC, NFL, TV",
       "headings": [],
       "controls": [
@@ -4715,6 +4916,141 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Stream 1",
+        "Stream 2",
+        "Switch to Chatango",
+        "Stream Request (Discord)"
+      ],
+      "links": [
+        {
+          "label": "RoxieStreams",
+          "url": "https://roxiestreams.info/"
+        },
+        {
+          "label": "Soccer",
+          "url": "https://roxiestreams.info/soccer"
+        },
+        {
+          "label": "MLB",
+          "url": "https://roxiestreams.info/mlb"
+        },
+        {
+          "label": "NBA",
+          "url": "https://roxiestreams.info/nba"
+        },
+        {
+          "label": "NFL",
+          "url": "https://roxiestreams.info/nfl"
+        },
+        {
+          "label": "NHL",
+          "url": "https://roxiestreams.info/nhl"
+        },
+        {
+          "label": "Fighting",
+          "url": "https://roxiestreams.info/fighting"
+        },
+        {
+          "label": "Motorsports",
+          "url": "https://roxiestreams.info/motorsports"
+        },
+        {
+          "label": "Stream Request (Discord)",
+          "url": "https://discord.gg/JhkVmejRmn"
+        },
+        {
+          "label": "MultiView (NEW)",
+          "url": "https://roxiestreams.info/multiview"
+        },
+        {
+          "label": "Stream Request (Discord)",
+          "url": "https://discord.gg/JhkVmejRmn"
+        }
+      ]
+    },
+    "https://roxiestreams.info/supercross": {
+      "url": "https://roxiestreams.info/supercross",
+      "title": "Roxiestreams - Watch Live Sports, F1, UFC, NFL, TV",
+      "headings": [],
+      "controls": [
+        "RoxieStreams",
+        "Soccer",
+        "MLB",
+        "NBA",
+        "NFL",
+        "NHL",
+        "Fighting",
+        "Motorsports",
+        "Stream Request (Discord)",
+        "MultiView (NEW)",
+        "Stream 1",
+        "Stream 2",
+        "Switch to Chatango",
+        "Stream Request (Discord)"
+      ],
+      "links": [
+        {
+          "label": "RoxieStreams",
+          "url": "https://roxiestreams.info/"
+        },
+        {
+          "label": "Soccer",
+          "url": "https://roxiestreams.info/soccer"
+        },
+        {
+          "label": "MLB",
+          "url": "https://roxiestreams.info/mlb"
+        },
+        {
+          "label": "NBA",
+          "url": "https://roxiestreams.info/nba"
+        },
+        {
+          "label": "NFL",
+          "url": "https://roxiestreams.info/nfl"
+        },
+        {
+          "label": "NHL",
+          "url": "https://roxiestreams.info/nhl"
+        },
+        {
+          "label": "Fighting",
+          "url": "https://roxiestreams.info/fighting"
+        },
+        {
+          "label": "Motorsports",
+          "url": "https://roxiestreams.info/motorsports"
+        },
+        {
+          "label": "Stream Request (Discord)",
+          "url": "https://discord.gg/JhkVmejRmn"
+        },
+        {
+          "label": "MultiView (NEW)",
+          "url": "https://roxiestreams.info/multiview"
+        },
+        {
+          "label": "Stream Request (Discord)",
+          "url": "https://discord.gg/JhkVmejRmn"
+        }
+      ]
+    },
+    "https://roxiestreams.info/ufc": {
+      "url": "https://roxiestreams.info/ufc",
+      "title": "Roxiestreams - Watch Live Sports, F1, UFC, NFL, TV",
+      "headings": [],
+      "controls": [
+        "RoxieStreams",
+        "Soccer",
+        "MLB",
+        "NBA",
+        "NFL",
+        "NHL",
+        "Fighting",
+        "Motorsports",
+        "Stream Request (Discord)",
+        "MultiView (NEW)",
+        "Stream 1",
+        "Stream 2",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -5742,12 +6078,12 @@
       "streams": [
         {
           "label": "Stream 1",
-          "url": "https://601.shadow-ran.online/ppv2.m3u8",
+          "url": "https://601.shadow-ran.online/ncaa6.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/ppv-streams-2",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "601",
-          "path": "ppv2.m3u8",
+          "path": "ncaa6.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/ppv-streams-2",
             "Origin": "https://roxiestreams.info",
@@ -5764,13 +6100,13 @@
           "display_name": "Zuffa Boxing 7: Billam Smith vs Rozicki - Stream 1"
         },
         {
-          "label": "ppv2.m3u8",
-          "url": "https://daffodil.shadow-ran.online/ppv2.m3u8",
+          "label": "ncaa6.m3u8",
+          "url": "https://daffodil.shadow-ran.online/ncaa6.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/ppv-streams-2",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "daffodil",
-          "path": "ppv2.m3u8",
+          "path": "ncaa6.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/ppv-streams-2",
             "Origin": "https://roxiestreams.info",
@@ -5784,7 +6120,7 @@
             "home": "Zuffa Boxing 7: Billam Smith",
             "away": "Rozicki"
           },
-          "display_name": "Zuffa Boxing 7: Billam Smith vs Rozicki - ppv2.m3u8"
+          "display_name": "Zuffa Boxing 7: Billam Smith vs Rozicki - ncaa6.m3u8"
         },
         {
           "label": "Stream 1",
@@ -6186,9 +6522,57 @@
         }
       ]
     },
+    "f1": {
+      "pages": [
+        "https://roxiestreams.info/f1"
+      ],
+      "streams": [
+        {
+          "label": "Stream 1",
+          "url": "https://601.shadow-ran.online/f1.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/f1",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "601",
+          "path": "f1.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/f1",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "f1",
+          "event_title": "Formula 1",
+          "matchup": null,
+          "display_name": "Formula 1 - Stream 1"
+        },
+        {
+          "label": "Stream 2",
+          "url": "https://daffodil.shadow-ran.online/f1.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/f1",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "f1.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/f1",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "f1",
+          "event_title": "Formula 1",
+          "matchup": null,
+          "display_name": "Formula 1 - Stream 2"
+        }
+      ]
+    },
     "ppv": {
       "pages": [
-        "https://roxiestreams.info/ppv-streams-1"
+        "https://roxiestreams.info/ppv-streams-1",
+        "https://roxiestreams.info/ppv-streams-4"
       ],
       "streams": [
         {
@@ -6230,58 +6614,177 @@
           "event_title": "Isle of Man TT - Coverage",
           "matchup": null,
           "display_name": "Isle of Man TT - Coverage - tt.m3u8"
+        },
+        {
+          "label": "Stream 1",
+          "url": "https://601.shadow-ran.online/ppv4.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/ppv-streams-4",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "601",
+          "path": "ppv4.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/ppv-streams-4",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "ppv",
+          "event_title": "East vs West XXIV",
+          "matchup": {
+            "home": "East",
+            "away": "West XXIV"
+          },
+          "display_name": "East vs West XXIV - Stream 1"
+        },
+        {
+          "label": "ppv4.m3u8",
+          "url": "https://daffodil.shadow-ran.online/ppv4.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/ppv-streams-4",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "ppv4.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/ppv-streams-4",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "ppv",
+          "event_title": "East vs West XXIV",
+          "matchup": {
+            "home": "East",
+            "away": "West XXIV"
+          },
+          "display_name": "East vs West XXIV - ppv4.m3u8"
         }
       ]
     },
-    "wwe": {
+    "supercross": {
       "pages": [
-        "https://roxiestreams.info/wwe-streams"
+        "https://roxiestreams.info/supercross"
       ],
       "streams": [
         {
           "label": "Stream 1",
-          "url": "https://601.shadow-ran.online/wwe.m3u8",
+          "url": "https://601.shadow-ran.online/sx.m3u8",
           "type": "m3u8",
-          "source_page": "https://roxiestreams.info/wwe-streams",
+          "source_page": "https://roxiestreams.info/supercross",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "601",
-          "path": "wwe.m3u8",
+          "path": "sx.m3u8",
           "headers": {
-            "Referer": "https://roxiestreams.info/wwe-streams",
+            "Referer": "https://roxiestreams.info/supercross",
             "Origin": "https://roxiestreams.info",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
             "Accept": "*/*"
           },
           "drm_keys": null,
-          "sport": "wwe",
-          "event_title": "WWE Smackdown",
+          "sport": "supercross",
+          "event_title": "AMA Motocross (10/1PM)",
           "matchup": null,
-          "display_name": "WWE Smackdown - Stream 1"
+          "display_name": "AMA Motocross (10/1PM) - Stream 1"
         },
         {
-          "label": "wwe.m3u8",
-          "url": "https://daffodil.shadow-ran.online/wwe.m3u8",
+          "label": "Stream 2",
+          "url": "https://daffodil.shadow-ran.online/sxalt.m3u8",
           "type": "m3u8",
-          "source_page": "https://roxiestreams.info/wwe-streams",
+          "source_page": "https://roxiestreams.info/supercross",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "daffodil",
-          "path": "wwe.m3u8",
+          "path": "sxalt.m3u8",
           "headers": {
-            "Referer": "https://roxiestreams.info/wwe-streams",
+            "Referer": "https://roxiestreams.info/supercross",
             "Origin": "https://roxiestreams.info",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
             "Accept": "*/*"
           },
           "drm_keys": null,
-          "sport": "wwe",
-          "event_title": "WWE Smackdown",
+          "sport": "supercross",
+          "event_title": "AMA Motocross (10/1PM)",
           "matchup": null,
-          "display_name": "WWE Smackdown - wwe.m3u8"
+          "display_name": "AMA Motocross (10/1PM) - Stream 2"
+        },
+        {
+          "label": "sx.m3u8",
+          "url": "https://daffodil.shadow-ran.online/sx.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/supercross",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "sx.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/supercross",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "supercross",
+          "event_title": "AMA Motocross (10/1PM)",
+          "matchup": null,
+          "display_name": "AMA Motocross (10/1PM) - sx.m3u8"
+        }
+      ]
+    },
+    "ufc": {
+      "pages": [
+        "https://roxiestreams.info/ufc"
+      ],
+      "streams": [
+        {
+          "label": "Stream 1",
+          "url": "https://601.shadow-ran.online/ataide.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/ufc",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "601",
+          "path": "ataide.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/ufc",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "ufc",
+          "event_title": "UFC Vegas: Muhammad vs Bonfim",
+          "matchup": {
+            "home": "UFC Vegas: Muhammad",
+            "away": "Bonfim"
+          },
+          "display_name": "UFC Vegas: Muhammad vs Bonfim - Stream 1"
+        },
+        {
+          "label": "Stream 2",
+          "url": "https://daffodil.shadow-ran.online/ataide.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/ufc",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "ataide.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/ufc",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "ufc",
+          "event_title": "UFC Vegas: Muhammad vs Bonfim",
+          "matchup": {
+            "home": "UFC Vegas: Muhammad",
+            "away": "Bonfim"
+          },
+          "display_name": "UFC Vegas: Muhammad vs Bonfim - Stream 2"
         }
       ]
     }
   },
-  "stream_count": 67,
+  "stream_count": 74,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
