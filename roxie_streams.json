@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-10T18:28:32+00:00",
+  "scraped_at": "2026-06-10T21:24:03+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
@@ -39,12 +39,12 @@
         "streams": [
           {
             "label": "Stream 1",
-            "url": "https://daffodil.shadow-ran.online/fsp.m3u8",
+            "url": "https://601.shadow-ran.online/foxso.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-1",
             "cdn_domain": "shadow-ran.online",
-            "subdomain": "daffodil",
-            "path": "fsp.m3u8",
+            "subdomain": "601",
+            "path": "foxso.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-1",
               "Origin": "https://roxiestreams.info",
@@ -61,13 +61,13 @@
             "display_name": "Portugal vs Nigeria - Stream 1"
           },
           {
-            "label": "Stream 2",
-            "url": "https://601.shadow-ran.online/skymx.m3u8",
+            "label": "Stream 2 (ES)",
+            "url": "https://601.shadow-ran.online/vix1.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-1",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "601",
-            "path": "skymx.m3u8",
+            "path": "vix1.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-1",
               "Origin": "https://roxiestreams.info",
@@ -81,7 +81,81 @@
               "home": "Portugal",
               "away": "Nigeria"
             },
-            "display_name": "Portugal vs Nigeria - Stream 2"
+            "display_name": "Portugal vs Nigeria - Stream 2 (ES)"
+          },
+          {
+            "label": "Stream 3 (PT)",
+            "url": "https://601.shadow-ran.online/sportv1.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-1",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "601",
+            "path": "sportv1.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-1",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Portugal vs Nigeria",
+            "matchup": {
+              "home": "Portugal",
+              "away": "Nigeria"
+            },
+            "display_name": "Portugal vs Nigeria - Stream 3 (PT)"
+          },
+          {
+            "label": "foxso.m3u8",
+            "url": "https://daffodil.shadow-ran.online/foxso.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-1",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "foxso.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-1",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Portugal vs Nigeria",
+            "matchup": {
+              "home": "Portugal",
+              "away": "Nigeria"
+            },
+            "display_name": "Portugal vs Nigeria - foxso.m3u8"
+          }
+        ]
+      },
+      {
+        "title": "Stream 1",
+        "sport": "soccer",
+        "matchup": null,
+        "page": "https://roxiestreams.info/soccer-streams-2",
+        "streams": [
+          {
+            "label": "Stream 1",
+            "url": "https://daffodil.shadow-ran.online/fsp.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-2",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "fsp.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-2",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Stream 1",
+            "matchup": null,
+            "display_name": "Stream 1"
           }
         ]
       },
@@ -96,29 +170,6 @@
         "streams": [
           {
             "label": "Stream 1",
-            "url": "https://601.shadow-ran.online/itv.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/soccer-streams-3",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "601",
-            "path": "itv.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/soccer-streams-3",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "soccer",
-            "event_title": "England vs Costa Rica",
-            "matchup": {
-              "home": "England",
-              "away": "Costa Rica"
-            },
-            "display_name": "England vs Costa Rica - Stream 1"
-          },
-          {
-            "label": "Stream 2",
             "url": "https://daffodil.shadow-ran.online/fs2.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-3",
@@ -138,15 +189,15 @@
               "home": "England",
               "away": "Costa Rica"
             },
-            "display_name": "England vs Costa Rica - Stream 2"
+            "display_name": "England vs Costa Rica - Stream 1"
           },
           {
-            "label": "itv.m3u8",
-            "url": "https://daffodil.shadow-ran.online/itv.m3u8",
+            "label": "Stream 2",
+            "url": "https://601.shadow-ran.online/itv.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-3",
             "cdn_domain": "shadow-ran.online",
-            "subdomain": "daffodil",
+            "subdomain": "601",
             "path": "itv.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-3",
@@ -161,7 +212,30 @@
               "home": "England",
               "away": "Costa Rica"
             },
-            "display_name": "England vs Costa Rica - itv.m3u8"
+            "display_name": "England vs Costa Rica - Stream 2"
+          },
+          {
+            "label": "Stream 3 (ES)",
+            "url": "https://601.shadow-ran.online/vix2.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-3",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "601",
+            "path": "vix2.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-3",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "England vs Costa Rica",
+            "matchup": {
+              "home": "England",
+              "away": "Costa Rica"
+            },
+            "display_name": "England vs Costa Rica - Stream 3 (ES)"
           }
         ]
       }
@@ -1114,23 +1188,6 @@
             "event_title": "MultiView (NEW)",
             "matchup": null,
             "display_name": "MultiView (NEW)"
-          },
-          {
-            "label": "Direct Link",
-            "url": "https://601.formaturamaxi.com.br/mxgp.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/multiview",
-            "headers": {
-              "Referer": "https://roxiestreams.info/multiview",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "multiview",
-            "event_title": "MultiView (NEW)",
-            "matchup": null,
-            "display_name": "MultiView (NEW)"
           }
         ]
       }
@@ -1161,26 +1218,6 @@
             "event_title": "WEC",
             "matchup": null,
             "display_name": "WEC - Stream 1"
-          },
-          {
-            "label": "Stream 2",
-            "url": "https://daffodil.shadow-ran.online/tnt3.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/wec",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "daffodil",
-            "path": "tnt3.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/wec",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "wec",
-            "event_title": "WEC",
-            "matchup": null,
-            "display_name": "WEC - Stream 2"
           },
           {
             "label": "wec.m3u8",
@@ -1225,7 +1262,6 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Portugal vs Nigeria",
-        "Bolivia vs Algeria",
         "England vs Costa Rica",
         "Stream Request (Discord)"
       ],
@@ -1275,10 +1311,6 @@
           "url": "https://roxiestreams.info/soccer-streams-1"
         },
         {
-          "label": "Bolivia vs Algeria",
-          "url": "https://roxiestreams.info/soccer-streams-2"
-        },
-        {
           "label": "England vs Costa Rica",
           "url": "https://roxiestreams.info/soccer-streams-3"
         },
@@ -1304,7 +1336,8 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Stream 1",
-        "Stream 2",
+        "Stream 2 (ES)",
+        "Stream 3 (PT)",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -1438,6 +1471,7 @@
         "MultiView (NEW)",
         "Stream 1",
         "Stream 2",
+        "Stream 3 (ES)",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -3101,7 +3135,7 @@
         },
         {
           "label": "WEC - Qualifying 2",
-          "url": "https://roxiestreams.info/mxgp"
+          "url": "https://roxiestreams.info/wec"
         },
         {
           "label": "Stream Request (Discord)",
@@ -3255,7 +3289,6 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Stream 1",
-        "Stream 2",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -3318,12 +3351,12 @@
       "streams": [
         {
           "label": "Stream 1",
-          "url": "https://daffodil.shadow-ran.online/fsp.m3u8",
+          "url": "https://601.shadow-ran.online/foxso.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-1",
           "cdn_domain": "shadow-ran.online",
-          "subdomain": "daffodil",
-          "path": "fsp.m3u8",
+          "subdomain": "601",
+          "path": "foxso.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-1",
             "Origin": "https://roxiestreams.info",
@@ -3340,13 +3373,13 @@
           "display_name": "Portugal vs Nigeria - Stream 1"
         },
         {
-          "label": "Stream 2",
-          "url": "https://601.shadow-ran.online/skymx.m3u8",
+          "label": "Stream 2 (ES)",
+          "url": "https://601.shadow-ran.online/vix1.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-1",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "601",
-          "path": "skymx.m3u8",
+          "path": "vix1.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-1",
             "Origin": "https://roxiestreams.info",
@@ -3360,33 +3393,76 @@
             "home": "Portugal",
             "away": "Nigeria"
           },
-          "display_name": "Portugal vs Nigeria - Stream 2"
+          "display_name": "Portugal vs Nigeria - Stream 2 (ES)"
         },
         {
-          "label": "Stream 1",
-          "url": "https://601.shadow-ran.online/itv.m3u8",
+          "label": "Stream 3 (PT)",
+          "url": "https://601.shadow-ran.online/sportv1.m3u8",
           "type": "m3u8",
-          "source_page": "https://roxiestreams.info/soccer-streams-3",
+          "source_page": "https://roxiestreams.info/soccer-streams-1",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "601",
-          "path": "itv.m3u8",
+          "path": "sportv1.m3u8",
           "headers": {
-            "Referer": "https://roxiestreams.info/soccer-streams-3",
+            "Referer": "https://roxiestreams.info/soccer-streams-1",
             "Origin": "https://roxiestreams.info",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
             "Accept": "*/*"
           },
           "drm_keys": null,
           "sport": "soccer",
-          "event_title": "England vs Costa Rica",
+          "event_title": "Portugal vs Nigeria",
           "matchup": {
-            "home": "England",
-            "away": "Costa Rica"
+            "home": "Portugal",
+            "away": "Nigeria"
           },
-          "display_name": "England vs Costa Rica - Stream 1"
+          "display_name": "Portugal vs Nigeria - Stream 3 (PT)"
         },
         {
-          "label": "Stream 2",
+          "label": "foxso.m3u8",
+          "url": "https://daffodil.shadow-ran.online/foxso.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-1",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "foxso.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-1",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Portugal vs Nigeria",
+          "matchup": {
+            "home": "Portugal",
+            "away": "Nigeria"
+          },
+          "display_name": "Portugal vs Nigeria - foxso.m3u8"
+        },
+        {
+          "label": "Stream 1",
+          "url": "https://daffodil.shadow-ran.online/fsp.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-2",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "fsp.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-2",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Stream 1",
+          "matchup": null,
+          "display_name": "Stream 1"
+        },
+        {
+          "label": "Stream 1",
           "url": "https://daffodil.shadow-ran.online/fs2.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-3",
@@ -3406,15 +3482,15 @@
             "home": "England",
             "away": "Costa Rica"
           },
-          "display_name": "England vs Costa Rica - Stream 2"
+          "display_name": "England vs Costa Rica - Stream 1"
         },
         {
-          "label": "itv.m3u8",
-          "url": "https://daffodil.shadow-ran.online/itv.m3u8",
+          "label": "Stream 2",
+          "url": "https://601.shadow-ran.online/itv.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-3",
           "cdn_domain": "shadow-ran.online",
-          "subdomain": "daffodil",
+          "subdomain": "601",
           "path": "itv.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-3",
@@ -3429,7 +3505,30 @@
             "home": "England",
             "away": "Costa Rica"
           },
-          "display_name": "England vs Costa Rica - itv.m3u8"
+          "display_name": "England vs Costa Rica - Stream 2"
+        },
+        {
+          "label": "Stream 3 (ES)",
+          "url": "https://601.shadow-ran.online/vix2.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-3",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "601",
+          "path": "vix2.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-3",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "England vs Costa Rica",
+          "matchup": {
+            "home": "England",
+            "away": "Costa Rica"
+          },
+          "display_name": "England vs Costa Rica - Stream 3 (ES)"
         }
       ]
     },
@@ -4236,23 +4335,6 @@
           "event_title": "MultiView (NEW)",
           "matchup": null,
           "display_name": "MultiView (NEW)"
-        },
-        {
-          "label": "Direct Link",
-          "url": "https://601.formaturamaxi.com.br/mxgp.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/multiview",
-          "headers": {
-            "Referer": "https://roxiestreams.info/multiview",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "multiview",
-          "event_title": "MultiView (NEW)",
-          "matchup": null,
-          "display_name": "MultiView (NEW)"
         }
       ]
     },
@@ -4282,26 +4364,6 @@
           "display_name": "WEC - Stream 1"
         },
         {
-          "label": "Stream 2",
-          "url": "https://daffodil.shadow-ran.online/tnt3.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/wec",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "daffodil",
-          "path": "tnt3.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/wec",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "wec",
-          "event_title": "WEC",
-          "matchup": null,
-          "display_name": "WEC - Stream 2"
-        },
-        {
           "label": "wec.m3u8",
           "url": "https://daffodil.shadow-ran.online/wec.m3u8",
           "type": "m3u8",
@@ -4324,7 +4386,7 @@
       ]
     }
   },
-  "stream_count": 46,
+  "stream_count": 47,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
