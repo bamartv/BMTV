@@ -1,24 +1,24 @@
 {
-  "scraped_at": "2026-06-12T08:21:42+00:00",
+  "scraped_at": "2026-06-12T12:15:55+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
   ],
   "events": [
     {
-      "name": "WEC",
-      "page": "https://roxiestreams.info/wec",
-      "start_time": "June 11, 2026 7:45 AM"
+      "name": "Formula 1 - Free Practice",
+      "page": "https://roxiestreams.info/f1",
+      "start_time": "June 12, 2026 6:30 AM"
     },
     {
-      "name": "World Cup GROUP A",
+      "name": "World Cup GROUP B",
       "page": "https://roxiestreams.info/soccer",
-      "start_time": "June 11, 2026 12:00 PM"
+      "start_time": "June 12, 2026 12:00 PM"
     },
     {
-      "name": "NHL Finals",
-      "page": "https://roxiestreams.info/nhl-streams-1",
-      "start_time": "June 11, 2026 5:00 PM"
+      "name": "WWE Smackdown",
+      "page": "https://roxiestreams.info/wwe-streams",
+      "start_time": "June 12, 2026 5:00 PM"
     }
   ],
   "events_by_sport": {
@@ -56,6 +56,29 @@
             "display_name": "Canada vs Bosnia & Herzegovina - TSN"
           },
           {
+            "label": "FOX",
+            "url": "https://daffodil.shadow-ran.online/fox.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-1",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "fox.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-1",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Canada vs Bosnia & Herzegovina",
+            "matchup": {
+              "home": "Canada",
+              "away": "Bosnia & Herzegovina"
+            },
+            "display_name": "Canada vs Bosnia & Herzegovina - FOX"
+          },
+          {
             "label": "TELEMUNDO",
             "url": "https://daffodil.shadow-ran.online/tele.m3u8",
             "type": "m3u8",
@@ -77,29 +100,6 @@
               "away": "Bosnia & Herzegovina"
             },
             "display_name": "Canada vs Bosnia & Herzegovina - TELEMUNDO"
-          },
-          {
-            "label": "FOX",
-            "url": "https://601.shadow-ran.online/fox.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/soccer-streams-1",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "601",
-            "path": "fox.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/soccer-streams-1",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "soccer",
-            "event_title": "Canada vs Bosnia & Herzegovina",
-            "matchup": {
-              "home": "Canada",
-              "away": "Bosnia & Herzegovina"
-            },
-            "display_name": "Canada vs Bosnia & Herzegovina - FOX"
           }
         ]
       },
@@ -1191,52 +1191,102 @@
         ]
       }
     ],
-    "wec": [
+    "f1": [
       {
-        "title": "WEC",
-        "sport": "wec",
+        "title": "Formula 1 - Free Practice",
+        "sport": "f1",
         "matchup": null,
-        "page": "https://roxiestreams.info/wec",
+        "page": "https://roxiestreams.info/f1",
         "streams": [
           {
             "label": "Stream 1",
-            "url": "https://601.shadow-ran.online/wec.m3u8",
+            "url": "https://daffodil.shadow-ran.online/f1.m3u8",
             "type": "m3u8",
-            "source_page": "https://roxiestreams.info/wec",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "601",
-            "path": "wec.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/wec",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "wec",
-            "event_title": "WEC",
-            "matchup": null,
-            "display_name": "WEC - Stream 1"
-          },
-          {
-            "label": "wec.m3u8",
-            "url": "https://daffodil.shadow-ran.online/wec.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/wec",
+            "source_page": "https://roxiestreams.info/f1",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "daffodil",
-            "path": "wec.m3u8",
+            "path": "f1.m3u8",
             "headers": {
-              "Referer": "https://roxiestreams.info/wec",
+              "Referer": "https://roxiestreams.info/f1",
               "Origin": "https://roxiestreams.info",
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
               "Accept": "*/*"
             },
             "drm_keys": null,
-            "sport": "wec",
-            "event_title": "WEC",
+            "sport": "f1",
+            "event_title": "Formula 1 - Free Practice",
             "matchup": null,
-            "display_name": "WEC - wec.m3u8"
+            "display_name": "Formula 1 - Free Practice - Stream 1"
+          },
+          {
+            "label": "Stream 2",
+            "url": "https://601.shadow-ran.online/506.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/f1",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "601",
+            "path": "506.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/f1",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "f1",
+            "event_title": "Formula 1 - Free Practice",
+            "matchup": null,
+            "display_name": "Formula 1 - Free Practice - Stream 2"
+          }
+        ]
+      }
+    ],
+    "wwe": [
+      {
+        "title": "WWE Smackdown",
+        "sport": "wwe",
+        "matchup": null,
+        "page": "https://roxiestreams.info/wwe-streams",
+        "streams": [
+          {
+            "label": "Stream 1",
+            "url": "https://601.shadow-ran.online/wwe.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/wwe-streams",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "601",
+            "path": "wwe.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/wwe-streams",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "wwe",
+            "event_title": "WWE Smackdown",
+            "matchup": null,
+            "display_name": "WWE Smackdown - Stream 1"
+          },
+          {
+            "label": "wwe.m3u8",
+            "url": "https://daffodil.shadow-ran.online/wwe.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/wwe-streams",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "wwe.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/wwe-streams",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "wwe",
+            "event_title": "WWE Smackdown",
+            "matchup": null,
+            "display_name": "WWE Smackdown - wwe.m3u8"
           }
         ]
       }
@@ -1334,10 +1384,10 @@
         "Motorsports",
         "Stream Request (Discord)",
         "TSN",
-        "TELEMUNDO",
         "FOX",
+        "TELEMUNDO",
         "PC ONLY (DIRECT)",
-        "Tele (Peacock)",
+        "Telemundo (PC)",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -3271,8 +3321,8 @@
         }
       ]
     },
-    "https://roxiestreams.info/wec": {
-      "url": "https://roxiestreams.info/wec",
+    "https://roxiestreams.info/f1": {
+      "url": "https://roxiestreams.info/f1",
       "title": "Roxiestreams - Watch Live Sports, F1, UFC, NFL, TV",
       "headings": [],
       "controls": [
@@ -3287,6 +3337,7 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Stream 1",
+        "Stream 2",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -3370,6 +3421,29 @@
           "display_name": "Canada vs Bosnia & Herzegovina - TSN"
         },
         {
+          "label": "FOX",
+          "url": "https://daffodil.shadow-ran.online/fox.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-1",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "fox.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-1",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Canada vs Bosnia & Herzegovina",
+          "matchup": {
+            "home": "Canada",
+            "away": "Bosnia & Herzegovina"
+          },
+          "display_name": "Canada vs Bosnia & Herzegovina - FOX"
+        },
+        {
           "label": "TELEMUNDO",
           "url": "https://daffodil.shadow-ran.online/tele.m3u8",
           "type": "m3u8",
@@ -3391,29 +3465,6 @@
             "away": "Bosnia & Herzegovina"
           },
           "display_name": "Canada vs Bosnia & Herzegovina - TELEMUNDO"
-        },
-        {
-          "label": "FOX",
-          "url": "https://601.shadow-ran.online/fox.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/soccer-streams-1",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "601",
-          "path": "fox.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/soccer-streams-1",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "soccer",
-          "event_title": "Canada vs Bosnia & Herzegovina",
-          "matchup": {
-            "home": "Canada",
-            "away": "Bosnia & Herzegovina"
-          },
-          "display_name": "Canada vs Bosnia & Herzegovina - FOX"
         },
         {
           "label": "Direct Link",
@@ -4332,55 +4383,102 @@
         }
       ]
     },
-    "wec": {
+    "f1": {
       "pages": [
-        "https://roxiestreams.info/wec"
+        "https://roxiestreams.info/f1"
       ],
       "streams": [
         {
           "label": "Stream 1",
-          "url": "https://601.shadow-ran.online/wec.m3u8",
+          "url": "https://daffodil.shadow-ran.online/f1.m3u8",
           "type": "m3u8",
-          "source_page": "https://roxiestreams.info/wec",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "601",
-          "path": "wec.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/wec",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "wec",
-          "event_title": "WEC",
-          "matchup": null,
-          "display_name": "WEC - Stream 1"
-        },
-        {
-          "label": "wec.m3u8",
-          "url": "https://daffodil.shadow-ran.online/wec.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/wec",
+          "source_page": "https://roxiestreams.info/f1",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "daffodil",
-          "path": "wec.m3u8",
+          "path": "f1.m3u8",
           "headers": {
-            "Referer": "https://roxiestreams.info/wec",
+            "Referer": "https://roxiestreams.info/f1",
             "Origin": "https://roxiestreams.info",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
             "Accept": "*/*"
           },
           "drm_keys": null,
-          "sport": "wec",
-          "event_title": "WEC",
+          "sport": "f1",
+          "event_title": "Formula 1 - Free Practice",
           "matchup": null,
-          "display_name": "WEC - wec.m3u8"
+          "display_name": "Formula 1 - Free Practice - Stream 1"
+        },
+        {
+          "label": "Stream 2",
+          "url": "https://601.shadow-ran.online/506.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/f1",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "601",
+          "path": "506.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/f1",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "f1",
+          "event_title": "Formula 1 - Free Practice",
+          "matchup": null,
+          "display_name": "Formula 1 - Free Practice - Stream 2"
+        }
+      ]
+    },
+    "wwe": {
+      "pages": [
+        "https://roxiestreams.info/wwe-streams"
+      ],
+      "streams": [
+        {
+          "label": "Stream 1",
+          "url": "https://601.shadow-ran.online/wwe.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/wwe-streams",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "601",
+          "path": "wwe.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/wwe-streams",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "wwe",
+          "event_title": "WWE Smackdown",
+          "matchup": null,
+          "display_name": "WWE Smackdown - Stream 1"
+        },
+        {
+          "label": "wwe.m3u8",
+          "url": "https://daffodil.shadow-ran.online/wwe.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/wwe-streams",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "wwe.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/wwe-streams",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "wwe",
+          "event_title": "WWE Smackdown",
+          "matchup": null,
+          "display_name": "WWE Smackdown - wwe.m3u8"
         }
       ]
     }
   },
-  "stream_count": 47,
+  "stream_count": 49,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
