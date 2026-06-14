@@ -1,62 +1,55 @@
 {
-  "scraped_at": "2026-06-14T08:12:46+00:00",
+  "scraped_at": "2026-06-14T11:27:38+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
   ],
   "events": [
     {
-      "name": "Formula 1 - Free Practice",
-      "page": "https://roxiestreams.info/f1",
-      "start_time": "June 13, 2026 4:30 AM"
-    },
-    {
       "name": "WEC: 24 Hours of Le Mans",
       "page": "https://roxiestreams.info/wec",
-      "start_time": "June 13, 2026 9:00 AM"
+      "start_time": "June 14, 2026 12:00 AM"
     },
     {
-      "name": "AMA Motocross (10/12PM)",
-      "page": "https://roxiestreams.info/supercross",
-      "start_time": "June 13, 2026 10:00 AM"
+      "name": "Formula 1 - Barcelona Grand Prix",
+      "page": "https://roxiestreams.info/f1",
+      "start_time": "June 14, 2026 6:00 AM"
     },
     {
-      "name": "FURY vs. HALL: Beauty vs. The Beast",
-      "page": "https://roxiestreams.info/ppv-streams-1",
-      "start_time": "June 13, 2026 10:00 AM"
-    },
-    {
-      "name": "World Cup GROUP B",
+      "name": "World Cup GROUP E",
       "page": "https://roxiestreams.info/soccer",
-      "start_time": "June 13, 2026 12:00 PM"
+      "start_time": "June 14, 2026 10:00 AM"
     },
     {
-      "name": "Khamzat Chimaev vs. Danis",
-      "page": "https://roxiestreams.info/ppv-streams-2",
-      "start_time": "June 13, 2026 5:00 PM"
+      "name": "UFC FREEDOM 250 (TOPURIA VS. GAETHJe)",
+      "page": "https://roxiestreams.info/ufc",
+      "start_time": "June 14, 2026 3:00 PM"
     },
     {
-      "name": "NBA Finals",
-      "page": "https://roxiestreams.info/nba-streams-1",
-      "start_time": "June 13, 2026 5:30 PM"
+      "name": "NHL (Finals)",
+      "page": "https://roxiestreams.info/nhl-streams-1",
+      "start_time": "June 14, 2026 5:00 PM"
     }
   ],
   "events_by_sport": {
     "soccer": [
       {
-        "title": "Maurice Revello Tournament",
+        "title": "Netherlands vs Japan",
         "sport": "soccer",
-        "matchup": null,
+        "matchup": {
+          "home": "Netherlands",
+          "away": "Japan"
+        },
         "page": "https://roxiestreams.info/soccer-streams-1",
         "streams": [
           {
-            "label": "Stream 1",
-            "url": "https://daffodil.shadow-ran.online/foxd.m3u8",
+            "label": "TSN",
+            "url": "https://ataide0.shadow-ran.online/tsn.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-1",
             "cdn_domain": "shadow-ran.online",
-            "subdomain": "daffodil",
-            "path": "foxd.m3u8",
+            "subdomain": "ataide0",
+            "path": "tsn.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-1",
               "Origin": "https://roxiestreams.info",
@@ -65,100 +58,69 @@
             },
             "drm_keys": null,
             "sport": "soccer",
-            "event_title": "Maurice Revello Tournament",
-            "matchup": null,
-            "display_name": "Maurice Revello Tournament - Stream 1"
-          }
-        ]
-      },
-      {
-        "title": "Qatar vs Switzerland",
-        "sport": "soccer",
-        "matchup": {
-          "home": "Qatar",
-          "away": "Switzerland"
-        },
-        "page": "https://roxiestreams.info/soccer-streams-2",
-        "streams": [
-          {
-            "label": "TSN",
-            "url": "https://ataide0.shadow-ran.online/tsn.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/soccer-streams-2",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "ataide0",
-            "path": "tsn.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/soccer-streams-2",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "soccer",
-            "event_title": "Qatar vs Switzerland",
+            "event_title": "Netherlands vs Japan",
             "matchup": {
-              "home": "Qatar",
-              "away": "Switzerland"
+              "home": "Netherlands",
+              "away": "Japan"
             },
-            "display_name": "Qatar vs Switzerland - TSN"
+            "display_name": "Netherlands vs Japan - TSN"
           },
           {
             "label": "FOX",
             "url": "https://daffodil.shadow-ran.online/fox.m3u8",
             "type": "m3u8",
-            "source_page": "https://roxiestreams.info/soccer-streams-2",
+            "source_page": "https://roxiestreams.info/soccer-streams-1",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "daffodil",
             "path": "fox.m3u8",
             "headers": {
-              "Referer": "https://roxiestreams.info/soccer-streams-2",
+              "Referer": "https://roxiestreams.info/soccer-streams-1",
               "Origin": "https://roxiestreams.info",
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
               "Accept": "*/*"
             },
             "drm_keys": null,
             "sport": "soccer",
-            "event_title": "Qatar vs Switzerland",
+            "event_title": "Netherlands vs Japan",
             "matchup": {
-              "home": "Qatar",
-              "away": "Switzerland"
+              "home": "Netherlands",
+              "away": "Japan"
             },
-            "display_name": "Qatar vs Switzerland - FOX"
+            "display_name": "Netherlands vs Japan - FOX"
           },
           {
             "label": "TELEMUNDO",
             "url": "https://daffodil.shadow-ran.online/tele.m3u8",
             "type": "m3u8",
-            "source_page": "https://roxiestreams.info/soccer-streams-2",
+            "source_page": "https://roxiestreams.info/soccer-streams-1",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "daffodil",
             "path": "tele.m3u8",
             "headers": {
-              "Referer": "https://roxiestreams.info/soccer-streams-2",
+              "Referer": "https://roxiestreams.info/soccer-streams-1",
               "Origin": "https://roxiestreams.info",
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
               "Accept": "*/*"
             },
             "drm_keys": null,
             "sport": "soccer",
-            "event_title": "Qatar vs Switzerland",
+            "event_title": "Netherlands vs Japan",
             "matchup": {
-              "home": "Qatar",
-              "away": "Switzerland"
+              "home": "Netherlands",
+              "away": "Japan"
             },
-            "display_name": "Qatar vs Switzerland - TELEMUNDO"
+            "display_name": "Netherlands vs Japan - TELEMUNDO"
           }
         ]
       }
     ],
     "mlb": [
       {
-        "title": "St. Louis Cardinals vs Minnesota Twins",
+        "title": "Miami Marlins vs Pittsburgh Pirates",
         "sport": "mlb",
         "matchup": {
-          "home": "St. Louis Cardinals",
-          "away": "Minnesota Twins"
+          "home": "Miami Marlins",
+          "away": "Pittsburgh Pirates"
         },
         "page": "https://roxiestreams.info/mlb-streams-1",
         "streams": [
@@ -178,12 +140,12 @@
             },
             "drm_keys": null,
             "sport": "mlb",
-            "event_title": "St. Louis Cardinals vs Minnesota Twins",
+            "event_title": "Miami Marlins vs Pittsburgh Pirates",
             "matchup": {
-              "home": "St. Louis Cardinals",
-              "away": "Minnesota Twins"
+              "home": "Miami Marlins",
+              "away": "Pittsburgh Pirates"
             },
-            "display_name": "St. Louis Cardinals vs Minnesota Twins - Stream 1"
+            "display_name": "Miami Marlins vs Pittsburgh Pirates - Stream 1"
           },
           {
             "label": "mlb.m3u8",
@@ -201,12 +163,12 @@
             },
             "drm_keys": null,
             "sport": "mlb",
-            "event_title": "St. Louis Cardinals vs Minnesota Twins",
+            "event_title": "Miami Marlins vs Pittsburgh Pirates",
             "matchup": {
-              "home": "St. Louis Cardinals",
-              "away": "Minnesota Twins"
+              "home": "Miami Marlins",
+              "away": "Pittsburgh Pirates"
             },
-            "display_name": "St. Louis Cardinals vs Minnesota Twins - mlb.m3u8"
+            "display_name": "Miami Marlins vs Pittsburgh Pirates - mlb.m3u8"
           }
         ]
       },
@@ -242,11 +204,11 @@
         ]
       },
       {
-        "title": "Houston Astros vs Kansas City Royals",
+        "title": "Philadelphia Phillies vs Milwaukee Brewers",
         "sport": "mlb",
         "matchup": {
-          "home": "Houston Astros",
-          "away": "Kansas City Royals"
+          "home": "Philadelphia Phillies",
+          "away": "Milwaukee Brewers"
         },
         "page": "https://roxiestreams.info/mlb-streams-11",
         "streams": [
@@ -257,37 +219,6 @@
             "source_page": "https://roxiestreams.info/mlb-streams-11",
             "headers": {
               "Referer": "https://roxiestreams.info/mlb-streams-11",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "mlb",
-            "event_title": "Houston Astros vs Kansas City Royals",
-            "matchup": {
-              "home": "Houston Astros",
-              "away": "Kansas City Royals"
-            },
-            "display_name": "Houston Astros vs Kansas City Royals"
-          }
-        ]
-      },
-      {
-        "title": "Philadelphia Phillies vs Milwaukee Brewers",
-        "sport": "mlb",
-        "matchup": {
-          "home": "Philadelphia Phillies",
-          "away": "Milwaukee Brewers"
-        },
-        "page": "https://roxiestreams.info/mlb-streams-12",
-        "streams": [
-          {
-            "label": "Direct Link",
-            "url": "https://601.formaturamaxi.com.br/mlb12.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/mlb-streams-12",
-            "headers": {
-              "Referer": "https://roxiestreams.info/mlb-streams-12",
               "Origin": "https://roxiestreams.info",
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
               "Accept": "*/*"
@@ -310,15 +241,15 @@
           "home": "Colorado Rockies",
           "away": "Athletics"
         },
-        "page": "https://roxiestreams.info/mlb-streams-13",
+        "page": "https://roxiestreams.info/mlb-streams-12",
         "streams": [
           {
             "label": "Direct Link",
-            "url": "https://601.formaturamaxi.com.br/mlb13.m3u8",
+            "url": "https://601.formaturamaxi.com.br/mlb12.m3u8",
             "type": "m3u8",
-            "source_page": "https://roxiestreams.info/mlb-streams-13",
+            "source_page": "https://roxiestreams.info/mlb-streams-12",
             "headers": {
-              "Referer": "https://roxiestreams.info/mlb-streams-13",
+              "Referer": "https://roxiestreams.info/mlb-streams-12",
               "Origin": "https://roxiestreams.info",
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
               "Accept": "*/*"
@@ -341,15 +272,15 @@
           "home": "Chicago Cubs",
           "away": "San Francisco Giants"
         },
-        "page": "https://roxiestreams.info/mlb-streams-14",
+        "page": "https://roxiestreams.info/mlb-streams-13",
         "streams": [
           {
             "label": "Direct Link",
-            "url": "https://601.formaturamaxi.com.br/mlb14.m3u8",
+            "url": "https://601.formaturamaxi.com.br/mlb13.m3u8",
             "type": "m3u8",
-            "source_page": "https://roxiestreams.info/mlb-streams-14",
+            "source_page": "https://roxiestreams.info/mlb-streams-13",
             "headers": {
-              "Referer": "https://roxiestreams.info/mlb-streams-14",
+              "Referer": "https://roxiestreams.info/mlb-streams-13",
               "Origin": "https://roxiestreams.info",
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
               "Accept": "*/*"
@@ -372,15 +303,15 @@
           "home": "Tampa Bay Rays",
           "away": "Los Angeles Angels"
         },
-        "page": "https://roxiestreams.info/mlb-streams-15",
+        "page": "https://roxiestreams.info/mlb-streams-14",
         "streams": [
           {
             "label": "Direct Link",
-            "url": "https://601.formaturamaxi.com.br/mlb15.m3u8",
+            "url": "https://601.formaturamaxi.com.br/mlb14.m3u8",
             "type": "m3u8",
-            "source_page": "https://roxiestreams.info/mlb-streams-15",
+            "source_page": "https://roxiestreams.info/mlb-streams-14",
             "headers": {
-              "Referer": "https://roxiestreams.info/mlb-streams-15",
+              "Referer": "https://roxiestreams.info/mlb-streams-14",
               "Origin": "https://roxiestreams.info",
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
               "Accept": "*/*"
@@ -397,11 +328,42 @@
         ]
       },
       {
-        "title": "New York Yankees vs Toronto Blue Jays",
+        "title": "Texas Rangers vs Boston Red Sox",
         "sport": "mlb",
         "matchup": {
-          "home": "New York Yankees",
-          "away": "Toronto Blue Jays"
+          "home": "Texas Rangers",
+          "away": "Boston Red Sox"
+        },
+        "page": "https://roxiestreams.info/mlb-streams-15",
+        "streams": [
+          {
+            "label": "Direct Link",
+            "url": "https://601.formaturamaxi.com.br/mlb15.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/mlb-streams-15",
+            "headers": {
+              "Referer": "https://roxiestreams.info/mlb-streams-15",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "mlb",
+            "event_title": "Texas Rangers vs Boston Red Sox",
+            "matchup": {
+              "home": "Texas Rangers",
+              "away": "Boston Red Sox"
+            },
+            "display_name": "Texas Rangers vs Boston Red Sox"
+          }
+        ]
+      },
+      {
+        "title": "San Diego Padres vs Baltimore Orioles",
+        "sport": "mlb",
+        "matchup": {
+          "home": "San Diego Padres",
+          "away": "Baltimore Orioles"
         },
         "page": "https://roxiestreams.info/mlb-streams-2",
         "streams": [
@@ -421,12 +383,12 @@
             },
             "drm_keys": null,
             "sport": "mlb",
-            "event_title": "New York Yankees vs Toronto Blue Jays",
+            "event_title": "San Diego Padres vs Baltimore Orioles",
             "matchup": {
-              "home": "New York Yankees",
-              "away": "Toronto Blue Jays"
+              "home": "San Diego Padres",
+              "away": "Baltimore Orioles"
             },
-            "display_name": "New York Yankees vs Toronto Blue Jays - Stream 1"
+            "display_name": "San Diego Padres vs Baltimore Orioles - Stream 1"
           },
           {
             "label": "mlb2.m3u8",
@@ -444,21 +406,21 @@
             },
             "drm_keys": null,
             "sport": "mlb",
-            "event_title": "New York Yankees vs Toronto Blue Jays",
+            "event_title": "San Diego Padres vs Baltimore Orioles",
             "matchup": {
-              "home": "New York Yankees",
-              "away": "Toronto Blue Jays"
+              "home": "San Diego Padres",
+              "away": "Baltimore Orioles"
             },
-            "display_name": "New York Yankees vs Toronto Blue Jays - mlb2.m3u8"
+            "display_name": "San Diego Padres vs Baltimore Orioles - mlb2.m3u8"
           }
         ]
       },
       {
-        "title": "San Diego Padres vs Baltimore Orioles",
+        "title": "Seattle Mariners vs Washington Nationals",
         "sport": "mlb",
         "matchup": {
-          "home": "San Diego Padres",
-          "away": "Baltimore Orioles"
+          "home": "Seattle Mariners",
+          "away": "Washington Nationals"
         },
         "page": "https://roxiestreams.info/mlb-streams-3",
         "streams": [
@@ -475,21 +437,21 @@
             },
             "drm_keys": null,
             "sport": "mlb",
-            "event_title": "San Diego Padres vs Baltimore Orioles",
+            "event_title": "Seattle Mariners vs Washington Nationals",
             "matchup": {
-              "home": "San Diego Padres",
-              "away": "Baltimore Orioles"
+              "home": "Seattle Mariners",
+              "away": "Washington Nationals"
             },
-            "display_name": "San Diego Padres vs Baltimore Orioles"
+            "display_name": "Seattle Mariners vs Washington Nationals"
           }
         ]
       },
       {
-        "title": "Seattle Mariners vs Washington Nationals",
+        "title": "New York Yankees vs Toronto Blue Jays",
         "sport": "mlb",
         "matchup": {
-          "home": "Seattle Mariners",
-          "away": "Washington Nationals"
+          "home": "New York Yankees",
+          "away": "Toronto Blue Jays"
         },
         "page": "https://roxiestreams.info/mlb-streams-4",
         "streams": [
@@ -509,12 +471,12 @@
             },
             "drm_keys": null,
             "sport": "mlb",
-            "event_title": "Seattle Mariners vs Washington Nationals",
+            "event_title": "New York Yankees vs Toronto Blue Jays",
             "matchup": {
-              "home": "Seattle Mariners",
-              "away": "Washington Nationals"
+              "home": "New York Yankees",
+              "away": "Toronto Blue Jays"
             },
-            "display_name": "Seattle Mariners vs Washington Nationals - Stream 1"
+            "display_name": "New York Yankees vs Toronto Blue Jays - Stream 1"
           },
           {
             "label": "mlb4.m3u8",
@@ -532,43 +494,12 @@
             },
             "drm_keys": null,
             "sport": "mlb",
-            "event_title": "Seattle Mariners vs Washington Nationals",
+            "event_title": "New York Yankees vs Toronto Blue Jays",
             "matchup": {
-              "home": "Seattle Mariners",
-              "away": "Washington Nationals"
+              "home": "New York Yankees",
+              "away": "Toronto Blue Jays"
             },
-            "display_name": "Seattle Mariners vs Washington Nationals - mlb4.m3u8"
-          }
-        ]
-      },
-      {
-        "title": "Miami Marlins vs Pittsburgh Pirates",
-        "sport": "mlb",
-        "matchup": {
-          "home": "Miami Marlins",
-          "away": "Pittsburgh Pirates"
-        },
-        "page": "https://roxiestreams.info/mlb-streams-5",
-        "streams": [
-          {
-            "label": "Direct Link",
-            "url": "https://601.formaturamaxi.com.br/mlb5.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/mlb-streams-5",
-            "headers": {
-              "Referer": "https://roxiestreams.info/mlb-streams-5",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "mlb",
-            "event_title": "Miami Marlins vs Pittsburgh Pirates",
-            "matchup": {
-              "home": "Miami Marlins",
-              "away": "Pittsburgh Pirates"
-            },
-            "display_name": "Miami Marlins vs Pittsburgh Pirates"
+            "display_name": "New York Yankees vs Toronto Blue Jays - mlb4.m3u8"
           }
         ]
       },
@@ -579,15 +510,15 @@
           "home": "Arizona Diamondbacks",
           "away": "Cincinnati Reds"
         },
-        "page": "https://roxiestreams.info/mlb-streams-6",
+        "page": "https://roxiestreams.info/mlb-streams-5",
         "streams": [
           {
             "label": "Direct Link",
-            "url": "https://601.formaturamaxi.com.br/mlb6.m3u8",
+            "url": "https://601.formaturamaxi.com.br/mlb5.m3u8",
             "type": "m3u8",
-            "source_page": "https://roxiestreams.info/mlb-streams-6",
+            "source_page": "https://roxiestreams.info/mlb-streams-5",
             "headers": {
-              "Referer": "https://roxiestreams.info/mlb-streams-6",
+              "Referer": "https://roxiestreams.info/mlb-streams-5",
               "Origin": "https://roxiestreams.info",
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
               "Accept": "*/*"
@@ -610,15 +541,15 @@
           "home": "Detroit Tigers",
           "away": "Cleveland Guardians"
         },
-        "page": "https://roxiestreams.info/mlb-streams-7",
+        "page": "https://roxiestreams.info/mlb-streams-6",
         "streams": [
           {
             "label": "Direct Link",
-            "url": "https://601.formaturamaxi.com.br/mlb7.m3u8",
+            "url": "https://601.formaturamaxi.com.br/mlb6.m3u8",
             "type": "m3u8",
-            "source_page": "https://roxiestreams.info/mlb-streams-7",
+            "source_page": "https://roxiestreams.info/mlb-streams-6",
             "headers": {
-              "Referer": "https://roxiestreams.info/mlb-streams-7",
+              "Referer": "https://roxiestreams.info/mlb-streams-6",
               "Origin": "https://roxiestreams.info",
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
               "Accept": "*/*"
@@ -635,11 +566,42 @@
         ]
       },
       {
-        "title": "Texas Rangers vs Boston Red Sox",
+        "title": "Atlanta Braves vs New York Mets",
         "sport": "mlb",
         "matchup": {
-          "home": "Texas Rangers",
-          "away": "Boston Red Sox"
+          "home": "Atlanta Braves",
+          "away": "New York Mets"
+        },
+        "page": "https://roxiestreams.info/mlb-streams-7",
+        "streams": [
+          {
+            "label": "Direct Link",
+            "url": "https://601.formaturamaxi.com.br/mlb7.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/mlb-streams-7",
+            "headers": {
+              "Referer": "https://roxiestreams.info/mlb-streams-7",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "mlb",
+            "event_title": "Atlanta Braves vs New York Mets",
+            "matchup": {
+              "home": "Atlanta Braves",
+              "away": "New York Mets"
+            },
+            "display_name": "Atlanta Braves vs New York Mets"
+          }
+        ]
+      },
+      {
+        "title": "Houston Astros vs Kansas City Royals",
+        "sport": "mlb",
+        "matchup": {
+          "home": "Houston Astros",
+          "away": "Kansas City Royals"
         },
         "page": "https://roxiestreams.info/mlb-streams-8",
         "streams": [
@@ -656,21 +618,21 @@
             },
             "drm_keys": null,
             "sport": "mlb",
-            "event_title": "Texas Rangers vs Boston Red Sox",
+            "event_title": "Houston Astros vs Kansas City Royals",
             "matchup": {
-              "home": "Texas Rangers",
-              "away": "Boston Red Sox"
+              "home": "Houston Astros",
+              "away": "Kansas City Royals"
             },
-            "display_name": "Texas Rangers vs Boston Red Sox"
+            "display_name": "Houston Astros vs Kansas City Royals"
           }
         ]
       },
       {
-        "title": "Atlanta Braves vs New York Mets",
+        "title": "St. Louis Cardinals vs Minnesota Twins",
         "sport": "mlb",
         "matchup": {
-          "home": "Atlanta Braves",
-          "away": "New York Mets"
+          "home": "St. Louis Cardinals",
+          "away": "Minnesota Twins"
         },
         "page": "https://roxiestreams.info/mlb-streams-9",
         "streams": [
@@ -687,12 +649,12 @@
             },
             "drm_keys": null,
             "sport": "mlb",
-            "event_title": "Atlanta Braves vs New York Mets",
+            "event_title": "St. Louis Cardinals vs Minnesota Twins",
             "matchup": {
-              "home": "Atlanta Braves",
-              "away": "New York Mets"
+              "home": "St. Louis Cardinals",
+              "away": "Minnesota Twins"
             },
-            "display_name": "Atlanta Braves vs New York Mets"
+            "display_name": "St. Louis Cardinals vs Minnesota Twins"
           }
         ]
       }
@@ -841,11 +803,11 @@
     ],
     "fighting": [
       {
-        "title": "FURY vs. HALL: Beauty vs. The Beast",
+        "title": "Gonzalez vs. Perez",
         "sport": "fighting",
         "matchup": {
-          "home": "FURY",
-          "away": "HALL: Beauty vs. The Beast"
+          "home": "Gonzalez",
+          "away": "Perez"
         },
         "page": "https://roxiestreams.info/ppv-streams-1",
         "streams": [
@@ -865,12 +827,12 @@
             },
             "drm_keys": null,
             "sport": "fighting",
-            "event_title": "FURY vs. HALL: Beauty vs. The Beast",
+            "event_title": "Gonzalez vs. Perez",
             "matchup": {
-              "home": "FURY",
-              "away": "HALL: Beauty vs. The Beast"
+              "home": "Gonzalez",
+              "away": "Perez"
             },
-            "display_name": "FURY vs. HALL: Beauty vs. The Beast - Stream 1"
+            "display_name": "Gonzalez vs. Perez - Stream 1"
           },
           {
             "label": "Stream 2",
@@ -888,12 +850,12 @@
             },
             "drm_keys": null,
             "sport": "fighting",
-            "event_title": "FURY vs. HALL: Beauty vs. The Beast",
+            "event_title": "Gonzalez vs. Perez",
             "matchup": {
-              "home": "FURY",
-              "away": "HALL: Beauty vs. The Beast"
+              "home": "Gonzalez",
+              "away": "Perez"
             },
-            "display_name": "FURY vs. HALL: Beauty vs. The Beast - Stream 2"
+            "display_name": "Gonzalez vs. Perez - Stream 2"
           },
           {
             "label": "ppv.m3u8",
@@ -911,206 +873,12 @@
             },
             "drm_keys": null,
             "sport": "fighting",
-            "event_title": "FURY vs. HALL: Beauty vs. The Beast",
+            "event_title": "Gonzalez vs. Perez",
             "matchup": {
-              "home": "FURY",
-              "away": "HALL: Beauty vs. The Beast"
+              "home": "Gonzalez",
+              "away": "Perez"
             },
-            "display_name": "FURY vs. HALL: Beauty vs. The Beast - ppv.m3u8"
-          }
-        ]
-      },
-      {
-        "title": "Khamzat Chimaev vs. Danis (RAF)",
-        "sport": "fighting",
-        "matchup": {
-          "home": "Khamzat Chimaev",
-          "away": "Danis (RAF)"
-        },
-        "page": "https://roxiestreams.info/ppv-streams-2",
-        "streams": [
-          {
-            "label": "Stream 1",
-            "url": "https://601.shadow-ran.online/ppv2.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/ppv-streams-2",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "601",
-            "path": "ppv2.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/ppv-streams-2",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "fighting",
-            "event_title": "Khamzat Chimaev vs. Danis (RAF)",
-            "matchup": {
-              "home": "Khamzat Chimaev",
-              "away": "Danis (RAF)"
-            },
-            "display_name": "Khamzat Chimaev vs. Danis (RAF) - Stream 1"
-          },
-          {
-            "label": "Stream 2",
-            "url": "https://ataide0.shadow-ran.online/ppv2.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/ppv-streams-2",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "ataide0",
-            "path": "ppv2.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/ppv-streams-2",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "fighting",
-            "event_title": "Khamzat Chimaev vs. Danis (RAF)",
-            "matchup": {
-              "home": "Khamzat Chimaev",
-              "away": "Danis (RAF)"
-            },
-            "display_name": "Khamzat Chimaev vs. Danis (RAF) - Stream 2"
-          },
-          {
-            "label": "ppv2.m3u8",
-            "url": "https://daffodil.shadow-ran.online/ppv2.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/ppv-streams-2",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "daffodil",
-            "path": "ppv2.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/ppv-streams-2",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "fighting",
-            "event_title": "Khamzat Chimaev vs. Danis (RAF)",
-            "matchup": {
-              "home": "Khamzat Chimaev",
-              "away": "Danis (RAF)"
-            },
-            "display_name": "Khamzat Chimaev vs. Danis (RAF) - ppv2.m3u8"
-          }
-        ]
-      },
-      {
-        "title": "Bam vs. Vargas",
-        "sport": "fighting",
-        "matchup": {
-          "home": "Bam",
-          "away": "Vargas"
-        },
-        "page": "https://roxiestreams.info/ppv-streams-3",
-        "streams": [
-          {
-            "label": "Stream 1",
-            "url": "https://601.shadow-ran.online/ppv3.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/ppv-streams-3",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "601",
-            "path": "ppv3.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/ppv-streams-3",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "fighting",
-            "event_title": "Bam vs. Vargas",
-            "matchup": {
-              "home": "Bam",
-              "away": "Vargas"
-            },
-            "display_name": "Bam vs. Vargas - Stream 1"
-          },
-          {
-            "label": "ppv3.m3u8",
-            "url": "https://daffodil.shadow-ran.online/ppv3.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/ppv-streams-3",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "daffodil",
-            "path": "ppv3.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/ppv-streams-3",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "fighting",
-            "event_title": "Bam vs. Vargas",
-            "matchup": {
-              "home": "Bam",
-              "away": "Vargas"
-            },
-            "display_name": "Bam vs. Vargas - ppv3.m3u8"
-          }
-        ]
-      },
-      {
-        "title": "Jones vs. Carranza 2 (MVP)",
-        "sport": "fighting",
-        "matchup": {
-          "home": "Jones",
-          "away": "Carranza 2 (MVP)"
-        },
-        "page": "https://roxiestreams.info/ppv-streams-4",
-        "streams": [
-          {
-            "label": "Stream 1",
-            "url": "https://601.shadow-ran.online/ppv4.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/ppv-streams-4",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "601",
-            "path": "ppv4.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/ppv-streams-4",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "fighting",
-            "event_title": "Jones vs. Carranza 2 (MVP)",
-            "matchup": {
-              "home": "Jones",
-              "away": "Carranza 2 (MVP)"
-            },
-            "display_name": "Jones vs. Carranza 2 (MVP) - Stream 1"
-          },
-          {
-            "label": "ppv4.m3u8",
-            "url": "https://daffodil.shadow-ran.online/ppv4.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/ppv-streams-4",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "daffodil",
-            "path": "ppv4.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/ppv-streams-4",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "fighting",
-            "event_title": "Jones vs. Carranza 2 (MVP)",
-            "matchup": {
-              "home": "Jones",
-              "away": "Carranza 2 (MVP)"
-            },
-            "display_name": "Jones vs. Carranza 2 (MVP) - ppv4.m3u8"
+            "display_name": "Gonzalez vs. Perez - ppv.m3u8"
           }
         ]
       }
@@ -1388,56 +1156,6 @@
         ]
       }
     ],
-    "f1": [
-      {
-        "title": "Formula 1 - Free Practice",
-        "sport": "f1",
-        "matchup": null,
-        "page": "https://roxiestreams.info/f1",
-        "streams": [
-          {
-            "label": "Stream 1",
-            "url": "https://daffodil.shadow-ran.online/f1.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/f1",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "daffodil",
-            "path": "f1.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/f1",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "f1",
-            "event_title": "Formula 1 - Free Practice",
-            "matchup": null,
-            "display_name": "Formula 1 - Free Practice - Stream 1"
-          },
-          {
-            "label": "Stream 2",
-            "url": "https://601.shadow-ran.online/f1.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/f1",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "601",
-            "path": "f1.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/f1",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "f1",
-            "event_title": "Formula 1 - Free Practice",
-            "matchup": null,
-            "display_name": "Formula 1 - Free Practice - Stream 2"
-          }
-        ]
-      }
-    ],
     "wec": [
       {
         "title": "WEC: 24 Hours of Le Mans",
@@ -1488,214 +1206,174 @@
         ]
       }
     ],
-    "supercross": [
+    "f1": [
       {
-        "title": "AMA Motocross (10/12PM)",
-        "sport": "supercross",
+        "title": "Formula 1 - Barcelona Grand Prix",
+        "sport": "f1",
         "matchup": null,
-        "page": "https://roxiestreams.info/supercross",
+        "page": "https://roxiestreams.info/f1",
         "streams": [
           {
-            "label": "Stream 1",
-            "url": "https://ataide0.shadow-ran.online/sx.m3u8",
+            "label": "Sky Sports",
+            "url": "https://601.shadow-ran.online/f1.m3u8",
             "type": "m3u8",
-            "source_page": "https://roxiestreams.info/supercross",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "ataide0",
-            "path": "sx.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/supercross",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "supercross",
-            "event_title": "AMA Motocross (10/12PM)",
-            "matchup": null,
-            "display_name": "AMA Motocross (10/12PM) - Stream 1"
-          },
-          {
-            "label": "Stream 2",
-            "url": "https://601.shadow-ran.online/sx.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/supercross",
+            "source_page": "https://roxiestreams.info/f1",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "601",
-            "path": "sx.m3u8",
+            "path": "f1.m3u8",
             "headers": {
-              "Referer": "https://roxiestreams.info/supercross",
+              "Referer": "https://roxiestreams.info/f1",
               "Origin": "https://roxiestreams.info",
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
               "Accept": "*/*"
             },
             "drm_keys": null,
-            "sport": "supercross",
-            "event_title": "AMA Motocross (10/12PM)",
+            "sport": "f1",
+            "event_title": "Formula 1 - Barcelona Grand Prix",
             "matchup": null,
-            "display_name": "AMA Motocross (10/12PM) - Stream 2"
+            "display_name": "Formula 1 - Barcelona Grand Prix - Sky Sports"
+          },
+          {
+            "label": "F1TV",
+            "url": "https://daffodil.shadow-ran.online/f1tv.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/f1",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "f1tv.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/f1",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "f1",
+            "event_title": "Formula 1 - Barcelona Grand Prix",
+            "matchup": null,
+            "display_name": "Formula 1 - Barcelona Grand Prix - F1TV"
+          },
+          {
+            "label": "TSN",
+            "url": "https://daffodil.shadow-ran.online/tsn.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/f1",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "tsn.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/f1",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "f1",
+            "event_title": "Formula 1 - Barcelona Grand Prix",
+            "matchup": null,
+            "display_name": "Formula 1 - Barcelona Grand Prix - TSN"
           }
         ]
       }
     ],
-    "ppv": [
+    "ufc": [
       {
-        "title": "FURY vs. HALL: Beauty vs. The Beast",
-        "sport": "ppv",
+        "title": "UFC FREEDOM 250 (TOPURIA VS. GAETHJe)",
+        "sport": "ufc",
         "matchup": {
-          "home": "FURY",
-          "away": "HALL: Beauty vs. The Beast"
+          "home": "UFC FREEDOM 250 (TOPURIA",
+          "away": "GAETHJe)"
         },
-        "page": "https://roxiestreams.info/ppv-streams-1",
+        "page": "https://roxiestreams.info/ufc",
         "streams": [
           {
-            "label": "Stream 1",
-            "url": "https://ataide0.shadow-ran.online/ppv.m3u8",
+            "label": "Direct Link",
+            "url": "https://ataide0.formaturamaxi.com.br/stream/26.m3u8",
             "type": "m3u8",
-            "source_page": "https://roxiestreams.info/ppv-streams-1",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "ataide0",
-            "path": "ppv.m3u8",
+            "source_page": "https://roxiestreams.info/ufc",
             "headers": {
-              "Referer": "https://roxiestreams.info/ppv-streams-1",
+              "Referer": "https://roxiestreams.info/ufc",
               "Origin": "https://roxiestreams.info",
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
               "Accept": "*/*"
             },
             "drm_keys": null,
-            "sport": "ppv",
-            "event_title": "FURY vs. HALL: Beauty vs. The Beast",
+            "sport": "ufc",
+            "event_title": "UFC FREEDOM 250 (TOPURIA VS. GAETHJe)",
             "matchup": {
-              "home": "FURY",
-              "away": "HALL: Beauty vs. The Beast"
+              "home": "UFC FREEDOM 250 (TOPURIA",
+              "away": "GAETHJe)"
             },
-            "display_name": "FURY vs. HALL: Beauty vs. The Beast - Stream 1"
+            "display_name": "UFC FREEDOM 250 (TOPURIA VS. GAETHJe)"
           },
           {
-            "label": "Stream 2",
-            "url": "https://601.shadow-ran.online/ppv.m3u8",
+            "label": "Stream 1 (PARA)",
+            "url": "https://601.shadow-ran.online/happybirthdayabb.m3u8",
             "type": "m3u8",
-            "source_page": "https://roxiestreams.info/ppv-streams-1",
+            "source_page": "https://roxiestreams.info/ufc",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "601",
-            "path": "ppv.m3u8",
+            "path": "happybirthdayabb.m3u8",
             "headers": {
-              "Referer": "https://roxiestreams.info/ppv-streams-1",
+              "Referer": "https://roxiestreams.info/ufc",
               "Origin": "https://roxiestreams.info",
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
               "Accept": "*/*"
             },
             "drm_keys": null,
-            "sport": "ppv",
-            "event_title": "FURY vs. HALL: Beauty vs. The Beast",
+            "sport": "ufc",
+            "event_title": "UFC FREEDOM 250 (TOPURIA VS. GAETHJe)",
             "matchup": {
-              "home": "FURY",
-              "away": "HALL: Beauty vs. The Beast"
+              "home": "UFC FREEDOM 250 (TOPURIA",
+              "away": "GAETHJe)"
             },
-            "display_name": "FURY vs. HALL: Beauty vs. The Beast - Stream 2"
+            "display_name": "UFC FREEDOM 250 (TOPURIA VS. GAETHJe) - Stream 1 (PARA)"
           },
           {
-            "label": "ppv.m3u8",
-            "url": "https://daffodil.shadow-ran.online/ppv.m3u8",
+            "label": "Stream 2 (SAT)",
+            "url": "https://602.shadow-ran.online/ufc.m3u8",
             "type": "m3u8",
-            "source_page": "https://roxiestreams.info/ppv-streams-1",
+            "source_page": "https://roxiestreams.info/ufc",
             "cdn_domain": "shadow-ran.online",
-            "subdomain": "daffodil",
-            "path": "ppv.m3u8",
+            "subdomain": "602",
+            "path": "ufc.m3u8",
             "headers": {
-              "Referer": "https://roxiestreams.info/ppv-streams-1",
+              "Referer": "https://roxiestreams.info/ufc",
               "Origin": "https://roxiestreams.info",
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
               "Accept": "*/*"
             },
             "drm_keys": null,
-            "sport": "ppv",
-            "event_title": "FURY vs. HALL: Beauty vs. The Beast",
+            "sport": "ufc",
+            "event_title": "UFC FREEDOM 250 (TOPURIA VS. GAETHJe)",
             "matchup": {
-              "home": "FURY",
-              "away": "HALL: Beauty vs. The Beast"
+              "home": "UFC FREEDOM 250 (TOPURIA",
+              "away": "GAETHJe)"
             },
-            "display_name": "FURY vs. HALL: Beauty vs. The Beast - ppv.m3u8"
-          }
-        ]
-      },
-      {
-        "title": "Khamzat Chimaev vs. Danis (RAF)",
-        "sport": "ppv",
-        "matchup": {
-          "home": "Khamzat Chimaev",
-          "away": "Danis (RAF)"
-        },
-        "page": "https://roxiestreams.info/ppv-streams-2",
-        "streams": [
-          {
-            "label": "Stream 1",
-            "url": "https://601.shadow-ran.online/ppv2.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/ppv-streams-2",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "601",
-            "path": "ppv2.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/ppv-streams-2",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "ppv",
-            "event_title": "Khamzat Chimaev vs. Danis (RAF)",
-            "matchup": {
-              "home": "Khamzat Chimaev",
-              "away": "Danis (RAF)"
-            },
-            "display_name": "Khamzat Chimaev vs. Danis (RAF) - Stream 1"
+            "display_name": "UFC FREEDOM 250 (TOPURIA VS. GAETHJe) - Stream 2 (SAT)"
           },
           {
-            "label": "Stream 2",
-            "url": "https://ataide0.shadow-ran.online/ppv2.m3u8",
+            "label": "Stream 4 (TNT)",
+            "url": "https://ataide0.shadow-ran.online/tnt.m3u8",
             "type": "m3u8",
-            "source_page": "https://roxiestreams.info/ppv-streams-2",
+            "source_page": "https://roxiestreams.info/ufc",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "ataide0",
-            "path": "ppv2.m3u8",
+            "path": "tnt.m3u8",
             "headers": {
-              "Referer": "https://roxiestreams.info/ppv-streams-2",
+              "Referer": "https://roxiestreams.info/ufc",
               "Origin": "https://roxiestreams.info",
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
               "Accept": "*/*"
             },
             "drm_keys": null,
-            "sport": "ppv",
-            "event_title": "Khamzat Chimaev vs. Danis (RAF)",
+            "sport": "ufc",
+            "event_title": "UFC FREEDOM 250 (TOPURIA VS. GAETHJe)",
             "matchup": {
-              "home": "Khamzat Chimaev",
-              "away": "Danis (RAF)"
+              "home": "UFC FREEDOM 250 (TOPURIA",
+              "away": "GAETHJe)"
             },
-            "display_name": "Khamzat Chimaev vs. Danis (RAF) - Stream 2"
-          },
-          {
-            "label": "ppv2.m3u8",
-            "url": "https://daffodil.shadow-ran.online/ppv2.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/ppv-streams-2",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "daffodil",
-            "path": "ppv2.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/ppv-streams-2",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "ppv",
-            "event_title": "Khamzat Chimaev vs. Danis (RAF)",
-            "matchup": {
-              "home": "Khamzat Chimaev",
-              "away": "Danis (RAF)"
-            },
-            "display_name": "Khamzat Chimaev vs. Danis (RAF) - ppv2.m3u8"
+            "display_name": "UFC FREEDOM 250 (TOPURIA VS. GAETHJe) - Stream 4 (TNT)"
           }
         ]
       }
@@ -1719,10 +1397,10 @@
         "Motorsports",
         "Stream Request (Discord)",
         "MultiView (NEW)",
-        "Maurice Revello Tournament",
-        "Qatar vs Switzerland",
-        "Brazil vs Morocco",
-        "Haiti vs Scotland",
+        "Germany vs Curacao",
+        "Netherlands vs Japan",
+        "Côte D'Ivoire vs Ecuador",
+        "Sweden vs Tunisia",
         "Australia vs Turkey",
         "Stream Request (Discord)"
       ],
@@ -1768,20 +1446,20 @@
           "url": "https://roxiestreams.info/multiview"
         },
         {
-          "label": "Maurice Revello Tournament",
+          "label": "Germany vs Curacao",
           "url": "https://roxiestreams.info/soccer-streams-1"
         },
         {
-          "label": "Qatar vs Switzerland",
+          "label": "Netherlands vs Japan",
+          "url": "https://roxiestreams.info/soccer-streams-1"
+        },
+        {
+          "label": "Côte D'Ivoire vs Ecuador",
           "url": "https://roxiestreams.info/soccer-streams-2"
         },
         {
-          "label": "Brazil vs Morocco",
-          "url": "https://roxiestreams.info/soccer-streams-3"
-        },
-        {
-          "label": "Haiti vs Scotland",
-          "url": "https://roxiestreams.info/soccer-streams-4"
+          "label": "Sweden vs Tunisia",
+          "url": "https://roxiestreams.info/soccer-streams-2"
         },
         {
           "label": "Australia vs Turkey",
@@ -1808,7 +1486,11 @@
         "Motorsports",
         "Stream Request (Discord)",
         "MultiView (NEW)",
-        "Stream 1",
+        "TSN",
+        "FOX",
+        "TELEMUNDO",
+        "PC ONLY (DIRECT)",
+        "Tele (Peacock)",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -1861,146 +1543,6 @@
     },
     "https://roxiestreams.info/soccer-streams-2": {
       "url": "https://roxiestreams.info/soccer-streams-2",
-      "title": "Roxiestreams - Watch Live Sports, F1, UFC, NFL, TV",
-      "headings": [],
-      "controls": [
-        "RoxieStreams",
-        "Soccer (WC 2026)",
-        "MLB",
-        "NBA",
-        "NFL",
-        "NHL",
-        "Fighting",
-        "Motorsports",
-        "Stream Request (Discord)",
-        "MultiView (NEW)",
-        "TSN",
-        "FOX",
-        "TELEMUNDO",
-        "PC ONLY (DIRECT)",
-        "Tele (Peacock)",
-        "Switch to Chatango",
-        "Stream Request (Discord)"
-      ],
-      "links": [
-        {
-          "label": "RoxieStreams",
-          "url": "https://roxiestreams.info/"
-        },
-        {
-          "label": "Soccer (WC 2026)",
-          "url": "https://roxiestreams.info/soccer"
-        },
-        {
-          "label": "MLB",
-          "url": "https://roxiestreams.info/mlb"
-        },
-        {
-          "label": "NBA",
-          "url": "https://roxiestreams.info/nba"
-        },
-        {
-          "label": "NFL",
-          "url": "https://roxiestreams.info/nfl"
-        },
-        {
-          "label": "NHL",
-          "url": "https://roxiestreams.info/nhl"
-        },
-        {
-          "label": "Fighting",
-          "url": "https://roxiestreams.info/fighting"
-        },
-        {
-          "label": "Motorsports",
-          "url": "https://roxiestreams.info/motorsports"
-        },
-        {
-          "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/JhkVmejRmn"
-        },
-        {
-          "label": "MultiView (NEW)",
-          "url": "https://roxiestreams.info/multiview"
-        },
-        {
-          "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/JhkVmejRmn"
-        }
-      ]
-    },
-    "https://roxiestreams.info/soccer-streams-3": {
-      "url": "https://roxiestreams.info/soccer-streams-3",
-      "title": "Roxiestreams - Watch Live Sports, F1, UFC, NFL, TV",
-      "headings": [],
-      "controls": [
-        "RoxieStreams",
-        "Soccer (WC 2026)",
-        "MLB",
-        "NBA",
-        "NFL",
-        "NHL",
-        "Fighting",
-        "Motorsports",
-        "Stream Request (Discord)",
-        "MultiView (NEW)",
-        "TSN",
-        "FOX",
-        "TELEMUNDO",
-        "PC ONLY (DIRECT)",
-        "Tele (Peacock)",
-        "Switch to Chatango",
-        "Stream Request (Discord)"
-      ],
-      "links": [
-        {
-          "label": "RoxieStreams",
-          "url": "https://roxiestreams.info/"
-        },
-        {
-          "label": "Soccer (WC 2026)",
-          "url": "https://roxiestreams.info/soccer"
-        },
-        {
-          "label": "MLB",
-          "url": "https://roxiestreams.info/mlb"
-        },
-        {
-          "label": "NBA",
-          "url": "https://roxiestreams.info/nba"
-        },
-        {
-          "label": "NFL",
-          "url": "https://roxiestreams.info/nfl"
-        },
-        {
-          "label": "NHL",
-          "url": "https://roxiestreams.info/nhl"
-        },
-        {
-          "label": "Fighting",
-          "url": "https://roxiestreams.info/fighting"
-        },
-        {
-          "label": "Motorsports",
-          "url": "https://roxiestreams.info/motorsports"
-        },
-        {
-          "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/JhkVmejRmn"
-        },
-        {
-          "label": "MultiView (NEW)",
-          "url": "https://roxiestreams.info/multiview"
-        },
-        {
-          "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/JhkVmejRmn"
-        }
-      ]
-    },
-    "https://roxiestreams.info/soccer-streams-4": {
-      "url": "https://roxiestreams.info/soccer-streams-4",
       "title": "Roxiestreams - Watch Live Sports, F1, UFC, NFL, TV",
       "headings": [],
       "controls": [
@@ -2156,21 +1698,21 @@
         "Motorsports",
         "Stream Request (Discord)",
         "MultiView (NEW)",
-        "St. Louis Cardinals vs Minnesota Twins",
-        "New York Yankees vs Toronto Blue Jays",
+        "Miami Marlins vs Pittsburgh Pirates",
         "San Diego Padres vs Baltimore Orioles",
         "Seattle Mariners vs Washington Nationals",
-        "Miami Marlins vs Pittsburgh Pirates",
+        "New York Yankees vs Toronto Blue Jays",
         "Arizona Diamondbacks vs Cincinnati Reds",
         "Detroit Tigers vs Cleveland Guardians",
-        "Texas Rangers vs Boston Red Sox",
         "Atlanta Braves vs New York Mets",
-        "Los Angeles Dodgers vs Chicago White Sox",
         "Houston Astros vs Kansas City Royals",
+        "St. Louis Cardinals vs Minnesota Twins",
+        "Los Angeles Dodgers vs Chicago White Sox",
         "Philadelphia Phillies vs Milwaukee Brewers",
         "Colorado Rockies vs Athletics",
         "Chicago Cubs vs San Francisco Giants",
         "Tampa Bay Rays vs Los Angeles Angels",
+        "Texas Rangers vs Boston Red Sox",
         "Stream Request (Discord)"
       ],
       "links": [
@@ -2215,39 +1757,39 @@
           "url": "https://roxiestreams.info/multiview"
         },
         {
-          "label": "St. Louis Cardinals vs Minnesota Twins",
+          "label": "Miami Marlins vs Pittsburgh Pirates",
           "url": "https://roxiestreams.info/mlb-streams-1"
         },
         {
-          "label": "New York Yankees vs Toronto Blue Jays",
+          "label": "San Diego Padres vs Baltimore Orioles",
           "url": "https://roxiestreams.info/mlb-streams-2"
         },
         {
-          "label": "San Diego Padres vs Baltimore Orioles",
+          "label": "Seattle Mariners vs Washington Nationals",
           "url": "https://roxiestreams.info/mlb-streams-3"
         },
         {
-          "label": "Seattle Mariners vs Washington Nationals",
+          "label": "New York Yankees vs Toronto Blue Jays",
           "url": "https://roxiestreams.info/mlb-streams-4"
         },
         {
-          "label": "Miami Marlins vs Pittsburgh Pirates",
+          "label": "Arizona Diamondbacks vs Cincinnati Reds",
           "url": "https://roxiestreams.info/mlb-streams-5"
         },
         {
-          "label": "Arizona Diamondbacks vs Cincinnati Reds",
+          "label": "Detroit Tigers vs Cleveland Guardians",
           "url": "https://roxiestreams.info/mlb-streams-6"
         },
         {
-          "label": "Detroit Tigers vs Cleveland Guardians",
+          "label": "Atlanta Braves vs New York Mets",
           "url": "https://roxiestreams.info/mlb-streams-7"
         },
         {
-          "label": "Texas Rangers vs Boston Red Sox",
+          "label": "Houston Astros vs Kansas City Royals",
           "url": "https://roxiestreams.info/mlb-streams-8"
         },
         {
-          "label": "Atlanta Braves vs New York Mets",
+          "label": "St. Louis Cardinals vs Minnesota Twins",
           "url": "https://roxiestreams.info/mlb-streams-9"
         },
         {
@@ -2255,23 +1797,23 @@
           "url": "https://roxiestreams.info/mlb-streams-10"
         },
         {
-          "label": "Houston Astros vs Kansas City Royals",
+          "label": "Philadelphia Phillies vs Milwaukee Brewers",
           "url": "https://roxiestreams.info/mlb-streams-11"
         },
         {
-          "label": "Philadelphia Phillies vs Milwaukee Brewers",
+          "label": "Colorado Rockies vs Athletics",
           "url": "https://roxiestreams.info/mlb-streams-12"
         },
         {
-          "label": "Colorado Rockies vs Athletics",
+          "label": "Chicago Cubs vs San Francisco Giants",
           "url": "https://roxiestreams.info/mlb-streams-13"
         },
         {
-          "label": "Chicago Cubs vs San Francisco Giants",
+          "label": "Tampa Bay Rays vs Los Angeles Angels",
           "url": "https://roxiestreams.info/mlb-streams-14"
         },
         {
-          "label": "Tampa Bay Rays vs Los Angeles Angels",
+          "label": "Texas Rangers vs Boston Red Sox",
           "url": "https://roxiestreams.info/mlb-streams-15"
         },
         {
@@ -3629,11 +3171,8 @@
         "Motorsports",
         "Stream Request (Discord)",
         "MultiView (NEW)",
-        "FURY vs. HALL: Beauty vs. The Beast",
-        "Khamzat Chimaev vs. Danis (RAF)",
-        "Bam vs. Vargas",
-        "Jones vs. Carranza 2 (MVP)",
         "UFC Freedom 250: Topuria vs. Gaethje",
+        "Gonzalez vs. Perez",
         "Stream Request (Discord)"
       ],
       "links": [
@@ -3678,24 +3217,12 @@
           "url": "https://roxiestreams.info/multiview"
         },
         {
-          "label": "FURY vs. HALL: Beauty vs. The Beast",
-          "url": "https://roxiestreams.info/ppv-streams-1"
-        },
-        {
-          "label": "Khamzat Chimaev vs. Danis (RAF)",
-          "url": "https://roxiestreams.info/ppv-streams-2"
-        },
-        {
-          "label": "Bam vs. Vargas",
-          "url": "https://roxiestreams.info/ppv-streams-3"
-        },
-        {
-          "label": "Jones vs. Carranza 2 (MVP)",
-          "url": "https://roxiestreams.info/ppv-streams-4"
-        },
-        {
           "label": "UFC Freedom 250: Topuria vs. Gaethje",
           "url": "https://roxiestreams.info/ufc"
+        },
+        {
+          "label": "Gonzalez vs. Perez",
+          "url": "https://roxiestreams.info/ppv-streams-1"
         },
         {
           "label": "Stream Request (Discord)",
@@ -3770,205 +3297,6 @@
         }
       ]
     },
-    "https://roxiestreams.info/ppv-streams-2": {
-      "url": "https://roxiestreams.info/ppv-streams-2",
-      "title": "Roxiestreams - Watch Live Sports, F1, UFC, NFL, TV",
-      "headings": [],
-      "controls": [
-        "RoxieStreams",
-        "Soccer (WC 2026)",
-        "MLB",
-        "NBA",
-        "NFL",
-        "NHL",
-        "Fighting",
-        "Motorsports",
-        "Stream Request (Discord)",
-        "MultiView (NEW)",
-        "Stream 1",
-        "Stream 2",
-        "Switch to Chatango",
-        "Stream Request (Discord)"
-      ],
-      "links": [
-        {
-          "label": "RoxieStreams",
-          "url": "https://roxiestreams.info/"
-        },
-        {
-          "label": "Soccer (WC 2026)",
-          "url": "https://roxiestreams.info/soccer"
-        },
-        {
-          "label": "MLB",
-          "url": "https://roxiestreams.info/mlb"
-        },
-        {
-          "label": "NBA",
-          "url": "https://roxiestreams.info/nba"
-        },
-        {
-          "label": "NFL",
-          "url": "https://roxiestreams.info/nfl"
-        },
-        {
-          "label": "NHL",
-          "url": "https://roxiestreams.info/nhl"
-        },
-        {
-          "label": "Fighting",
-          "url": "https://roxiestreams.info/fighting"
-        },
-        {
-          "label": "Motorsports",
-          "url": "https://roxiestreams.info/motorsports"
-        },
-        {
-          "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/JhkVmejRmn"
-        },
-        {
-          "label": "MultiView (NEW)",
-          "url": "https://roxiestreams.info/multiview"
-        },
-        {
-          "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/JhkVmejRmn"
-        }
-      ]
-    },
-    "https://roxiestreams.info/ppv-streams-3": {
-      "url": "https://roxiestreams.info/ppv-streams-3",
-      "title": "Roxiestreams - Watch Live Sports, F1, UFC, NFL, TV",
-      "headings": [],
-      "controls": [
-        "RoxieStreams",
-        "Soccer (WC 2026)",
-        "MLB",
-        "NBA",
-        "NFL",
-        "NHL",
-        "Fighting",
-        "Motorsports",
-        "Stream Request (Discord)",
-        "MultiView (NEW)",
-        "Stream 1",
-        "Switch to Chatango",
-        "Stream Request (Discord)"
-      ],
-      "links": [
-        {
-          "label": "RoxieStreams",
-          "url": "https://roxiestreams.info/"
-        },
-        {
-          "label": "Soccer (WC 2026)",
-          "url": "https://roxiestreams.info/soccer"
-        },
-        {
-          "label": "MLB",
-          "url": "https://roxiestreams.info/mlb"
-        },
-        {
-          "label": "NBA",
-          "url": "https://roxiestreams.info/nba"
-        },
-        {
-          "label": "NFL",
-          "url": "https://roxiestreams.info/nfl"
-        },
-        {
-          "label": "NHL",
-          "url": "https://roxiestreams.info/nhl"
-        },
-        {
-          "label": "Fighting",
-          "url": "https://roxiestreams.info/fighting"
-        },
-        {
-          "label": "Motorsports",
-          "url": "https://roxiestreams.info/motorsports"
-        },
-        {
-          "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/JhkVmejRmn"
-        },
-        {
-          "label": "MultiView (NEW)",
-          "url": "https://roxiestreams.info/multiview"
-        },
-        {
-          "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/JhkVmejRmn"
-        }
-      ]
-    },
-    "https://roxiestreams.info/ppv-streams-4": {
-      "url": "https://roxiestreams.info/ppv-streams-4",
-      "title": "Roxiestreams - Watch Live Sports, F1, UFC, NFL, TV",
-      "headings": [],
-      "controls": [
-        "RoxieStreams",
-        "Soccer (WC 2026)",
-        "MLB",
-        "NBA",
-        "NFL",
-        "NHL",
-        "Fighting",
-        "Motorsports",
-        "Stream Request (Discord)",
-        "MultiView (NEW)",
-        "Stream 1",
-        "Switch to Chatango",
-        "Stream Request (Discord)"
-      ],
-      "links": [
-        {
-          "label": "RoxieStreams",
-          "url": "https://roxiestreams.info/"
-        },
-        {
-          "label": "Soccer (WC 2026)",
-          "url": "https://roxiestreams.info/soccer"
-        },
-        {
-          "label": "MLB",
-          "url": "https://roxiestreams.info/mlb"
-        },
-        {
-          "label": "NBA",
-          "url": "https://roxiestreams.info/nba"
-        },
-        {
-          "label": "NFL",
-          "url": "https://roxiestreams.info/nfl"
-        },
-        {
-          "label": "NHL",
-          "url": "https://roxiestreams.info/nhl"
-        },
-        {
-          "label": "Fighting",
-          "url": "https://roxiestreams.info/fighting"
-        },
-        {
-          "label": "Motorsports",
-          "url": "https://roxiestreams.info/motorsports"
-        },
-        {
-          "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/JhkVmejRmn"
-        },
-        {
-          "label": "MultiView (NEW)",
-          "url": "https://roxiestreams.info/multiview"
-        },
-        {
-          "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/JhkVmejRmn"
-        }
-      ]
-    },
     "https://roxiestreams.info/motorsports": {
       "url": "https://roxiestreams.info/motorsports",
       "title": "Roxiestreams - Watch Live Sports, F1, UFC, NFL, TV",
@@ -3986,12 +3314,7 @@
         "Motorsports",
         "Stream Request (Discord)",
         "MultiView (NEW)",
-        "Formula 1 - Free Practice 3",
-        "Formula 1 - Qualifying",
-        "WEC: 24 Hours of Le Mans",
-        "AMA Motocross - Qualifying",
-        "AMA Motocross - Race",
-        "NASCAR O'Reilly Auto Series - Race",
+        "Formula 1 - Barcelona Grand Prix",
         "Stream Request (Discord)"
       ],
       "links": [
@@ -4036,28 +3359,8 @@
           "url": "https://roxiestreams.info/multiview"
         },
         {
-          "label": "Formula 1 - Free Practice 3",
+          "label": "Formula 1 - Barcelona Grand Prix",
           "url": "https://roxiestreams.info/f1"
-        },
-        {
-          "label": "Formula 1 - Qualifying",
-          "url": "https://roxiestreams.info/f1"
-        },
-        {
-          "label": "WEC: 24 Hours of Le Mans",
-          "url": "https://roxiestreams.info/wec"
-        },
-        {
-          "label": "AMA Motocross - Qualifying",
-          "url": "https://roxiestreams.info/supercross"
-        },
-        {
-          "label": "AMA Motocross - Race",
-          "url": "https://roxiestreams.info/supercross"
-        },
-        {
-          "label": "NASCAR O'Reilly Auto Series - Race",
-          "url": "https://roxiestreams.info/nascar"
         },
         {
           "label": "Stream Request (Discord)",
@@ -4195,73 +3498,6 @@
         }
       ]
     },
-    "https://roxiestreams.info/f1": {
-      "url": "https://roxiestreams.info/f1",
-      "title": "Roxiestreams - Watch Live Sports, F1, UFC, NFL, TV",
-      "headings": [],
-      "controls": [
-        "RoxieStreams",
-        "Soccer (WC 2026)",
-        "MLB",
-        "NBA",
-        "NFL",
-        "NHL",
-        "Fighting",
-        "Motorsports",
-        "Stream Request (Discord)",
-        "MultiView (NEW)",
-        "Stream 1",
-        "Stream 2",
-        "Switch to Chatango",
-        "Stream Request (Discord)"
-      ],
-      "links": [
-        {
-          "label": "RoxieStreams",
-          "url": "https://roxiestreams.info/"
-        },
-        {
-          "label": "Soccer (WC 2026)",
-          "url": "https://roxiestreams.info/soccer"
-        },
-        {
-          "label": "MLB",
-          "url": "https://roxiestreams.info/mlb"
-        },
-        {
-          "label": "NBA",
-          "url": "https://roxiestreams.info/nba"
-        },
-        {
-          "label": "NFL",
-          "url": "https://roxiestreams.info/nfl"
-        },
-        {
-          "label": "NHL",
-          "url": "https://roxiestreams.info/nhl"
-        },
-        {
-          "label": "Fighting",
-          "url": "https://roxiestreams.info/fighting"
-        },
-        {
-          "label": "Motorsports",
-          "url": "https://roxiestreams.info/motorsports"
-        },
-        {
-          "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/JhkVmejRmn"
-        },
-        {
-          "label": "MultiView (NEW)",
-          "url": "https://roxiestreams.info/multiview"
-        },
-        {
-          "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/JhkVmejRmn"
-        }
-      ]
-    },
     "https://roxiestreams.info/wec": {
       "url": "https://roxiestreams.info/wec",
       "title": "Roxiestreams - Watch Live Sports, F1, UFC, NFL, TV",
@@ -4330,8 +3566,8 @@
         }
       ]
     },
-    "https://roxiestreams.info/supercross": {
-      "url": "https://roxiestreams.info/supercross",
+    "https://roxiestreams.info/f1": {
+      "url": "https://roxiestreams.info/f1",
       "title": "Roxiestreams - Watch Live Sports, F1, UFC, NFL, TV",
       "headings": [],
       "controls": [
@@ -4345,9 +3581,81 @@
         "Motorsports",
         "Stream Request (Discord)",
         "MultiView (NEW)",
-        "Stream 1",
-        "Stream 2",
+        "Sky Sports",
+        "F1TV",
+        "TSN",
         "PC ONLY (DIRECT)",
+        "Switch to Chatango",
+        "Stream Request (Discord)"
+      ],
+      "links": [
+        {
+          "label": "RoxieStreams",
+          "url": "https://roxiestreams.info/"
+        },
+        {
+          "label": "Soccer (WC 2026)",
+          "url": "https://roxiestreams.info/soccer"
+        },
+        {
+          "label": "MLB",
+          "url": "https://roxiestreams.info/mlb"
+        },
+        {
+          "label": "NBA",
+          "url": "https://roxiestreams.info/nba"
+        },
+        {
+          "label": "NFL",
+          "url": "https://roxiestreams.info/nfl"
+        },
+        {
+          "label": "NHL",
+          "url": "https://roxiestreams.info/nhl"
+        },
+        {
+          "label": "Fighting",
+          "url": "https://roxiestreams.info/fighting"
+        },
+        {
+          "label": "Motorsports",
+          "url": "https://roxiestreams.info/motorsports"
+        },
+        {
+          "label": "Stream Request (Discord)",
+          "url": "https://discord.gg/JhkVmejRmn"
+        },
+        {
+          "label": "MultiView (NEW)",
+          "url": "https://roxiestreams.info/multiview"
+        },
+        {
+          "label": "Stream Request (Discord)",
+          "url": "https://discord.gg/JhkVmejRmn"
+        }
+      ]
+    },
+    "https://roxiestreams.info/ufc": {
+      "url": "https://roxiestreams.info/ufc",
+      "title": "Roxiestreams - Watch Live Sports, F1, UFC, NFL, TV",
+      "headings": [],
+      "controls": [
+        "RoxieStreams",
+        "Soccer (WC 2026)",
+        "MLB",
+        "NBA",
+        "NFL",
+        "NHL",
+        "Fighting",
+        "Motorsports",
+        "Stream Request (Discord)",
+        "MultiView (NEW)",
+        "Stream 1 (PARA)",
+        "Stream 2 (SAT)",
+        "Stream 3 (STARZ)",
+        "Stream 4 (TNT)",
+        "PC ONLY (DIRECT)",
+        "TNT (PC)",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -4405,19 +3713,17 @@
         "https://roxiestreams.info/soccer",
         "https://roxiestreams.info/soccer-streams-1",
         "https://roxiestreams.info/soccer-streams-2",
-        "https://roxiestreams.info/soccer-streams-3",
-        "https://roxiestreams.info/soccer-streams-4",
         "https://roxiestreams.info/soccer-streams-5"
       ],
       "streams": [
         {
-          "label": "Stream 1",
-          "url": "https://daffodil.shadow-ran.online/foxd.m3u8",
+          "label": "TSN",
+          "url": "https://ataide0.shadow-ran.online/tsn.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-1",
           "cdn_domain": "shadow-ran.online",
-          "subdomain": "daffodil",
-          "path": "foxd.m3u8",
+          "subdomain": "ataide0",
+          "path": "tsn.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-1",
             "Origin": "https://roxiestreams.info",
@@ -4426,78 +3732,58 @@
           },
           "drm_keys": null,
           "sport": "soccer",
-          "event_title": "Maurice Revello Tournament",
-          "matchup": null,
-          "display_name": "Maurice Revello Tournament - Stream 1"
-        },
-        {
-          "label": "TSN",
-          "url": "https://ataide0.shadow-ran.online/tsn.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/soccer-streams-2",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "ataide0",
-          "path": "tsn.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/soccer-streams-2",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "soccer",
-          "event_title": "Qatar vs Switzerland",
+          "event_title": "Netherlands vs Japan",
           "matchup": {
-            "home": "Qatar",
-            "away": "Switzerland"
+            "home": "Netherlands",
+            "away": "Japan"
           },
-          "display_name": "Qatar vs Switzerland - TSN"
+          "display_name": "Netherlands vs Japan - TSN"
         },
         {
           "label": "FOX",
           "url": "https://daffodil.shadow-ran.online/fox.m3u8",
           "type": "m3u8",
-          "source_page": "https://roxiestreams.info/soccer-streams-2",
+          "source_page": "https://roxiestreams.info/soccer-streams-1",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "daffodil",
           "path": "fox.m3u8",
           "headers": {
-            "Referer": "https://roxiestreams.info/soccer-streams-2",
+            "Referer": "https://roxiestreams.info/soccer-streams-1",
             "Origin": "https://roxiestreams.info",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
             "Accept": "*/*"
           },
           "drm_keys": null,
           "sport": "soccer",
-          "event_title": "Qatar vs Switzerland",
+          "event_title": "Netherlands vs Japan",
           "matchup": {
-            "home": "Qatar",
-            "away": "Switzerland"
+            "home": "Netherlands",
+            "away": "Japan"
           },
-          "display_name": "Qatar vs Switzerland - FOX"
+          "display_name": "Netherlands vs Japan - FOX"
         },
         {
           "label": "TELEMUNDO",
           "url": "https://daffodil.shadow-ran.online/tele.m3u8",
           "type": "m3u8",
-          "source_page": "https://roxiestreams.info/soccer-streams-2",
+          "source_page": "https://roxiestreams.info/soccer-streams-1",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "daffodil",
           "path": "tele.m3u8",
           "headers": {
-            "Referer": "https://roxiestreams.info/soccer-streams-2",
+            "Referer": "https://roxiestreams.info/soccer-streams-1",
             "Origin": "https://roxiestreams.info",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
             "Accept": "*/*"
           },
           "drm_keys": null,
           "sport": "soccer",
-          "event_title": "Qatar vs Switzerland",
+          "event_title": "Netherlands vs Japan",
           "matchup": {
-            "home": "Qatar",
-            "away": "Switzerland"
+            "home": "Netherlands",
+            "away": "Japan"
           },
-          "display_name": "Qatar vs Switzerland - TELEMUNDO"
+          "display_name": "Netherlands vs Japan - TELEMUNDO"
         }
       ]
     },
@@ -4537,12 +3823,12 @@
           },
           "drm_keys": null,
           "sport": "mlb",
-          "event_title": "St. Louis Cardinals vs Minnesota Twins",
+          "event_title": "Miami Marlins vs Pittsburgh Pirates",
           "matchup": {
-            "home": "St. Louis Cardinals",
-            "away": "Minnesota Twins"
+            "home": "Miami Marlins",
+            "away": "Pittsburgh Pirates"
           },
-          "display_name": "St. Louis Cardinals vs Minnesota Twins - Stream 1"
+          "display_name": "Miami Marlins vs Pittsburgh Pirates - Stream 1"
         },
         {
           "label": "mlb.m3u8",
@@ -4560,12 +3846,12 @@
           },
           "drm_keys": null,
           "sport": "mlb",
-          "event_title": "St. Louis Cardinals vs Minnesota Twins",
+          "event_title": "Miami Marlins vs Pittsburgh Pirates",
           "matchup": {
-            "home": "St. Louis Cardinals",
-            "away": "Minnesota Twins"
+            "home": "Miami Marlins",
+            "away": "Pittsburgh Pirates"
           },
-          "display_name": "St. Louis Cardinals vs Minnesota Twins - mlb.m3u8"
+          "display_name": "Miami Marlins vs Pittsburgh Pirates - mlb.m3u8"
         },
         {
           "label": "Direct Link",
@@ -4600,26 +3886,6 @@
           },
           "drm_keys": null,
           "sport": "mlb",
-          "event_title": "Houston Astros vs Kansas City Royals",
-          "matchup": {
-            "home": "Houston Astros",
-            "away": "Kansas City Royals"
-          },
-          "display_name": "Houston Astros vs Kansas City Royals"
-        },
-        {
-          "label": "Direct Link",
-          "url": "https://601.formaturamaxi.com.br/mlb12.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/mlb-streams-12",
-          "headers": {
-            "Referer": "https://roxiestreams.info/mlb-streams-12",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "mlb",
           "event_title": "Philadelphia Phillies vs Milwaukee Brewers",
           "matchup": {
             "home": "Philadelphia Phillies",
@@ -4629,11 +3895,11 @@
         },
         {
           "label": "Direct Link",
-          "url": "https://601.formaturamaxi.com.br/mlb13.m3u8",
+          "url": "https://601.formaturamaxi.com.br/mlb12.m3u8",
           "type": "m3u8",
-          "source_page": "https://roxiestreams.info/mlb-streams-13",
+          "source_page": "https://roxiestreams.info/mlb-streams-12",
           "headers": {
-            "Referer": "https://roxiestreams.info/mlb-streams-13",
+            "Referer": "https://roxiestreams.info/mlb-streams-12",
             "Origin": "https://roxiestreams.info",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
             "Accept": "*/*"
@@ -4649,11 +3915,11 @@
         },
         {
           "label": "Direct Link",
-          "url": "https://601.formaturamaxi.com.br/mlb14.m3u8",
+          "url": "https://601.formaturamaxi.com.br/mlb13.m3u8",
           "type": "m3u8",
-          "source_page": "https://roxiestreams.info/mlb-streams-14",
+          "source_page": "https://roxiestreams.info/mlb-streams-13",
           "headers": {
-            "Referer": "https://roxiestreams.info/mlb-streams-14",
+            "Referer": "https://roxiestreams.info/mlb-streams-13",
             "Origin": "https://roxiestreams.info",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
             "Accept": "*/*"
@@ -4669,11 +3935,11 @@
         },
         {
           "label": "Direct Link",
-          "url": "https://601.formaturamaxi.com.br/mlb15.m3u8",
+          "url": "https://601.formaturamaxi.com.br/mlb14.m3u8",
           "type": "m3u8",
-          "source_page": "https://roxiestreams.info/mlb-streams-15",
+          "source_page": "https://roxiestreams.info/mlb-streams-14",
           "headers": {
-            "Referer": "https://roxiestreams.info/mlb-streams-15",
+            "Referer": "https://roxiestreams.info/mlb-streams-14",
             "Origin": "https://roxiestreams.info",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
             "Accept": "*/*"
@@ -4686,6 +3952,26 @@
             "away": "Los Angeles Angels"
           },
           "display_name": "Tampa Bay Rays vs Los Angeles Angels"
+        },
+        {
+          "label": "Direct Link",
+          "url": "https://601.formaturamaxi.com.br/mlb15.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/mlb-streams-15",
+          "headers": {
+            "Referer": "https://roxiestreams.info/mlb-streams-15",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "mlb",
+          "event_title": "Texas Rangers vs Boston Red Sox",
+          "matchup": {
+            "home": "Texas Rangers",
+            "away": "Boston Red Sox"
+          },
+          "display_name": "Texas Rangers vs Boston Red Sox"
         },
         {
           "label": "Stream 1",
@@ -4703,12 +3989,12 @@
           },
           "drm_keys": null,
           "sport": "mlb",
-          "event_title": "New York Yankees vs Toronto Blue Jays",
+          "event_title": "San Diego Padres vs Baltimore Orioles",
           "matchup": {
-            "home": "New York Yankees",
-            "away": "Toronto Blue Jays"
+            "home": "San Diego Padres",
+            "away": "Baltimore Orioles"
           },
-          "display_name": "New York Yankees vs Toronto Blue Jays - Stream 1"
+          "display_name": "San Diego Padres vs Baltimore Orioles - Stream 1"
         },
         {
           "label": "mlb2.m3u8",
@@ -4726,12 +4012,12 @@
           },
           "drm_keys": null,
           "sport": "mlb",
-          "event_title": "New York Yankees vs Toronto Blue Jays",
+          "event_title": "San Diego Padres vs Baltimore Orioles",
           "matchup": {
-            "home": "New York Yankees",
-            "away": "Toronto Blue Jays"
+            "home": "San Diego Padres",
+            "away": "Baltimore Orioles"
           },
-          "display_name": "New York Yankees vs Toronto Blue Jays - mlb2.m3u8"
+          "display_name": "San Diego Padres vs Baltimore Orioles - mlb2.m3u8"
         },
         {
           "label": "Direct Link",
@@ -4746,12 +4032,12 @@
           },
           "drm_keys": null,
           "sport": "mlb",
-          "event_title": "San Diego Padres vs Baltimore Orioles",
+          "event_title": "Seattle Mariners vs Washington Nationals",
           "matchup": {
-            "home": "San Diego Padres",
-            "away": "Baltimore Orioles"
+            "home": "Seattle Mariners",
+            "away": "Washington Nationals"
           },
-          "display_name": "San Diego Padres vs Baltimore Orioles"
+          "display_name": "Seattle Mariners vs Washington Nationals"
         },
         {
           "label": "Stream 1",
@@ -4769,12 +4055,12 @@
           },
           "drm_keys": null,
           "sport": "mlb",
-          "event_title": "Seattle Mariners vs Washington Nationals",
+          "event_title": "New York Yankees vs Toronto Blue Jays",
           "matchup": {
-            "home": "Seattle Mariners",
-            "away": "Washington Nationals"
+            "home": "New York Yankees",
+            "away": "Toronto Blue Jays"
           },
-          "display_name": "Seattle Mariners vs Washington Nationals - Stream 1"
+          "display_name": "New York Yankees vs Toronto Blue Jays - Stream 1"
         },
         {
           "label": "mlb4.m3u8",
@@ -4792,12 +4078,12 @@
           },
           "drm_keys": null,
           "sport": "mlb",
-          "event_title": "Seattle Mariners vs Washington Nationals",
+          "event_title": "New York Yankees vs Toronto Blue Jays",
           "matchup": {
-            "home": "Seattle Mariners",
-            "away": "Washington Nationals"
+            "home": "New York Yankees",
+            "away": "Toronto Blue Jays"
           },
-          "display_name": "Seattle Mariners vs Washington Nationals - mlb4.m3u8"
+          "display_name": "New York Yankees vs Toronto Blue Jays - mlb4.m3u8"
         },
         {
           "label": "Direct Link",
@@ -4806,26 +4092,6 @@
           "source_page": "https://roxiestreams.info/mlb-streams-5",
           "headers": {
             "Referer": "https://roxiestreams.info/mlb-streams-5",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "mlb",
-          "event_title": "Miami Marlins vs Pittsburgh Pirates",
-          "matchup": {
-            "home": "Miami Marlins",
-            "away": "Pittsburgh Pirates"
-          },
-          "display_name": "Miami Marlins vs Pittsburgh Pirates"
-        },
-        {
-          "label": "Direct Link",
-          "url": "https://601.formaturamaxi.com.br/mlb6.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/mlb-streams-6",
-          "headers": {
-            "Referer": "https://roxiestreams.info/mlb-streams-6",
             "Origin": "https://roxiestreams.info",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
             "Accept": "*/*"
@@ -4841,11 +4107,11 @@
         },
         {
           "label": "Direct Link",
-          "url": "https://601.formaturamaxi.com.br/mlb7.m3u8",
+          "url": "https://601.formaturamaxi.com.br/mlb6.m3u8",
           "type": "m3u8",
-          "source_page": "https://roxiestreams.info/mlb-streams-7",
+          "source_page": "https://roxiestreams.info/mlb-streams-6",
           "headers": {
-            "Referer": "https://roxiestreams.info/mlb-streams-7",
+            "Referer": "https://roxiestreams.info/mlb-streams-6",
             "Origin": "https://roxiestreams.info",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
             "Accept": "*/*"
@@ -4861,6 +4127,26 @@
         },
         {
           "label": "Direct Link",
+          "url": "https://601.formaturamaxi.com.br/mlb7.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/mlb-streams-7",
+          "headers": {
+            "Referer": "https://roxiestreams.info/mlb-streams-7",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "mlb",
+          "event_title": "Atlanta Braves vs New York Mets",
+          "matchup": {
+            "home": "Atlanta Braves",
+            "away": "New York Mets"
+          },
+          "display_name": "Atlanta Braves vs New York Mets"
+        },
+        {
+          "label": "Direct Link",
           "url": "https://601.formaturamaxi.com.br/mlb8.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/mlb-streams-8",
@@ -4872,12 +4158,12 @@
           },
           "drm_keys": null,
           "sport": "mlb",
-          "event_title": "Texas Rangers vs Boston Red Sox",
+          "event_title": "Houston Astros vs Kansas City Royals",
           "matchup": {
-            "home": "Texas Rangers",
-            "away": "Boston Red Sox"
+            "home": "Houston Astros",
+            "away": "Kansas City Royals"
           },
-          "display_name": "Texas Rangers vs Boston Red Sox"
+          "display_name": "Houston Astros vs Kansas City Royals"
         },
         {
           "label": "Direct Link",
@@ -4892,12 +4178,12 @@
           },
           "drm_keys": null,
           "sport": "mlb",
-          "event_title": "Atlanta Braves vs New York Mets",
+          "event_title": "St. Louis Cardinals vs Minnesota Twins",
           "matchup": {
-            "home": "Atlanta Braves",
-            "away": "New York Mets"
+            "home": "St. Louis Cardinals",
+            "away": "Minnesota Twins"
           },
-          "display_name": "Atlanta Braves vs New York Mets"
+          "display_name": "St. Louis Cardinals vs Minnesota Twins"
         }
       ]
     },
@@ -5041,10 +4327,7 @@
     "fighting": {
       "pages": [
         "https://roxiestreams.info/fighting",
-        "https://roxiestreams.info/ppv-streams-1",
-        "https://roxiestreams.info/ppv-streams-2",
-        "https://roxiestreams.info/ppv-streams-3",
-        "https://roxiestreams.info/ppv-streams-4"
+        "https://roxiestreams.info/ppv-streams-1"
       ],
       "streams": [
         {
@@ -5063,12 +4346,12 @@
           },
           "drm_keys": null,
           "sport": "fighting",
-          "event_title": "FURY vs. HALL: Beauty vs. The Beast",
+          "event_title": "Gonzalez vs. Perez",
           "matchup": {
-            "home": "FURY",
-            "away": "HALL: Beauty vs. The Beast"
+            "home": "Gonzalez",
+            "away": "Perez"
           },
-          "display_name": "FURY vs. HALL: Beauty vs. The Beast - Stream 1"
+          "display_name": "Gonzalez vs. Perez - Stream 1"
         },
         {
           "label": "Stream 2",
@@ -5086,12 +4369,12 @@
           },
           "drm_keys": null,
           "sport": "fighting",
-          "event_title": "FURY vs. HALL: Beauty vs. The Beast",
+          "event_title": "Gonzalez vs. Perez",
           "matchup": {
-            "home": "FURY",
-            "away": "HALL: Beauty vs. The Beast"
+            "home": "Gonzalez",
+            "away": "Perez"
           },
-          "display_name": "FURY vs. HALL: Beauty vs. The Beast - Stream 2"
+          "display_name": "Gonzalez vs. Perez - Stream 2"
         },
         {
           "label": "ppv.m3u8",
@@ -5109,173 +4392,12 @@
           },
           "drm_keys": null,
           "sport": "fighting",
-          "event_title": "FURY vs. HALL: Beauty vs. The Beast",
+          "event_title": "Gonzalez vs. Perez",
           "matchup": {
-            "home": "FURY",
-            "away": "HALL: Beauty vs. The Beast"
+            "home": "Gonzalez",
+            "away": "Perez"
           },
-          "display_name": "FURY vs. HALL: Beauty vs. The Beast - ppv.m3u8"
-        },
-        {
-          "label": "Stream 1",
-          "url": "https://601.shadow-ran.online/ppv2.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/ppv-streams-2",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "601",
-          "path": "ppv2.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/ppv-streams-2",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "fighting",
-          "event_title": "Khamzat Chimaev vs. Danis (RAF)",
-          "matchup": {
-            "home": "Khamzat Chimaev",
-            "away": "Danis (RAF)"
-          },
-          "display_name": "Khamzat Chimaev vs. Danis (RAF) - Stream 1"
-        },
-        {
-          "label": "Stream 2",
-          "url": "https://ataide0.shadow-ran.online/ppv2.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/ppv-streams-2",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "ataide0",
-          "path": "ppv2.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/ppv-streams-2",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "fighting",
-          "event_title": "Khamzat Chimaev vs. Danis (RAF)",
-          "matchup": {
-            "home": "Khamzat Chimaev",
-            "away": "Danis (RAF)"
-          },
-          "display_name": "Khamzat Chimaev vs. Danis (RAF) - Stream 2"
-        },
-        {
-          "label": "ppv2.m3u8",
-          "url": "https://daffodil.shadow-ran.online/ppv2.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/ppv-streams-2",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "daffodil",
-          "path": "ppv2.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/ppv-streams-2",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "fighting",
-          "event_title": "Khamzat Chimaev vs. Danis (RAF)",
-          "matchup": {
-            "home": "Khamzat Chimaev",
-            "away": "Danis (RAF)"
-          },
-          "display_name": "Khamzat Chimaev vs. Danis (RAF) - ppv2.m3u8"
-        },
-        {
-          "label": "Stream 1",
-          "url": "https://601.shadow-ran.online/ppv3.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/ppv-streams-3",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "601",
-          "path": "ppv3.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/ppv-streams-3",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "fighting",
-          "event_title": "Bam vs. Vargas",
-          "matchup": {
-            "home": "Bam",
-            "away": "Vargas"
-          },
-          "display_name": "Bam vs. Vargas - Stream 1"
-        },
-        {
-          "label": "ppv3.m3u8",
-          "url": "https://daffodil.shadow-ran.online/ppv3.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/ppv-streams-3",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "daffodil",
-          "path": "ppv3.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/ppv-streams-3",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "fighting",
-          "event_title": "Bam vs. Vargas",
-          "matchup": {
-            "home": "Bam",
-            "away": "Vargas"
-          },
-          "display_name": "Bam vs. Vargas - ppv3.m3u8"
-        },
-        {
-          "label": "Stream 1",
-          "url": "https://601.shadow-ran.online/ppv4.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/ppv-streams-4",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "601",
-          "path": "ppv4.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/ppv-streams-4",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "fighting",
-          "event_title": "Jones vs. Carranza 2 (MVP)",
-          "matchup": {
-            "home": "Jones",
-            "away": "Carranza 2 (MVP)"
-          },
-          "display_name": "Jones vs. Carranza 2 (MVP) - Stream 1"
-        },
-        {
-          "label": "ppv4.m3u8",
-          "url": "https://daffodil.shadow-ran.online/ppv4.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/ppv-streams-4",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "daffodil",
-          "path": "ppv4.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/ppv-streams-4",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "fighting",
-          "event_title": "Jones vs. Carranza 2 (MVP)",
-          "matchup": {
-            "home": "Jones",
-            "away": "Carranza 2 (MVP)"
-          },
-          "display_name": "Jones vs. Carranza 2 (MVP) - ppv4.m3u8"
+          "display_name": "Gonzalez vs. Perez - ppv.m3u8"
         }
       ]
     },
@@ -5543,53 +4665,6 @@
         }
       ]
     },
-    "f1": {
-      "pages": [
-        "https://roxiestreams.info/f1"
-      ],
-      "streams": [
-        {
-          "label": "Stream 1",
-          "url": "https://daffodil.shadow-ran.online/f1.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/f1",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "daffodil",
-          "path": "f1.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/f1",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "f1",
-          "event_title": "Formula 1 - Free Practice",
-          "matchup": null,
-          "display_name": "Formula 1 - Free Practice - Stream 1"
-        },
-        {
-          "label": "Stream 2",
-          "url": "https://601.shadow-ran.online/f1.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/f1",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "601",
-          "path": "f1.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/f1",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "f1",
-          "event_title": "Formula 1 - Free Practice",
-          "matchup": null,
-          "display_name": "Formula 1 - Free Practice - Stream 2"
-        }
-      ]
-    },
     "wec": {
       "pages": [
         "https://roxiestreams.info/wec"
@@ -5637,201 +4712,171 @@
         }
       ]
     },
-    "supercross": {
+    "f1": {
       "pages": [
-        "https://roxiestreams.info/supercross"
+        "https://roxiestreams.info/f1"
       ],
       "streams": [
         {
-          "label": "Stream 1",
-          "url": "https://ataide0.shadow-ran.online/sx.m3u8",
+          "label": "Sky Sports",
+          "url": "https://601.shadow-ran.online/f1.m3u8",
           "type": "m3u8",
-          "source_page": "https://roxiestreams.info/supercross",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "ataide0",
-          "path": "sx.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/supercross",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "supercross",
-          "event_title": "AMA Motocross (10/12PM)",
-          "matchup": null,
-          "display_name": "AMA Motocross (10/12PM) - Stream 1"
-        },
-        {
-          "label": "Stream 2",
-          "url": "https://601.shadow-ran.online/sx.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/supercross",
+          "source_page": "https://roxiestreams.info/f1",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "601",
-          "path": "sx.m3u8",
+          "path": "f1.m3u8",
           "headers": {
-            "Referer": "https://roxiestreams.info/supercross",
+            "Referer": "https://roxiestreams.info/f1",
             "Origin": "https://roxiestreams.info",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
             "Accept": "*/*"
           },
           "drm_keys": null,
-          "sport": "supercross",
-          "event_title": "AMA Motocross (10/12PM)",
+          "sport": "f1",
+          "event_title": "Formula 1 - Barcelona Grand Prix",
           "matchup": null,
-          "display_name": "AMA Motocross (10/12PM) - Stream 2"
+          "display_name": "Formula 1 - Barcelona Grand Prix - Sky Sports"
+        },
+        {
+          "label": "F1TV",
+          "url": "https://daffodil.shadow-ran.online/f1tv.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/f1",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "f1tv.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/f1",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "f1",
+          "event_title": "Formula 1 - Barcelona Grand Prix",
+          "matchup": null,
+          "display_name": "Formula 1 - Barcelona Grand Prix - F1TV"
+        },
+        {
+          "label": "TSN",
+          "url": "https://daffodil.shadow-ran.online/tsn.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/f1",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "tsn.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/f1",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "f1",
+          "event_title": "Formula 1 - Barcelona Grand Prix",
+          "matchup": null,
+          "display_name": "Formula 1 - Barcelona Grand Prix - TSN"
         }
       ]
     },
-    "ppv": {
+    "ufc": {
       "pages": [
-        "https://roxiestreams.info/ppv-streams-1",
-        "https://roxiestreams.info/ppv-streams-2"
+        "https://roxiestreams.info/ufc"
       ],
       "streams": [
         {
-          "label": "Stream 1",
-          "url": "https://ataide0.shadow-ran.online/ppv.m3u8",
+          "label": "Direct Link",
+          "url": "https://ataide0.formaturamaxi.com.br/stream/26.m3u8",
           "type": "m3u8",
-          "source_page": "https://roxiestreams.info/ppv-streams-1",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "ataide0",
-          "path": "ppv.m3u8",
+          "source_page": "https://roxiestreams.info/ufc",
           "headers": {
-            "Referer": "https://roxiestreams.info/ppv-streams-1",
+            "Referer": "https://roxiestreams.info/ufc",
             "Origin": "https://roxiestreams.info",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
             "Accept": "*/*"
           },
           "drm_keys": null,
-          "sport": "ppv",
-          "event_title": "FURY vs. HALL: Beauty vs. The Beast",
+          "sport": "ufc",
+          "event_title": "UFC FREEDOM 250 (TOPURIA VS. GAETHJe)",
           "matchup": {
-            "home": "FURY",
-            "away": "HALL: Beauty vs. The Beast"
+            "home": "UFC FREEDOM 250 (TOPURIA",
+            "away": "GAETHJe)"
           },
-          "display_name": "FURY vs. HALL: Beauty vs. The Beast - Stream 1"
+          "display_name": "UFC FREEDOM 250 (TOPURIA VS. GAETHJe)"
         },
         {
-          "label": "Stream 2",
-          "url": "https://601.shadow-ran.online/ppv.m3u8",
+          "label": "Stream 1 (PARA)",
+          "url": "https://601.shadow-ran.online/happybirthdayabb.m3u8",
           "type": "m3u8",
-          "source_page": "https://roxiestreams.info/ppv-streams-1",
+          "source_page": "https://roxiestreams.info/ufc",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "601",
-          "path": "ppv.m3u8",
+          "path": "happybirthdayabb.m3u8",
           "headers": {
-            "Referer": "https://roxiestreams.info/ppv-streams-1",
+            "Referer": "https://roxiestreams.info/ufc",
             "Origin": "https://roxiestreams.info",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
             "Accept": "*/*"
           },
           "drm_keys": null,
-          "sport": "ppv",
-          "event_title": "FURY vs. HALL: Beauty vs. The Beast",
+          "sport": "ufc",
+          "event_title": "UFC FREEDOM 250 (TOPURIA VS. GAETHJe)",
           "matchup": {
-            "home": "FURY",
-            "away": "HALL: Beauty vs. The Beast"
+            "home": "UFC FREEDOM 250 (TOPURIA",
+            "away": "GAETHJe)"
           },
-          "display_name": "FURY vs. HALL: Beauty vs. The Beast - Stream 2"
+          "display_name": "UFC FREEDOM 250 (TOPURIA VS. GAETHJe) - Stream 1 (PARA)"
         },
         {
-          "label": "ppv.m3u8",
-          "url": "https://daffodil.shadow-ran.online/ppv.m3u8",
+          "label": "Stream 2 (SAT)",
+          "url": "https://602.shadow-ran.online/ufc.m3u8",
           "type": "m3u8",
-          "source_page": "https://roxiestreams.info/ppv-streams-1",
+          "source_page": "https://roxiestreams.info/ufc",
           "cdn_domain": "shadow-ran.online",
-          "subdomain": "daffodil",
-          "path": "ppv.m3u8",
+          "subdomain": "602",
+          "path": "ufc.m3u8",
           "headers": {
-            "Referer": "https://roxiestreams.info/ppv-streams-1",
+            "Referer": "https://roxiestreams.info/ufc",
             "Origin": "https://roxiestreams.info",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
             "Accept": "*/*"
           },
           "drm_keys": null,
-          "sport": "ppv",
-          "event_title": "FURY vs. HALL: Beauty vs. The Beast",
+          "sport": "ufc",
+          "event_title": "UFC FREEDOM 250 (TOPURIA VS. GAETHJe)",
           "matchup": {
-            "home": "FURY",
-            "away": "HALL: Beauty vs. The Beast"
+            "home": "UFC FREEDOM 250 (TOPURIA",
+            "away": "GAETHJe)"
           },
-          "display_name": "FURY vs. HALL: Beauty vs. The Beast - ppv.m3u8"
+          "display_name": "UFC FREEDOM 250 (TOPURIA VS. GAETHJe) - Stream 2 (SAT)"
         },
         {
-          "label": "Stream 1",
-          "url": "https://601.shadow-ran.online/ppv2.m3u8",
+          "label": "Stream 4 (TNT)",
+          "url": "https://ataide0.shadow-ran.online/tnt.m3u8",
           "type": "m3u8",
-          "source_page": "https://roxiestreams.info/ppv-streams-2",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "601",
-          "path": "ppv2.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/ppv-streams-2",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "ppv",
-          "event_title": "Khamzat Chimaev vs. Danis (RAF)",
-          "matchup": {
-            "home": "Khamzat Chimaev",
-            "away": "Danis (RAF)"
-          },
-          "display_name": "Khamzat Chimaev vs. Danis (RAF) - Stream 1"
-        },
-        {
-          "label": "Stream 2",
-          "url": "https://ataide0.shadow-ran.online/ppv2.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/ppv-streams-2",
+          "source_page": "https://roxiestreams.info/ufc",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "ataide0",
-          "path": "ppv2.m3u8",
+          "path": "tnt.m3u8",
           "headers": {
-            "Referer": "https://roxiestreams.info/ppv-streams-2",
+            "Referer": "https://roxiestreams.info/ufc",
             "Origin": "https://roxiestreams.info",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
             "Accept": "*/*"
           },
           "drm_keys": null,
-          "sport": "ppv",
-          "event_title": "Khamzat Chimaev vs. Danis (RAF)",
+          "sport": "ufc",
+          "event_title": "UFC FREEDOM 250 (TOPURIA VS. GAETHJe)",
           "matchup": {
-            "home": "Khamzat Chimaev",
-            "away": "Danis (RAF)"
+            "home": "UFC FREEDOM 250 (TOPURIA",
+            "away": "GAETHJe)"
           },
-          "display_name": "Khamzat Chimaev vs. Danis (RAF) - Stream 2"
-        },
-        {
-          "label": "ppv2.m3u8",
-          "url": "https://daffodil.shadow-ran.online/ppv2.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/ppv-streams-2",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "daffodil",
-          "path": "ppv2.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/ppv-streams-2",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "ppv",
-          "event_title": "Khamzat Chimaev vs. Danis (RAF)",
-          "matchup": {
-            "home": "Khamzat Chimaev",
-            "away": "Danis (RAF)"
-          },
-          "display_name": "Khamzat Chimaev vs. Danis (RAF) - ppv2.m3u8"
+          "display_name": "UFC FREEDOM 250 (TOPURIA VS. GAETHJe) - Stream 4 (TNT)"
         }
       ]
     }
   },
-  "stream_count": 63,
+  "stream_count": 52,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
