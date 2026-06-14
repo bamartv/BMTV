@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-13T23:15:40+00:00",
+  "scraped_at": "2026-06-14T03:36:49+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
@@ -708,34 +708,35 @@
         "page": "https://roxiestreams.info/nba-streams-1",
         "streams": [
           {
-            "label": "Direct Link",
-            "url": "https://live1-ott.izzigo.tv//out/u/dash/REY2/ABC-HD/default.mpd",
-            "type": "mpd",
+            "label": "Stream 1",
+            "url": "https://ataide0.shadow-ran.online/nba.m3u8",
+            "type": "m3u8",
             "source_page": "https://roxiestreams.info/nba-streams-1",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "ataide0",
+            "path": "nba.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/nba-streams-1",
               "Origin": "https://roxiestreams.info",
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
               "Accept": "*/*"
             },
-            "drm_keys": {
-              "4333764048f11ff107d0c08ad775636e": "f983c348e6bff5a52c39c249dcb9098f"
-            },
+            "drm_keys": null,
             "sport": "nba",
             "event_title": "New York Knicks vs San Antonio Spurs",
             "matchup": {
               "home": "New York Knicks",
               "away": "San Antonio Spurs"
             },
-            "display_name": "New York Knicks vs San Antonio Spurs"
+            "display_name": "New York Knicks vs San Antonio Spurs - Stream 1"
           },
           {
             "label": "Stream 2",
-            "url": "https://daffodil.shadow-ran.online/nba.m3u8",
+            "url": "https://601.shadow-ran.online/nba.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/nba-streams-1",
             "cdn_domain": "shadow-ran.online",
-            "subdomain": "daffodil",
+            "subdomain": "601",
             "path": "nba.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/nba-streams-1",
@@ -754,11 +755,11 @@
           },
           {
             "label": "nba.m3u8",
-            "url": "https://601.shadow-ran.online/nba.m3u8",
+            "url": "https://daffodil.shadow-ran.online/nba.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/nba-streams-1",
             "cdn_domain": "shadow-ran.online",
-            "subdomain": "601",
+            "subdomain": "daffodil",
             "path": "nba.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/nba-streams-1",
@@ -930,12 +931,12 @@
         "streams": [
           {
             "label": "Stream 1",
-            "url": "https://601.shadow-ran.online/ncaa6.m3u8",
+            "url": "https://601.shadow-ran.online/ppv2.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/ppv-streams-2",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "601",
-            "path": "ncaa6.m3u8",
+            "path": "ppv2.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/ppv-streams-2",
               "Origin": "https://roxiestreams.info",
@@ -952,13 +953,13 @@
             "display_name": "Khamzat Chimaev vs. Danis (RAF) - Stream 1"
           },
           {
-            "label": "ncaa6.m3u8",
-            "url": "https://daffodil.shadow-ran.online/ncaa6.m3u8",
+            "label": "Stream 2",
+            "url": "https://ataide0.shadow-ran.online/ppv2.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/ppv-streams-2",
             "cdn_domain": "shadow-ran.online",
-            "subdomain": "daffodil",
-            "path": "ncaa6.m3u8",
+            "subdomain": "ataide0",
+            "path": "ppv2.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/ppv-streams-2",
               "Origin": "https://roxiestreams.info",
@@ -972,7 +973,30 @@
               "home": "Khamzat Chimaev",
               "away": "Danis (RAF)"
             },
-            "display_name": "Khamzat Chimaev vs. Danis (RAF) - ncaa6.m3u8"
+            "display_name": "Khamzat Chimaev vs. Danis (RAF) - Stream 2"
+          },
+          {
+            "label": "ppv2.m3u8",
+            "url": "https://daffodil.shadow-ran.online/ppv2.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/ppv-streams-2",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "ppv2.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/ppv-streams-2",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "fighting",
+            "event_title": "Khamzat Chimaev vs. Danis (RAF)",
+            "matchup": {
+              "home": "Khamzat Chimaev",
+              "away": "Danis (RAF)"
+            },
+            "display_name": "Khamzat Chimaev vs. Danis (RAF) - ppv2.m3u8"
           }
         ]
       },
@@ -1606,12 +1630,12 @@
         "streams": [
           {
             "label": "Stream 1",
-            "url": "https://601.shadow-ran.online/ncaa6.m3u8",
+            "url": "https://601.shadow-ran.online/ppv2.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/ppv-streams-2",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "601",
-            "path": "ncaa6.m3u8",
+            "path": "ppv2.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/ppv-streams-2",
               "Origin": "https://roxiestreams.info",
@@ -1628,13 +1652,13 @@
             "display_name": "Khamzat Chimaev vs. Danis (RAF) - Stream 1"
           },
           {
-            "label": "ncaa6.m3u8",
-            "url": "https://daffodil.shadow-ran.online/ncaa6.m3u8",
+            "label": "Stream 2",
+            "url": "https://ataide0.shadow-ran.online/ppv2.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/ppv-streams-2",
             "cdn_domain": "shadow-ran.online",
-            "subdomain": "daffodil",
-            "path": "ncaa6.m3u8",
+            "subdomain": "ataide0",
+            "path": "ppv2.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/ppv-streams-2",
               "Origin": "https://roxiestreams.info",
@@ -1648,7 +1672,30 @@
               "home": "Khamzat Chimaev",
               "away": "Danis (RAF)"
             },
-            "display_name": "Khamzat Chimaev vs. Danis (RAF) - ncaa6.m3u8"
+            "display_name": "Khamzat Chimaev vs. Danis (RAF) - Stream 2"
+          },
+          {
+            "label": "ppv2.m3u8",
+            "url": "https://daffodil.shadow-ran.online/ppv2.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/ppv-streams-2",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "ppv2.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/ppv-streams-2",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "ppv",
+            "event_title": "Khamzat Chimaev vs. Danis (RAF)",
+            "matchup": {
+              "home": "Khamzat Chimaev",
+              "away": "Danis (RAF)"
+            },
+            "display_name": "Khamzat Chimaev vs. Danis (RAF) - ppv2.m3u8"
           }
         ]
       }
@@ -3308,9 +3355,9 @@
         "Fighting",
         "Motorsports",
         "Stream Request (Discord)",
+        "MultiView (NEW)",
         "Stream 1",
         "Stream 2",
-        "PC ONLY US (DIRECT)",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -3350,6 +3397,10 @@
         {
           "label": "Stream Request (Discord)",
           "url": "https://discord.gg/JhkVmejRmn"
+        },
+        {
+          "label": "MultiView (NEW)",
+          "url": "https://roxiestreams.info/multiview"
         },
         {
           "label": "Stream Request (Discord)",
@@ -3735,6 +3786,7 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Stream 1",
+        "Stream 2",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -4856,34 +4908,35 @@
       ],
       "streams": [
         {
-          "label": "Direct Link",
-          "url": "https://live1-ott.izzigo.tv//out/u/dash/REY2/ABC-HD/default.mpd",
-          "type": "mpd",
+          "label": "Stream 1",
+          "url": "https://ataide0.shadow-ran.online/nba.m3u8",
+          "type": "m3u8",
           "source_page": "https://roxiestreams.info/nba-streams-1",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "ataide0",
+          "path": "nba.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/nba-streams-1",
             "Origin": "https://roxiestreams.info",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
             "Accept": "*/*"
           },
-          "drm_keys": {
-            "4333764048f11ff107d0c08ad775636e": "f983c348e6bff5a52c39c249dcb9098f"
-          },
+          "drm_keys": null,
           "sport": "nba",
           "event_title": "New York Knicks vs San Antonio Spurs",
           "matchup": {
             "home": "New York Knicks",
             "away": "San Antonio Spurs"
           },
-          "display_name": "New York Knicks vs San Antonio Spurs"
+          "display_name": "New York Knicks vs San Antonio Spurs - Stream 1"
         },
         {
           "label": "Stream 2",
-          "url": "https://daffodil.shadow-ran.online/nba.m3u8",
+          "url": "https://601.shadow-ran.online/nba.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/nba-streams-1",
           "cdn_domain": "shadow-ran.online",
-          "subdomain": "daffodil",
+          "subdomain": "601",
           "path": "nba.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/nba-streams-1",
@@ -4902,11 +4955,11 @@
         },
         {
           "label": "nba.m3u8",
-          "url": "https://601.shadow-ran.online/nba.m3u8",
+          "url": "https://daffodil.shadow-ran.online/nba.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/nba-streams-1",
           "cdn_domain": "shadow-ran.online",
-          "subdomain": "601",
+          "subdomain": "daffodil",
           "path": "nba.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/nba-streams-1",
@@ -5065,12 +5118,12 @@
         },
         {
           "label": "Stream 1",
-          "url": "https://601.shadow-ran.online/ncaa6.m3u8",
+          "url": "https://601.shadow-ran.online/ppv2.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/ppv-streams-2",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "601",
-          "path": "ncaa6.m3u8",
+          "path": "ppv2.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/ppv-streams-2",
             "Origin": "https://roxiestreams.info",
@@ -5087,13 +5140,13 @@
           "display_name": "Khamzat Chimaev vs. Danis (RAF) - Stream 1"
         },
         {
-          "label": "ncaa6.m3u8",
-          "url": "https://daffodil.shadow-ran.online/ncaa6.m3u8",
+          "label": "Stream 2",
+          "url": "https://ataide0.shadow-ran.online/ppv2.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/ppv-streams-2",
           "cdn_domain": "shadow-ran.online",
-          "subdomain": "daffodil",
-          "path": "ncaa6.m3u8",
+          "subdomain": "ataide0",
+          "path": "ppv2.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/ppv-streams-2",
             "Origin": "https://roxiestreams.info",
@@ -5107,7 +5160,30 @@
             "home": "Khamzat Chimaev",
             "away": "Danis (RAF)"
           },
-          "display_name": "Khamzat Chimaev vs. Danis (RAF) - ncaa6.m3u8"
+          "display_name": "Khamzat Chimaev vs. Danis (RAF) - Stream 2"
+        },
+        {
+          "label": "ppv2.m3u8",
+          "url": "https://daffodil.shadow-ran.online/ppv2.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/ppv-streams-2",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "ppv2.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/ppv-streams-2",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "fighting",
+          "event_title": "Khamzat Chimaev vs. Danis (RAF)",
+          "matchup": {
+            "home": "Khamzat Chimaev",
+            "away": "Danis (RAF)"
+          },
+          "display_name": "Khamzat Chimaev vs. Danis (RAF) - ppv2.m3u8"
         },
         {
           "label": "Stream 1",
@@ -5685,12 +5761,12 @@
         },
         {
           "label": "Stream 1",
-          "url": "https://601.shadow-ran.online/ncaa6.m3u8",
+          "url": "https://601.shadow-ran.online/ppv2.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/ppv-streams-2",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "601",
-          "path": "ncaa6.m3u8",
+          "path": "ppv2.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/ppv-streams-2",
             "Origin": "https://roxiestreams.info",
@@ -5707,13 +5783,13 @@
           "display_name": "Khamzat Chimaev vs. Danis (RAF) - Stream 1"
         },
         {
-          "label": "ncaa6.m3u8",
-          "url": "https://daffodil.shadow-ran.online/ncaa6.m3u8",
+          "label": "Stream 2",
+          "url": "https://ataide0.shadow-ran.online/ppv2.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/ppv-streams-2",
           "cdn_domain": "shadow-ran.online",
-          "subdomain": "daffodil",
-          "path": "ncaa6.m3u8",
+          "subdomain": "ataide0",
+          "path": "ppv2.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/ppv-streams-2",
             "Origin": "https://roxiestreams.info",
@@ -5727,12 +5803,35 @@
             "home": "Khamzat Chimaev",
             "away": "Danis (RAF)"
           },
-          "display_name": "Khamzat Chimaev vs. Danis (RAF) - ncaa6.m3u8"
+          "display_name": "Khamzat Chimaev vs. Danis (RAF) - Stream 2"
+        },
+        {
+          "label": "ppv2.m3u8",
+          "url": "https://daffodil.shadow-ran.online/ppv2.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/ppv-streams-2",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "ppv2.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/ppv-streams-2",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "ppv",
+          "event_title": "Khamzat Chimaev vs. Danis (RAF)",
+          "matchup": {
+            "home": "Khamzat Chimaev",
+            "away": "Danis (RAF)"
+          },
+          "display_name": "Khamzat Chimaev vs. Danis (RAF) - ppv2.m3u8"
         }
       ]
     }
   },
-  "stream_count": 61,
+  "stream_count": 63,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
