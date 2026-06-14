@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-14T17:16:34+00:00",
+  "scraped_at": "2026-06-14T19:20:23+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
@@ -67,11 +67,11 @@
           },
           {
             "label": "FOX",
-            "url": "https://daffodil.shadow-ran.online/fox.m3u8",
+            "url": "https://602.shadow-ran.online/fox.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-1",
             "cdn_domain": "shadow-ran.online",
-            "subdomain": "daffodil",
+            "subdomain": "602",
             "path": "fox.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-1",
@@ -110,6 +110,40 @@
               "away": "Japan"
             },
             "display_name": "Netherlands vs Japan - TELEMUNDO"
+          }
+        ]
+      },
+      {
+        "title": "Sweden vs Tunisia",
+        "sport": "soccer",
+        "matchup": {
+          "home": "Sweden",
+          "away": "Tunisia"
+        },
+        "page": "https://roxiestreams.info/soccer-streams-2",
+        "streams": [
+          {
+            "label": "FS1",
+            "url": "https://602.shadow-ran.online/fs1.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-2",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "602",
+            "path": "fs1.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-2",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Sweden vs Tunisia",
+            "matchup": {
+              "home": "Sweden",
+              "away": "Tunisia"
+            },
+            "display_name": "Sweden vs Tunisia - FS1"
           }
         ]
       }
@@ -754,11 +788,11 @@
         "streams": [
           {
             "label": "Stream 1",
-            "url": "https://601.shadow-ran.online/nhl.m3u8",
+            "url": "https://602.shadow-ran.online/nhl.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/nhl-streams-1",
             "cdn_domain": "shadow-ran.online",
-            "subdomain": "601",
+            "subdomain": "602",
             "path": "nhl.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/nhl-streams-1",
@@ -1288,7 +1322,7 @@
         "streams": [
           {
             "label": "Direct Link",
-            "url": "https://ataide0.formaturamaxi.com.br/stream/26.m3u8",
+            "url": "https://ataide0.formaturamaxi.com.br/stream/38.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/ufc",
             "headers": {
@@ -1307,12 +1341,12 @@
             "display_name": "UFC FREEDOM 250 (TOPURIA VS. GAETHJe)"
           },
           {
-            "label": "Stream 1 (PARA)",
-            "url": "https://601.shadow-ran.online/happybirthdayabb.m3u8",
+            "label": "Stream 1 (PARA/CBSSN)",
+            "url": "https://602.shadow-ran.online/happybirthdayabb.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/ufc",
             "cdn_domain": "shadow-ran.online",
-            "subdomain": "601",
+            "subdomain": "602",
             "path": "happybirthdayabb.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/ufc",
@@ -1327,10 +1361,10 @@
               "home": "UFC FREEDOM 250 (TOPURIA",
               "away": "GAETHJe)"
             },
-            "display_name": "UFC FREEDOM 250 (TOPURIA VS. GAETHJe) - Stream 1 (PARA)"
+            "display_name": "UFC FREEDOM 250 (TOPURIA VS. GAETHJe) - Stream 1 (PARA/CBSSN)"
           },
           {
-            "label": "Stream 2 (SAT)",
+            "label": "Stream 2 (SA)",
             "url": "https://602.shadow-ran.online/ufc.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/ufc",
@@ -1350,15 +1384,15 @@
               "home": "UFC FREEDOM 250 (TOPURIA",
               "away": "GAETHJe)"
             },
-            "display_name": "UFC FREEDOM 250 (TOPURIA VS. GAETHJe) - Stream 2 (SAT)"
+            "display_name": "UFC FREEDOM 250 (TOPURIA VS. GAETHJe) - Stream 2 (SA)"
           },
           {
-            "label": "Stream 4 (TNT)",
-            "url": "https://ataide0.shadow-ran.online/tnt.m3u8",
+            "label": "Stream 3 (TNT)",
+            "url": "https://601.shadow-ran.online/tnt.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/ufc",
             "cdn_domain": "shadow-ran.online",
-            "subdomain": "ataide0",
+            "subdomain": "601",
             "path": "tnt.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/ufc",
@@ -1373,7 +1407,7 @@
               "home": "UFC FREEDOM 250 (TOPURIA",
               "away": "GAETHJe)"
             },
-            "display_name": "UFC FREEDOM 250 (TOPURIA VS. GAETHJe) - Stream 4 (TNT)"
+            "display_name": "UFC FREEDOM 250 (TOPURIA VS. GAETHJe) - Stream 3 (TNT)"
           }
         ]
       }
@@ -1401,7 +1435,6 @@
         "Netherlands vs Japan",
         "Côte D'Ivoire vs Ecuador",
         "Sweden vs Tunisia",
-        "Australia vs Turkey",
         "Stream Request (Discord)"
       ],
       "links": [
@@ -1460,10 +1493,6 @@
         {
           "label": "Sweden vs Tunisia",
           "url": "https://roxiestreams.info/soccer-streams-2"
-        },
-        {
-          "label": "Australia vs Turkey",
-          "url": "https://roxiestreams.info/soccer-streams-5"
         },
         {
           "label": "Stream Request (Discord)",
@@ -1543,76 +1572,6 @@
     },
     "https://roxiestreams.info/soccer-streams-2": {
       "url": "https://roxiestreams.info/soccer-streams-2",
-      "title": "Roxiestreams - Watch Live Sports, F1, UFC, NFL, TV",
-      "headings": [],
-      "controls": [
-        "RoxieStreams",
-        "Soccer (WC 2026)",
-        "MLB",
-        "NBA",
-        "NFL",
-        "NHL",
-        "Fighting",
-        "Motorsports",
-        "Stream Request (Discord)",
-        "MultiView (NEW)",
-        "TSN",
-        "FOX",
-        "TELEMUNDO",
-        "PC ONLY (DIRECT)",
-        "Tele (Peacock)",
-        "Switch to Chatango",
-        "Stream Request (Discord)"
-      ],
-      "links": [
-        {
-          "label": "RoxieStreams",
-          "url": "https://roxiestreams.info/"
-        },
-        {
-          "label": "Soccer (WC 2026)",
-          "url": "https://roxiestreams.info/soccer"
-        },
-        {
-          "label": "MLB",
-          "url": "https://roxiestreams.info/mlb"
-        },
-        {
-          "label": "NBA",
-          "url": "https://roxiestreams.info/nba"
-        },
-        {
-          "label": "NFL",
-          "url": "https://roxiestreams.info/nfl"
-        },
-        {
-          "label": "NHL",
-          "url": "https://roxiestreams.info/nhl"
-        },
-        {
-          "label": "Fighting",
-          "url": "https://roxiestreams.info/fighting"
-        },
-        {
-          "label": "Motorsports",
-          "url": "https://roxiestreams.info/motorsports"
-        },
-        {
-          "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/JhkVmejRmn"
-        },
-        {
-          "label": "MultiView (NEW)",
-          "url": "https://roxiestreams.info/multiview"
-        },
-        {
-          "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/JhkVmejRmn"
-        }
-      ]
-    },
-    "https://roxiestreams.info/soccer-streams-5": {
-      "url": "https://roxiestreams.info/soccer-streams-5",
       "title": "Roxiestreams - Watch Live Sports, F1, UFC, NFL, TV",
       "headings": [],
       "controls": [
@@ -3650,11 +3609,11 @@
         "Motorsports",
         "Stream Request (Discord)",
         "MultiView (NEW)",
-        "Stream 1 (PARA)",
-        "Stream 2 (SAT)",
-        "Stream 3 (STARZ)",
-        "Stream 4 (TNT)",
-        "PC ONLY (DIRECT)",
+        "Stream 1 (PARA/CBSSN)",
+        "Stream 2 (SA)",
+        "Stream 3 (TNT)",
+        "Stream 4 (STARZ)",
+        "PC US ONLY (DIRECT)",
         "TNT (PC)",
         "Switch to Chatango",
         "Stream Request (Discord)"
@@ -3712,8 +3671,7 @@
       "pages": [
         "https://roxiestreams.info/soccer",
         "https://roxiestreams.info/soccer-streams-1",
-        "https://roxiestreams.info/soccer-streams-2",
-        "https://roxiestreams.info/soccer-streams-5"
+        "https://roxiestreams.info/soccer-streams-2"
       ],
       "streams": [
         {
@@ -3741,11 +3699,11 @@
         },
         {
           "label": "FOX",
-          "url": "https://daffodil.shadow-ran.online/fox.m3u8",
+          "url": "https://602.shadow-ran.online/fox.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-1",
           "cdn_domain": "shadow-ran.online",
-          "subdomain": "daffodil",
+          "subdomain": "602",
           "path": "fox.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-1",
@@ -3784,6 +3742,29 @@
             "away": "Japan"
           },
           "display_name": "Netherlands vs Japan - TELEMUNDO"
+        },
+        {
+          "label": "FS1",
+          "url": "https://602.shadow-ran.online/fs1.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-2",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "602",
+          "path": "fs1.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-2",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Sweden vs Tunisia",
+          "matchup": {
+            "home": "Sweden",
+            "away": "Tunisia"
+          },
+          "display_name": "Sweden vs Tunisia - FS1"
         }
       ]
     },
@@ -4278,11 +4259,11 @@
       "streams": [
         {
           "label": "Stream 1",
-          "url": "https://601.shadow-ran.online/nhl.m3u8",
+          "url": "https://602.shadow-ran.online/nhl.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/nhl-streams-1",
           "cdn_domain": "shadow-ran.online",
-          "subdomain": "601",
+          "subdomain": "602",
           "path": "nhl.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/nhl-streams-1",
@@ -4786,7 +4767,7 @@
       "streams": [
         {
           "label": "Direct Link",
-          "url": "https://ataide0.formaturamaxi.com.br/stream/26.m3u8",
+          "url": "https://ataide0.formaturamaxi.com.br/stream/38.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/ufc",
           "headers": {
@@ -4805,12 +4786,12 @@
           "display_name": "UFC FREEDOM 250 (TOPURIA VS. GAETHJe)"
         },
         {
-          "label": "Stream 1 (PARA)",
-          "url": "https://601.shadow-ran.online/happybirthdayabb.m3u8",
+          "label": "Stream 1 (PARA/CBSSN)",
+          "url": "https://602.shadow-ran.online/happybirthdayabb.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/ufc",
           "cdn_domain": "shadow-ran.online",
-          "subdomain": "601",
+          "subdomain": "602",
           "path": "happybirthdayabb.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/ufc",
@@ -4825,10 +4806,10 @@
             "home": "UFC FREEDOM 250 (TOPURIA",
             "away": "GAETHJe)"
           },
-          "display_name": "UFC FREEDOM 250 (TOPURIA VS. GAETHJe) - Stream 1 (PARA)"
+          "display_name": "UFC FREEDOM 250 (TOPURIA VS. GAETHJe) - Stream 1 (PARA/CBSSN)"
         },
         {
-          "label": "Stream 2 (SAT)",
+          "label": "Stream 2 (SA)",
           "url": "https://602.shadow-ran.online/ufc.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/ufc",
@@ -4848,15 +4829,15 @@
             "home": "UFC FREEDOM 250 (TOPURIA",
             "away": "GAETHJe)"
           },
-          "display_name": "UFC FREEDOM 250 (TOPURIA VS. GAETHJe) - Stream 2 (SAT)"
+          "display_name": "UFC FREEDOM 250 (TOPURIA VS. GAETHJe) - Stream 2 (SA)"
         },
         {
-          "label": "Stream 4 (TNT)",
-          "url": "https://ataide0.shadow-ran.online/tnt.m3u8",
+          "label": "Stream 3 (TNT)",
+          "url": "https://601.shadow-ran.online/tnt.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/ufc",
           "cdn_domain": "shadow-ran.online",
-          "subdomain": "ataide0",
+          "subdomain": "601",
           "path": "tnt.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/ufc",
@@ -4871,12 +4852,12 @@
             "home": "UFC FREEDOM 250 (TOPURIA",
             "away": "GAETHJe)"
           },
-          "display_name": "UFC FREEDOM 250 (TOPURIA VS. GAETHJe) - Stream 4 (TNT)"
+          "display_name": "UFC FREEDOM 250 (TOPURIA VS. GAETHJe) - Stream 3 (TNT)"
         }
       ]
     }
   },
-  "stream_count": 52,
+  "stream_count": 53,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
