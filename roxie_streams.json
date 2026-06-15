@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-15T19:44:45+00:00",
+  "scraped_at": "2026-06-15T22:15:48+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
@@ -131,35 +131,12 @@
         "page": "https://roxiestreams.info/soccer-streams-2",
         "streams": [
           {
-            "label": "TSN",
-            "url": "https://ataide0.shadow-ran.online/tsn.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/soccer-streams-2",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "ataide0",
-            "path": "tsn.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/soccer-streams-2",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "soccer",
-            "event_title": "Iran vs New Zealand",
-            "matchup": {
-              "home": "Iran",
-              "away": "New Zealand"
-            },
-            "display_name": "Iran vs New Zealand - TSN"
-          },
-          {
             "label": "FS1",
-            "url": "https://602.shadow-ran.online/fs1.m3u8",
+            "url": "https://601.shadow-ran.online/fs1.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-2",
             "cdn_domain": "shadow-ran.online",
-            "subdomain": "602",
+            "subdomain": "601",
             "path": "fs1.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-2",
@@ -175,6 +152,29 @@
               "away": "New Zealand"
             },
             "display_name": "Iran vs New Zealand - FS1"
+          },
+          {
+            "label": "Arabic",
+            "url": "https://601.shadow-ran.online/bein.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-2",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "601",
+            "path": "bein.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-2",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Iran vs New Zealand",
+            "matchup": {
+              "home": "Iran",
+              "away": "New Zealand"
+            },
+            "display_name": "Iran vs New Zealand - Arabic"
           }
         ]
       }
@@ -1178,6 +1178,7 @@
         "MultiView (NEW)",
         "TSN",
         "FS1",
+        "Arabic",
         "TELEMUNDO",
         "PC ONLY (DIRECT)",
         "Tele (Peacock)",
@@ -2795,35 +2796,12 @@
           "display_name": "Belgium vs Egypt - TELEMUNDO"
         },
         {
-          "label": "TSN",
-          "url": "https://ataide0.shadow-ran.online/tsn.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/soccer-streams-2",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "ataide0",
-          "path": "tsn.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/soccer-streams-2",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "soccer",
-          "event_title": "Iran vs New Zealand",
-          "matchup": {
-            "home": "Iran",
-            "away": "New Zealand"
-          },
-          "display_name": "Iran vs New Zealand - TSN"
-        },
-        {
           "label": "FS1",
-          "url": "https://602.shadow-ran.online/fs1.m3u8",
+          "url": "https://601.shadow-ran.online/fs1.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-2",
           "cdn_domain": "shadow-ran.online",
-          "subdomain": "602",
+          "subdomain": "601",
           "path": "fs1.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-2",
@@ -2839,6 +2817,29 @@
             "away": "New Zealand"
           },
           "display_name": "Iran vs New Zealand - FS1"
+        },
+        {
+          "label": "Arabic",
+          "url": "https://601.shadow-ran.online/bein.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-2",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "601",
+          "path": "bein.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-2",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Iran vs New Zealand",
+          "matchup": {
+            "home": "Iran",
+            "away": "New Zealand"
+          },
+          "display_name": "Iran vs New Zealand - Arabic"
         }
       ]
     },
