@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-16T23:21:21+00:00",
+  "scraped_at": "2026-06-17T03:40:35+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
@@ -51,29 +51,6 @@
             "display_name": "Argentina vs Algeria - TSN"
           },
           {
-            "label": "BBC (UK)",
-            "url": "https://601.shadow-ran.online/bbc.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/soccer-streams-1",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "601",
-            "path": "bbc.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/soccer-streams-1",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "soccer",
-            "event_title": "Argentina vs Algeria",
-            "matchup": {
-              "home": "Argentina",
-              "away": "Algeria"
-            },
-            "display_name": "Argentina vs Algeria - BBC (UK)"
-          },
-          {
             "label": "FOX (FHD)",
             "url": "https://602.shadow-ran.online/fox.m3u8",
             "type": "m3u8",
@@ -95,6 +72,29 @@
               "away": "Algeria"
             },
             "display_name": "Argentina vs Algeria - FOX (FHD)"
+          },
+          {
+            "label": "TYC",
+            "url": "https://601.shadow-ran.online/tyc.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-1",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "601",
+            "path": "tyc.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-1",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Argentina vs Algeria",
+            "matchup": {
+              "home": "Argentina",
+              "away": "Algeria"
+            },
+            "display_name": "Argentina vs Algeria - TYC"
           },
           {
             "label": "TELEMUNDO",
@@ -164,6 +164,40 @@
               "away": "Algeria"
             },
             "display_name": "Argentina vs Algeria - fox.m3u8"
+          }
+        ]
+      },
+      {
+        "title": "Austria vs Jordan",
+        "sport": "soccer",
+        "matchup": {
+          "home": "Austria",
+          "away": "Jordan"
+        },
+        "page": "https://roxiestreams.info/soccer-streams-2",
+        "streams": [
+          {
+            "label": "BBC (UK)",
+            "url": "https://601.shadow-ran.online/bbc.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-2",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "601",
+            "path": "bbc.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-2",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Austria vs Jordan",
+            "matchup": {
+              "home": "Austria",
+              "away": "Jordan"
+            },
+            "display_name": "Austria vs Jordan - BBC (UK)"
           }
         ]
       }
@@ -886,7 +920,7 @@
             "display_name": "WWE Smackdown - Stream 1"
           },
           {
-            "label": "Stream 2",
+            "label": "wwe.m3u8",
             "url": "https://daffodil.shadow-ran.online/wwe.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/wwe-streams",
@@ -903,7 +937,7 @@
             "sport": "fighting",
             "event_title": "WWE Smackdown",
             "matchup": null,
-            "display_name": "WWE Smackdown - Stream 2"
+            "display_name": "WWE Smackdown - wwe.m3u8"
           }
         ]
       }
@@ -1209,7 +1243,7 @@
             "display_name": "WWE Smackdown - Stream 1"
           },
           {
-            "label": "Stream 2",
+            "label": "wwe.m3u8",
             "url": "https://daffodil.shadow-ran.online/wwe.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/wwe-streams",
@@ -1226,7 +1260,7 @@
             "sport": "wwe",
             "event_title": "WWE Smackdown",
             "matchup": null,
-            "display_name": "WWE Smackdown - Stream 2"
+            "display_name": "WWE Smackdown - wwe.m3u8"
           }
         ]
       }
@@ -1335,8 +1369,8 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "TSN",
-        "BBC (UK)",
         "FOX (FHD)",
+        "TYC",
         "TELEMUNDO",
         "PC ONLY (DIRECT)",
         "Tele (Peacock)",
@@ -1412,6 +1446,7 @@
         "TELEMUNDO",
         "PC ONLY (DIRECT)",
         "Tele (Peacock)",
+        "العربية",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -3022,7 +3057,6 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Stream 1",
-        "Stream 2",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -3307,29 +3341,6 @@
           "display_name": "Argentina vs Algeria - TSN"
         },
         {
-          "label": "BBC (UK)",
-          "url": "https://601.shadow-ran.online/bbc.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/soccer-streams-1",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "601",
-          "path": "bbc.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/soccer-streams-1",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "soccer",
-          "event_title": "Argentina vs Algeria",
-          "matchup": {
-            "home": "Argentina",
-            "away": "Algeria"
-          },
-          "display_name": "Argentina vs Algeria - BBC (UK)"
-        },
-        {
           "label": "FOX (FHD)",
           "url": "https://602.shadow-ran.online/fox.m3u8",
           "type": "m3u8",
@@ -3351,6 +3362,29 @@
             "away": "Algeria"
           },
           "display_name": "Argentina vs Algeria - FOX (FHD)"
+        },
+        {
+          "label": "TYC",
+          "url": "https://601.shadow-ran.online/tyc.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-1",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "601",
+          "path": "tyc.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-1",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Argentina vs Algeria",
+          "matchup": {
+            "home": "Argentina",
+            "away": "Algeria"
+          },
+          "display_name": "Argentina vs Algeria - TYC"
         },
         {
           "label": "TELEMUNDO",
@@ -3420,6 +3454,29 @@
             "away": "Algeria"
           },
           "display_name": "Argentina vs Algeria - fox.m3u8"
+        },
+        {
+          "label": "BBC (UK)",
+          "url": "https://601.shadow-ran.online/bbc.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-2",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "601",
+          "path": "bbc.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-2",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Austria vs Jordan",
+          "matchup": {
+            "home": "Austria",
+            "away": "Jordan"
+          },
+          "display_name": "Austria vs Jordan - BBC (UK)"
         }
       ]
     },
@@ -3972,7 +4029,7 @@
           "display_name": "WWE Smackdown - Stream 1"
         },
         {
-          "label": "Stream 2",
+          "label": "wwe.m3u8",
           "url": "https://daffodil.shadow-ran.online/wwe.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/wwe-streams",
@@ -3989,7 +4046,7 @@
           "sport": "fighting",
           "event_title": "WWE Smackdown",
           "matchup": null,
-          "display_name": "WWE Smackdown - Stream 2"
+          "display_name": "WWE Smackdown - wwe.m3u8"
         }
       ]
     },
@@ -4283,7 +4340,7 @@
           "display_name": "WWE Smackdown - Stream 1"
         },
         {
-          "label": "Stream 2",
+          "label": "wwe.m3u8",
           "url": "https://daffodil.shadow-ran.online/wwe.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/wwe-streams",
@@ -4300,12 +4357,12 @@
           "sport": "wwe",
           "event_title": "WWE Smackdown",
           "matchup": null,
-          "display_name": "WWE Smackdown - Stream 2"
+          "display_name": "WWE Smackdown - wwe.m3u8"
         }
       ]
     }
   },
-  "stream_count": 47,
+  "stream_count": 48,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
