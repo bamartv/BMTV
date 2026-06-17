@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-17T19:23:11+00:00",
+  "scraped_at": "2026-06-17T21:57:46+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
@@ -51,6 +51,29 @@
             "display_name": "England vs Croatia - TSN"
           },
           {
+            "label": "ITV (UK)",
+            "url": "https://602.shadow-ran.online/itv.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-1",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "602",
+            "path": "itv.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-1",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "England vs Croatia",
+            "matchup": {
+              "home": "England",
+              "away": "Croatia"
+            },
+            "display_name": "England vs Croatia - ITV (UK)"
+          },
+          {
             "label": "FOX (FHD)",
             "url": "https://602.shadow-ran.online/fox.m3u8",
             "type": "m3u8",
@@ -72,29 +95,6 @@
               "away": "Croatia"
             },
             "display_name": "England vs Croatia - FOX (FHD)"
-          },
-          {
-            "label": "BBC (UK)",
-            "url": "https://601.shadow-ran.online/bbc.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/soccer-streams-1",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "601",
-            "path": "bbc.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/soccer-streams-1",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "soccer",
-            "event_title": "England vs Croatia",
-            "matchup": {
-              "home": "England",
-              "away": "Croatia"
-            },
-            "display_name": "England vs Croatia - BBC (UK)"
           },
           {
             "label": "TELEMUNDO",
@@ -164,6 +164,40 @@
               "away": "Croatia"
             },
             "display_name": "England vs Croatia - fox.m3u8"
+          }
+        ]
+      },
+      {
+        "title": "Uzbekistan vs Colombia",
+        "sport": "soccer",
+        "matchup": {
+          "home": "Uzbekistan",
+          "away": "Colombia"
+        },
+        "page": "https://roxiestreams.info/soccer-streams-2",
+        "streams": [
+          {
+            "label": "BBC (UK)",
+            "url": "https://601.shadow-ran.online/bbc.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-2",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "601",
+            "path": "bbc.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-2",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Uzbekistan vs Colombia",
+            "matchup": {
+              "home": "Uzbekistan",
+              "away": "Colombia"
+            },
+            "display_name": "Uzbekistan vs Colombia - BBC (UK)"
           }
         ]
       }
@@ -1266,8 +1300,8 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "TSN",
+        "ITV (UK)",
         "FOX (FHD)",
-        "BBC (UK)",
         "TELEMUNDO",
         "PC ONLY (DIRECT)",
         "Tele (Peacock)",
@@ -3233,6 +3267,29 @@
           "display_name": "England vs Croatia - TSN"
         },
         {
+          "label": "ITV (UK)",
+          "url": "https://602.shadow-ran.online/itv.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-1",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "602",
+          "path": "itv.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-1",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "England vs Croatia",
+          "matchup": {
+            "home": "England",
+            "away": "Croatia"
+          },
+          "display_name": "England vs Croatia - ITV (UK)"
+        },
+        {
           "label": "FOX (FHD)",
           "url": "https://602.shadow-ran.online/fox.m3u8",
           "type": "m3u8",
@@ -3254,29 +3311,6 @@
             "away": "Croatia"
           },
           "display_name": "England vs Croatia - FOX (FHD)"
-        },
-        {
-          "label": "BBC (UK)",
-          "url": "https://601.shadow-ran.online/bbc.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/soccer-streams-1",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "601",
-          "path": "bbc.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/soccer-streams-1",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "soccer",
-          "event_title": "England vs Croatia",
-          "matchup": {
-            "home": "England",
-            "away": "Croatia"
-          },
-          "display_name": "England vs Croatia - BBC (UK)"
         },
         {
           "label": "TELEMUNDO",
@@ -3346,6 +3380,29 @@
             "away": "Croatia"
           },
           "display_name": "England vs Croatia - fox.m3u8"
+        },
+        {
+          "label": "BBC (UK)",
+          "url": "https://601.shadow-ran.online/bbc.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-2",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "601",
+          "path": "bbc.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-2",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Uzbekistan vs Colombia",
+          "matchup": {
+            "home": "Uzbekistan",
+            "away": "Colombia"
+          },
+          "display_name": "Uzbekistan vs Colombia - BBC (UK)"
         }
       ]
     },
@@ -4184,7 +4241,7 @@
       ]
     }
   },
-  "stream_count": 45,
+  "stream_count": 46,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
