@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-18T22:03:25+00:00",
+  "scraped_at": "2026-06-19T00:23:20+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
@@ -44,6 +44,29 @@
               "away": "Korea Republic"
             },
             "display_name": "Mexico vs Korea Republic - TSN"
+          },
+          {
+            "label": "BBC (UK)",
+            "url": "https://601.shadow-ran.online/bbc.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-1",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "601",
+            "path": "bbc.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-1",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Mexico vs Korea Republic",
+            "matchup": {
+              "home": "Mexico",
+              "away": "Korea Republic"
+            },
+            "display_name": "Mexico vs Korea Republic - BBC (UK)"
           },
           {
             "label": "FOX (FHD)",
@@ -969,6 +992,7 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "TSN",
+        "BBC (UK)",
         "FOX (FHD)",
         "TELEMUNDO",
         "PC ONLY (DIRECT)",
@@ -2518,6 +2542,29 @@
           "display_name": "Mexico vs Korea Republic - TSN"
         },
         {
+          "label": "BBC (UK)",
+          "url": "https://601.shadow-ran.online/bbc.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-1",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "601",
+          "path": "bbc.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-1",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Mexico vs Korea Republic",
+          "matchup": {
+            "home": "Mexico",
+            "away": "Korea Republic"
+          },
+          "display_name": "Mexico vs Korea Republic - BBC (UK)"
+        },
+        {
           "label": "FOX (FHD)",
           "url": "https://602.shadow-ran.online/fox.m3u8",
           "type": "m3u8",
@@ -3218,7 +3265,7 @@
       ]
     }
   },
-  "stream_count": 32,
+  "stream_count": 33,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
