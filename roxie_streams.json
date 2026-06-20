@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-20T19:19:35+00:00",
+  "scraped_at": "2026-06-20T21:13:13+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
@@ -33,6 +33,26 @@
         "page": "https://roxiestreams.info/soccer-streams-1",
         "streams": [
           {
+            "label": "Direct Link",
+            "url": "https://customer-rqx2ncfj15h2he6q.cloudflarestream.com/92f6cbdfdbed488c94405d1c605bc403/manifest/video.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-1",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-1",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Germany vs Ivory Coast",
+            "matchup": {
+              "home": "Germany",
+              "away": "Ivory Coast"
+            },
+            "display_name": "Germany vs Ivory Coast"
+          },
+          {
             "label": "TSN",
             "url": "https://ataide0.shadow-ran.online/tsn.m3u8",
             "type": "m3u8",
@@ -54,29 +74,6 @@
               "away": "Ivory Coast"
             },
             "display_name": "Germany vs Ivory Coast - TSN"
-          },
-          {
-            "label": "BBC (UK)",
-            "url": "https://601.shadow-ran.online/bbc.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/soccer-streams-1",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "601",
-            "path": "bbc.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/soccer-streams-1",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "soccer",
-            "event_title": "Germany vs Ivory Coast",
-            "matchup": {
-              "home": "Germany",
-              "away": "Ivory Coast"
-            },
-            "display_name": "Germany vs Ivory Coast - BBC (UK)"
           },
           {
             "label": "FOX (FHD)",
@@ -126,11 +123,11 @@
           },
           {
             "label": "العربية",
-            "url": "https://601.shadow-ran.online/bein.m3u8",
+            "url": "https://ataide0.shadow-ran.online/bein.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-1",
             "cdn_domain": "shadow-ran.online",
-            "subdomain": "601",
+            "subdomain": "ataide0",
             "path": "bein.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-1",
@@ -214,6 +211,29 @@
               "away": "Japan"
             },
             "display_name": "Tunisia vs Japan - FS1"
+          },
+          {
+            "label": "العربية",
+            "url": "https://601.shadow-ran.online/bein.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-3",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "601",
+            "path": "bein.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-3",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Tunisia vs Japan",
+            "matchup": {
+              "home": "Tunisia",
+              "away": "Japan"
+            },
+            "display_name": "Tunisia vs Japan - العربية"
           }
         ]
       }
@@ -1004,6 +1024,23 @@
         "streams": [
           {
             "label": "Direct Link",
+            "url": "https://customer-rqx2ncfj15h2he6q.cloudflarestream.com/92f6cbdfdbed488c94405d1c605bc403/manifest/video.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/multiview",
+            "headers": {
+              "Referer": "https://roxiestreams.info/multiview",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "multiview",
+            "event_title": "MultiView (NEW)",
+            "matchup": null,
+            "display_name": "MultiView (NEW)"
+          },
+          {
+            "label": "Direct Link",
             "url": "https://601.formaturamaxi.com.br/mlb3.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/multiview",
@@ -1200,13 +1237,10 @@
         "page": "https://roxiestreams.info/supercross",
         "streams": [
           {
-            "label": "Stream 2",
-            "url": "https://601.shadow-ran.online/sx.m3u8",
+            "label": "Direct Link",
+            "url": "https://602.formaturamaxi.com.br/sx.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/supercross",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "601",
-            "path": "sx.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/supercross",
               "Origin": "https://roxiestreams.info",
@@ -1217,47 +1251,7 @@
             "sport": "supercross",
             "event_title": "AMA Motocross 8/12PM",
             "matchup": null,
-            "display_name": "AMA Motocross 8/12PM - Stream 2"
-          },
-          {
-            "label": "Stream 1",
-            "url": "https://ataide0.shadow-ran.online/sx.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/supercross",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "ataide0",
-            "path": "sx.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/supercross",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "supercross",
-            "event_title": "AMA Motocross 8/12PM",
-            "matchup": null,
-            "display_name": "AMA Motocross 8/12PM - Stream 1"
-          },
-          {
-            "label": "sx.m3u8",
-            "url": "https://daffodil.shadow-ran.online/sx.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/supercross",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "daffodil",
-            "path": "sx.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/supercross",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "supercross",
-            "event_title": "AMA Motocross 8/12PM",
-            "matchup": null,
-            "display_name": "AMA Motocross 8/12PM - sx.m3u8"
+            "display_name": "AMA Motocross 8/12PM"
           }
         ]
       }
@@ -1273,27 +1267,7 @@
         "page": "https://roxiestreams.info/ufc",
         "streams": [
           {
-            "label": "Direct Link",
-            "url": "https://ataide0.cloudhostar.com/stream/38.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/ufc",
-            "headers": {
-              "Referer": "https://roxiestreams.info/ufc",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "ufc",
-            "event_title": "UFC: Kape vs. Horiguchi 2",
-            "matchup": {
-              "home": "UFC: Kape",
-              "away": "Horiguchi 2"
-            },
-            "display_name": "UFC: Kape vs. Horiguchi 2"
-          },
-          {
-            "label": "Stream 1 (PARA/SN)",
+            "label": "Stream 1 (PARA)",
             "url": "https://602.shadow-ran.online/happybirthdayabb.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/ufc",
@@ -1313,10 +1287,10 @@
               "home": "UFC: Kape",
               "away": "Horiguchi 2"
             },
-            "display_name": "UFC: Kape vs. Horiguchi 2 - Stream 1 (PARA/SN)"
+            "display_name": "UFC: Kape vs. Horiguchi 2 - Stream 1 (PARA)"
           },
           {
-            "label": "Stream 2 (STW)",
+            "label": "Stream 2 (SN)",
             "url": "https://602.shadow-ran.online/ufc.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/ufc",
@@ -1336,15 +1310,15 @@
               "home": "UFC: Kape",
               "away": "Horiguchi 2"
             },
-            "display_name": "UFC: Kape vs. Horiguchi 2 - Stream 2 (STW)"
+            "display_name": "UFC: Kape vs. Horiguchi 2 - Stream 2 (SN)"
           },
           {
             "label": "Stream 3 (TNT)",
-            "url": "https://601.shadow-ran.online/tnt.m3u8",
+            "url": "https://602.shadow-ran.online/tnt.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/ufc",
             "cdn_domain": "shadow-ran.online",
-            "subdomain": "601",
+            "subdomain": "602",
             "path": "tnt.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/ufc",
@@ -1473,7 +1447,7 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "TSN",
-        "BBC (UK)",
+        "Fox (ALT)",
         "FOX (FHD)",
         "TELEMUNDO",
         "PC ONLY (DIRECT)",
@@ -3443,13 +3417,6 @@
         "MultiView (NEW)",
         "Stream 1",
         "Switch to Chatango",
-        "Stream Request (Discord)",
-        "Stream Request (Discord)",
-        "MultiView (NEW)",
-        "Stream 1",
-        "Stream 2",
-        "PC ONLY (DIRECT)",
-        "Switch to Chatango",
         "Stream Request (Discord)"
       ],
       "links": [
@@ -3496,18 +3463,6 @@
         {
           "label": "Stream Request (Discord)",
           "url": "https://discord.gg/JhkVmejRmn"
-        },
-        {
-          "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/JhkVmejRmn"
-        },
-        {
-          "label": "MultiView (NEW)",
-          "url": "https://roxiestreams.info/multiview"
-        },
-        {
-          "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/JhkVmejRmn"
         }
       ]
     },
@@ -3526,12 +3481,10 @@
         "Motorsports",
         "Stream Request (Discord)",
         "MultiView (NEW)",
-        "Stream 1 (PARA/SN)",
-        "Stream 2 (STW)",
+        "Stream 1 (PARA)",
+        "Stream 2 (SN)",
         "Stream 3 (TNT)",
-        "Stream 4 (STARZ)",
         "PC ONLY (DIRECT)",
-        "Starz (PC)",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -3593,6 +3546,26 @@
       ],
       "streams": [
         {
+          "label": "Direct Link",
+          "url": "https://customer-rqx2ncfj15h2he6q.cloudflarestream.com/92f6cbdfdbed488c94405d1c605bc403/manifest/video.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-1",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-1",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Germany vs Ivory Coast",
+          "matchup": {
+            "home": "Germany",
+            "away": "Ivory Coast"
+          },
+          "display_name": "Germany vs Ivory Coast"
+        },
+        {
           "label": "TSN",
           "url": "https://ataide0.shadow-ran.online/tsn.m3u8",
           "type": "m3u8",
@@ -3614,29 +3587,6 @@
             "away": "Ivory Coast"
           },
           "display_name": "Germany vs Ivory Coast - TSN"
-        },
-        {
-          "label": "BBC (UK)",
-          "url": "https://601.shadow-ran.online/bbc.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/soccer-streams-1",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "601",
-          "path": "bbc.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/soccer-streams-1",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "soccer",
-          "event_title": "Germany vs Ivory Coast",
-          "matchup": {
-            "home": "Germany",
-            "away": "Ivory Coast"
-          },
-          "display_name": "Germany vs Ivory Coast - BBC (UK)"
         },
         {
           "label": "FOX (FHD)",
@@ -3686,11 +3636,11 @@
         },
         {
           "label": "العربية",
-          "url": "https://601.shadow-ran.online/bein.m3u8",
+          "url": "https://ataide0.shadow-ran.online/bein.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-1",
           "cdn_domain": "shadow-ran.online",
-          "subdomain": "601",
+          "subdomain": "ataide0",
           "path": "bein.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-1",
@@ -3752,6 +3702,29 @@
             "away": "Japan"
           },
           "display_name": "Tunisia vs Japan - FS1"
+        },
+        {
+          "label": "العربية",
+          "url": "https://601.shadow-ran.online/bein.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-3",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "601",
+          "path": "bein.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-3",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Tunisia vs Japan",
+          "matchup": {
+            "home": "Tunisia",
+            "away": "Japan"
+          },
+          "display_name": "Tunisia vs Japan - العربية"
         }
       ]
     },
@@ -4370,6 +4343,23 @@
       "streams": [
         {
           "label": "Direct Link",
+          "url": "https://customer-rqx2ncfj15h2he6q.cloudflarestream.com/92f6cbdfdbed488c94405d1c605bc403/manifest/video.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/multiview",
+          "headers": {
+            "Referer": "https://roxiestreams.info/multiview",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "multiview",
+          "event_title": "MultiView (NEW)",
+          "matchup": null,
+          "display_name": "MultiView (NEW)"
+        },
+        {
+          "label": "Direct Link",
           "url": "https://601.formaturamaxi.com.br/mlb3.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/multiview",
@@ -4563,13 +4553,10 @@
       ],
       "streams": [
         {
-          "label": "Stream 2",
-          "url": "https://601.shadow-ran.online/sx.m3u8",
+          "label": "Direct Link",
+          "url": "https://602.formaturamaxi.com.br/sx.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/supercross",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "601",
-          "path": "sx.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/supercross",
             "Origin": "https://roxiestreams.info",
@@ -4580,47 +4567,7 @@
           "sport": "supercross",
           "event_title": "AMA Motocross 8/12PM",
           "matchup": null,
-          "display_name": "AMA Motocross 8/12PM - Stream 2"
-        },
-        {
-          "label": "Stream 1",
-          "url": "https://ataide0.shadow-ran.online/sx.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/supercross",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "ataide0",
-          "path": "sx.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/supercross",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "supercross",
-          "event_title": "AMA Motocross 8/12PM",
-          "matchup": null,
-          "display_name": "AMA Motocross 8/12PM - Stream 1"
-        },
-        {
-          "label": "sx.m3u8",
-          "url": "https://daffodil.shadow-ran.online/sx.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/supercross",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "daffodil",
-          "path": "sx.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/supercross",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "supercross",
-          "event_title": "AMA Motocross 8/12PM",
-          "matchup": null,
-          "display_name": "AMA Motocross 8/12PM - sx.m3u8"
+          "display_name": "AMA Motocross 8/12PM"
         }
       ]
     },
@@ -4630,27 +4577,7 @@
       ],
       "streams": [
         {
-          "label": "Direct Link",
-          "url": "https://ataide0.cloudhostar.com/stream/38.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/ufc",
-          "headers": {
-            "Referer": "https://roxiestreams.info/ufc",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "ufc",
-          "event_title": "UFC: Kape vs. Horiguchi 2",
-          "matchup": {
-            "home": "UFC: Kape",
-            "away": "Horiguchi 2"
-          },
-          "display_name": "UFC: Kape vs. Horiguchi 2"
-        },
-        {
-          "label": "Stream 1 (PARA/SN)",
+          "label": "Stream 1 (PARA)",
           "url": "https://602.shadow-ran.online/happybirthdayabb.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/ufc",
@@ -4670,10 +4597,10 @@
             "home": "UFC: Kape",
             "away": "Horiguchi 2"
           },
-          "display_name": "UFC: Kape vs. Horiguchi 2 - Stream 1 (PARA/SN)"
+          "display_name": "UFC: Kape vs. Horiguchi 2 - Stream 1 (PARA)"
         },
         {
-          "label": "Stream 2 (STW)",
+          "label": "Stream 2 (SN)",
           "url": "https://602.shadow-ran.online/ufc.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/ufc",
@@ -4693,15 +4620,15 @@
             "home": "UFC: Kape",
             "away": "Horiguchi 2"
           },
-          "display_name": "UFC: Kape vs. Horiguchi 2 - Stream 2 (STW)"
+          "display_name": "UFC: Kape vs. Horiguchi 2 - Stream 2 (SN)"
         },
         {
           "label": "Stream 3 (TNT)",
-          "url": "https://601.shadow-ran.online/tnt.m3u8",
+          "url": "https://602.shadow-ran.online/tnt.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/ufc",
           "cdn_domain": "shadow-ran.online",
-          "subdomain": "601",
+          "subdomain": "602",
           "path": "tnt.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/ufc",
@@ -4721,7 +4648,7 @@
       ]
     }
   },
-  "stream_count": 51,
+  "stream_count": 50,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
