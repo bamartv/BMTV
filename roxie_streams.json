@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-21T08:26:22+00:00",
+  "scraped_at": "2026-06-21T11:42:35+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
@@ -34,7 +34,7 @@
         "streams": [
           {
             "label": "Direct Link",
-            "url": "https://customer-rqx2ncfj15h2he6q.cloudflarestream.com/92f6cbdfdbed488c94405d1c605bc403/manifest/video.m3u8",
+            "url": "https://customer-rqx2ncfj15h2he6q.cloudflarestream.com/6bbb3f01ec11e5b10e4369978f011941/manifest/video.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-1",
             "headers": {
@@ -156,13 +156,10 @@
         "page": "https://roxiestreams.info/soccer-streams-2",
         "streams": [
           {
-            "label": "Stream 1",
-            "url": "https://daffodil.shadow-ran.online/dep.m3u8",
+            "label": "Direct Link",
+            "url": "https://customer-rqx2ncfj15h2he6q.cloudflarestream.com/92f6cbdfdbed488c94405d1c605bc403/manifest/video.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-2",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "daffodil",
-            "path": "dep.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-2",
               "Origin": "https://roxiestreams.info",
@@ -176,7 +173,7 @@
               "home": "New Zealand",
               "away": "Egypt"
             },
-            "display_name": "New Zealand vs Egypt - Stream 1"
+            "display_name": "New Zealand vs Egypt"
           }
         ]
       }
@@ -998,6 +995,23 @@
         "streams": [
           {
             "label": "Direct Link",
+            "url": "https://customer-rqx2ncfj15h2he6q.cloudflarestream.com/6bbb3f01ec11e5b10e4369978f011941/manifest/video.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/multiview",
+            "headers": {
+              "Referer": "https://roxiestreams.info/multiview",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "multiview",
+            "event_title": "MultiView (NEW)",
+            "matchup": null,
+            "display_name": "MultiView (NEW)"
+          },
+          {
+            "label": "Direct Link",
             "url": "https://customer-rqx2ncfj15h2he6q.cloudflarestream.com/92f6cbdfdbed488c94405d1c605bc403/manifest/video.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/multiview",
@@ -1245,6 +1259,23 @@
         "page": "https://roxiestreams.info/motogp",
         "streams": [
           {
+            "label": "Direct Link",
+            "url": "https://customer-rqx2ncfj15h2he6q.cloudflarestream.com/92f6cbdfdbed488c94405d1c605bc403/manifest/video.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/motogp",
+            "headers": {
+              "Referer": "https://roxiestreams.info/motogp",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "motogp",
+            "event_title": "MotoGP - Grand Prix",
+            "matchup": null,
+            "display_name": "MotoGP - Grand Prix"
+          },
+          {
             "label": "Stream 1",
             "url": "https://601.shadow-ran.online/tnt2.m3u8",
             "type": "m3u8",
@@ -1263,26 +1294,6 @@
             "event_title": "MotoGP - Grand Prix",
             "matchup": null,
             "display_name": "MotoGP - Grand Prix - Stream 1"
-          },
-          {
-            "label": "Stream 2",
-            "url": "https://daffodil.shadow-ran.online/fs2.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/motogp",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "daffodil",
-            "path": "fs2.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/motogp",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "motogp",
-            "event_title": "MotoGP - Grand Prix",
-            "matchup": null,
-            "display_name": "MotoGP - Grand Prix - Stream 2"
           },
           {
             "label": "tnt2.m3u8",
@@ -1316,7 +1327,7 @@
         "streams": [
           {
             "label": "Direct Link",
-            "url": "https://601.formaturamaxi.com.br/nascar.m3u8",
+            "url": "https://daffodil.formaturamaxi.com.br/tsn.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/nascar",
             "headers": {
@@ -1526,7 +1537,13 @@
         "Motorsports",
         "Stream Request (Discord)",
         "MultiView (NEW)",
-        "Stream 1",
+        "TSN",
+        "FS1 (ALT)",
+        "FS1 (FHD)",
+        "TELEMUNDO",
+        "PC ONLY (DIRECT)",
+        "Tele (Peacock)",
+        "العربية",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -3558,7 +3575,7 @@
       "streams": [
         {
           "label": "Direct Link",
-          "url": "https://customer-rqx2ncfj15h2he6q.cloudflarestream.com/92f6cbdfdbed488c94405d1c605bc403/manifest/video.m3u8",
+          "url": "https://customer-rqx2ncfj15h2he6q.cloudflarestream.com/6bbb3f01ec11e5b10e4369978f011941/manifest/video.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-1",
           "headers": {
@@ -3669,13 +3686,10 @@
           "display_name": "Spain vs Saudi Arabia - العربية"
         },
         {
-          "label": "Stream 1",
-          "url": "https://daffodil.shadow-ran.online/dep.m3u8",
+          "label": "Direct Link",
+          "url": "https://customer-rqx2ncfj15h2he6q.cloudflarestream.com/92f6cbdfdbed488c94405d1c605bc403/manifest/video.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-2",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "daffodil",
-          "path": "dep.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-2",
             "Origin": "https://roxiestreams.info",
@@ -3689,7 +3703,7 @@
             "home": "New Zealand",
             "away": "Egypt"
           },
-          "display_name": "New Zealand vs Egypt - Stream 1"
+          "display_name": "New Zealand vs Egypt"
         }
       ]
     },
@@ -4329,6 +4343,23 @@
       "streams": [
         {
           "label": "Direct Link",
+          "url": "https://customer-rqx2ncfj15h2he6q.cloudflarestream.com/6bbb3f01ec11e5b10e4369978f011941/manifest/video.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/multiview",
+          "headers": {
+            "Referer": "https://roxiestreams.info/multiview",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "multiview",
+          "event_title": "MultiView (NEW)",
+          "matchup": null,
+          "display_name": "MultiView (NEW)"
+        },
+        {
+          "label": "Direct Link",
           "url": "https://customer-rqx2ncfj15h2he6q.cloudflarestream.com/92f6cbdfdbed488c94405d1c605bc403/manifest/video.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/multiview",
@@ -4573,6 +4604,23 @@
       ],
       "streams": [
         {
+          "label": "Direct Link",
+          "url": "https://customer-rqx2ncfj15h2he6q.cloudflarestream.com/92f6cbdfdbed488c94405d1c605bc403/manifest/video.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/motogp",
+          "headers": {
+            "Referer": "https://roxiestreams.info/motogp",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "motogp",
+          "event_title": "MotoGP - Grand Prix",
+          "matchup": null,
+          "display_name": "MotoGP - Grand Prix"
+        },
+        {
           "label": "Stream 1",
           "url": "https://601.shadow-ran.online/tnt2.m3u8",
           "type": "m3u8",
@@ -4591,26 +4639,6 @@
           "event_title": "MotoGP - Grand Prix",
           "matchup": null,
           "display_name": "MotoGP - Grand Prix - Stream 1"
-        },
-        {
-          "label": "Stream 2",
-          "url": "https://daffodil.shadow-ran.online/fs2.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/motogp",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "daffodil",
-          "path": "fs2.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/motogp",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "motogp",
-          "event_title": "MotoGP - Grand Prix",
-          "matchup": null,
-          "display_name": "MotoGP - Grand Prix - Stream 2"
         },
         {
           "label": "tnt2.m3u8",
@@ -4641,7 +4669,7 @@
       "streams": [
         {
           "label": "Direct Link",
-          "url": "https://601.formaturamaxi.com.br/nascar.m3u8",
+          "url": "https://daffodil.formaturamaxi.com.br/tsn.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/nascar",
           "headers": {
@@ -4676,7 +4704,7 @@
       ]
     }
   },
-  "stream_count": 52,
+  "stream_count": 53,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
