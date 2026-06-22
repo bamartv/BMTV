@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-22T20:40:19+00:00",
+  "scraped_at": "2026-06-22T22:44:15+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
@@ -28,26 +28,6 @@
         "page": "https://roxiestreams.info/soccer-streams-1",
         "streams": [
           {
-            "label": "Direct Link",
-            "url": "https://storage.googleapis.com/poiuytyrnvggdover2/mux_video_ts/index-1.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/soccer-streams-1",
-            "headers": {
-              "Referer": "https://roxiestreams.info/soccer-streams-1",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "soccer",
-            "event_title": "Norway vs Senegal",
-            "matchup": {
-              "home": "Norway",
-              "away": "Senegal"
-            },
-            "display_name": "Norway vs Senegal"
-          },
-          {
             "label": "TSN",
             "url": "https://ataide0.shadow-ran.online/tsn.m3u8",
             "type": "m3u8",
@@ -69,6 +49,29 @@
               "away": "Senegal"
             },
             "display_name": "Norway vs Senegal - TSN"
+          },
+          {
+            "label": "FOX (ALT)",
+            "url": "https://601.shadow-ran.online/fox.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-1",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "601",
+            "path": "fox.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-1",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Norway vs Senegal",
+            "matchup": {
+              "home": "Norway",
+              "away": "Senegal"
+            },
+            "display_name": "Norway vs Senegal - FOX (ALT)"
           },
           {
             "label": "FOX (FHD)",
@@ -919,23 +922,6 @@
         "streams": [
           {
             "label": "Direct Link",
-            "url": "https://storage.googleapis.com/poiuytyrnvggdover2/mux_video_ts/index-1.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/multiview",
-            "headers": {
-              "Referer": "https://roxiestreams.info/multiview",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "multiview",
-            "event_title": "MultiView (NEW)",
-            "matchup": null,
-            "display_name": "MultiView (NEW)"
-          },
-          {
-            "label": "Direct Link",
             "url": "https://customer-rqx2ncfj15h2he6q.cloudflarestream.com/92f6cbdfdbed488c94405d1c605bc403/manifest/video.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/multiview",
@@ -1295,7 +1281,7 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "TSN",
-        "TSN (ALT)",
+        "FOX (ALT)",
         "FOX (FHD)",
         "TELEMUNDO",
         "PC ONLY (DIRECT)",
@@ -3128,26 +3114,6 @@
       ],
       "streams": [
         {
-          "label": "Direct Link",
-          "url": "https://storage.googleapis.com/poiuytyrnvggdover2/mux_video_ts/index-1.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/soccer-streams-1",
-          "headers": {
-            "Referer": "https://roxiestreams.info/soccer-streams-1",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "soccer",
-          "event_title": "Norway vs Senegal",
-          "matchup": {
-            "home": "Norway",
-            "away": "Senegal"
-          },
-          "display_name": "Norway vs Senegal"
-        },
-        {
           "label": "TSN",
           "url": "https://ataide0.shadow-ran.online/tsn.m3u8",
           "type": "m3u8",
@@ -3169,6 +3135,29 @@
             "away": "Senegal"
           },
           "display_name": "Norway vs Senegal - TSN"
+        },
+        {
+          "label": "FOX (ALT)",
+          "url": "https://601.shadow-ran.online/fox.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-1",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "601",
+          "path": "fox.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-1",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Norway vs Senegal",
+          "matchup": {
+            "home": "Norway",
+            "away": "Senegal"
+          },
+          "display_name": "Norway vs Senegal - FOX (ALT)"
         },
         {
           "label": "FOX (FHD)",
@@ -3849,23 +3838,6 @@
       "streams": [
         {
           "label": "Direct Link",
-          "url": "https://storage.googleapis.com/poiuytyrnvggdover2/mux_video_ts/index-1.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/multiview",
-          "headers": {
-            "Referer": "https://roxiestreams.info/multiview",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "multiview",
-          "event_title": "MultiView (NEW)",
-          "matchup": null,
-          "display_name": "MultiView (NEW)"
-        },
-        {
-          "label": "Direct Link",
           "url": "https://customer-rqx2ncfj15h2he6q.cloudflarestream.com/92f6cbdfdbed488c94405d1c605bc403/manifest/video.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/multiview",
@@ -4118,7 +4090,7 @@
       ]
     }
   },
-  "stream_count": 46,
+  "stream_count": 45,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
