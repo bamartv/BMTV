@@ -1,24 +1,29 @@
 {
-  "scraped_at": "2026-06-24T06:44:41+00:00",
+  "scraped_at": "2026-06-24T10:19:47+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
   ],
   "events": [
     {
-      "name": "World Cup Group K",
+      "name": "Crocker vs. Paro",
+      "page": "https://roxiestreams.info/ppv-streams-1",
+      "start_time": "June 24, 2026 2:00 AM"
+    },
+    {
+      "name": "World Cup (Double Headers)",
       "page": "https://roxiestreams.info/soccer",
-      "start_time": "June 23, 2026 10:00 AM"
+      "start_time": "June 24, 2026 12:00 PM"
     },
     {
       "name": "NBA Draft",
       "page": "https://roxiestreams.info/nba-streams-1",
-      "start_time": "June 23, 2026 5:00 PM"
+      "start_time": "June 24, 2026 5:00 PM"
     },
     {
-      "name": "WWE NXT",
-      "page": "https://roxiestreams.info/wwe-streams",
-      "start_time": "June 23, 2026 5:00 PM"
+      "name": "AEW",
+      "page": "https://roxiestreams.info/aew",
+      "start_time": "June 24, 2026 5:00 PM"
     }
   ],
   "events_by_sport": {
@@ -840,50 +845,59 @@
     ],
     "fighting": [
       {
-        "title": "WWE NXT",
+        "title": "Crocker vs. Paro",
         "sport": "fighting",
-        "matchup": null,
-        "page": "https://roxiestreams.info/wwe-streams",
+        "matchup": {
+          "home": "Crocker",
+          "away": "Paro"
+        },
+        "page": "https://roxiestreams.info/ppv-streams-1",
         "streams": [
           {
             "label": "Stream 1",
-            "url": "https://daffodil.shadow-ran.online/wwe.m3u8",
+            "url": "https://601.shadow-ran.online/ppv.m3u8",
             "type": "m3u8",
-            "source_page": "https://roxiestreams.info/wwe-streams",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "daffodil",
-            "path": "wwe.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/wwe-streams",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "fighting",
-            "event_title": "WWE NXT",
-            "matchup": null,
-            "display_name": "WWE NXT - Stream 1"
-          },
-          {
-            "label": "Stream 2",
-            "url": "https://601.shadow-ran.online/wwe.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/wwe-streams",
+            "source_page": "https://roxiestreams.info/ppv-streams-1",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "601",
-            "path": "wwe.m3u8",
+            "path": "ppv.m3u8",
             "headers": {
-              "Referer": "https://roxiestreams.info/wwe-streams",
+              "Referer": "https://roxiestreams.info/ppv-streams-1",
               "Origin": "https://roxiestreams.info",
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
               "Accept": "*/*"
             },
             "drm_keys": null,
             "sport": "fighting",
-            "event_title": "WWE NXT",
-            "matchup": null,
-            "display_name": "WWE NXT - Stream 2"
+            "event_title": "Crocker vs. Paro",
+            "matchup": {
+              "home": "Crocker",
+              "away": "Paro"
+            },
+            "display_name": "Crocker vs. Paro - Stream 1"
+          },
+          {
+            "label": "ppv.m3u8",
+            "url": "https://daffodil.shadow-ran.online/ppv.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/ppv-streams-1",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "ppv.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/ppv-streams-1",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "fighting",
+            "event_title": "Crocker vs. Paro",
+            "matchup": {
+              "home": "Crocker",
+              "away": "Paro"
+            },
+            "display_name": "Crocker vs. Paro - ppv.m3u8"
           }
         ]
       }
@@ -891,7 +905,7 @@
     "motorsports": [],
     "aew": [
       {
-        "title": "Stream 1",
+        "title": "AEW",
         "sport": "aew",
         "matchup": null,
         "page": "https://roxiestreams.info/aew",
@@ -912,18 +926,10 @@
             },
             "drm_keys": null,
             "sport": "aew",
-            "event_title": "Stream 1",
+            "event_title": "AEW",
             "matchup": null,
-            "display_name": "Stream 1"
-          }
-        ]
-      },
-      {
-        "title": "aew.m3u8",
-        "sport": "aew",
-        "matchup": null,
-        "page": "https://roxiestreams.info/aew",
-        "streams": [
+            "display_name": "AEW - Stream 1"
+          },
           {
             "label": "aew.m3u8",
             "url": "https://daffodil.shadow-ran.online/aew.m3u8",
@@ -940,9 +946,9 @@
             },
             "drm_keys": null,
             "sport": "aew",
-            "event_title": "aew.m3u8",
+            "event_title": "AEW",
             "matchup": null,
-            "display_name": "aew.m3u8"
+            "display_name": "AEW - aew.m3u8"
           }
         ]
       }
@@ -1195,52 +1201,61 @@
         ]
       }
     ],
-    "wwe": [
+    "ppv": [
       {
-        "title": "WWE NXT",
-        "sport": "wwe",
-        "matchup": null,
-        "page": "https://roxiestreams.info/wwe-streams",
+        "title": "Crocker vs. Paro",
+        "sport": "ppv",
+        "matchup": {
+          "home": "Crocker",
+          "away": "Paro"
+        },
+        "page": "https://roxiestreams.info/ppv-streams-1",
         "streams": [
           {
             "label": "Stream 1",
-            "url": "https://daffodil.shadow-ran.online/wwe.m3u8",
+            "url": "https://601.shadow-ran.online/ppv.m3u8",
             "type": "m3u8",
-            "source_page": "https://roxiestreams.info/wwe-streams",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "daffodil",
-            "path": "wwe.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/wwe-streams",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "wwe",
-            "event_title": "WWE NXT",
-            "matchup": null,
-            "display_name": "WWE NXT - Stream 1"
-          },
-          {
-            "label": "Stream 2",
-            "url": "https://601.shadow-ran.online/wwe.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/wwe-streams",
+            "source_page": "https://roxiestreams.info/ppv-streams-1",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "601",
-            "path": "wwe.m3u8",
+            "path": "ppv.m3u8",
             "headers": {
-              "Referer": "https://roxiestreams.info/wwe-streams",
+              "Referer": "https://roxiestreams.info/ppv-streams-1",
               "Origin": "https://roxiestreams.info",
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
               "Accept": "*/*"
             },
             "drm_keys": null,
-            "sport": "wwe",
-            "event_title": "WWE NXT",
-            "matchup": null,
-            "display_name": "WWE NXT - Stream 2"
+            "sport": "ppv",
+            "event_title": "Crocker vs. Paro",
+            "matchup": {
+              "home": "Crocker",
+              "away": "Paro"
+            },
+            "display_name": "Crocker vs. Paro - Stream 1"
+          },
+          {
+            "label": "ppv.m3u8",
+            "url": "https://daffodil.shadow-ran.online/ppv.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/ppv-streams-1",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "ppv.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/ppv-streams-1",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "ppv",
+            "event_title": "Crocker vs. Paro",
+            "matchup": {
+              "home": "Crocker",
+              "away": "Paro"
+            },
+            "display_name": "Crocker vs. Paro - ppv.m3u8"
           }
         ]
       }
@@ -2962,7 +2977,8 @@
         "Motorsports",
         "Stream Request (Discord)",
         "MultiView (NEW)",
-        "WWE NXT",
+        "Crocker vs. Paro",
+        "AEW",
         "Stream Request (Discord)"
       ],
       "links": [
@@ -3007,8 +3023,12 @@
           "url": "https://roxiestreams.info/multiview"
         },
         {
-          "label": "WWE NXT",
-          "url": "https://roxiestreams.info/wwe-streams"
+          "label": "Crocker vs. Paro",
+          "url": "https://roxiestreams.info/ppv-streams-1"
+        },
+        {
+          "label": "AEW",
+          "url": "https://roxiestreams.info/aew"
         },
         {
           "label": "Stream Request (Discord)",
@@ -3016,8 +3036,8 @@
         }
       ]
     },
-    "https://roxiestreams.info/wwe-streams": {
-      "url": "https://roxiestreams.info/wwe-streams",
+    "https://roxiestreams.info/ppv-streams-1": {
+      "url": "https://roxiestreams.info/ppv-streams-1",
       "title": "Roxiestreams - Watch Live Sports, F1, UFC, NFL, TV",
       "headings": [],
       "controls": [
@@ -3032,7 +3052,6 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Stream 1",
-        "Stream 2",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -3968,48 +3987,54 @@
     "fighting": {
       "pages": [
         "https://roxiestreams.info/fighting",
-        "https://roxiestreams.info/wwe-streams"
+        "https://roxiestreams.info/ppv-streams-1"
       ],
       "streams": [
         {
           "label": "Stream 1",
-          "url": "https://daffodil.shadow-ran.online/wwe.m3u8",
+          "url": "https://601.shadow-ran.online/ppv.m3u8",
           "type": "m3u8",
-          "source_page": "https://roxiestreams.info/wwe-streams",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "daffodil",
-          "path": "wwe.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/wwe-streams",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "fighting",
-          "event_title": "WWE NXT",
-          "matchup": null,
-          "display_name": "WWE NXT - Stream 1"
-        },
-        {
-          "label": "Stream 2",
-          "url": "https://601.shadow-ran.online/wwe.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/wwe-streams",
+          "source_page": "https://roxiestreams.info/ppv-streams-1",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "601",
-          "path": "wwe.m3u8",
+          "path": "ppv.m3u8",
           "headers": {
-            "Referer": "https://roxiestreams.info/wwe-streams",
+            "Referer": "https://roxiestreams.info/ppv-streams-1",
             "Origin": "https://roxiestreams.info",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
             "Accept": "*/*"
           },
           "drm_keys": null,
           "sport": "fighting",
-          "event_title": "WWE NXT",
-          "matchup": null,
-          "display_name": "WWE NXT - Stream 2"
+          "event_title": "Crocker vs. Paro",
+          "matchup": {
+            "home": "Crocker",
+            "away": "Paro"
+          },
+          "display_name": "Crocker vs. Paro - Stream 1"
+        },
+        {
+          "label": "ppv.m3u8",
+          "url": "https://daffodil.shadow-ran.online/ppv.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/ppv-streams-1",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "ppv.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/ppv-streams-1",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "fighting",
+          "event_title": "Crocker vs. Paro",
+          "matchup": {
+            "home": "Crocker",
+            "away": "Paro"
+          },
+          "display_name": "Crocker vs. Paro - ppv.m3u8"
         }
       ]
     },
@@ -4040,9 +4065,9 @@
           },
           "drm_keys": null,
           "sport": "aew",
-          "event_title": "Stream 1",
+          "event_title": "AEW",
           "matchup": null,
-          "display_name": "Stream 1"
+          "display_name": "AEW - Stream 1"
         },
         {
           "label": "aew.m3u8",
@@ -4060,9 +4085,9 @@
           },
           "drm_keys": null,
           "sport": "aew",
-          "event_title": "aew.m3u8",
+          "event_title": "AEW",
           "matchup": null,
-          "display_name": "aew.m3u8"
+          "display_name": "AEW - aew.m3u8"
         }
       ]
     },
@@ -4311,50 +4336,56 @@
         }
       ]
     },
-    "wwe": {
+    "ppv": {
       "pages": [
-        "https://roxiestreams.info/wwe-streams"
+        "https://roxiestreams.info/ppv-streams-1"
       ],
       "streams": [
         {
           "label": "Stream 1",
-          "url": "https://daffodil.shadow-ran.online/wwe.m3u8",
+          "url": "https://601.shadow-ran.online/ppv.m3u8",
           "type": "m3u8",
-          "source_page": "https://roxiestreams.info/wwe-streams",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "daffodil",
-          "path": "wwe.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/wwe-streams",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "wwe",
-          "event_title": "WWE NXT",
-          "matchup": null,
-          "display_name": "WWE NXT - Stream 1"
-        },
-        {
-          "label": "Stream 2",
-          "url": "https://601.shadow-ran.online/wwe.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/wwe-streams",
+          "source_page": "https://roxiestreams.info/ppv-streams-1",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "601",
-          "path": "wwe.m3u8",
+          "path": "ppv.m3u8",
           "headers": {
-            "Referer": "https://roxiestreams.info/wwe-streams",
+            "Referer": "https://roxiestreams.info/ppv-streams-1",
             "Origin": "https://roxiestreams.info",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
             "Accept": "*/*"
           },
           "drm_keys": null,
-          "sport": "wwe",
-          "event_title": "WWE NXT",
-          "matchup": null,
-          "display_name": "WWE NXT - Stream 2"
+          "sport": "ppv",
+          "event_title": "Crocker vs. Paro",
+          "matchup": {
+            "home": "Crocker",
+            "away": "Paro"
+          },
+          "display_name": "Crocker vs. Paro - Stream 1"
+        },
+        {
+          "label": "ppv.m3u8",
+          "url": "https://daffodil.shadow-ran.online/ppv.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/ppv-streams-1",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "ppv.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/ppv-streams-1",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "ppv",
+          "event_title": "Crocker vs. Paro",
+          "matchup": {
+            "home": "Crocker",
+            "away": "Paro"
+          },
+          "display_name": "Crocker vs. Paro - ppv.m3u8"
         }
       ]
     }
