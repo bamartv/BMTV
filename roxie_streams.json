@@ -1,29 +1,14 @@
 {
-  "scraped_at": "2026-06-25T08:54:55+00:00",
+  "scraped_at": "2026-06-25T11:37:43+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
   ],
   "events": [
     {
-      "name": "Crocker vs. Paro",
-      "page": "https://roxiestreams.info/ppv-streams-1",
-      "start_time": "June 24, 2026 2:00 AM"
-    },
-    {
       "name": "World Cup (Double Headers)",
       "page": "https://roxiestreams.info/soccer",
-      "start_time": "June 24, 2026 12:00 PM"
-    },
-    {
-      "name": "NBA Draft",
-      "page": "https://roxiestreams.info/nba-streams-1",
-      "start_time": "June 24, 2026 5:00 PM"
-    },
-    {
-      "name": "AEW",
-      "page": "https://roxiestreams.info/aew",
-      "start_time": "June 24, 2026 5:00 PM"
+      "start_time": "June 25, 2026 1:00 PM"
     }
   ],
   "events_by_sport": {
@@ -642,7 +627,7 @@
     ],
     "nba": [
       {
-        "title": "NBA Draft",
+        "title": "Stream 1",
         "sport": "nba",
         "matchup": null,
         "page": "https://roxiestreams.info/nba-streams-1",
@@ -663,10 +648,18 @@
             },
             "drm_keys": null,
             "sport": "nba",
-            "event_title": "NBA Draft",
+            "event_title": "Stream 1",
             "matchup": null,
-            "display_name": "NBA Draft - Stream 1"
-          },
+            "display_name": "Stream 1"
+          }
+        ]
+      },
+      {
+        "title": "Stream 2",
+        "sport": "nba",
+        "matchup": null,
+        "page": "https://roxiestreams.info/nba-streams-1",
+        "streams": [
           {
             "label": "Stream 2",
             "url": "https://602.shadow-ran.online/nba.m3u8",
@@ -683,9 +676,9 @@
             },
             "drm_keys": null,
             "sport": "nba",
-            "event_title": "NBA Draft",
+            "event_title": "Stream 2",
             "matchup": null,
-            "display_name": "NBA Draft - Stream 2"
+            "display_name": "Stream 2"
           }
         ]
       }
@@ -794,7 +787,7 @@
     "motorsports": [],
     "aew": [
       {
-        "title": "AEW",
+        "title": "Stream 1",
         "sport": "aew",
         "matchup": null,
         "page": "https://roxiestreams.info/aew",
@@ -815,9 +808,9 @@
             },
             "drm_keys": null,
             "sport": "aew",
-            "event_title": "AEW",
+            "event_title": "Stream 1",
             "matchup": null,
-            "display_name": "AEW - Stream 1"
+            "display_name": "Stream 1"
           }
         ]
       }
@@ -964,65 +957,6 @@
             "event_title": "MultiView (NEW)",
             "matchup": null,
             "display_name": "MultiView (NEW)"
-          }
-        ]
-      }
-    ],
-    "ppv": [
-      {
-        "title": "Crocker vs. Paro",
-        "sport": "ppv",
-        "matchup": {
-          "home": "Crocker",
-          "away": "Paro"
-        },
-        "page": "https://roxiestreams.info/ppv-streams-1",
-        "streams": [
-          {
-            "label": "Stream 1",
-            "url": "https://601.shadow-ran.online/ppv.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/ppv-streams-1",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "601",
-            "path": "ppv.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/ppv-streams-1",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "ppv",
-            "event_title": "Crocker vs. Paro",
-            "matchup": {
-              "home": "Crocker",
-              "away": "Paro"
-            },
-            "display_name": "Crocker vs. Paro - Stream 1"
-          },
-          {
-            "label": "Stream 2",
-            "url": "https://daffodil.shadow-ran.online/ppv.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/ppv-streams-1",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "daffodil",
-            "path": "ppv.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/ppv-streams-1",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "ppv",
-            "event_title": "Crocker vs. Paro",
-            "matchup": {
-              "home": "Crocker",
-              "away": "Paro"
-            },
-            "display_name": "Crocker vs. Paro - Stream 2"
           }
         ]
       }
@@ -2677,73 +2611,6 @@
           "url": "https://roxiestreams.info/multiview"
         }
       ]
-    },
-    "https://roxiestreams.info/ppv-streams-1": {
-      "url": "https://roxiestreams.info/ppv-streams-1",
-      "title": "Roxiestreams - Watch Live Sports, F1, UFC, NFL, TV",
-      "headings": [],
-      "controls": [
-        "RoxieStreams",
-        "Soccer (WC 2026)",
-        "MLB",
-        "NBA",
-        "NFL",
-        "NHL",
-        "Fighting",
-        "Motorsports",
-        "Stream Request (Discord)",
-        "MultiView (NEW)",
-        "Stream 1",
-        "Stream 2",
-        "Switch to Chatango",
-        "Stream Request (Discord)"
-      ],
-      "links": [
-        {
-          "label": "RoxieStreams",
-          "url": "https://roxiestreams.info/"
-        },
-        {
-          "label": "Soccer (WC 2026)",
-          "url": "https://roxiestreams.info/soccer"
-        },
-        {
-          "label": "MLB",
-          "url": "https://roxiestreams.info/mlb"
-        },
-        {
-          "label": "NBA",
-          "url": "https://roxiestreams.info/nba"
-        },
-        {
-          "label": "NFL",
-          "url": "https://roxiestreams.info/nfl"
-        },
-        {
-          "label": "NHL",
-          "url": "https://roxiestreams.info/nhl"
-        },
-        {
-          "label": "Fighting",
-          "url": "https://roxiestreams.info/fighting"
-        },
-        {
-          "label": "Motorsports",
-          "url": "https://roxiestreams.info/motorsports"
-        },
-        {
-          "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/JhkVmejRmn"
-        },
-        {
-          "label": "MultiView (NEW)",
-          "url": "https://roxiestreams.info/multiview"
-        },
-        {
-          "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/JhkVmejRmn"
-        }
-      ]
     }
   },
   "sports": {
@@ -3282,9 +3149,9 @@
           },
           "drm_keys": null,
           "sport": "nba",
-          "event_title": "NBA Draft",
+          "event_title": "Stream 1",
           "matchup": null,
-          "display_name": "NBA Draft - Stream 1"
+          "display_name": "Stream 1"
         },
         {
           "label": "Stream 2",
@@ -3302,9 +3169,9 @@
           },
           "drm_keys": null,
           "sport": "nba",
-          "event_title": "NBA Draft",
+          "event_title": "Stream 2",
           "matchup": null,
-          "display_name": "NBA Draft - Stream 2"
+          "display_name": "Stream 2"
         }
       ]
     },
@@ -3437,9 +3304,9 @@
           },
           "drm_keys": null,
           "sport": "aew",
-          "event_title": "AEW",
+          "event_title": "Stream 1",
           "matchup": null,
-          "display_name": "AEW - Stream 1"
+          "display_name": "Stream 1"
         }
       ]
     },
@@ -3585,62 +3452,9 @@
           "display_name": "MultiView (NEW)"
         }
       ]
-    },
-    "ppv": {
-      "pages": [
-        "https://roxiestreams.info/ppv-streams-1"
-      ],
-      "streams": [
-        {
-          "label": "Stream 1",
-          "url": "https://601.shadow-ran.online/ppv.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/ppv-streams-1",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "601",
-          "path": "ppv.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/ppv-streams-1",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "ppv",
-          "event_title": "Crocker vs. Paro",
-          "matchup": {
-            "home": "Crocker",
-            "away": "Paro"
-          },
-          "display_name": "Crocker vs. Paro - Stream 1"
-        },
-        {
-          "label": "Stream 2",
-          "url": "https://daffodil.shadow-ran.online/ppv.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/ppv-streams-1",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "daffodil",
-          "path": "ppv.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/ppv-streams-1",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "ppv",
-          "event_title": "Crocker vs. Paro",
-          "matchup": {
-            "home": "Crocker",
-            "away": "Paro"
-          },
-          "display_name": "Crocker vs. Paro - Stream 2"
-        }
-      ]
     }
   },
-  "stream_count": 39,
+  "stream_count": 37,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
