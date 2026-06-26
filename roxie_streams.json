@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-25T23:14:14+00:00",
+  "scraped_at": "2026-06-26T02:56:05+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
@@ -46,13 +46,36 @@
             "display_name": "Turkey vs USA - TSN"
           },
           {
-            "label": "FS1",
-            "url": "https://602.shadow-ran.online/fs1.m3u8",
+            "label": "FOX (ALT)",
+            "url": "https://601.shadow-ran.online/fox.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-1",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "601",
+            "path": "fox.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-1",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Turkey vs USA",
+            "matchup": {
+              "home": "Turkey",
+              "away": "USA"
+            },
+            "display_name": "Turkey vs USA - FOX (ALT)"
+          },
+          {
+            "label": "FOX (FHD)",
+            "url": "https://602.shadow-ran.online/fox.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-1",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "602",
-            "path": "fs1.m3u8",
+            "path": "fox.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-1",
               "Origin": "https://roxiestreams.info",
@@ -66,16 +89,16 @@
               "home": "Turkey",
               "away": "USA"
             },
-            "display_name": "Turkey vs USA - FS1"
+            "display_name": "Turkey vs USA - FOX (FHD)"
           },
           {
-            "label": "Universo",
-            "url": "https://daffodil.shadow-ran.online/universo.m3u8",
+            "label": "TELEMUNDO",
+            "url": "https://daffodil.shadow-ran.online/tele.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-1",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "daffodil",
-            "path": "universo.m3u8",
+            "path": "tele.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-1",
               "Origin": "https://roxiestreams.info",
@@ -89,7 +112,7 @@
               "home": "Turkey",
               "away": "USA"
             },
-            "display_name": "Turkey vs USA - Universo"
+            "display_name": "Turkey vs USA - TELEMUNDO"
           },
           {
             "label": "العربية",
@@ -126,13 +149,13 @@
         "page": "https://roxiestreams.info/soccer-streams-2",
         "streams": [
           {
-            "label": "FOX (FHD)",
-            "url": "https://602.shadow-ran.online/fox.m3u8",
+            "label": "TSN",
+            "url": "https://602.shadow-ran.online/tsn.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-2",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "602",
-            "path": "fox.m3u8",
+            "path": "tsn.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-2",
               "Origin": "https://roxiestreams.info",
@@ -146,16 +169,39 @@
               "home": "Paraguay",
               "away": "Australia"
             },
-            "display_name": "Paraguay vs Australia - FOX (FHD)"
+            "display_name": "Paraguay vs Australia - TSN"
           },
           {
-            "label": "Telmundo",
-            "url": "https://daffodil.shadow-ran.online/tele.m3u8",
+            "label": "FS1",
+            "url": "https://602.shadow-ran.online/fs1.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-2",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "602",
+            "path": "fs1.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-2",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Paraguay vs Australia",
+            "matchup": {
+              "home": "Paraguay",
+              "away": "Australia"
+            },
+            "display_name": "Paraguay vs Australia - FS1"
+          },
+          {
+            "label": "Universo",
+            "url": "https://daffodil.shadow-ran.online/universo.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-2",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "daffodil",
-            "path": "tele.m3u8",
+            "path": "universo.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-2",
               "Origin": "https://roxiestreams.info",
@@ -169,7 +215,7 @@
               "home": "Paraguay",
               "away": "Australia"
             },
-            "display_name": "Paraguay vs Australia - Telmundo"
+            "display_name": "Paraguay vs Australia - Universo"
           },
           {
             "label": "العربية",
@@ -1006,8 +1052,9 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "TSN",
-        "FS1",
-        "Universo",
+        "FOX (ALT)",
+        "FOX (FHD)",
+        "TELEMUNDO",
         "PC ONLY (DIRECT)",
         "Tele (Peacock)",
         "العربية",
@@ -1077,10 +1124,18 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "TSN",
-        "FOX (ALT)",
-        "FOX (FHD)",
-        "Telmundo",
+        "FS1",
+        "Universo",
         "PC ONLY (DIRECT)",
+        "Tele (Peacock)",
+        "العربية",
+        "Switch to Chatango",
+        "Stream Request (Discord)",
+        "Stream Request (Discord)",
+        "MultiView (NEW)",
+        "TSN",
+        "FS1",
+        "Universo",
         "Tele (Peacock)",
         "العربية",
         "Switch to Chatango",
@@ -1118,6 +1173,18 @@
         {
           "label": "Motorsports",
           "url": "https://roxiestreams.info/motorsports"
+        },
+        {
+          "label": "Stream Request (Discord)",
+          "url": "https://discord.gg/JhkVmejRmn"
+        },
+        {
+          "label": "MultiView (NEW)",
+          "url": "https://roxiestreams.info/multiview"
+        },
+        {
+          "label": "Stream Request (Discord)",
+          "url": "https://discord.gg/JhkVmejRmn"
         },
         {
           "label": "Stream Request (Discord)",
@@ -2577,13 +2644,36 @@
           "display_name": "Turkey vs USA - TSN"
         },
         {
-          "label": "FS1",
-          "url": "https://602.shadow-ran.online/fs1.m3u8",
+          "label": "FOX (ALT)",
+          "url": "https://601.shadow-ran.online/fox.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-1",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "601",
+          "path": "fox.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-1",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Turkey vs USA",
+          "matchup": {
+            "home": "Turkey",
+            "away": "USA"
+          },
+          "display_name": "Turkey vs USA - FOX (ALT)"
+        },
+        {
+          "label": "FOX (FHD)",
+          "url": "https://602.shadow-ran.online/fox.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-1",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "602",
-          "path": "fs1.m3u8",
+          "path": "fox.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-1",
             "Origin": "https://roxiestreams.info",
@@ -2597,16 +2687,16 @@
             "home": "Turkey",
             "away": "USA"
           },
-          "display_name": "Turkey vs USA - FS1"
+          "display_name": "Turkey vs USA - FOX (FHD)"
         },
         {
-          "label": "Universo",
-          "url": "https://daffodil.shadow-ran.online/universo.m3u8",
+          "label": "TELEMUNDO",
+          "url": "https://daffodil.shadow-ran.online/tele.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-1",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "daffodil",
-          "path": "universo.m3u8",
+          "path": "tele.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-1",
             "Origin": "https://roxiestreams.info",
@@ -2620,7 +2710,7 @@
             "home": "Turkey",
             "away": "USA"
           },
-          "display_name": "Turkey vs USA - Universo"
+          "display_name": "Turkey vs USA - TELEMUNDO"
         },
         {
           "label": "العربية",
@@ -2646,13 +2736,13 @@
           "display_name": "Turkey vs USA - العربية"
         },
         {
-          "label": "FOX (FHD)",
-          "url": "https://602.shadow-ran.online/fox.m3u8",
+          "label": "TSN",
+          "url": "https://602.shadow-ran.online/tsn.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-2",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "602",
-          "path": "fox.m3u8",
+          "path": "tsn.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-2",
             "Origin": "https://roxiestreams.info",
@@ -2666,16 +2756,39 @@
             "home": "Paraguay",
             "away": "Australia"
           },
-          "display_name": "Paraguay vs Australia - FOX (FHD)"
+          "display_name": "Paraguay vs Australia - TSN"
         },
         {
-          "label": "Telmundo",
-          "url": "https://daffodil.shadow-ran.online/tele.m3u8",
+          "label": "FS1",
+          "url": "https://602.shadow-ran.online/fs1.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-2",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "602",
+          "path": "fs1.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-2",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Paraguay vs Australia",
+          "matchup": {
+            "home": "Paraguay",
+            "away": "Australia"
+          },
+          "display_name": "Paraguay vs Australia - FS1"
+        },
+        {
+          "label": "Universo",
+          "url": "https://daffodil.shadow-ran.online/universo.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-2",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "daffodil",
-          "path": "tele.m3u8",
+          "path": "universo.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-2",
             "Origin": "https://roxiestreams.info",
@@ -2689,7 +2802,7 @@
             "home": "Paraguay",
             "away": "Australia"
           },
-          "display_name": "Paraguay vs Australia - Telmundo"
+          "display_name": "Paraguay vs Australia - Universo"
         },
         {
           "label": "العربية",
@@ -3317,7 +3430,7 @@
       ]
     }
   },
-  "stream_count": 34,
+  "stream_count": 36,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
