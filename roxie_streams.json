@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-28T11:27:29+00:00",
+  "scraped_at": "2026-06-28T12:53:27+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
@@ -1148,6 +1148,26 @@
             "event_title": "Formula 1 - Grand Prix",
             "matchup": null,
             "display_name": "Formula 1 - Grand Prix - TSN"
+          },
+          {
+            "label": "Arabic",
+            "url": "https://602.shadow-ran.online/bein.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/f1",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "602",
+            "path": "bein.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/f1",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "f1",
+            "event_title": "Formula 1 - Grand Prix",
+            "matchup": null,
+            "display_name": "Formula 1 - Grand Prix - Arabic"
           },
           {
             "label": "f1.m3u8",
@@ -3348,6 +3368,7 @@
         "Sky Sports",
         "F1TV",
         "TSN",
+        "Arabic",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -4399,6 +4420,26 @@
           "display_name": "Formula 1 - Grand Prix - TSN"
         },
         {
+          "label": "Arabic",
+          "url": "https://602.shadow-ran.online/bein.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/f1",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "602",
+          "path": "bein.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/f1",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "f1",
+          "event_title": "Formula 1 - Grand Prix",
+          "matchup": null,
+          "display_name": "Formula 1 - Grand Prix - Arabic"
+        },
+        {
           "label": "f1.m3u8",
           "url": "https://daffodil.shadow-ran.online/f1.m3u8",
           "type": "m3u8",
@@ -4462,7 +4503,7 @@
       ]
     }
   },
-  "stream_count": 43,
+  "stream_count": 44,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
