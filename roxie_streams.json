@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-28T08:06:58+00:00",
+  "scraped_at": "2026-06-28T09:47:32+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
@@ -8,22 +8,22 @@
     {
       "name": "MotoGP - Grand Prix",
       "page": "https://roxiestreams.info/motogp",
-      "start_time": "June 27, 2026 5:00 AM"
+      "start_time": "June 28, 2026 5:00 AM"
     },
     {
       "name": "Formula 1 - Grand Prix",
       "page": "https://roxiestreams.info/f1",
-      "start_time": "June 27, 2026 6:00 AM"
+      "start_time": "June 28, 2026 6:00 AM"
     },
     {
       "name": "World Cup - Rd of 32",
       "page": "https://roxiestreams.info/soccer-streams-1",
-      "start_time": "June 27, 2026 12:00 PM"
+      "start_time": "June 28, 2026 12:00 PM"
     },
     {
       "name": "NASCAR Cup Series - Race",
       "page": "https://roxiestreams.info/nascar",
-      "start_time": "June 27, 2026 12:50 PM"
+      "start_time": "June 28, 2026 12:50 PM"
     }
   ],
   "events_by_sport": {
@@ -1038,6 +1038,26 @@
             "event_title": "MotoGP - Grand Prix",
             "matchup": null,
             "display_name": "MotoGP - Grand Prix - Stream 1"
+          },
+          {
+            "label": "Stream 2",
+            "url": "https://daffodil.shadow-ran.online/ncaa5.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/motogp",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "ncaa5.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/motogp",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "motogp",
+            "event_title": "MotoGP - Grand Prix",
+            "matchup": null,
+            "display_name": "MotoGP - Grand Prix - Stream 2"
           },
           {
             "label": "tnt2.m3u8",
@@ -3259,6 +3279,7 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Stream 1",
+        "Stream 2",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -4271,6 +4292,26 @@
           "display_name": "MotoGP - Grand Prix - Stream 1"
         },
         {
+          "label": "Stream 2",
+          "url": "https://daffodil.shadow-ran.online/ncaa5.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/motogp",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "ncaa5.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/motogp",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "motogp",
+          "event_title": "MotoGP - Grand Prix",
+          "matchup": null,
+          "display_name": "MotoGP - Grand Prix - Stream 2"
+        },
+        {
           "label": "tnt2.m3u8",
           "url": "https://daffodil.shadow-ran.online/tnt2.m3u8",
           "type": "m3u8",
@@ -4421,7 +4462,7 @@
       ]
     }
   },
-  "stream_count": 42,
+  "stream_count": 43,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
