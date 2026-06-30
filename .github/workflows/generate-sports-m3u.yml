@@ -21,7 +21,7 @@ jobs:
           python-version: '3.11'
 
       - name: Run SPORTS M3U Playlist Generator
-        run: python scripts/generate-sport-m3u.py
+        run: python scr/generate-sport-m3u.py
 
       - name: Commit and Push M3U file
         run: |
