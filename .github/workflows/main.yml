@@ -1,19 +1,19 @@
 name: Update Live TV & Events Playlist
 
 on:
-  workflow_dispatch: 
   schedule:
     - cron: '*/10 * * * *'    
+  workflow_dispatch: 
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
-permissions:
-  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+        contents: write
 
     steps:
     - name: Checkout Repository
@@ -47,6 +47,9 @@ jobs:
     - name: Run scraper
       run: python src/roxie_scraper.py
 
+    - name: Run SPORTS M3U Playlist Generator
+      run: python scr/generate-sport-m3u.py
+
     - name: Commit and Push Playlist
       run: |
         git config --local user.name "github-actions[bot]"
@@ -54,6 +57,7 @@ jobs:
         git add live_tv_channels.m3u
         git add liveevents.m3u
         git add roxie_streams.json roxie_streams.m3u8
+        git add SPORTS.m3u
         
         # Check if there are actually changes to commit to avoid empty commit errors
         if git diff-index --quiet HEAD --; then
@@ -63,6 +67,8 @@ jobs:
 
         # The '|| true' prevents the workflow from failing if no changes were made
         git commit -m "Auto-update liveevents.m3u" || true
+
+        git commit -m "Auto-update SPORTS M3U playlist [skip ci]" || echo "No changes to commit"
 
         git diff --cached --quiet || git commit -m "Update Roxie stream outputs"
         
