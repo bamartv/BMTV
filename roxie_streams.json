@@ -1,19 +1,14 @@
 {
-  "scraped_at": "2026-07-02T20:02:36+00:00",
+  "scraped_at": "2026-07-02T20:20:57+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
   ],
   "events": [
     {
-      "name": "World Cup (Rd of 16)",
-      "page": "https://roxiestreams.info/soccer-streams-1",
-      "start_time": "July 1, 2026 9:00 AM"
-    },
-    {
-      "name": "AEW",
-      "page": "https://roxiestreams.info/aew",
-      "start_time": "July 1, 2026 5:00 PM"
+      "name": "World Cup",
+      "page": "https://roxiestreams.info/soccer",
+      "start_time": "July 2, 2026 12:00 PM"
     }
   ],
   "events_by_sport": {
@@ -29,11 +24,11 @@
         "streams": [
           {
             "label": "TSN",
-            "url": "https://ataide0.shadow-ran.online/tsn.m3u8",
+            "url": "https://602.shadow-ran.online/tsn.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-1",
             "cdn_domain": "shadow-ran.online",
-            "subdomain": "ataide0",
+            "subdomain": "602",
             "path": "tsn.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-1",
@@ -153,6 +148,29 @@
         },
         "page": "https://roxiestreams.info/soccer-streams-2",
         "streams": [
+          {
+            "label": "TSN",
+            "url": "https://ataide0.shadow-ran.online/tsn.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-2",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "ataide0",
+            "path": "tsn.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-2",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Switzerland vs Algeria",
+            "matchup": {
+              "home": "Switzerland",
+              "away": "Algeria"
+            },
+            "display_name": "Switzerland vs Algeria - TSN"
+          },
           {
             "label": "FS1",
             "url": "https://602.shadow-ran.online/fs1.m3u8",
@@ -674,7 +692,7 @@
     "motorsports": [],
     "aew": [
       {
-        "title": "AEW",
+        "title": "Stream 1",
         "sport": "aew",
         "matchup": null,
         "page": "https://roxiestreams.info/aew",
@@ -695,10 +713,18 @@
             },
             "drm_keys": null,
             "sport": "aew",
-            "event_title": "AEW",
+            "event_title": "Stream 1",
             "matchup": null,
-            "display_name": "AEW - Stream 1"
-          },
+            "display_name": "Stream 1"
+          }
+        ]
+      },
+      {
+        "title": "Stream 2",
+        "sport": "aew",
+        "matchup": null,
+        "page": "https://roxiestreams.info/aew",
+        "streams": [
           {
             "label": "Stream 2",
             "url": "https://daffodil.shadow-ran.online/aew.m3u8",
@@ -715,9 +741,9 @@
             },
             "drm_keys": null,
             "sport": "aew",
-            "event_title": "AEW",
+            "event_title": "Stream 2",
             "matchup": null,
-            "display_name": "AEW - Stream 2"
+            "display_name": "Stream 2"
           }
         ]
       }
@@ -2301,11 +2327,11 @@
       "streams": [
         {
           "label": "TSN",
-          "url": "https://ataide0.shadow-ran.online/tsn.m3u8",
+          "url": "https://602.shadow-ran.online/tsn.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-1",
           "cdn_domain": "shadow-ran.online",
-          "subdomain": "ataide0",
+          "subdomain": "602",
           "path": "tsn.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-1",
@@ -2413,6 +2439,29 @@
             "away": "Croatia"
           },
           "display_name": "Portugal vs Croatia - العربية"
+        },
+        {
+          "label": "TSN",
+          "url": "https://ataide0.shadow-ran.online/tsn.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-2",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "ataide0",
+          "path": "tsn.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-2",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Switzerland vs Algeria",
+          "matchup": {
+            "home": "Switzerland",
+            "away": "Algeria"
+          },
+          "display_name": "Switzerland vs Algeria - TSN"
         },
         {
           "label": "FS1",
@@ -2871,9 +2920,9 @@
           },
           "drm_keys": null,
           "sport": "aew",
-          "event_title": "AEW",
+          "event_title": "Stream 1",
           "matchup": null,
-          "display_name": "AEW - Stream 1"
+          "display_name": "Stream 1"
         },
         {
           "label": "Stream 2",
@@ -2891,9 +2940,9 @@
           },
           "drm_keys": null,
           "sport": "aew",
-          "event_title": "AEW",
+          "event_title": "Stream 2",
           "matchup": null,
-          "display_name": "AEW - Stream 2"
+          "display_name": "Stream 2"
         }
       ]
     },
@@ -2904,7 +2953,7 @@
       "streams": []
     }
   },
-  "stream_count": 25,
+  "stream_count": 26,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
