@@ -5,7 +5,7 @@ from playwright.sync_api import sync_playwright
 # ==========================================
 # 1. CONFIGURATION
 # ==========================================
-EVENTS_URL = "https://api.cdnlivetv.tv/api/v1/events/sports/?user=cdnlivetv&plan=free"
+EVENTS_URL = "https://api.cdnlivetv.tv/api/v1/events/sports/?user=streamsports99&plan=vip"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
 SPOOF_IP = "77.238.79.111"
 
