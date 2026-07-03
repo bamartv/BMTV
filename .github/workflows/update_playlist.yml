@@ -28,7 +28,7 @@ jobs:
         env:
           MY_SECRET: ${{ secrets.MY_SECRET }}
           PLAYLIST_URL: ${{ secrets.PLAYLIST_URL }}
-        run: python .github/scripts/sayan.py
+        run: python .scripts/sayan.py
 
       - name: Commit and push changes
         run: |
