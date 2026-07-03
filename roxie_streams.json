@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-03T16:57:34+00:00",
+  "scraped_at": "2026-07-03T17:54:13+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
@@ -29,34 +29,11 @@
   "events_by_sport": {
     "soccer": [
       {
-        "title": "Colombia vs Ghana",
+        "title": "FOX (ALT)",
         "sport": "soccer",
-        "matchup": {
-          "home": "Colombia",
-          "away": "Ghana"
-        },
+        "matchup": null,
         "page": "https://roxiestreams.info/soccer-streams-1",
         "streams": [
-          {
-            "label": "Direct Link",
-            "url": "https://customer-k7esp6o17le0nad2.cloudflarestream.com/6fcc2bb9e6c42c36aa777ca52ec5de1e/manifest/video.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/soccer-streams-1",
-            "headers": {
-              "Referer": "https://roxiestreams.info/soccer-streams-1",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "soccer",
-            "event_title": "Colombia vs Ghana",
-            "matchup": {
-              "home": "Colombia",
-              "away": "Ghana"
-            },
-            "display_name": "Colombia vs Ghana"
-          },
           {
             "label": "FOX (ALT)",
             "url": "https://602.shadow-ran.online/foxalt.m3u8",
@@ -73,13 +50,18 @@
             },
             "drm_keys": null,
             "sport": "soccer",
-            "event_title": "Colombia vs Ghana",
-            "matchup": {
-              "home": "Colombia",
-              "away": "Ghana"
-            },
-            "display_name": "Colombia vs Ghana - FOX (ALT)"
-          },
+            "event_title": "FOX (ALT)",
+            "matchup": null,
+            "display_name": "FOX (ALT)"
+          }
+        ]
+      },
+      {
+        "title": "FOX (FHD)",
+        "sport": "soccer",
+        "matchup": null,
+        "page": "https://roxiestreams.info/soccer-streams-1",
+        "streams": [
           {
             "label": "FOX (FHD)",
             "url": "https://602.shadow-ran.online/fox.m3u8",
@@ -96,13 +78,18 @@
             },
             "drm_keys": null,
             "sport": "soccer",
-            "event_title": "Colombia vs Ghana",
-            "matchup": {
-              "home": "Colombia",
-              "away": "Ghana"
-            },
-            "display_name": "Colombia vs Ghana - FOX (FHD)"
-          },
+            "event_title": "FOX (FHD)",
+            "matchup": null,
+            "display_name": "FOX (FHD)"
+          }
+        ]
+      },
+      {
+        "title": "TELEMUNDO",
+        "sport": "soccer",
+        "matchup": null,
+        "page": "https://roxiestreams.info/soccer-streams-1",
+        "streams": [
           {
             "label": "TELEMUNDO",
             "url": "https://daffodil.shadow-ran.online/tele.m3u8",
@@ -119,13 +106,18 @@
             },
             "drm_keys": null,
             "sport": "soccer",
-            "event_title": "Colombia vs Ghana",
-            "matchup": {
-              "home": "Colombia",
-              "away": "Ghana"
-            },
-            "display_name": "Colombia vs Ghana - TELEMUNDO"
-          },
+            "event_title": "TELEMUNDO",
+            "matchup": null,
+            "display_name": "TELEMUNDO"
+          }
+        ]
+      },
+      {
+        "title": "العربية",
+        "sport": "soccer",
+        "matchup": null,
+        "page": "https://roxiestreams.info/soccer-streams-1",
+        "streams": [
           {
             "label": "العربية",
             "url": "https://602.shadow-ran.online/bein1.m3u8",
@@ -142,12 +134,9 @@
             },
             "drm_keys": null,
             "sport": "soccer",
-            "event_title": "Colombia vs Ghana",
-            "matchup": {
-              "home": "Colombia",
-              "away": "Ghana"
-            },
-            "display_name": "Colombia vs Ghana - العربية"
+            "event_title": "العربية",
+            "matchup": null,
+            "display_name": "العربية"
           }
         ]
       },
@@ -182,6 +171,63 @@
               "away": "Flamengo"
             },
             "display_name": "River Plate vs Flamengo - Stream 1"
+          }
+        ]
+      },
+      {
+        "title": "Colombia vs Ghana",
+        "sport": "soccer",
+        "matchup": {
+          "home": "Colombia",
+          "away": "Ghana"
+        },
+        "page": "https://roxiestreams.info/soccer-streams-3",
+        "streams": [
+          {
+            "label": "TSN",
+            "url": "https://602.shadow-ran.online/tsn1.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-3",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "602",
+            "path": "tsn1.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-3",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Colombia vs Ghana",
+            "matchup": {
+              "home": "Colombia",
+              "away": "Ghana"
+            },
+            "display_name": "Colombia vs Ghana - TSN"
+          },
+          {
+            "label": "tsn.m3u8",
+            "url": "https://ataide0.shadow-ran.online/tsn.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-3",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "ataide0",
+            "path": "tsn.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-3",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Colombia vs Ghana",
+            "matchup": {
+              "home": "Colombia",
+              "away": "Ghana"
+            },
+            "display_name": "Colombia vs Ghana - tsn.m3u8"
           }
         ]
       }
@@ -1132,7 +1178,7 @@
         },
         {
           "label": "Australia vs Egypt",
-          "url": "https://roxiestreams.info/soccer-streams-1"
+          "url": "https://roxiestreams.info/soccer-streams-3"
         },
         {
           "label": "River Plate vs Flamengo",
@@ -1140,11 +1186,11 @@
         },
         {
           "label": "Argentina vs Cape Verde",
-          "url": "https://roxiestreams.info/soccer-streams-1"
+          "url": "https://roxiestreams.info/soccer-streams-3"
         },
         {
           "label": "Colombia vs Ghana",
-          "url": "https://roxiestreams.info/soccer-streams-1"
+          "url": "https://roxiestreams.info/soccer-streams-3"
         },
         {
           "label": "Stream Request (Discord)",
@@ -1167,7 +1213,6 @@
         "Motorsports",
         "Stream Request (Discord)",
         "MultiView (NEW)",
-        "TSN",
         "FOX (ALT)",
         "FOX (FHD)",
         "TELEMUNDO",
@@ -1241,6 +1286,79 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Stream 1",
+        "Switch to Chatango",
+        "Stream Request (Discord)"
+      ],
+      "links": [
+        {
+          "label": "RoxieStreams",
+          "url": "https://roxiestreams.info/"
+        },
+        {
+          "label": "Soccer (WC 2026)",
+          "url": "https://roxiestreams.info/soccer"
+        },
+        {
+          "label": "MLB",
+          "url": "https://roxiestreams.info/mlb"
+        },
+        {
+          "label": "NBA",
+          "url": "https://roxiestreams.info/nba"
+        },
+        {
+          "label": "NFL",
+          "url": "https://roxiestreams.info/nfl"
+        },
+        {
+          "label": "NHL",
+          "url": "https://roxiestreams.info/nhl"
+        },
+        {
+          "label": "Fighting",
+          "url": "https://roxiestreams.info/fighting"
+        },
+        {
+          "label": "Motorsports",
+          "url": "https://roxiestreams.info/motorsports"
+        },
+        {
+          "label": "Stream Request (Discord)",
+          "url": "https://discord.gg/JhkVmejRmn"
+        },
+        {
+          "label": "MultiView (NEW)",
+          "url": "https://roxiestreams.info/multiview"
+        },
+        {
+          "label": "Stream Request (Discord)",
+          "url": "https://discord.gg/JhkVmejRmn"
+        }
+      ]
+    },
+    "https://roxiestreams.info/soccer-streams-3": {
+      "url": "https://roxiestreams.info/soccer-streams-3",
+      "title": "Roxiestreams - Watch Live Sports, F1, UFC, NFL, TV",
+      "headings": [],
+      "controls": [
+        "RoxieStreams",
+        "Soccer (WC 2026)",
+        "MLB",
+        "NBA",
+        "NFL",
+        "NHL",
+        "Fighting",
+        "Motorsports",
+        "Stream Request (Discord)",
+        "MultiView (NEW)",
+        "TSN",
+        "FOX (ALT)",
+        "FOX (FHD)",
+        "TELEMUNDO",
+        "PC ONLY (DIRECT)",
+        "Tele (Peacock)",
+        "العربية",
+        "TSN PC DIRECT VPN",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -3109,29 +3227,10 @@
       "pages": [
         "https://roxiestreams.info/soccer",
         "https://roxiestreams.info/soccer-streams-1",
-        "https://roxiestreams.info/soccer-streams-2"
+        "https://roxiestreams.info/soccer-streams-2",
+        "https://roxiestreams.info/soccer-streams-3"
       ],
       "streams": [
-        {
-          "label": "Direct Link",
-          "url": "https://customer-k7esp6o17le0nad2.cloudflarestream.com/6fcc2bb9e6c42c36aa777ca52ec5de1e/manifest/video.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/soccer-streams-1",
-          "headers": {
-            "Referer": "https://roxiestreams.info/soccer-streams-1",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "soccer",
-          "event_title": "Colombia vs Ghana",
-          "matchup": {
-            "home": "Colombia",
-            "away": "Ghana"
-          },
-          "display_name": "Colombia vs Ghana"
-        },
         {
           "label": "FOX (ALT)",
           "url": "https://602.shadow-ran.online/foxalt.m3u8",
@@ -3148,12 +3247,9 @@
           },
           "drm_keys": null,
           "sport": "soccer",
-          "event_title": "Colombia vs Ghana",
-          "matchup": {
-            "home": "Colombia",
-            "away": "Ghana"
-          },
-          "display_name": "Colombia vs Ghana - FOX (ALT)"
+          "event_title": "FOX (ALT)",
+          "matchup": null,
+          "display_name": "FOX (ALT)"
         },
         {
           "label": "FOX (FHD)",
@@ -3171,12 +3267,9 @@
           },
           "drm_keys": null,
           "sport": "soccer",
-          "event_title": "Colombia vs Ghana",
-          "matchup": {
-            "home": "Colombia",
-            "away": "Ghana"
-          },
-          "display_name": "Colombia vs Ghana - FOX (FHD)"
+          "event_title": "FOX (FHD)",
+          "matchup": null,
+          "display_name": "FOX (FHD)"
         },
         {
           "label": "TELEMUNDO",
@@ -3194,12 +3287,9 @@
           },
           "drm_keys": null,
           "sport": "soccer",
-          "event_title": "Colombia vs Ghana",
-          "matchup": {
-            "home": "Colombia",
-            "away": "Ghana"
-          },
-          "display_name": "Colombia vs Ghana - TELEMUNDO"
+          "event_title": "TELEMUNDO",
+          "matchup": null,
+          "display_name": "TELEMUNDO"
         },
         {
           "label": "العربية",
@@ -3217,12 +3307,9 @@
           },
           "drm_keys": null,
           "sport": "soccer",
-          "event_title": "Colombia vs Ghana",
-          "matchup": {
-            "home": "Colombia",
-            "away": "Ghana"
-          },
-          "display_name": "Colombia vs Ghana - العربية"
+          "event_title": "العربية",
+          "matchup": null,
+          "display_name": "العربية"
         },
         {
           "label": "Stream 1",
@@ -3246,6 +3333,52 @@
             "away": "Flamengo"
           },
           "display_name": "River Plate vs Flamengo - Stream 1"
+        },
+        {
+          "label": "TSN",
+          "url": "https://602.shadow-ran.online/tsn1.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-3",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "602",
+          "path": "tsn1.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-3",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Colombia vs Ghana",
+          "matchup": {
+            "home": "Colombia",
+            "away": "Ghana"
+          },
+          "display_name": "Colombia vs Ghana - TSN"
+        },
+        {
+          "label": "tsn.m3u8",
+          "url": "https://ataide0.shadow-ran.online/tsn.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-3",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "ataide0",
+          "path": "tsn.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-3",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Colombia vs Ghana",
+          "matchup": {
+            "home": "Colombia",
+            "away": "Ghana"
+          },
+          "display_name": "Colombia vs Ghana - tsn.m3u8"
         }
       ]
     },
@@ -3971,7 +4104,7 @@
       ]
     }
   },
-  "stream_count": 36,
+  "stream_count": 37,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
