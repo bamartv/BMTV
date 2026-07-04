@@ -43,9 +43,6 @@ jobs:
     - name: Run Scraper Script 
       run: python src/liveevents.py
 
-    - name: Run scraper
-      run: python src/roxie_scraper.py
-
     - name: Commit and Push Playlist
       run: |
         git config --local user.name "github-actions[bot]"
@@ -61,7 +58,6 @@ jobs:
           git commit -m "Auto-update live_tv_channels.m3u"
         # The '|| true' prevents the workflow from failing if no changes were made
         git commit -m "Auto-update liveevents.m3u" || true
-        git diff --cached --quiet || git commit -m "Update Roxie stream outputs"
         
         git push
           
