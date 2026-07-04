@@ -1,4 +1,4 @@
-name: Update Live TV & Events Playlist
+name: Live TV
 
 on:
   workflow_dispatch: 
@@ -40,9 +40,6 @@ jobs:
     - name: Run Scraper Script
       run: python src/channels.py
 
-    - name: Run Scraper Script 
-      run: python src/liveevents.py
-
     - name: Commit and Push Playlist
       run: |
         git config --local user.name "github-actions[bot]"
@@ -55,8 +52,6 @@ jobs:
           echo "No changes to playlist, skipping commit."
         else
           git commit -m "Auto-update live_tv_channels.m3u"
-        # The '|| true' prevents the workflow from failing if no changes were made
-        git commit -m "Auto-update liveevents.m3u" || true
         
         git push
           
