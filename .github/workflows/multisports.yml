@@ -24,7 +24,7 @@ jobs:
       - name: Run playlist updater
         env:
           MULTISPORT_URL: ${{ secrets.MULTISPORT_URL }}
-        run: python multisports.py
+        run: python src/multisports.py
 
       - name: Commit & push
         run: |
