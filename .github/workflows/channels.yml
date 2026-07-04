@@ -3,9 +3,9 @@ name: Update Live TV Playlist
 on:
   # Allows you to trigger it manually from the Actions tab
   workflow_dispatch: 
-  # Runs automatically every 20 minutes
+  # Runs automatically every 10 minutes
   schedule:
-    - cron: '*/20 * * * *'    
+    - cron: '*/10 * * * *'    
 
 # Give the action permission to commit files back to your repo
 permissions:
@@ -36,12 +36,12 @@ jobs:
       run: playwright install chromium --with-deps
 
     - name: Run Scraper Script
-      run: python channels.py
+      run: python src/channels.py
 
     - name: Commit and Push Playlist
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
+        git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git add live_tv_channels.m3u
         
         # Check if there are actually changes to commit to avoid empty commit errors
