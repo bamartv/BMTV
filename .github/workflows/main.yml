@@ -49,7 +49,6 @@ jobs:
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git add live_tv_channels.m3u
         git add liveevents.m3u
-        git add roxie_streams.json roxie_streams.m3u8
         
         # Check if there are actually changes to commit to avoid empty commit errors
         if git diff-index --quiet HEAD --; then
