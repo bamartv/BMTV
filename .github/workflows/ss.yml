@@ -1,0 +1,45 @@
+name: Sports99 & Streamed
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+jobs:
+  download-m3u:
+    runs-on: ubuntu-latest
+    permissions:        # Added permissions to allow pushing changes
+      contents: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: pip install requests 
+      
+      - name: Avvio sports99
+        run: python scripts/sports99.py
+
+      - name: Avvio streamed
+        run: python scripts/streamed.py
+      
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+
+          git add sports99.m3u streamed.m3u
+
+          if ! git diff --staged --quiet; then
+            git commit -m "Update sports99 & streamed - $(date '+%Y-%m-%d %H:%M:%S')"
+            git pull --rebase origin ${GITHUB_REF_NAME}
+            git push origin HEAD:${GITHUB_REF_NAME}
+          else
+            echo "Nessuna modifica da committare"
+          fi
