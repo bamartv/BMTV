@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-04T14:16:57+00:00",
+  "scraped_at": "2026-07-04T15:34:20+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
@@ -43,10 +43,13 @@
         "page": "https://roxiestreams.info/soccer-streams-1",
         "streams": [
           {
-            "label": "Direct Link",
-            "url": "https://customer-k7esp6o17le0nad2.cloudflarestream.com/e55558e0ecd91f1c75bfb02b727ff650/manifest/video.m3u8",
+            "label": "TSN",
+            "url": "https://602.shadow-ran.online/tsn.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-1",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "602",
+            "path": "tsn.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-1",
               "Origin": "https://roxiestreams.info",
@@ -60,7 +63,7 @@
               "home": "Paraguay",
               "away": "France"
             },
-            "display_name": "Paraguay vs France"
+            "display_name": "Paraguay vs France - TSN"
           },
           {
             "label": "FOX (ALT)",
@@ -732,9 +735,12 @@
     ],
     "nba": [
       {
-        "title": "NBA Summer League",
+        "title": "Memphis Grizzlies vs Oklahoma City Thunder",
         "sport": "nba",
-        "matchup": null,
+        "matchup": {
+          "home": "Memphis Grizzlies",
+          "away": "Oklahoma City Thunder"
+        },
         "page": "https://roxiestreams.info/nba-streams-1",
         "streams": [
           {
@@ -753,9 +759,174 @@
             },
             "drm_keys": null,
             "sport": "nba",
-            "event_title": "NBA Summer League",
-            "matchup": null,
-            "display_name": "NBA Summer League - Stream 1"
+            "event_title": "Memphis Grizzlies vs Oklahoma City Thunder",
+            "matchup": {
+              "home": "Memphis Grizzlies",
+              "away": "Oklahoma City Thunder"
+            },
+            "display_name": "Memphis Grizzlies vs Oklahoma City Thunder - Stream 1"
+          }
+        ]
+      },
+      {
+        "title": "Milwaukee Bucks vs Golden State Warriors",
+        "sport": "nba",
+        "matchup": {
+          "home": "Milwaukee Bucks",
+          "away": "Golden State Warriors"
+        },
+        "page": "https://roxiestreams.info/nba-streams-2",
+        "streams": [
+          {
+            "label": "Direct Link",
+            "url": "https://lpnba.akamaized.net/live-pz/p/hls-wvpr/g0042500403sas1000447nyk/index.m3u8?vpmute=0&addUserInfo=1&State=GP&PostalCode=&Zip=&LatLongRadius=&ISO3166=&ads=mr&csid=nba.com_live_nba-tv_web&afid=&prof=%3Anba_web_video&pcaid=nba-tv_live_default_asset&mcaid=&bo=no&_fw_vcid2=&_fw_gdpr=1&_fw_gdpr_consent=&_fw_us_privacy=1---&_fw_is_lat=0&_is_lat=0&_fw_ae=&_fw_h_user_agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F135.0.0.0+Safari%2F537.36+Edg%2F135.0.0.0&dai-debug=false&sessionId=0642a66f-a8c9-49a4-8949-d4e4c9f46ef5",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/nba-streams-2",
+            "headers": {
+              "Referer": "https://roxiestreams.info/nba-streams-2",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "nba",
+            "event_title": "Milwaukee Bucks vs Golden State Warriors",
+            "matchup": {
+              "home": "Milwaukee Bucks",
+              "away": "Golden State Warriors"
+            },
+            "display_name": "Milwaukee Bucks vs Golden State Warriors"
+          },
+          {
+            "label": "Stream 2",
+            "url": "https://602.shadow-ran.online/nba.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/nba-streams-2",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "602",
+            "path": "nba.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/nba-streams-2",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "nba",
+            "event_title": "Milwaukee Bucks vs Golden State Warriors",
+            "matchup": {
+              "home": "Milwaukee Bucks",
+              "away": "Golden State Warriors"
+            },
+            "display_name": "Milwaukee Bucks vs Golden State Warriors - Stream 2"
+          }
+        ]
+      },
+      {
+        "title": "Atlanta Hawks vs Utah Jazz",
+        "sport": "nba",
+        "matchup": {
+          "home": "Atlanta Hawks",
+          "away": "Utah Jazz"
+        },
+        "page": "https://roxiestreams.info/nba-streams-3",
+        "streams": [
+          {
+            "label": "Direct Link",
+            "url": "https://customer-fpmmd9cdewmb1wz2.cloudflarestream.com/b5d5801b00e60a1a0a558a488419d2bd/manifest/video.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/nba-streams-3",
+            "headers": {
+              "Referer": "https://roxiestreams.info/nba-streams-3",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "nba",
+            "event_title": "Atlanta Hawks vs Utah Jazz",
+            "matchup": {
+              "home": "Atlanta Hawks",
+              "away": "Utah Jazz"
+            },
+            "display_name": "Atlanta Hawks vs Utah Jazz"
+          },
+          {
+            "label": "Stream 1",
+            "url": "https://602.shadow-ran.online/nba3.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/nba-streams-3",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "602",
+            "path": "nba3.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/nba-streams-3",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "nba",
+            "event_title": "Atlanta Hawks vs Utah Jazz",
+            "matchup": {
+              "home": "Atlanta Hawks",
+              "away": "Utah Jazz"
+            },
+            "display_name": "Atlanta Hawks vs Utah Jazz - Stream 1"
+          },
+          {
+            "label": "nba3.m3u8",
+            "url": "https://daffodil.shadow-ran.online/nba3.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/nba-streams-3",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "nba3.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/nba-streams-3",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "nba",
+            "event_title": "Atlanta Hawks vs Utah Jazz",
+            "matchup": {
+              "home": "Atlanta Hawks",
+              "away": "Utah Jazz"
+            },
+            "display_name": "Atlanta Hawks vs Utah Jazz - nba3.m3u8"
+          }
+        ]
+      },
+      {
+        "title": "Brooklyn Nets vs Sacramento Kings",
+        "sport": "nba",
+        "matchup": {
+          "home": "Brooklyn Nets",
+          "away": "Sacramento Kings"
+        },
+        "page": "https://roxiestreams.info/nba-streams-4",
+        "streams": [
+          {
+            "label": "Direct Link",
+            "url": "https://customer-fpmmd9cdewmb1wz2.cloudflarestream.com/d6e0bd30861d00a40ef3a010a31c9357/manifest/video.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/nba-streams-4",
+            "headers": {
+              "Referer": "https://roxiestreams.info/nba-streams-4",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "nba",
+            "event_title": "Brooklyn Nets vs Sacramento Kings",
+            "matchup": {
+              "home": "Brooklyn Nets",
+              "away": "Sacramento Kings"
+            },
+            "display_name": "Brooklyn Nets vs Sacramento Kings"
           }
         ]
       }
@@ -1163,8 +1334,8 @@
         "FOX (ALT)",
         "FOX (FHD)",
         "TELEMUNDO",
-        "Tele (Peacock)",
         "PC ONLY (DIRECT)",
+        "Tele (Peacock)",
         "العربية",
         "TSN PC DIRECT VPN",
         "Switch to Chatango",
@@ -2431,6 +2602,92 @@
         "Motorsports",
         "Stream Request (Discord)",
         "MultiView (NEW)",
+        "Memphis Grizzlies vs Oklahoma City Thunder",
+        "Milwaukee Bucks vs Golden State Warriors",
+        "Atlanta Hawks vs Utah Jazz",
+        "Brooklyn Nets vs Sacramento Kings",
+        "Stream Request (Discord)"
+      ],
+      "links": [
+        {
+          "label": "RoxieStreams",
+          "url": "https://roxiestreams.info/"
+        },
+        {
+          "label": "Soccer (WC 2026)",
+          "url": "https://roxiestreams.info/soccer"
+        },
+        {
+          "label": "MLB",
+          "url": "https://roxiestreams.info/mlb"
+        },
+        {
+          "label": "NBA",
+          "url": "https://roxiestreams.info/nba"
+        },
+        {
+          "label": "NFL",
+          "url": "https://roxiestreams.info/nfl"
+        },
+        {
+          "label": "NHL",
+          "url": "https://roxiestreams.info/nhl"
+        },
+        {
+          "label": "Fighting",
+          "url": "https://roxiestreams.info/fighting"
+        },
+        {
+          "label": "Motorsports",
+          "url": "https://roxiestreams.info/motorsports"
+        },
+        {
+          "label": "Stream Request (Discord)",
+          "url": "https://discord.gg/JhkVmejRmn"
+        },
+        {
+          "label": "MultiView (NEW)",
+          "url": "https://roxiestreams.info/multiview"
+        },
+        {
+          "label": "Memphis Grizzlies vs Oklahoma City Thunder",
+          "url": "https://roxiestreams.info/nba-streams-1"
+        },
+        {
+          "label": "Milwaukee Bucks vs Golden State Warriors",
+          "url": "https://roxiestreams.info/nba-streams-2"
+        },
+        {
+          "label": "Atlanta Hawks vs Utah Jazz",
+          "url": "https://roxiestreams.info/nba-streams-3"
+        },
+        {
+          "label": "Brooklyn Nets vs Sacramento Kings",
+          "url": "https://roxiestreams.info/nba-streams-4"
+        },
+        {
+          "label": "Stream Request (Discord)",
+          "url": "https://discord.gg/JhkVmejRmn"
+        }
+      ]
+    },
+    "https://roxiestreams.info/nba-streams-1": {
+      "url": "https://roxiestreams.info/nba-streams-1",
+      "title": "Roxiestreams - Watch Live Sports, F1, UFC, NFL, TV",
+      "headings": [],
+      "controls": [
+        "RoxieStreams",
+        "Soccer (WC 2026)",
+        "MLB",
+        "NBA",
+        "NFL",
+        "NHL",
+        "Fighting",
+        "Motorsports",
+        "Stream Request (Discord)",
+        "MultiView (NEW)",
+        "Stream 1",
+        "Switch to Chatango",
         "Stream Request (Discord)"
       ],
       "links": [
@@ -2480,8 +2737,71 @@
         }
       ]
     },
-    "https://roxiestreams.info/nba-streams-1": {
-      "url": "https://roxiestreams.info/nba-streams-1",
+    "https://roxiestreams.info/nba-streams-2": {
+      "url": "https://roxiestreams.info/nba-streams-2",
+      "title": "Roxiestreams - Watch Live Sports, F1, UFC, NFL, TV",
+      "headings": [],
+      "controls": [
+        "RoxieStreams",
+        "Soccer (WC 2026)",
+        "MLB",
+        "NBA",
+        "NFL",
+        "NHL",
+        "Fighting",
+        "Motorsports",
+        "Stream Request (Discord)",
+        "Stream 1",
+        "Stream 2",
+        "PC ONLY US (DIRECT)",
+        "Switch to Chatango",
+        "Stream Request (Discord)"
+      ],
+      "links": [
+        {
+          "label": "RoxieStreams",
+          "url": "https://roxiestreams.info/"
+        },
+        {
+          "label": "Soccer (WC 2026)",
+          "url": "https://roxiestreams.info/soccer"
+        },
+        {
+          "label": "MLB",
+          "url": "https://roxiestreams.info/mlb"
+        },
+        {
+          "label": "NBA",
+          "url": "https://roxiestreams.info/nba"
+        },
+        {
+          "label": "NFL",
+          "url": "https://roxiestreams.info/nfl"
+        },
+        {
+          "label": "NHL",
+          "url": "https://roxiestreams.info/nhl"
+        },
+        {
+          "label": "Fighting",
+          "url": "https://roxiestreams.info/fighting"
+        },
+        {
+          "label": "Motorsports",
+          "url": "https://roxiestreams.info/motorsports"
+        },
+        {
+          "label": "Stream Request (Discord)",
+          "url": "https://discord.gg/JhkVmejRmn"
+        },
+        {
+          "label": "Stream Request (Discord)",
+          "url": "https://discord.gg/JhkVmejRmn"
+        }
+      ]
+    },
+    "https://roxiestreams.info/nba-streams-3": {
+      "url": "https://roxiestreams.info/nba-streams-3",
       "title": "Roxiestreams - Watch Live Sports, F1, UFC, NFL, TV",
       "headings": [],
       "controls": [
@@ -2496,6 +2816,74 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Stream 1",
+        "Stream 2",
+        "Switch to Chatango",
+        "Stream Request (Discord)"
+      ],
+      "links": [
+        {
+          "label": "RoxieStreams",
+          "url": "https://roxiestreams.info/"
+        },
+        {
+          "label": "Soccer (WC 2026)",
+          "url": "https://roxiestreams.info/soccer"
+        },
+        {
+          "label": "MLB",
+          "url": "https://roxiestreams.info/mlb"
+        },
+        {
+          "label": "NBA",
+          "url": "https://roxiestreams.info/nba"
+        },
+        {
+          "label": "NFL",
+          "url": "https://roxiestreams.info/nfl"
+        },
+        {
+          "label": "NHL",
+          "url": "https://roxiestreams.info/nhl"
+        },
+        {
+          "label": "Fighting",
+          "url": "https://roxiestreams.info/fighting"
+        },
+        {
+          "label": "Motorsports",
+          "url": "https://roxiestreams.info/motorsports"
+        },
+        {
+          "label": "Stream Request (Discord)",
+          "url": "https://discord.gg/JhkVmejRmn"
+        },
+        {
+          "label": "MultiView (NEW)",
+          "url": "https://roxiestreams.info/multiview"
+        },
+        {
+          "label": "Stream Request (Discord)",
+          "url": "https://discord.gg/JhkVmejRmn"
+        }
+      ]
+    },
+    "https://roxiestreams.info/nba-streams-4": {
+      "url": "https://roxiestreams.info/nba-streams-4",
+      "title": "Roxiestreams - Watch Live Sports, F1, UFC, NFL, TV",
+      "headings": [],
+      "controls": [
+        "RoxieStreams",
+        "Soccer (WC 2026)",
+        "MLB",
+        "NBA",
+        "NFL",
+        "NHL",
+        "Fighting",
+        "Motorsports",
+        "Stream Request (Discord)",
+        "MultiView (NEW)",
+        "Stream 1",
+        "Stream 2",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -3261,10 +3649,13 @@
       ],
       "streams": [
         {
-          "label": "Direct Link",
-          "url": "https://customer-k7esp6o17le0nad2.cloudflarestream.com/e55558e0ecd91f1c75bfb02b727ff650/manifest/video.m3u8",
+          "label": "TSN",
+          "url": "https://602.shadow-ran.online/tsn.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-1",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "602",
+          "path": "tsn.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-1",
             "Origin": "https://roxiestreams.info",
@@ -3278,7 +3669,7 @@
             "home": "Paraguay",
             "away": "France"
           },
-          "display_name": "Paraguay vs France"
+          "display_name": "Paraguay vs France - TSN"
         },
         {
           "label": "FOX (ALT)",
@@ -3797,7 +4188,10 @@
     "nba": {
       "pages": [
         "https://roxiestreams.info/nba",
-        "https://roxiestreams.info/nba-streams-1"
+        "https://roxiestreams.info/nba-streams-1",
+        "https://roxiestreams.info/nba-streams-2",
+        "https://roxiestreams.info/nba-streams-3",
+        "https://roxiestreams.info/nba-streams-4"
       ],
       "streams": [
         {
@@ -3816,9 +4210,141 @@
           },
           "drm_keys": null,
           "sport": "nba",
-          "event_title": "NBA Summer League",
-          "matchup": null,
-          "display_name": "NBA Summer League - Stream 1"
+          "event_title": "Memphis Grizzlies vs Oklahoma City Thunder",
+          "matchup": {
+            "home": "Memphis Grizzlies",
+            "away": "Oklahoma City Thunder"
+          },
+          "display_name": "Memphis Grizzlies vs Oklahoma City Thunder - Stream 1"
+        },
+        {
+          "label": "Direct Link",
+          "url": "https://lpnba.akamaized.net/live-pz/p/hls-wvpr/g0042500403sas1000447nyk/index.m3u8?vpmute=0&addUserInfo=1&State=GP&PostalCode=&Zip=&LatLongRadius=&ISO3166=&ads=mr&csid=nba.com_live_nba-tv_web&afid=&prof=%3Anba_web_video&pcaid=nba-tv_live_default_asset&mcaid=&bo=no&_fw_vcid2=&_fw_gdpr=1&_fw_gdpr_consent=&_fw_us_privacy=1---&_fw_is_lat=0&_is_lat=0&_fw_ae=&_fw_h_user_agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F135.0.0.0+Safari%2F537.36+Edg%2F135.0.0.0&dai-debug=false&sessionId=0642a66f-a8c9-49a4-8949-d4e4c9f46ef5",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/nba-streams-2",
+          "headers": {
+            "Referer": "https://roxiestreams.info/nba-streams-2",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "nba",
+          "event_title": "Milwaukee Bucks vs Golden State Warriors",
+          "matchup": {
+            "home": "Milwaukee Bucks",
+            "away": "Golden State Warriors"
+          },
+          "display_name": "Milwaukee Bucks vs Golden State Warriors"
+        },
+        {
+          "label": "Stream 2",
+          "url": "https://602.shadow-ran.online/nba.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/nba-streams-2",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "602",
+          "path": "nba.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/nba-streams-2",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "nba",
+          "event_title": "Milwaukee Bucks vs Golden State Warriors",
+          "matchup": {
+            "home": "Milwaukee Bucks",
+            "away": "Golden State Warriors"
+          },
+          "display_name": "Milwaukee Bucks vs Golden State Warriors - Stream 2"
+        },
+        {
+          "label": "Direct Link",
+          "url": "https://customer-fpmmd9cdewmb1wz2.cloudflarestream.com/b5d5801b00e60a1a0a558a488419d2bd/manifest/video.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/nba-streams-3",
+          "headers": {
+            "Referer": "https://roxiestreams.info/nba-streams-3",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "nba",
+          "event_title": "Atlanta Hawks vs Utah Jazz",
+          "matchup": {
+            "home": "Atlanta Hawks",
+            "away": "Utah Jazz"
+          },
+          "display_name": "Atlanta Hawks vs Utah Jazz"
+        },
+        {
+          "label": "Stream 1",
+          "url": "https://602.shadow-ran.online/nba3.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/nba-streams-3",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "602",
+          "path": "nba3.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/nba-streams-3",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "nba",
+          "event_title": "Atlanta Hawks vs Utah Jazz",
+          "matchup": {
+            "home": "Atlanta Hawks",
+            "away": "Utah Jazz"
+          },
+          "display_name": "Atlanta Hawks vs Utah Jazz - Stream 1"
+        },
+        {
+          "label": "nba3.m3u8",
+          "url": "https://daffodil.shadow-ran.online/nba3.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/nba-streams-3",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "nba3.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/nba-streams-3",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "nba",
+          "event_title": "Atlanta Hawks vs Utah Jazz",
+          "matchup": {
+            "home": "Atlanta Hawks",
+            "away": "Utah Jazz"
+          },
+          "display_name": "Atlanta Hawks vs Utah Jazz - nba3.m3u8"
+        },
+        {
+          "label": "Direct Link",
+          "url": "https://customer-fpmmd9cdewmb1wz2.cloudflarestream.com/d6e0bd30861d00a40ef3a010a31c9357/manifest/video.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/nba-streams-4",
+          "headers": {
+            "Referer": "https://roxiestreams.info/nba-streams-4",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "nba",
+          "event_title": "Brooklyn Nets vs Sacramento Kings",
+          "matchup": {
+            "home": "Brooklyn Nets",
+            "away": "Sacramento Kings"
+          },
+          "display_name": "Brooklyn Nets vs Sacramento Kings"
         }
       ]
     },
@@ -4114,7 +4640,7 @@
       ]
     }
   },
-  "stream_count": 36,
+  "stream_count": 42,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
