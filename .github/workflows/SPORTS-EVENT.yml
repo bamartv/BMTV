@@ -1,0 +1,32 @@
+name: SPORTS EVENT
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run SPORTS M3U Playlist Generator
+        run: python scripts/cdn-events.py
+
+      - name: Commit and Push M3U file
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add SPORTS.m3u
+          git commit -m "Auto-update SPORTS M3U playlist [skip ci]" || echo "No changes to commit"
+          git push
