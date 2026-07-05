@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-05T16:31:51+00:00",
+  "scraped_at": "2026-07-05T17:40:27+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
@@ -38,10 +38,13 @@
         "page": "https://roxiestreams.info/soccer-streams-1",
         "streams": [
           {
-            "label": "Direct Link",
-            "url": "https://customer-k7esp6o17le0nad2.cloudflarestream.com/e55558e0ecd91f1c75bfb02b727ff650/manifest/video.m3u8",
+            "label": "TSN",
+            "url": "https://admin.shadow-ran.online/tsn.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-1",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "admin",
+            "path": "tsn.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-1",
               "Origin": "https://roxiestreams.info",
@@ -55,7 +58,7 @@
               "home": "Mexico",
               "away": "England"
             },
-            "display_name": "Mexico vs England"
+            "display_name": "Mexico vs England - TSN"
           },
           {
             "label": "FOX (ALT)",
@@ -1138,26 +1141,6 @@
             "display_name": "Formula 1 - British Grand Prix - Sky Sports"
           },
           {
-            "label": "F1 TV",
-            "url": "https://tedesco.shadow-ran.online/f1.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/f1",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "tedesco",
-            "path": "f1.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/f1",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "f1",
-            "event_title": "Formula 1 - British Grand Prix",
-            "matchup": null,
-            "display_name": "Formula 1 - British Grand Prix - F1 TV"
-          },
-          {
             "label": "TSN",
             "url": "https://tedesco.shadow-ran.online/tsn.m3u8",
             "type": "m3u8",
@@ -1341,8 +1324,8 @@
         "FOX (ALT)",
         "FOX (FHD)",
         "TELEMUNDO",
-        "Tele (Peacock)",
         "PC ONLY (DIRECT)",
+        "Tele (Peacock)",
         "العربية",
         "TSN PC DIRECT VPN",
         "WCTV PC DIRECT",
@@ -3391,7 +3374,6 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Sky Sports",
-        "F1 TV",
         "TSN",
         "Switch to Chatango",
         "Stream Request (Discord)"
@@ -3520,10 +3502,13 @@
       ],
       "streams": [
         {
-          "label": "Direct Link",
-          "url": "https://customer-k7esp6o17le0nad2.cloudflarestream.com/e55558e0ecd91f1c75bfb02b727ff650/manifest/video.m3u8",
+          "label": "TSN",
+          "url": "https://admin.shadow-ran.online/tsn.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-1",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "admin",
+          "path": "tsn.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-1",
             "Origin": "https://roxiestreams.info",
@@ -3537,7 +3522,7 @@
             "home": "Mexico",
             "away": "England"
           },
-          "display_name": "Mexico vs England"
+          "display_name": "Mexico vs England - TSN"
         },
         {
           "label": "FOX (ALT)",
@@ -4430,26 +4415,6 @@
           "display_name": "Formula 1 - British Grand Prix - Sky Sports"
         },
         {
-          "label": "F1 TV",
-          "url": "https://tedesco.shadow-ran.online/f1.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/f1",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "tedesco",
-          "path": "f1.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/f1",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "f1",
-          "event_title": "Formula 1 - British Grand Prix",
-          "matchup": null,
-          "display_name": "Formula 1 - British Grand Prix - F1 TV"
-        },
-        {
           "label": "TSN",
           "url": "https://tedesco.shadow-ran.online/tsn.m3u8",
           "type": "m3u8",
@@ -4533,7 +4498,7 @@
       ]
     }
   },
-  "stream_count": 44,
+  "stream_count": 43,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
