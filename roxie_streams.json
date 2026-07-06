@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-05T22:14:12+00:00",
+  "scraped_at": "2026-07-06T00:02:35+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
@@ -38,10 +38,13 @@
         "page": "https://roxiestreams.info/soccer-streams-1",
         "streams": [
           {
-            "label": "Direct Link",
-            "url": "https://customer-k7esp6o17le0nad2.cloudflarestream.com/c34b7f3384098527b73e7f3fc4559c14/manifest/video.m3u8",
+            "label": "TSN",
+            "url": "https://admin.shadow-ran.online/tsn.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-1",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "admin",
+            "path": "tsn.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-1",
               "Origin": "https://roxiestreams.info",
@@ -55,7 +58,7 @@
               "home": "Mexico",
               "away": "England"
             },
-            "display_name": "Mexico vs England"
+            "display_name": "Mexico vs England - TSN"
           },
           {
             "label": "FOX (ALT)",
@@ -1321,8 +1324,8 @@
         "FOX (ALT)",
         "FOX (FHD)",
         "TELEMUNDO",
-        "Tele (Peacock)",
         "PC ONLY (DIRECT)",
+        "Tele (Peacock)",
         "العربية",
         "TSN PC DIRECT VPN",
         "WCTV PC DIRECT",
@@ -3499,10 +3502,13 @@
       ],
       "streams": [
         {
-          "label": "Direct Link",
-          "url": "https://customer-k7esp6o17le0nad2.cloudflarestream.com/c34b7f3384098527b73e7f3fc4559c14/manifest/video.m3u8",
+          "label": "TSN",
+          "url": "https://admin.shadow-ran.online/tsn.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-1",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "admin",
+          "path": "tsn.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-1",
             "Origin": "https://roxiestreams.info",
@@ -3516,7 +3522,7 @@
             "home": "Mexico",
             "away": "England"
           },
-          "display_name": "Mexico vs England"
+          "display_name": "Mexico vs England - TSN"
         },
         {
           "label": "FOX (ALT)",
