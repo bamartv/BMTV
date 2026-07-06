@@ -3,7 +3,7 @@ name: Sportzx
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/20 * * * *" 
+    - cron: "*/15 * * * *" 
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
