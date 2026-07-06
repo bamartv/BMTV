@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-06T17:56:47+00:00",
+  "scraped_at": "2026-07-06T20:09:18+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
@@ -32,6 +32,26 @@
         },
         "page": "https://roxiestreams.info/soccer-streams-1",
         "streams": [
+          {
+            "label": "Direct Link",
+            "url": "https://mxbluejays.s3.us-east-1.amazonaws.com/bbc2_1080p30.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-1",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-1",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "USA vs Belgium",
+            "matchup": {
+              "home": "USA",
+              "away": "Belgium"
+            },
+            "display_name": "USA vs Belgium"
+          },
           {
             "label": "TSN",
             "url": "https://admin.shadow-ran.online/tsn.m3u8",
@@ -1127,6 +1147,7 @@
         "Tele (Peacock)",
         "العربية",
         "TSN PC DIRECT VPN",
+        "TSN (ALT)",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -2746,6 +2767,26 @@
       ],
       "streams": [
         {
+          "label": "Direct Link",
+          "url": "https://mxbluejays.s3.us-east-1.amazonaws.com/bbc2_1080p30.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-1",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-1",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "USA vs Belgium",
+          "matchup": {
+            "home": "USA",
+            "away": "Belgium"
+          },
+          "display_name": "USA vs Belgium"
+        },
+        {
           "label": "TSN",
           "url": "https://admin.shadow-ran.online/tsn.m3u8",
           "type": "m3u8",
@@ -3612,7 +3653,7 @@
       ]
     }
   },
-  "stream_count": 37,
+  "stream_count": 38,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
