@@ -41,4 +41,3 @@ jobs:
           git add Sportzx.m3u8
           git diff --cached --quiet || git commit -m "Aggiornato file M3U8 con nuovi flussi"
           git push
-          fi
