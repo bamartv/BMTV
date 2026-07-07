@@ -40,4 +40,4 @@ jobs:
           git add roxie_streams.json roxie_streams.m3u8
           git diff --cached --quiet || git commit -m "Update Roxie stream outputs"
           git push
-          done
+          fi
