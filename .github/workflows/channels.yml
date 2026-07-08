@@ -3,7 +3,7 @@ name: Update Live TV Channels
 on:
   workflow_dispatch: 
   schedule:
-    - cron: '*/10 * * * *'    
+    - cron: '*/15 * * * *'    
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
