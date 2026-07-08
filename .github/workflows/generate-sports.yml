@@ -3,7 +3,7 @@ name: Generate SPORTS
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '*/10 * * * *'
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
