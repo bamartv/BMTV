@@ -12,7 +12,7 @@ permissions:
       contents: write
       
 jobs:
-  update:
+  generate:
     runs-on: ubuntu-latest
     
     steps:
@@ -27,7 +27,6 @@ jobs:
       - name: Run SPORTS M3U Playlist Generator
         run: |
           python scripts/generate-sport-m3u.py
-
       - name: Commit and Push M3U file
         run: |
           git config --local user.name "github-actions[bot]"
