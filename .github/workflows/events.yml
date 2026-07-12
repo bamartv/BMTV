@@ -32,9 +32,9 @@ jobs:
 
       - name: Run
         run: |
-          python src/roxie_scraper.py
-          python scripts/generate-sport-m3u.py
-          python src/Sportzx.py
+          python .src/roxie_scraper.py
+          python .scripts/generate-sport-m3u.py
+          python .src/Sportzx.py
 
       - name: Commit updated outputs
         run: |
