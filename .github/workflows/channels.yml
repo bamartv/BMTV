@@ -35,7 +35,7 @@ jobs:
       run: playwright install chromium --with-deps
 
     - name: Run Scraper Script
-      run: python src/channels.py
+      run: python .src/channels.py
 
     - name: Commit and Push Playlist
       run: |
