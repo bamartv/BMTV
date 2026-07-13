@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-13T18:13:30+00:00",
+  "scraped_at": "2026-07-13T19:53:38+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
@@ -33,13 +33,13 @@
         "page": "https://roxiestreams.info/soccer-streams-1",
         "streams": [
           {
-            "label": "Stream 1",
-            "url": "https://tedesco.shadow-ran.online/tudn.m3u8",
+            "label": "TSN",
+            "url": "https://admin2.shadow-ran.online/tsn.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-1",
             "cdn_domain": "shadow-ran.online",
-            "subdomain": "tedesco",
-            "path": "tudn.m3u8",
+            "subdomain": "admin2",
+            "path": "tsn.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-1",
               "Origin": "https://roxiestreams.info",
@@ -53,16 +53,16 @@
               "home": "France",
               "away": "Spain"
             },
-            "display_name": "France vs Spain - Stream 1"
+            "display_name": "France vs Spain - TSN"
           },
           {
-            "label": "tudn.m3u8",
-            "url": "https://daffodil.shadow-ran.online/tudn.m3u8",
+            "label": "FOX",
+            "url": "https://admin.shadow-ran.online/foxalt.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-1",
             "cdn_domain": "shadow-ran.online",
-            "subdomain": "daffodil",
-            "path": "tudn.m3u8",
+            "subdomain": "admin",
+            "path": "foxalt.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-1",
               "Origin": "https://roxiestreams.info",
@@ -76,7 +76,76 @@
               "home": "France",
               "away": "Spain"
             },
-            "display_name": "France vs Spain - tudn.m3u8"
+            "display_name": "France vs Spain - FOX"
+          },
+          {
+            "label": "FOX (ALT)",
+            "url": "https://admin.shadow-ran.online/fox.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-1",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "admin",
+            "path": "fox.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-1",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "France vs Spain",
+            "matchup": {
+              "home": "France",
+              "away": "Spain"
+            },
+            "display_name": "France vs Spain - FOX (ALT)"
+          },
+          {
+            "label": "TELEMUNDO",
+            "url": "https://admin2.shadow-ran.online/tele.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-1",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "admin2",
+            "path": "tele.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-1",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "France vs Spain",
+            "matchup": {
+              "home": "France",
+              "away": "Spain"
+            },
+            "display_name": "France vs Spain - TELEMUNDO"
+          },
+          {
+            "label": "العربية",
+            "url": "https://admin.shadow-ran.online/bein1.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-1",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "admin",
+            "path": "bein1.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-1",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "France vs Spain",
+            "matchup": {
+              "home": "France",
+              "away": "Spain"
+            },
+            "display_name": "France vs Spain - العربية"
           }
         ]
       },
@@ -668,7 +737,14 @@
         "Motorsports",
         "Stream Request (Discord)",
         "MultiView (NEW)",
-        "Stream 1",
+        "TSN",
+        "FOX",
+        "FOX (ALT)",
+        "TELEMUNDO",
+        "PC ONLY (DIRECT)",
+        "Tele (Peacock)",
+        "العربية",
+        "TSN PC DIRECT VPN",
         "WCTV",
         "Switch to Chatango",
         "Stream Request (Discord)"
@@ -1714,13 +1790,13 @@
       ],
       "streams": [
         {
-          "label": "Stream 1",
-          "url": "https://tedesco.shadow-ran.online/tudn.m3u8",
+          "label": "TSN",
+          "url": "https://admin2.shadow-ran.online/tsn.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-1",
           "cdn_domain": "shadow-ran.online",
-          "subdomain": "tedesco",
-          "path": "tudn.m3u8",
+          "subdomain": "admin2",
+          "path": "tsn.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-1",
             "Origin": "https://roxiestreams.info",
@@ -1734,16 +1810,16 @@
             "home": "France",
             "away": "Spain"
           },
-          "display_name": "France vs Spain - Stream 1"
+          "display_name": "France vs Spain - TSN"
         },
         {
-          "label": "tudn.m3u8",
-          "url": "https://daffodil.shadow-ran.online/tudn.m3u8",
+          "label": "FOX",
+          "url": "https://admin.shadow-ran.online/foxalt.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-1",
           "cdn_domain": "shadow-ran.online",
-          "subdomain": "daffodil",
-          "path": "tudn.m3u8",
+          "subdomain": "admin",
+          "path": "foxalt.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-1",
             "Origin": "https://roxiestreams.info",
@@ -1757,7 +1833,76 @@
             "home": "France",
             "away": "Spain"
           },
-          "display_name": "France vs Spain - tudn.m3u8"
+          "display_name": "France vs Spain - FOX"
+        },
+        {
+          "label": "FOX (ALT)",
+          "url": "https://admin.shadow-ran.online/fox.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-1",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "admin",
+          "path": "fox.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-1",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "France vs Spain",
+          "matchup": {
+            "home": "France",
+            "away": "Spain"
+          },
+          "display_name": "France vs Spain - FOX (ALT)"
+        },
+        {
+          "label": "TELEMUNDO",
+          "url": "https://admin2.shadow-ran.online/tele.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-1",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "admin2",
+          "path": "tele.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-1",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "France vs Spain",
+          "matchup": {
+            "home": "France",
+            "away": "Spain"
+          },
+          "display_name": "France vs Spain - TELEMUNDO"
+        },
+        {
+          "label": "العربية",
+          "url": "https://admin.shadow-ran.online/bein1.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-1",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "admin",
+          "path": "bein1.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-1",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "France vs Spain",
+          "matchup": {
+            "home": "France",
+            "away": "Spain"
+          },
+          "display_name": "France vs Spain - العربية"
         },
         {
           "label": "Stream 1",
@@ -2225,7 +2370,7 @@
       ]
     }
   },
-  "stream_count": 21,
+  "stream_count": 24,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
