@@ -1,29 +1,24 @@
 {
-  "scraped_at": "2026-07-13T16:11:37+00:00",
+  "scraped_at": "2026-07-13T18:13:30+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
   ],
   "events": [
     {
-      "name": "MotoGP - Grand Prix",
-      "page": "https://roxiestreams.info/motogp",
-      "start_time": "July 12, 2026 5:00 AM"
-    },
-    {
-      "name": "Friendlies",
-      "page": "https://roxiestreams.info/soccer",
-      "start_time": "July 12, 2026 11:00 AM"
-    },
-    {
       "name": "NBA Summer League",
       "page": "https://roxiestreams.info/nba",
-      "start_time": "July 12, 2026 12:00 PM"
+      "start_time": "July 13, 2026 1:30 PM"
     },
     {
-      "name": "NASCAR Cup Series",
-      "page": "https://roxiestreams.info/nascar",
-      "start_time": "July 12, 2026 4:00 PM"
+      "name": "MLB Home Run Derby",
+      "page": "https://roxiestreams.info/mlb-streams-1",
+      "start_time": "July 13, 2026 5:00 PM"
+    },
+    {
+      "name": "WWE RAW",
+      "page": "https://roxiestreams.info/wwe-streams",
+      "start_time": "July 13, 2026 5:00 PM"
     }
   ],
   "events_by_sport": {
@@ -510,99 +505,72 @@
       }
     ],
     "multiview": [],
-    "motogp": [
+    "wwe": [
       {
-        "title": "MotoGP - Grand Prix",
-        "sport": "motogp",
+        "title": "WWE Smackdown",
+        "sport": "wwe",
         "matchup": null,
-        "page": "https://roxiestreams.info/motogp",
+        "page": "https://roxiestreams.info/wwe-streams",
         "streams": [
           {
             "label": "Stream 1",
-            "url": "https://admin.shadow-ran.online/tnt2.m3u8",
+            "url": "https://admin.shadow-ran.online/wwe.m3u8",
             "type": "m3u8",
-            "source_page": "https://roxiestreams.info/motogp",
+            "source_page": "https://roxiestreams.info/wwe-streams",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "admin",
-            "path": "tnt2.m3u8",
+            "path": "wwe.m3u8",
             "headers": {
-              "Referer": "https://roxiestreams.info/motogp",
+              "Referer": "https://roxiestreams.info/wwe-streams",
               "Origin": "https://roxiestreams.info",
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
               "Accept": "*/*"
             },
             "drm_keys": null,
-            "sport": "motogp",
-            "event_title": "MotoGP - Grand Prix",
+            "sport": "wwe",
+            "event_title": "WWE Smackdown",
             "matchup": null,
-            "display_name": "MotoGP - Grand Prix - Stream 1"
+            "display_name": "WWE Smackdown - Stream 1"
           },
           {
             "label": "Stream 2",
-            "url": "https://tedesco.shadow-ran.online/ncaa5.m3u8",
+            "url": "https://tedesco.shadow-ran.online/wwe.m3u8",
             "type": "m3u8",
-            "source_page": "https://roxiestreams.info/motogp",
+            "source_page": "https://roxiestreams.info/wwe-streams",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "tedesco",
-            "path": "ncaa5.m3u8",
+            "path": "wwe.m3u8",
             "headers": {
-              "Referer": "https://roxiestreams.info/motogp",
+              "Referer": "https://roxiestreams.info/wwe-streams",
               "Origin": "https://roxiestreams.info",
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
               "Accept": "*/*"
             },
             "drm_keys": null,
-            "sport": "motogp",
-            "event_title": "MotoGP - Grand Prix",
+            "sport": "wwe",
+            "event_title": "WWE Smackdown",
             "matchup": null,
-            "display_name": "MotoGP - Grand Prix - Stream 2"
+            "display_name": "WWE Smackdown - Stream 2"
           },
           {
-            "label": "tnt2.m3u8",
-            "url": "https://daffodil.shadow-ran.online/tnt2.m3u8",
+            "label": "wwe.m3u8",
+            "url": "https://daffodil.shadow-ran.online/wwe.m3u8",
             "type": "m3u8",
-            "source_page": "https://roxiestreams.info/motogp",
+            "source_page": "https://roxiestreams.info/wwe-streams",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "daffodil",
-            "path": "tnt2.m3u8",
+            "path": "wwe.m3u8",
             "headers": {
-              "Referer": "https://roxiestreams.info/motogp",
+              "Referer": "https://roxiestreams.info/wwe-streams",
               "Origin": "https://roxiestreams.info",
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
               "Accept": "*/*"
             },
             "drm_keys": null,
-            "sport": "motogp",
-            "event_title": "MotoGP - Grand Prix",
+            "sport": "wwe",
+            "event_title": "WWE Smackdown",
             "matchup": null,
-            "display_name": "MotoGP - Grand Prix - tnt2.m3u8"
-          }
-        ]
-      }
-    ],
-    "nascar": [
-      {
-        "title": "NASCAR Cup Series",
-        "sport": "nascar",
-        "matchup": null,
-        "page": "https://roxiestreams.info/nascar",
-        "streams": [
-          {
-            "label": "Direct Link",
-            "url": "https://tedesco.formaturamaxi.com.br/wec.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/nascar",
-            "headers": {
-              "Referer": "https://roxiestreams.info/nascar",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "nascar",
-            "event_title": "NASCAR Cup Series",
-            "matchup": null,
-            "display_name": "NASCAR Cup Series"
+            "display_name": "WWE Smackdown - wwe.m3u8"
           }
         ]
       }
@@ -701,6 +669,7 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Stream 1",
+        "WCTV",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -834,6 +803,7 @@
         "Motorsports",
         "Stream Request (Discord)",
         "MultiView (NEW)",
+        "MLB Home Run Derby",
         "MLB All Stars",
         "Stream Request (Discord)"
       ],
@@ -877,6 +847,10 @@
         {
           "label": "MultiView (NEW)",
           "url": "https://roxiestreams.info/multiview"
+        },
+        {
+          "label": "MLB Home Run Derby",
+          "url": "https://roxiestreams.info/mlb-streams-1"
         },
         {
           "label": "MLB All Stars",
@@ -1546,7 +1520,7 @@
         "Motorsports",
         "Stream Request (Discord)",
         "MultiView (NEW)",
-        "High Limit Raching",
+        "High Limit Racing",
         "Stream Request (Discord)"
       ],
       "links": [
@@ -1591,7 +1565,7 @@
           "url": "https://roxiestreams.info/multiview"
         },
         {
-          "label": "High Limit Raching",
+          "label": "High Limit Racing",
           "url": "https://roxiestreams.info/floracing-1"
         },
         {
@@ -1727,139 +1701,6 @@
         {
           "label": "MultiView (NEW)",
           "url": "https://roxiestreams.info/multiview"
-        }
-      ]
-    },
-    "https://roxiestreams.info/motogp": {
-      "url": "https://roxiestreams.info/motogp",
-      "title": "Roxiestreams - Watch Live Sports, F1, UFC, NFL, TV",
-      "headings": [],
-      "controls": [
-        "RoxieStreams",
-        "Soccer (WC 2026)",
-        "MLB",
-        "NBA",
-        "NFL",
-        "NHL",
-        "Fighting",
-        "Motorsports",
-        "Stream Request (Discord)",
-        "MultiView (NEW)",
-        "Stream 1",
-        "Stream 2",
-        "Switch to Chatango",
-        "Stream Request (Discord)"
-      ],
-      "links": [
-        {
-          "label": "RoxieStreams",
-          "url": "https://roxiestreams.info/"
-        },
-        {
-          "label": "Soccer (WC 2026)",
-          "url": "https://roxiestreams.info/soccer"
-        },
-        {
-          "label": "MLB",
-          "url": "https://roxiestreams.info/mlb"
-        },
-        {
-          "label": "NBA",
-          "url": "https://roxiestreams.info/nba"
-        },
-        {
-          "label": "NFL",
-          "url": "https://roxiestreams.info/nfl"
-        },
-        {
-          "label": "NHL",
-          "url": "https://roxiestreams.info/nhl"
-        },
-        {
-          "label": "Fighting",
-          "url": "https://roxiestreams.info/fighting"
-        },
-        {
-          "label": "Motorsports",
-          "url": "https://roxiestreams.info/motorsports"
-        },
-        {
-          "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/JhkVmejRmn"
-        },
-        {
-          "label": "MultiView (NEW)",
-          "url": "https://roxiestreams.info/multiview"
-        },
-        {
-          "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/JhkVmejRmn"
-        }
-      ]
-    },
-    "https://roxiestreams.info/nascar": {
-      "url": "https://roxiestreams.info/nascar",
-      "title": "Roxiestreams - Watch Live Sports, F1, UFC, NFL, TV",
-      "headings": [],
-      "controls": [
-        "RoxieStreams",
-        "Soccer (WC 2026)",
-        "MLB",
-        "NBA",
-        "NFL",
-        "NHL",
-        "Fighting",
-        "Motorsports",
-        "Stream Request (Discord)",
-        "MultiView (NEW)",
-        "Stream 1",
-        "Switch to Chatango",
-        "Stream Request (Discord)"
-      ],
-      "links": [
-        {
-          "label": "RoxieStreams",
-          "url": "https://roxiestreams.info/"
-        },
-        {
-          "label": "Soccer (WC 2026)",
-          "url": "https://roxiestreams.info/soccer"
-        },
-        {
-          "label": "MLB",
-          "url": "https://roxiestreams.info/mlb"
-        },
-        {
-          "label": "NBA",
-          "url": "https://roxiestreams.info/nba"
-        },
-        {
-          "label": "NFL",
-          "url": "https://roxiestreams.info/nfl"
-        },
-        {
-          "label": "NHL",
-          "url": "https://roxiestreams.info/nhl"
-        },
-        {
-          "label": "Fighting",
-          "url": "https://roxiestreams.info/fighting"
-        },
-        {
-          "label": "Motorsports",
-          "url": "https://roxiestreams.info/motorsports"
-        },
-        {
-          "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/JhkVmejRmn"
-        },
-        {
-          "label": "MultiView (NEW)",
-          "url": "https://roxiestreams.info/multiview"
-        },
-        {
-          "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/JhkVmejRmn"
         }
       ]
     }
@@ -2316,99 +2157,75 @@
       ],
       "streams": []
     },
-    "motogp": {
+    "wwe": {
       "pages": [
-        "https://roxiestreams.info/motogp"
+        "https://roxiestreams.info/wwe-streams"
       ],
       "streams": [
         {
           "label": "Stream 1",
-          "url": "https://admin.shadow-ran.online/tnt2.m3u8",
+          "url": "https://admin.shadow-ran.online/wwe.m3u8",
           "type": "m3u8",
-          "source_page": "https://roxiestreams.info/motogp",
+          "source_page": "https://roxiestreams.info/wwe-streams",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "admin",
-          "path": "tnt2.m3u8",
+          "path": "wwe.m3u8",
           "headers": {
-            "Referer": "https://roxiestreams.info/motogp",
+            "Referer": "https://roxiestreams.info/wwe-streams",
             "Origin": "https://roxiestreams.info",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
             "Accept": "*/*"
           },
           "drm_keys": null,
-          "sport": "motogp",
-          "event_title": "MotoGP - Grand Prix",
+          "sport": "wwe",
+          "event_title": "WWE Smackdown",
           "matchup": null,
-          "display_name": "MotoGP - Grand Prix - Stream 1"
+          "display_name": "WWE Smackdown - Stream 1"
         },
         {
           "label": "Stream 2",
-          "url": "https://tedesco.shadow-ran.online/ncaa5.m3u8",
+          "url": "https://tedesco.shadow-ran.online/wwe.m3u8",
           "type": "m3u8",
-          "source_page": "https://roxiestreams.info/motogp",
+          "source_page": "https://roxiestreams.info/wwe-streams",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "tedesco",
-          "path": "ncaa5.m3u8",
+          "path": "wwe.m3u8",
           "headers": {
-            "Referer": "https://roxiestreams.info/motogp",
+            "Referer": "https://roxiestreams.info/wwe-streams",
             "Origin": "https://roxiestreams.info",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
             "Accept": "*/*"
           },
           "drm_keys": null,
-          "sport": "motogp",
-          "event_title": "MotoGP - Grand Prix",
+          "sport": "wwe",
+          "event_title": "WWE Smackdown",
           "matchup": null,
-          "display_name": "MotoGP - Grand Prix - Stream 2"
+          "display_name": "WWE Smackdown - Stream 2"
         },
         {
-          "label": "tnt2.m3u8",
-          "url": "https://daffodil.shadow-ran.online/tnt2.m3u8",
+          "label": "wwe.m3u8",
+          "url": "https://daffodil.shadow-ran.online/wwe.m3u8",
           "type": "m3u8",
-          "source_page": "https://roxiestreams.info/motogp",
+          "source_page": "https://roxiestreams.info/wwe-streams",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "daffodil",
-          "path": "tnt2.m3u8",
+          "path": "wwe.m3u8",
           "headers": {
-            "Referer": "https://roxiestreams.info/motogp",
+            "Referer": "https://roxiestreams.info/wwe-streams",
             "Origin": "https://roxiestreams.info",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
             "Accept": "*/*"
           },
           "drm_keys": null,
-          "sport": "motogp",
-          "event_title": "MotoGP - Grand Prix",
+          "sport": "wwe",
+          "event_title": "WWE Smackdown",
           "matchup": null,
-          "display_name": "MotoGP - Grand Prix - tnt2.m3u8"
-        }
-      ]
-    },
-    "nascar": {
-      "pages": [
-        "https://roxiestreams.info/nascar"
-      ],
-      "streams": [
-        {
-          "label": "Direct Link",
-          "url": "https://tedesco.formaturamaxi.com.br/wec.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/nascar",
-          "headers": {
-            "Referer": "https://roxiestreams.info/nascar",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "nascar",
-          "event_title": "NASCAR Cup Series",
-          "matchup": null,
-          "display_name": "NASCAR Cup Series"
+          "display_name": "WWE Smackdown - wwe.m3u8"
         }
       ]
     }
   },
-  "stream_count": 22,
+  "stream_count": 21,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
