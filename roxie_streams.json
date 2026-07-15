@@ -1,10 +1,15 @@
 {
-  "scraped_at": "2026-07-15T08:56:23+00:00",
+  "scraped_at": "2026-07-15T10:56:07+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
   ],
   "events": [
+    {
+      "name": "HARDMAN VS VAOTUUA (IBC)",
+      "page": "https://roxiestreams.info/ppv-streams-1",
+      "start_time": "July 15, 2026 2:00 AM"
+    },
     {
       "name": "World Cup (Argentina vs England)",
       "page": "https://roxiestreams.info/soccer-streams-1",
@@ -471,11 +476,11 @@
         "streams": [
           {
             "label": "Stream 1",
-            "url": "https://tedesco.shadow-ran.online/wnba.m3u8",
+            "url": "https://admin2.shadow-ran.online/wnba.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/wnba-streams-1",
             "cdn_domain": "shadow-ran.online",
-            "subdomain": "tedesco",
+            "subdomain": "admin2",
             "path": "wnba.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/wnba-streams-1",
@@ -747,7 +752,66 @@
         ]
       }
     ],
-    "multiview": []
+    "multiview": [],
+    "ppv": [
+      {
+        "title": "Hardman vs Vaotuua (IBC)",
+        "sport": "ppv",
+        "matchup": {
+          "home": "Hardman",
+          "away": "Vaotuua (IBC)"
+        },
+        "page": "https://roxiestreams.info/ppv-streams-1",
+        "streams": [
+          {
+            "label": "Stream 1",
+            "url": "https://admin2.shadow-ran.online/ppv.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/ppv-streams-1",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "admin2",
+            "path": "ppv.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/ppv-streams-1",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "ppv",
+            "event_title": "Hardman vs Vaotuua (IBC)",
+            "matchup": {
+              "home": "Hardman",
+              "away": "Vaotuua (IBC)"
+            },
+            "display_name": "Hardman vs Vaotuua (IBC) - Stream 1"
+          },
+          {
+            "label": "ppv.m3u8",
+            "url": "https://daffodil.shadow-ran.online/ppv.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/ppv-streams-1",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "ppv.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/ppv-streams-1",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "ppv",
+            "event_title": "Hardman vs Vaotuua (IBC)",
+            "matchup": {
+              "home": "Hardman",
+              "away": "Vaotuua (IBC)"
+            },
+            "display_name": "Hardman vs Vaotuua (IBC) - ppv.m3u8"
+          }
+        ]
+      }
+    ]
   },
   "pages": {
     "https://roxiestreams.info/soccer": {
@@ -2608,11 +2672,11 @@
         },
         {
           "label": "Stream 1",
-          "url": "https://tedesco.shadow-ran.online/wnba.m3u8",
+          "url": "https://admin2.shadow-ran.online/wnba.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/wnba-streams-1",
           "cdn_domain": "shadow-ran.online",
-          "subdomain": "tedesco",
+          "subdomain": "admin2",
           "path": "wnba.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/wnba-streams-1",
@@ -2881,9 +2945,62 @@
         "https://roxiestreams.info/multiview"
       ],
       "streams": []
+    },
+    "ppv": {
+      "pages": [
+        "https://roxiestreams.info/ppv-streams-1"
+      ],
+      "streams": [
+        {
+          "label": "Stream 1",
+          "url": "https://admin2.shadow-ran.online/ppv.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/ppv-streams-1",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "admin2",
+          "path": "ppv.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/ppv-streams-1",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "ppv",
+          "event_title": "Hardman vs Vaotuua (IBC)",
+          "matchup": {
+            "home": "Hardman",
+            "away": "Vaotuua (IBC)"
+          },
+          "display_name": "Hardman vs Vaotuua (IBC) - Stream 1"
+        },
+        {
+          "label": "ppv.m3u8",
+          "url": "https://daffodil.shadow-ran.online/ppv.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/ppv-streams-1",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "ppv.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/ppv-streams-1",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "ppv",
+          "event_title": "Hardman vs Vaotuua (IBC)",
+          "matchup": {
+            "home": "Hardman",
+            "away": "Vaotuua (IBC)"
+          },
+          "display_name": "Hardman vs Vaotuua (IBC) - ppv.m3u8"
+        }
+      ]
     }
   },
-  "stream_count": 27,
+  "stream_count": 29,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
