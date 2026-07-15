@@ -1,39 +1,34 @@
 {
-  "scraped_at": "2026-07-15T06:26:24+00:00",
+  "scraped_at": "2026-07-15T08:08:19+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
   ],
   "events": [
     {
-      "name": "World Cup (Spain vs France)",
+      "name": "World Cup (Argentina vs England)",
       "page": "https://roxiestreams.info/soccer-streams-1",
-      "start_time": "July 14, 2026 12:00 PM"
+      "start_time": "July 15, 2026 12:00 PM"
     },
     {
       "name": "NBA Summer League",
       "page": "https://roxiestreams.info/nba",
-      "start_time": "July 14, 2026 4:00 PM"
+      "start_time": "July 15, 2026 1:00 PM"
     },
     {
-      "name": "MLB All Stars",
-      "page": "https://roxiestreams.info/mlb-streams-1",
-      "start_time": "July 14, 2026 5:00 PM"
-    },
-    {
-      "name": "WWE NXT",
-      "page": "https://roxiestreams.info/wwe-streams",
-      "start_time": "July 14, 2026 5:00 PM"
+      "name": "AEW",
+      "page": "https://roxiestreams.info/aew",
+      "start_time": "July 15, 2026 5:00 PM"
     }
   ],
   "events_by_sport": {
     "soccer": [
       {
-        "title": "France vs Spain",
+        "title": "Argentina vs England",
         "sport": "soccer",
         "matchup": {
-          "home": "France",
-          "away": "Spain"
+          "home": "Argentina",
+          "away": "England"
         },
         "page": "https://roxiestreams.info/soccer-streams-1",
         "streams": [
@@ -53,12 +48,12 @@
             },
             "drm_keys": null,
             "sport": "soccer",
-            "event_title": "France vs Spain",
+            "event_title": "Argentina vs England",
             "matchup": {
-              "home": "France",
-              "away": "Spain"
+              "home": "Argentina",
+              "away": "England"
             },
-            "display_name": "France vs Spain - TSN"
+            "display_name": "Argentina vs England - TSN"
           },
           {
             "label": "FOX",
@@ -76,12 +71,12 @@
             },
             "drm_keys": null,
             "sport": "soccer",
-            "event_title": "France vs Spain",
+            "event_title": "Argentina vs England",
             "matchup": {
-              "home": "France",
-              "away": "Spain"
+              "home": "Argentina",
+              "away": "England"
             },
-            "display_name": "France vs Spain - FOX"
+            "display_name": "Argentina vs England - FOX"
           },
           {
             "label": "FOX (ALT)",
@@ -99,12 +94,12 @@
             },
             "drm_keys": null,
             "sport": "soccer",
-            "event_title": "France vs Spain",
+            "event_title": "Argentina vs England",
             "matchup": {
-              "home": "France",
-              "away": "Spain"
+              "home": "Argentina",
+              "away": "England"
             },
-            "display_name": "France vs Spain - FOX (ALT)"
+            "display_name": "Argentina vs England - FOX (ALT)"
           },
           {
             "label": "TELEMUNDO",
@@ -122,12 +117,12 @@
             },
             "drm_keys": null,
             "sport": "soccer",
-            "event_title": "France vs Spain",
+            "event_title": "Argentina vs England",
             "matchup": {
-              "home": "France",
-              "away": "Spain"
+              "home": "Argentina",
+              "away": "England"
             },
-            "display_name": "France vs Spain - TELEMUNDO"
+            "display_name": "Argentina vs England - TELEMUNDO"
           },
           {
             "label": "العربية",
@@ -145,22 +140,19 @@
             },
             "drm_keys": null,
             "sport": "soccer",
-            "event_title": "France vs Spain",
+            "event_title": "Argentina vs England",
             "matchup": {
-              "home": "France",
-              "away": "Spain"
+              "home": "Argentina",
+              "away": "England"
             },
-            "display_name": "France vs Spain - العربية"
+            "display_name": "Argentina vs England - العربية"
           }
         ]
       },
       {
-        "title": "Sporting CP vs Celtic",
+        "title": "Stream 1",
         "sport": "soccer",
-        "matchup": {
-          "home": "Sporting CP",
-          "away": "Celtic"
-        },
+        "matchup": null,
         "page": "https://roxiestreams.info/soccer-streams-2",
         "streams": [
           {
@@ -179,13 +171,18 @@
             },
             "drm_keys": null,
             "sport": "soccer",
-            "event_title": "Sporting CP vs Celtic",
-            "matchup": {
-              "home": "Sporting CP",
-              "away": "Celtic"
-            },
-            "display_name": "Sporting CP vs Celtic - Stream 1"
-          },
+            "event_title": "Stream 1",
+            "matchup": null,
+            "display_name": "Stream 1"
+          }
+        ]
+      },
+      {
+        "title": "sportv2.m3u8",
+        "sport": "soccer",
+        "matchup": null,
+        "page": "https://roxiestreams.info/soccer-streams-2",
+        "streams": [
           {
             "label": "sportv2.m3u8",
             "url": "https://daffodil.shadow-ran.online/sportv2.m3u8",
@@ -202,21 +199,21 @@
             },
             "drm_keys": null,
             "sport": "soccer",
-            "event_title": "Sporting CP vs Celtic",
-            "matchup": {
-              "home": "Sporting CP",
-              "away": "Celtic"
-            },
-            "display_name": "Sporting CP vs Celtic - sportv2.m3u8"
+            "event_title": "sportv2.m3u8",
+            "matchup": null,
+            "display_name": "sportv2.m3u8"
           }
         ]
       }
     ],
     "mlb": [
       {
-        "title": "MLB All Stars",
+        "title": "New York Mets vs Philadelphia Phillies",
         "sport": "mlb",
-        "matchup": null,
+        "matchup": {
+          "home": "New York Mets",
+          "away": "Philadelphia Phillies"
+        },
         "page": "https://roxiestreams.info/mlb-streams-1",
         "streams": [
           {
@@ -235,9 +232,12 @@
             },
             "drm_keys": null,
             "sport": "mlb",
-            "event_title": "MLB All Stars",
-            "matchup": null,
-            "display_name": "MLB All Stars - Stream 1"
+            "event_title": "New York Mets vs Philadelphia Phillies",
+            "matchup": {
+              "home": "New York Mets",
+              "away": "Philadelphia Phillies"
+            },
+            "display_name": "New York Mets vs Philadelphia Phillies - Stream 1"
           },
           {
             "label": "Stream 2",
@@ -255,9 +255,12 @@
             },
             "drm_keys": null,
             "sport": "mlb",
-            "event_title": "MLB All Stars",
-            "matchup": null,
-            "display_name": "MLB All Stars - Stream 2"
+            "event_title": "New York Mets vs Philadelphia Phillies",
+            "matchup": {
+              "home": "New York Mets",
+              "away": "Philadelphia Phillies"
+            },
+            "display_name": "New York Mets vs Philadelphia Phillies - Stream 2"
           },
           {
             "label": "foxalt.m3u8",
@@ -275,20 +278,23 @@
             },
             "drm_keys": null,
             "sport": "mlb",
-            "event_title": "MLB All Stars",
-            "matchup": null,
-            "display_name": "MLB All Stars - foxalt.m3u8"
+            "event_title": "New York Mets vs Philadelphia Phillies",
+            "matchup": {
+              "home": "New York Mets",
+              "away": "Philadelphia Phillies"
+            },
+            "display_name": "New York Mets vs Philadelphia Phillies - foxalt.m3u8"
           }
         ]
       }
     ],
     "nba": [
       {
-        "title": "Denver Nuggets vs Oklahoma City Thunder",
+        "title": "Phoenix Suns vs Detroit Pistons",
         "sport": "nba",
         "matchup": {
-          "home": "Denver Nuggets",
-          "away": "Oklahoma City Thunder"
+          "home": "Phoenix Suns",
+          "away": "Detroit Pistons"
         },
         "page": "https://roxiestreams.info/nba-streams-1",
         "streams": [
@@ -308,12 +314,12 @@
             },
             "drm_keys": null,
             "sport": "nba",
-            "event_title": "Denver Nuggets vs Oklahoma City Thunder",
+            "event_title": "Phoenix Suns vs Detroit Pistons",
             "matchup": {
-              "home": "Denver Nuggets",
-              "away": "Oklahoma City Thunder"
+              "home": "Phoenix Suns",
+              "away": "Detroit Pistons"
             },
-            "display_name": "Denver Nuggets vs Oklahoma City Thunder - Stream 1"
+            "display_name": "Phoenix Suns vs Detroit Pistons - Stream 1"
           },
           {
             "label": "nba.m3u8",
@@ -331,21 +337,21 @@
             },
             "drm_keys": null,
             "sport": "nba",
-            "event_title": "Denver Nuggets vs Oklahoma City Thunder",
+            "event_title": "Phoenix Suns vs Detroit Pistons",
             "matchup": {
-              "home": "Denver Nuggets",
-              "away": "Oklahoma City Thunder"
+              "home": "Phoenix Suns",
+              "away": "Detroit Pistons"
             },
-            "display_name": "Denver Nuggets vs Oklahoma City Thunder - nba.m3u8"
+            "display_name": "Phoenix Suns vs Detroit Pistons - nba.m3u8"
           }
         ]
       },
       {
-        "title": "Los Angeles Clippers vs Los Angeles Lakers",
+        "title": "Boston Celtics vs Sacramento Kings",
         "sport": "nba",
         "matchup": {
-          "home": "Los Angeles Clippers",
-          "away": "Los Angeles Lakers"
+          "home": "Boston Celtics",
+          "away": "Sacramento Kings"
         },
         "page": "https://roxiestreams.info/nba-streams-2",
         "streams": [
@@ -365,12 +371,12 @@
             },
             "drm_keys": null,
             "sport": "nba",
-            "event_title": "Los Angeles Clippers vs Los Angeles Lakers",
+            "event_title": "Boston Celtics vs Sacramento Kings",
             "matchup": {
-              "home": "Los Angeles Clippers",
-              "away": "Los Angeles Lakers"
+              "home": "Boston Celtics",
+              "away": "Sacramento Kings"
             },
-            "display_name": "Los Angeles Clippers vs Los Angeles Lakers - Stream 1"
+            "display_name": "Boston Celtics vs Sacramento Kings - Stream 1"
           },
           {
             "label": "nba2.m3u8",
@@ -388,12 +394,69 @@
             },
             "drm_keys": null,
             "sport": "nba",
-            "event_title": "Los Angeles Clippers vs Los Angeles Lakers",
+            "event_title": "Boston Celtics vs Sacramento Kings",
             "matchup": {
-              "home": "Los Angeles Clippers",
-              "away": "Los Angeles Lakers"
+              "home": "Boston Celtics",
+              "away": "Sacramento Kings"
             },
-            "display_name": "Los Angeles Clippers vs Los Angeles Lakers - nba2.m3u8"
+            "display_name": "Boston Celtics vs Sacramento Kings - nba2.m3u8"
+          }
+        ]
+      },
+      {
+        "title": "Washington Wizards vs Los Angeles Clippers",
+        "sport": "nba",
+        "matchup": {
+          "home": "Washington Wizards",
+          "away": "Los Angeles Clippers"
+        },
+        "page": "https://roxiestreams.info/nba-streams-3",
+        "streams": [
+          {
+            "label": "Stream 1",
+            "url": "https://tedesco.shadow-ran.online/nba3.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/nba-streams-3",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "tedesco",
+            "path": "nba3.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/nba-streams-3",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "nba",
+            "event_title": "Washington Wizards vs Los Angeles Clippers",
+            "matchup": {
+              "home": "Washington Wizards",
+              "away": "Los Angeles Clippers"
+            },
+            "display_name": "Washington Wizards vs Los Angeles Clippers - Stream 1"
+          },
+          {
+            "label": "nba3.m3u8",
+            "url": "https://daffodil.shadow-ran.online/nba3.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/nba-streams-3",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "nba3.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/nba-streams-3",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "nba",
+            "event_title": "Washington Wizards vs Los Angeles Clippers",
+            "matchup": {
+              "home": "Washington Wizards",
+              "away": "Los Angeles Clippers"
+            },
+            "display_name": "Washington Wizards vs Los Angeles Clippers - nba3.m3u8"
           }
         ]
       }
@@ -579,7 +642,7 @@
     "motorsports": [],
     "aew": [
       {
-        "title": "Stream 1",
+        "title": "AEW",
         "sport": "aew",
         "matchup": null,
         "page": "https://roxiestreams.info/aew",
@@ -600,18 +663,10 @@
             },
             "drm_keys": null,
             "sport": "aew",
-            "event_title": "Stream 1",
+            "event_title": "AEW",
             "matchup": null,
-            "display_name": "Stream 1"
-          }
-        ]
-      },
-      {
-        "title": "aew.m3u8",
-        "sport": "aew",
-        "matchup": null,
-        "page": "https://roxiestreams.info/aew",
-        "streams": [
+            "display_name": "AEW - Stream 1"
+          },
           {
             "label": "aew.m3u8",
             "url": "https://daffodil.shadow-ran.online/aew.m3u8",
@@ -628,64 +683,14 @@
             },
             "drm_keys": null,
             "sport": "aew",
-            "event_title": "aew.m3u8",
+            "event_title": "AEW",
             "matchup": null,
-            "display_name": "aew.m3u8"
+            "display_name": "AEW - aew.m3u8"
           }
         ]
       }
     ],
-    "multiview": [],
-    "wwe": [
-      {
-        "title": "WWE Smackdown",
-        "sport": "wwe",
-        "matchup": null,
-        "page": "https://roxiestreams.info/wwe-streams",
-        "streams": [
-          {
-            "label": "Stream 1",
-            "url": "https://admin2.shadow-ran.online/wwe.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/wwe-streams",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "admin2",
-            "path": "wwe.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/wwe-streams",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "wwe",
-            "event_title": "WWE Smackdown",
-            "matchup": null,
-            "display_name": "WWE Smackdown - Stream 1"
-          },
-          {
-            "label": "wwe.m3u8",
-            "url": "https://daffodil.shadow-ran.online/wwe.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/wwe-streams",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "daffodil",
-            "path": "wwe.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/wwe-streams",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "wwe",
-            "event_title": "WWE Smackdown",
-            "matchup": null,
-            "display_name": "WWE Smackdown - wwe.m3u8"
-          }
-        ]
-      }
-    ]
+    "multiview": []
   },
   "pages": {
     "https://roxiestreams.info/soccer": {
@@ -705,8 +710,7 @@
         "Motorsports",
         "Stream Request (Discord)",
         "MultiView (NEW)",
-        "Sporting CP vs Celtic",
-        "France vs Spain",
+        "Argentina vs England",
         "Stream Request (Discord)"
       ],
       "links": [
@@ -751,11 +755,7 @@
           "url": "https://roxiestreams.info/multiview"
         },
         {
-          "label": "Sporting CP vs Celtic",
-          "url": "https://roxiestreams.info/soccer-streams-2"
-        },
-        {
-          "label": "France vs Spain",
+          "label": "Argentina vs England",
           "url": "https://roxiestreams.info/soccer-streams-1"
         },
         {
@@ -920,7 +920,7 @@
         "Motorsports",
         "Stream Request (Discord)",
         "MultiView (NEW)",
-        "MLB All Stars",
+        "New York Mets vs Philadelphia Phillies",
         "Stream Request (Discord)"
       ],
       "links": [
@@ -965,7 +965,7 @@
           "url": "https://roxiestreams.info/multiview"
         },
         {
-          "label": "MLB All Stars",
+          "label": "New York Mets vs Philadelphia Phillies",
           "url": "https://roxiestreams.info/mlb-streams-1"
         },
         {
@@ -1058,9 +1058,10 @@
         "Motorsports",
         "Stream Request (Discord)",
         "MultiView (NEW)",
-        "Memphis Grizzlies vs Golden State Warriors",
-        "Denver Nuggets vs Oklahoma City Thunder",
-        "Los Angeles Clippers vs Los Angeles Lakers",
+        "Orlando Magic vs Philadelphia 76ers",
+        "Phoenix Suns vs Detroit Pistons",
+        "Boston Celtics vs Sacramento Kings",
+        "Washington Wizards vs Los Angeles Clippers",
         "Stream Request (Discord)"
       ],
       "links": [
@@ -1105,16 +1106,20 @@
           "url": "https://roxiestreams.info/multiview"
         },
         {
-          "label": "Memphis Grizzlies vs Golden State Warriors",
+          "label": "Orlando Magic vs Philadelphia 76ers",
           "url": "https://roxiestreams.info/nba-streams-1"
         },
         {
-          "label": "Denver Nuggets vs Oklahoma City Thunder",
+          "label": "Phoenix Suns vs Detroit Pistons",
           "url": "https://roxiestreams.info/nba-streams-1"
         },
         {
-          "label": "Los Angeles Clippers vs Los Angeles Lakers",
+          "label": "Boston Celtics vs Sacramento Kings",
           "url": "https://roxiestreams.info/nba-streams-2"
+        },
+        {
+          "label": "Washington Wizards vs Los Angeles Clippers",
+          "url": "https://roxiestreams.info/nba-streams-3"
         },
         {
           "label": "Stream Request (Discord)",
@@ -1190,6 +1195,72 @@
     },
     "https://roxiestreams.info/nba-streams-2": {
       "url": "https://roxiestreams.info/nba-streams-2",
+      "title": "Roxiestreams - Watch Live Sports, F1, UFC, NFL, TV",
+      "headings": [],
+      "controls": [
+        "RoxieStreams",
+        "Soccer (WC 2026)",
+        "MLB",
+        "NBA",
+        "NFL",
+        "NHL",
+        "Fighting",
+        "Motorsports",
+        "Stream Request (Discord)",
+        "MultiView (NEW)",
+        "Stream 1",
+        "Switch to Chatango",
+        "Stream Request (Discord)"
+      ],
+      "links": [
+        {
+          "label": "RoxieStreams",
+          "url": "https://roxiestreams.info/"
+        },
+        {
+          "label": "Soccer (WC 2026)",
+          "url": "https://roxiestreams.info/soccer"
+        },
+        {
+          "label": "MLB",
+          "url": "https://roxiestreams.info/mlb"
+        },
+        {
+          "label": "NBA",
+          "url": "https://roxiestreams.info/nba"
+        },
+        {
+          "label": "NFL",
+          "url": "https://roxiestreams.info/nfl"
+        },
+        {
+          "label": "NHL",
+          "url": "https://roxiestreams.info/nhl"
+        },
+        {
+          "label": "Fighting",
+          "url": "https://roxiestreams.info/fighting"
+        },
+        {
+          "label": "Motorsports",
+          "url": "https://roxiestreams.info/motorsports"
+        },
+        {
+          "label": "Stream Request (Discord)",
+          "url": "https://discord.gg/JhkVmejRmn"
+        },
+        {
+          "label": "MultiView (NEW)",
+          "url": "https://roxiestreams.info/multiview"
+        },
+        {
+          "label": "Stream Request (Discord)",
+          "url": "https://discord.gg/JhkVmejRmn"
+        }
+      ]
+    },
+    "https://roxiestreams.info/nba-streams-3": {
+      "url": "https://roxiestreams.info/nba-streams-3",
       "title": "Roxiestreams - Watch Live Sports, F1, UFC, NFL, TV",
       "headings": [],
       "controls": [
@@ -1475,7 +1546,6 @@
         "Motorsports",
         "Stream Request (Discord)",
         "MultiView (NEW)",
-        "WWE NXT",
         "Hardman vs Vaotuua (IBC)",
         "AEW",
         "WWE Smackdown",
@@ -1521,10 +1591,6 @@
         {
           "label": "MultiView (NEW)",
           "url": "https://roxiestreams.info/multiview"
-        },
-        {
-          "label": "WWE NXT",
-          "url": "https://roxiestreams.info/wwe-streams"
         },
         {
           "label": "Hardman vs Vaotuua (IBC)",
@@ -1693,7 +1759,7 @@
         "Motorsports",
         "Stream Request (Discord)",
         "MultiView (NEW)",
-        "WoO Sprint Cars - Race",
+        "Interstate Batteries High Limit Racing",
         "Stream Request (Discord)"
       ],
       "links": [
@@ -1738,7 +1804,7 @@
           "url": "https://roxiestreams.info/multiview"
         },
         {
-          "label": "WoO Sprint Cars - Race",
+          "label": "Interstate Batteries High Limit Racing",
           "url": "https://roxiestreams.info/floracing-1"
         },
         {
@@ -1902,12 +1968,12 @@
           },
           "drm_keys": null,
           "sport": "soccer",
-          "event_title": "France vs Spain",
+          "event_title": "Argentina vs England",
           "matchup": {
-            "home": "France",
-            "away": "Spain"
+            "home": "Argentina",
+            "away": "England"
           },
-          "display_name": "France vs Spain - TSN"
+          "display_name": "Argentina vs England - TSN"
         },
         {
           "label": "FOX",
@@ -1925,12 +1991,12 @@
           },
           "drm_keys": null,
           "sport": "soccer",
-          "event_title": "France vs Spain",
+          "event_title": "Argentina vs England",
           "matchup": {
-            "home": "France",
-            "away": "Spain"
+            "home": "Argentina",
+            "away": "England"
           },
-          "display_name": "France vs Spain - FOX"
+          "display_name": "Argentina vs England - FOX"
         },
         {
           "label": "FOX (ALT)",
@@ -1948,12 +2014,12 @@
           },
           "drm_keys": null,
           "sport": "soccer",
-          "event_title": "France vs Spain",
+          "event_title": "Argentina vs England",
           "matchup": {
-            "home": "France",
-            "away": "Spain"
+            "home": "Argentina",
+            "away": "England"
           },
-          "display_name": "France vs Spain - FOX (ALT)"
+          "display_name": "Argentina vs England - FOX (ALT)"
         },
         {
           "label": "TELEMUNDO",
@@ -1971,12 +2037,12 @@
           },
           "drm_keys": null,
           "sport": "soccer",
-          "event_title": "France vs Spain",
+          "event_title": "Argentina vs England",
           "matchup": {
-            "home": "France",
-            "away": "Spain"
+            "home": "Argentina",
+            "away": "England"
           },
-          "display_name": "France vs Spain - TELEMUNDO"
+          "display_name": "Argentina vs England - TELEMUNDO"
         },
         {
           "label": "العربية",
@@ -1994,12 +2060,12 @@
           },
           "drm_keys": null,
           "sport": "soccer",
-          "event_title": "France vs Spain",
+          "event_title": "Argentina vs England",
           "matchup": {
-            "home": "France",
-            "away": "Spain"
+            "home": "Argentina",
+            "away": "England"
           },
-          "display_name": "France vs Spain - العربية"
+          "display_name": "Argentina vs England - العربية"
         },
         {
           "label": "Stream 1",
@@ -2017,12 +2083,9 @@
           },
           "drm_keys": null,
           "sport": "soccer",
-          "event_title": "Sporting CP vs Celtic",
-          "matchup": {
-            "home": "Sporting CP",
-            "away": "Celtic"
-          },
-          "display_name": "Sporting CP vs Celtic - Stream 1"
+          "event_title": "Stream 1",
+          "matchup": null,
+          "display_name": "Stream 1"
         },
         {
           "label": "sportv2.m3u8",
@@ -2040,12 +2103,9 @@
           },
           "drm_keys": null,
           "sport": "soccer",
-          "event_title": "Sporting CP vs Celtic",
-          "matchup": {
-            "home": "Sporting CP",
-            "away": "Celtic"
-          },
-          "display_name": "Sporting CP vs Celtic - sportv2.m3u8"
+          "event_title": "sportv2.m3u8",
+          "matchup": null,
+          "display_name": "sportv2.m3u8"
         }
       ]
     },
@@ -2071,9 +2131,12 @@
           },
           "drm_keys": null,
           "sport": "mlb",
-          "event_title": "MLB All Stars",
-          "matchup": null,
-          "display_name": "MLB All Stars - Stream 1"
+          "event_title": "New York Mets vs Philadelphia Phillies",
+          "matchup": {
+            "home": "New York Mets",
+            "away": "Philadelphia Phillies"
+          },
+          "display_name": "New York Mets vs Philadelphia Phillies - Stream 1"
         },
         {
           "label": "Stream 2",
@@ -2091,9 +2154,12 @@
           },
           "drm_keys": null,
           "sport": "mlb",
-          "event_title": "MLB All Stars",
-          "matchup": null,
-          "display_name": "MLB All Stars - Stream 2"
+          "event_title": "New York Mets vs Philadelphia Phillies",
+          "matchup": {
+            "home": "New York Mets",
+            "away": "Philadelphia Phillies"
+          },
+          "display_name": "New York Mets vs Philadelphia Phillies - Stream 2"
         },
         {
           "label": "foxalt.m3u8",
@@ -2111,9 +2177,12 @@
           },
           "drm_keys": null,
           "sport": "mlb",
-          "event_title": "MLB All Stars",
-          "matchup": null,
-          "display_name": "MLB All Stars - foxalt.m3u8"
+          "event_title": "New York Mets vs Philadelphia Phillies",
+          "matchup": {
+            "home": "New York Mets",
+            "away": "Philadelphia Phillies"
+          },
+          "display_name": "New York Mets vs Philadelphia Phillies - foxalt.m3u8"
         }
       ]
     },
@@ -2121,7 +2190,8 @@
       "pages": [
         "https://roxiestreams.info/nba",
         "https://roxiestreams.info/nba-streams-1",
-        "https://roxiestreams.info/nba-streams-2"
+        "https://roxiestreams.info/nba-streams-2",
+        "https://roxiestreams.info/nba-streams-3"
       ],
       "streams": [
         {
@@ -2140,12 +2210,12 @@
           },
           "drm_keys": null,
           "sport": "nba",
-          "event_title": "Denver Nuggets vs Oklahoma City Thunder",
+          "event_title": "Phoenix Suns vs Detroit Pistons",
           "matchup": {
-            "home": "Denver Nuggets",
-            "away": "Oklahoma City Thunder"
+            "home": "Phoenix Suns",
+            "away": "Detroit Pistons"
           },
-          "display_name": "Denver Nuggets vs Oklahoma City Thunder - Stream 1"
+          "display_name": "Phoenix Suns vs Detroit Pistons - Stream 1"
         },
         {
           "label": "nba.m3u8",
@@ -2163,12 +2233,12 @@
           },
           "drm_keys": null,
           "sport": "nba",
-          "event_title": "Denver Nuggets vs Oklahoma City Thunder",
+          "event_title": "Phoenix Suns vs Detroit Pistons",
           "matchup": {
-            "home": "Denver Nuggets",
-            "away": "Oklahoma City Thunder"
+            "home": "Phoenix Suns",
+            "away": "Detroit Pistons"
           },
-          "display_name": "Denver Nuggets vs Oklahoma City Thunder - nba.m3u8"
+          "display_name": "Phoenix Suns vs Detroit Pistons - nba.m3u8"
         },
         {
           "label": "Stream 1",
@@ -2186,12 +2256,12 @@
           },
           "drm_keys": null,
           "sport": "nba",
-          "event_title": "Los Angeles Clippers vs Los Angeles Lakers",
+          "event_title": "Boston Celtics vs Sacramento Kings",
           "matchup": {
-            "home": "Los Angeles Clippers",
-            "away": "Los Angeles Lakers"
+            "home": "Boston Celtics",
+            "away": "Sacramento Kings"
           },
-          "display_name": "Los Angeles Clippers vs Los Angeles Lakers - Stream 1"
+          "display_name": "Boston Celtics vs Sacramento Kings - Stream 1"
         },
         {
           "label": "nba2.m3u8",
@@ -2209,12 +2279,58 @@
           },
           "drm_keys": null,
           "sport": "nba",
-          "event_title": "Los Angeles Clippers vs Los Angeles Lakers",
+          "event_title": "Boston Celtics vs Sacramento Kings",
           "matchup": {
-            "home": "Los Angeles Clippers",
-            "away": "Los Angeles Lakers"
+            "home": "Boston Celtics",
+            "away": "Sacramento Kings"
           },
-          "display_name": "Los Angeles Clippers vs Los Angeles Lakers - nba2.m3u8"
+          "display_name": "Boston Celtics vs Sacramento Kings - nba2.m3u8"
+        },
+        {
+          "label": "Stream 1",
+          "url": "https://tedesco.shadow-ran.online/nba3.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/nba-streams-3",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "tedesco",
+          "path": "nba3.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/nba-streams-3",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "nba",
+          "event_title": "Washington Wizards vs Los Angeles Clippers",
+          "matchup": {
+            "home": "Washington Wizards",
+            "away": "Los Angeles Clippers"
+          },
+          "display_name": "Washington Wizards vs Los Angeles Clippers - Stream 1"
+        },
+        {
+          "label": "nba3.m3u8",
+          "url": "https://daffodil.shadow-ran.online/nba3.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/nba-streams-3",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "nba3.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/nba-streams-3",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "nba",
+          "event_title": "Washington Wizards vs Los Angeles Clippers",
+          "matchup": {
+            "home": "Washington Wizards",
+            "away": "Los Angeles Clippers"
+          },
+          "display_name": "Washington Wizards vs Los Angeles Clippers - nba3.m3u8"
         }
       ]
     },
@@ -2414,9 +2530,9 @@
           },
           "drm_keys": null,
           "sport": "aew",
-          "event_title": "Stream 1",
+          "event_title": "AEW",
           "matchup": null,
-          "display_name": "Stream 1"
+          "display_name": "AEW - Stream 1"
         },
         {
           "label": "aew.m3u8",
@@ -2434,9 +2550,9 @@
           },
           "drm_keys": null,
           "sport": "aew",
-          "event_title": "aew.m3u8",
+          "event_title": "AEW",
           "matchup": null,
-          "display_name": "aew.m3u8"
+          "display_name": "AEW - aew.m3u8"
         }
       ]
     },
@@ -2445,53 +2561,6 @@
         "https://roxiestreams.info/multiview"
       ],
       "streams": []
-    },
-    "wwe": {
-      "pages": [
-        "https://roxiestreams.info/wwe-streams"
-      ],
-      "streams": [
-        {
-          "label": "Stream 1",
-          "url": "https://admin2.shadow-ran.online/wwe.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/wwe-streams",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "admin2",
-          "path": "wwe.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/wwe-streams",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "wwe",
-          "event_title": "WWE Smackdown",
-          "matchup": null,
-          "display_name": "WWE Smackdown - Stream 1"
-        },
-        {
-          "label": "wwe.m3u8",
-          "url": "https://daffodil.shadow-ran.online/wwe.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/wwe-streams",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "daffodil",
-          "path": "wwe.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/wwe-streams",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "wwe",
-          "event_title": "WWE Smackdown",
-          "matchup": null,
-          "display_name": "WWE Smackdown - wwe.m3u8"
-        }
-      ]
     }
   },
   "stream_count": 25,
