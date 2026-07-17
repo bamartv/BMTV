@@ -35,6 +35,7 @@ jobs:
           python src/roxie_scraper.py
           python scripts/generate-sport-m3u.py
           python src/Sportzx.py
+          python src/SportzxSerieA.py
 
       - name: Commit updated outputs
         run: |
@@ -46,5 +47,7 @@ jobs:
           git add SPORTS.m3u
           git commit -m "Auto-update SPORTS M3U playlist [skip ci]" || echo "No changes to commit"
           git add Sportzx.m3u8
+          git add SerieA_Sportzx.m3u8
           git diff --cached --quiet || git commit -m "M3U8 file updated with new streams"
-          git push
+          git push origin main --force
+        continue-on-error: true
