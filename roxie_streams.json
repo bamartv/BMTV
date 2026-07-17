@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-17T22:29:07+00:00",
+  "scraped_at": "2026-07-17T23:29:52+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
@@ -262,12 +262,12 @@
         "streams": [
           {
             "label": "Stream 1",
-            "url": "https://admin2.shadow-ran.online/mls.m3u8",
+            "url": "https://admin2.shadow-ran.online/fox.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-5",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "admin2",
-            "path": "mls.m3u8",
+            "path": "fox.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-5",
               "Origin": "https://roxiestreams.info",
@@ -282,6 +282,29 @@
               "away": "LAFC"
             },
             "display_name": "LA Galaxy vs LAFC - Stream 1"
+          },
+          {
+            "label": "fox.m3u8",
+            "url": "https://daffodil.shadow-ran.online/fox.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-5",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "fox.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-5",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "LA Galaxy vs LAFC",
+            "matchup": {
+              "home": "LA Galaxy",
+              "away": "LAFC"
+            },
+            "display_name": "LA Galaxy vs LAFC - fox.m3u8"
           }
         ]
       },
@@ -4631,12 +4654,12 @@
         },
         {
           "label": "Stream 1",
-          "url": "https://admin2.shadow-ran.online/mls.m3u8",
+          "url": "https://admin2.shadow-ran.online/fox.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-5",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "admin2",
-          "path": "mls.m3u8",
+          "path": "fox.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-5",
             "Origin": "https://roxiestreams.info",
@@ -4651,6 +4674,29 @@
             "away": "LAFC"
           },
           "display_name": "LA Galaxy vs LAFC - Stream 1"
+        },
+        {
+          "label": "fox.m3u8",
+          "url": "https://daffodil.shadow-ran.online/fox.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-5",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "fox.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-5",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "LA Galaxy vs LAFC",
+          "matchup": {
+            "home": "LA Galaxy",
+            "away": "LAFC"
+          },
+          "display_name": "LA Galaxy vs LAFC - fox.m3u8"
         },
         {
           "label": "Stream 1",
@@ -5746,7 +5792,7 @@
       ]
     }
   },
-  "stream_count": 56,
+  "stream_count": 57,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
