@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-18T19:52:46+00:00",
+  "scraped_at": "2026-07-18T20:55:48+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
@@ -24,6 +24,11 @@
       "name": "UFC: Du Plessis vs Usman",
       "page": "https://roxiestreams.info/ufc",
       "start_time": "July 18, 2026 2:00 PM"
+    },
+    {
+      "name": "WWE Satuday Main Event",
+      "page": "https://roxiestreams.info/wwe-streams",
+      "start_time": "July 18, 2026 5:00 PM"
     },
     {
       "name": "RAF 11: Tsarukyan vs. Covington",
@@ -1572,6 +1577,74 @@
             "display_name": "Pacheco vs. Aleem - ppv3.m3u8"
           }
         ]
+      },
+      {
+        "title": "WWE Saturday Main Event",
+        "sport": "fighting",
+        "matchup": null,
+        "page": "https://roxiestreams.info/wwe-streams",
+        "streams": [
+          {
+            "label": "Stream 1",
+            "url": "https://admin2.shadow-ran.online/wwe.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/wwe-streams",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "admin2",
+            "path": "wwe.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/wwe-streams",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "fighting",
+            "event_title": "WWE Saturday Main Event",
+            "matchup": null,
+            "display_name": "WWE Saturday Main Event - Stream 1"
+          },
+          {
+            "label": "Stream 2",
+            "url": "https://admin2.shadow-ran.online/wwe2.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/wwe-streams",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "admin2",
+            "path": "wwe2.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/wwe-streams",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "fighting",
+            "event_title": "WWE Saturday Main Event",
+            "matchup": null,
+            "display_name": "WWE Saturday Main Event - Stream 2"
+          },
+          {
+            "label": "wwe.m3u8",
+            "url": "https://daffodil.shadow-ran.online/wwe.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/wwe-streams",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "wwe.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/wwe-streams",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "fighting",
+            "event_title": "WWE Saturday Main Event",
+            "matchup": null,
+            "display_name": "WWE Saturday Main Event - wwe.m3u8"
+          }
+        ]
       }
     ],
     "motorsports": [],
@@ -1716,11 +1789,11 @@
         "streams": [
           {
             "label": "Stream 1 (Para)",
-            "url": "https://admin22.shadow-ran.online/happybirthdayabby.m3u8",
+            "url": "https://admin2.shadow-ran.online/happybirthdayabby.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/ufc",
             "cdn_domain": "shadow-ran.online",
-            "subdomain": "admin22",
+            "subdomain": "admin2",
             "path": "happybirthdayabby.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/ufc",
@@ -1738,7 +1811,30 @@
             "display_name": "UFC: Du Plessis vs Usman - Stream 1 (Para)"
           },
           {
-            "label": "Stream 2 (Hub)",
+            "label": "Stream 2 (SN) Stream 3 (TNT) LIVE CHAT Switch to Chatango",
+            "url": "https://admin2.shadow-ran.online/ufc.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/ufc",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "admin2",
+            "path": "ufc.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/ufc",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "ufc",
+            "event_title": "UFC: Du Plessis vs Usman",
+            "matchup": {
+              "home": "UFC: Du Plessis",
+              "away": "Usman"
+            },
+            "display_name": "UFC: Du Plessis vs Usman - Stream 2 (SN) Stream 3 (TNT) LIVE CHAT Switch to Chatango"
+          },
+          {
+            "label": "Stream 3 (TNT) LIVE CHAT Switch to Chatango",
             "url": "https://tedesco.shadow-ran.online/ufc.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/ufc",
@@ -1758,53 +1854,7 @@
               "home": "UFC: Du Plessis",
               "away": "Usman"
             },
-            "display_name": "UFC: Du Plessis vs Usman - Stream 2 (Hub)"
-          },
-          {
-            "label": "Stream 3",
-            "url": "https://admin2.shadow-ran.online/happybirthdayabb.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/ufc",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "admin2",
-            "path": "happybirthdayabb.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/ufc",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "ufc",
-            "event_title": "UFC: Du Plessis vs Usman",
-            "matchup": {
-              "home": "UFC: Du Plessis",
-              "away": "Usman"
-            },
-            "display_name": "UFC: Du Plessis vs Usman - Stream 3"
-          },
-          {
-            "label": "Stream 4 (STW)",
-            "url": "https://admin2.shadow-ran.online/stw.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/ufc",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "admin2",
-            "path": "stw.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/ufc",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "ufc",
-            "event_title": "UFC: Du Plessis vs Usman",
-            "matchup": {
-              "home": "UFC: Du Plessis",
-              "away": "Usman"
-            },
-            "display_name": "UFC: Du Plessis vs Usman - Stream 4 (STW)"
+            "display_name": "UFC: Du Plessis vs Usman - Stream 3 (TNT) LIVE CHAT Switch to Chatango"
           },
           {
             "label": "happybirthdayabby.m3u8",
@@ -1828,6 +1878,76 @@
               "away": "Usman"
             },
             "display_name": "UFC: Du Plessis vs Usman - happybirthdayabby.m3u8"
+          }
+        ]
+      }
+    ],
+    "wwe": [
+      {
+        "title": "WWE Saturday Main Event",
+        "sport": "wwe",
+        "matchup": null,
+        "page": "https://roxiestreams.info/wwe-streams",
+        "streams": [
+          {
+            "label": "Stream 1",
+            "url": "https://admin2.shadow-ran.online/wwe.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/wwe-streams",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "admin2",
+            "path": "wwe.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/wwe-streams",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "wwe",
+            "event_title": "WWE Saturday Main Event",
+            "matchup": null,
+            "display_name": "WWE Saturday Main Event - Stream 1"
+          },
+          {
+            "label": "Stream 2",
+            "url": "https://admin2.shadow-ran.online/wwe2.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/wwe-streams",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "admin2",
+            "path": "wwe2.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/wwe-streams",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "wwe",
+            "event_title": "WWE Saturday Main Event",
+            "matchup": null,
+            "display_name": "WWE Saturday Main Event - Stream 2"
+          },
+          {
+            "label": "wwe.m3u8",
+            "url": "https://daffodil.shadow-ran.online/wwe.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/wwe-streams",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "wwe.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/wwe-streams",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "wwe",
+            "event_title": "WWE Saturday Main Event",
+            "matchup": null,
+            "display_name": "WWE Saturday Main Event - wwe.m3u8"
           }
         ]
       }
@@ -4393,6 +4513,7 @@
         "MultiView (NEW)",
         "Eubank vs. Papot (Misfits)",
         "UFC Fight Night: Du Plessis vs. Usman",
+        "WWE Saturday Main Event",
         "RAF 11: Tsarukyan vs. Covington",
         "Pacheco vs. Aleem",
         "Stream Request (Discord)"
@@ -4445,6 +4566,10 @@
         {
           "label": "UFC Fight Night: Du Plessis vs. Usman",
           "url": "https://roxiestreams.info/ufc"
+        },
+        {
+          "label": "WWE Saturday Main Event",
+          "url": "https://roxiestreams.info/wwe-streams"
         },
         {
           "label": "RAF 11: Tsarukyan vs. Covington",
@@ -4608,6 +4733,73 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Stream 1",
+        "Switch to Chatango",
+        "Stream Request (Discord)"
+      ],
+      "links": [
+        {
+          "label": "RoxieStreams",
+          "url": "https://roxiestreams.info/"
+        },
+        {
+          "label": "Soccer (WC 2026)",
+          "url": "https://roxiestreams.info/soccer"
+        },
+        {
+          "label": "MLB",
+          "url": "https://roxiestreams.info/mlb"
+        },
+        {
+          "label": "NBA",
+          "url": "https://roxiestreams.info/nba"
+        },
+        {
+          "label": "NFL",
+          "url": "https://roxiestreams.info/nfl"
+        },
+        {
+          "label": "NHL",
+          "url": "https://roxiestreams.info/nhl"
+        },
+        {
+          "label": "Fighting",
+          "url": "https://roxiestreams.info/fighting"
+        },
+        {
+          "label": "Motorsports",
+          "url": "https://roxiestreams.info/motorsports"
+        },
+        {
+          "label": "Stream Request (Discord)",
+          "url": "https://discord.gg/JhkVmejRmn"
+        },
+        {
+          "label": "MultiView (NEW)",
+          "url": "https://roxiestreams.info/multiview"
+        },
+        {
+          "label": "Stream Request (Discord)",
+          "url": "https://discord.gg/JhkVmejRmn"
+        }
+      ]
+    },
+    "https://roxiestreams.info/wwe-streams": {
+      "url": "https://roxiestreams.info/wwe-streams",
+      "title": "Roxiestreams - Watch Live Sports, F1, UFC, NFL, TV",
+      "headings": [],
+      "controls": [
+        "RoxieStreams",
+        "Soccer (WC 2026)",
+        "MLB",
+        "NBA",
+        "NFL",
+        "NHL",
+        "Fighting",
+        "Motorsports",
+        "Stream Request (Discord)",
+        "MultiView (NEW)",
+        "Stream 1",
+        "Stream 2",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -4977,9 +5169,8 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Stream 1 (Para)",
-        "Stream 2 (Hub)",
-        "Stream 3",
-        "Stream 4 (STW)",
+        "Stream 2 (SN) Stream 3 (TNT) LIVE CHAT Switch to Chatango",
+        "Stream 3 (TNT) LIVE CHAT Switch to Chatango",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -6151,7 +6342,8 @@
         "https://roxiestreams.info/fighting",
         "https://roxiestreams.info/ppv-streams-1",
         "https://roxiestreams.info/ppv-streams-2",
-        "https://roxiestreams.info/ppv-streams-3"
+        "https://roxiestreams.info/ppv-streams-3",
+        "https://roxiestreams.info/wwe-streams"
       ],
       "streams": [
         {
@@ -6291,6 +6483,66 @@
             "away": "Aleem"
           },
           "display_name": "Pacheco vs. Aleem - ppv3.m3u8"
+        },
+        {
+          "label": "Stream 1",
+          "url": "https://admin2.shadow-ran.online/wwe.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/wwe-streams",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "admin2",
+          "path": "wwe.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/wwe-streams",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "fighting",
+          "event_title": "WWE Saturday Main Event",
+          "matchup": null,
+          "display_name": "WWE Saturday Main Event - Stream 1"
+        },
+        {
+          "label": "Stream 2",
+          "url": "https://admin2.shadow-ran.online/wwe2.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/wwe-streams",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "admin2",
+          "path": "wwe2.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/wwe-streams",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "fighting",
+          "event_title": "WWE Saturday Main Event",
+          "matchup": null,
+          "display_name": "WWE Saturday Main Event - Stream 2"
+        },
+        {
+          "label": "wwe.m3u8",
+          "url": "https://daffodil.shadow-ran.online/wwe.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/wwe-streams",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "wwe.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/wwe-streams",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "fighting",
+          "event_title": "WWE Saturday Main Event",
+          "matchup": null,
+          "display_name": "WWE Saturday Main Event - wwe.m3u8"
         }
       ]
     },
@@ -6427,11 +6679,11 @@
       "streams": [
         {
           "label": "Stream 1 (Para)",
-          "url": "https://admin22.shadow-ran.online/happybirthdayabby.m3u8",
+          "url": "https://admin2.shadow-ran.online/happybirthdayabby.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/ufc",
           "cdn_domain": "shadow-ran.online",
-          "subdomain": "admin22",
+          "subdomain": "admin2",
           "path": "happybirthdayabby.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/ufc",
@@ -6449,7 +6701,30 @@
           "display_name": "UFC: Du Plessis vs Usman - Stream 1 (Para)"
         },
         {
-          "label": "Stream 2 (Hub)",
+          "label": "Stream 2 (SN) Stream 3 (TNT) LIVE CHAT Switch to Chatango",
+          "url": "https://admin2.shadow-ran.online/ufc.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/ufc",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "admin2",
+          "path": "ufc.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/ufc",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "ufc",
+          "event_title": "UFC: Du Plessis vs Usman",
+          "matchup": {
+            "home": "UFC: Du Plessis",
+            "away": "Usman"
+          },
+          "display_name": "UFC: Du Plessis vs Usman - Stream 2 (SN) Stream 3 (TNT) LIVE CHAT Switch to Chatango"
+        },
+        {
+          "label": "Stream 3 (TNT) LIVE CHAT Switch to Chatango",
           "url": "https://tedesco.shadow-ran.online/ufc.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/ufc",
@@ -6469,53 +6744,7 @@
             "home": "UFC: Du Plessis",
             "away": "Usman"
           },
-          "display_name": "UFC: Du Plessis vs Usman - Stream 2 (Hub)"
-        },
-        {
-          "label": "Stream 3",
-          "url": "https://admin2.shadow-ran.online/happybirthdayabb.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/ufc",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "admin2",
-          "path": "happybirthdayabb.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/ufc",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "ufc",
-          "event_title": "UFC: Du Plessis vs Usman",
-          "matchup": {
-            "home": "UFC: Du Plessis",
-            "away": "Usman"
-          },
-          "display_name": "UFC: Du Plessis vs Usman - Stream 3"
-        },
-        {
-          "label": "Stream 4 (STW)",
-          "url": "https://admin2.shadow-ran.online/stw.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/ufc",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "admin2",
-          "path": "stw.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/ufc",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "ufc",
-          "event_title": "UFC: Du Plessis vs Usman",
-          "matchup": {
-            "home": "UFC: Du Plessis",
-            "away": "Usman"
-          },
-          "display_name": "UFC: Du Plessis vs Usman - Stream 4 (STW)"
+          "display_name": "UFC: Du Plessis vs Usman - Stream 3 (TNT) LIVE CHAT Switch to Chatango"
         },
         {
           "label": "happybirthdayabby.m3u8",
@@ -6539,6 +6768,73 @@
             "away": "Usman"
           },
           "display_name": "UFC: Du Plessis vs Usman - happybirthdayabby.m3u8"
+        }
+      ]
+    },
+    "wwe": {
+      "pages": [
+        "https://roxiestreams.info/wwe-streams"
+      ],
+      "streams": [
+        {
+          "label": "Stream 1",
+          "url": "https://admin2.shadow-ran.online/wwe.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/wwe-streams",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "admin2",
+          "path": "wwe.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/wwe-streams",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "wwe",
+          "event_title": "WWE Saturday Main Event",
+          "matchup": null,
+          "display_name": "WWE Saturday Main Event - Stream 1"
+        },
+        {
+          "label": "Stream 2",
+          "url": "https://admin2.shadow-ran.online/wwe2.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/wwe-streams",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "admin2",
+          "path": "wwe2.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/wwe-streams",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "wwe",
+          "event_title": "WWE Saturday Main Event",
+          "matchup": null,
+          "display_name": "WWE Saturday Main Event - Stream 2"
+        },
+        {
+          "label": "wwe.m3u8",
+          "url": "https://daffodil.shadow-ran.online/wwe.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/wwe-streams",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "wwe.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/wwe-streams",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "wwe",
+          "event_title": "WWE Saturday Main Event",
+          "matchup": null,
+          "display_name": "WWE Saturday Main Event - wwe.m3u8"
         }
       ]
     },
@@ -6596,7 +6892,7 @@
       ]
     }
   },
-  "stream_count": 66,
+  "stream_count": 71,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
