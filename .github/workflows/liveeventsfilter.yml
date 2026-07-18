@@ -1,0 +1,58 @@
+name: ▶️ Update liveeventsfilter
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'  # ⏰ Aligned to every 30 minutes as per your comment
+  workflow_dispatch:        # 🔘 Manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 🐍 Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 📦 Install required Python dependency
+        run: pip3 install requests
+
+      - name: 🎯 Run scraping script
+        # Fixed the formatting to ensure both commands run correctly
+        run: |
+          curl -L -o events.m3u8 https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8
+          python3 liveeventsfilter.py events.m3u8 liveeventsfilter.m3u8
+
+      - name: 💾 Commit & Safely Push
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions@users.noreply.github.com"
+
+          git add liveeventsfilter.m3u8
+
+          # Check if the file actually changed to avoid empty commits
+          if git diff --cached --quiet; then
+            echo "✅ No changes to commit"
+            exit 0
+          fi
+
+          git commit -m "✅ Updated $(date -u +'%a %b %d %T UTC %Y')"
+
+          # 🚀 THE FIX: Use '-X theirs' during rebase.
+          # In the context of a rebase, 'theirs' refers to the commit you are currently 
+          # moving (your new local changes). This forces your new playlist to overwrite 
+          # the remote version in case of a conflict.
+          git pull origin main --rebase -X theirs
+          
+          git push origin main
