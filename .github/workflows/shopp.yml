@@ -33,7 +33,7 @@ jobs:
 
       - name: Run SHOPP generator
         run: |
-          python src/shopp.py
+          python shopp.py
 
       - name: Commit and push playlists
         run: |
