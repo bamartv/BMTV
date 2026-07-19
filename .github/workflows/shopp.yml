@@ -33,11 +33,11 @@ jobs:
           
       - name: Install Python packages
         run: |
-          pip install aiohttp beautifulsoup4 html5lib lxml selectolax playwright "httpx[http2]" pytz
+          pip install aiohttp beautifulsoup4 html5lib lxml selectolax playwright 'httpx[http2]' pytz
 
       - name: Install Playwright Browsers
         run: |
-          playwright install --with-deps
+          sudo python -m playwright install --with-deps
 
       - name: Run SHOPP generator
         run: |
