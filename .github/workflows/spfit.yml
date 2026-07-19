@@ -9,7 +9,7 @@ on:
       - main
       - master
     paths:
-      - src/spfit.py
+      - spfit.py
 
 permissions:
   contents: write
@@ -38,7 +38,7 @@ jobs:
 
       - name: Run SPFIT updater
         run: |
-          python src/spfit.py
+          python spfit.py
 
       - name: Commit and push playlists
         run: |
