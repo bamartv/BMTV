@@ -38,7 +38,6 @@ jobs:
       - name: Install Playwright Browsers
         run: |
           playwright install --with-deps
-          playwright install chromium
 
       - name: Run SHOPP generator
         run: |
