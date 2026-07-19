@@ -2,14 +2,14 @@ name: SPFIT Playlist Updater
 
 on:
   schedule:
-    - cron: '0 */2 * * *'
+    - cron: '*/10 * * * *'
   workflow_dispatch:
   push:
     branches:
       - main
       - master
     paths:
-      - spfit.py
+      - src/spfit.py
 
 permissions:
   contents: write
@@ -38,12 +38,12 @@ jobs:
 
       - name: Run SPFIT updater
         run: |
-          python spfit.py
+          python src/spfit.py
 
       - name: Commit and push playlists
         run: |
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git config user.name "github-actions[bot]"
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add spfit_vlc.m3u8 spfit_tivimate.m3u8
 
