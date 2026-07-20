@@ -1,19 +1,19 @@
 {
-  "scraped_at": "2026-07-20T18:32:09+00:00",
+  "scraped_at": "2026-07-20T20:11:50+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
   ],
   "events": [
     {
-      "name": "WORLD CUP FINAL (Spain vs Argentina)",
-      "page": "https://roxiestreams.info/soccer-streams-1",
-      "start_time": "July 19, 2026 12:00 PM"
+      "name": "Indycar Race",
+      "page": "https://roxiestreams.info/indycar",
+      "start_time": "July 20, 2026 12:00 PM"
     },
     {
-      "name": "Nascar Cup Series",
-      "page": "https://roxiestreams.info/nascar",
-      "start_time": "July 19, 2026 4:00 PM"
+      "name": "WWE RAW",
+      "page": "https://roxiestreams.info/wwe-streams",
+      "start_time": "July 20, 2026 5:00 PM"
     }
   ],
   "events_by_sport": {
@@ -29,11 +29,11 @@
         "streams": [
           {
             "label": "Stream 1",
-            "url": "https://admin2.shadow-ran.online/sporting.m3u8",
+            "url": "https://tedesco.shadow-ran.online/sporting.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-1",
             "cdn_domain": "shadow-ran.online",
-            "subdomain": "admin2",
+            "subdomain": "tedesco",
             "path": "sporting.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-1",
@@ -1107,52 +1107,122 @@
       }
     ],
     "multiview": [],
-    "nascar": [
+    "indycar": [
       {
-        "title": "Nascar Cup Series",
-        "sport": "nascar",
+        "title": "Indycar Race",
+        "sport": "indycar",
         "matchup": null,
-        "page": "https://roxiestreams.info/nascar",
+        "page": "https://roxiestreams.info/indycar",
         "streams": [
           {
             "label": "Stream 1",
-            "url": "https://tedesco.shadow-ran.online/nascar.m3u8",
+            "url": "https://admin2.shadow-ran.online/indy.m3u8",
             "type": "m3u8",
-            "source_page": "https://roxiestreams.info/nascar",
+            "source_page": "https://roxiestreams.info/indycar",
             "cdn_domain": "shadow-ran.online",
-            "subdomain": "tedesco",
-            "path": "nascar.m3u8",
+            "subdomain": "admin2",
+            "path": "indy.m3u8",
             "headers": {
-              "Referer": "https://roxiestreams.info/nascar",
+              "Referer": "https://roxiestreams.info/indycar",
               "Origin": "https://roxiestreams.info",
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
               "Accept": "*/*"
             },
             "drm_keys": null,
-            "sport": "nascar",
-            "event_title": "Nascar Cup Series",
+            "sport": "indycar",
+            "event_title": "Indycar Race",
             "matchup": null,
-            "display_name": "Nascar Cup Series - Stream 1"
+            "display_name": "Indycar Race - Stream 1"
           },
           {
-            "label": "nascar.m3u8",
-            "url": "https://daffodil.shadow-ran.online/nascar.m3u8",
+            "label": "indy.m3u8",
+            "url": "https://daffodil.shadow-ran.online/indy.m3u8",
             "type": "m3u8",
-            "source_page": "https://roxiestreams.info/nascar",
+            "source_page": "https://roxiestreams.info/indycar",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "daffodil",
-            "path": "nascar.m3u8",
+            "path": "indy.m3u8",
             "headers": {
-              "Referer": "https://roxiestreams.info/nascar",
+              "Referer": "https://roxiestreams.info/indycar",
               "Origin": "https://roxiestreams.info",
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
               "Accept": "*/*"
             },
             "drm_keys": null,
-            "sport": "nascar",
-            "event_title": "Nascar Cup Series",
+            "sport": "indycar",
+            "event_title": "Indycar Race",
             "matchup": null,
-            "display_name": "Nascar Cup Series - nascar.m3u8"
+            "display_name": "Indycar Race - indy.m3u8"
+          }
+        ]
+      }
+    ],
+    "wwe": [
+      {
+        "title": "WWE RAW",
+        "sport": "wwe",
+        "matchup": null,
+        "page": "https://roxiestreams.info/wwe-streams",
+        "streams": [
+          {
+            "label": "Stream 1",
+            "url": "https://admin2.shadow-ran.online/wwe.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/wwe-streams",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "admin2",
+            "path": "wwe.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/wwe-streams",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "wwe",
+            "event_title": "WWE RAW",
+            "matchup": null,
+            "display_name": "WWE RAW - Stream 1"
+          },
+          {
+            "label": "Stream 2",
+            "url": "https://admin2.shadow-ran.online/wwe2.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/wwe-streams",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "admin2",
+            "path": "wwe2.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/wwe-streams",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "wwe",
+            "event_title": "WWE RAW",
+            "matchup": null,
+            "display_name": "WWE RAW - Stream 2"
+          },
+          {
+            "label": "wwe.m3u8",
+            "url": "https://daffodil.shadow-ran.online/wwe.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/wwe-streams",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "wwe.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/wwe-streams",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "wwe",
+            "event_title": "WWE RAW",
+            "matchup": null,
+            "display_name": "WWE RAW - wwe.m3u8"
           }
         ]
       }
@@ -3386,8 +3456,8 @@
         }
       ]
     },
-    "https://roxiestreams.info/nascar": {
-      "url": "https://roxiestreams.info/nascar",
+    "https://roxiestreams.info/indycar": {
+      "url": "https://roxiestreams.info/indycar",
       "title": "Roxiestreams - Watch Live Sports, F1, UFC, NFL, TV",
       "headings": [],
       "controls": [
@@ -3463,11 +3533,11 @@
       "streams": [
         {
           "label": "Stream 1",
-          "url": "https://admin2.shadow-ran.online/sporting.m3u8",
+          "url": "https://tedesco.shadow-ran.online/sporting.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-1",
           "cdn_domain": "shadow-ran.online",
-          "subdomain": "admin2",
+          "subdomain": "tedesco",
           "path": "sporting.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-1",
@@ -4339,55 +4409,122 @@
       ],
       "streams": []
     },
-    "nascar": {
+    "indycar": {
       "pages": [
-        "https://roxiestreams.info/nascar"
+        "https://roxiestreams.info/indycar"
       ],
       "streams": [
         {
           "label": "Stream 1",
-          "url": "https://tedesco.shadow-ran.online/nascar.m3u8",
+          "url": "https://admin2.shadow-ran.online/indy.m3u8",
           "type": "m3u8",
-          "source_page": "https://roxiestreams.info/nascar",
+          "source_page": "https://roxiestreams.info/indycar",
           "cdn_domain": "shadow-ran.online",
-          "subdomain": "tedesco",
-          "path": "nascar.m3u8",
+          "subdomain": "admin2",
+          "path": "indy.m3u8",
           "headers": {
-            "Referer": "https://roxiestreams.info/nascar",
+            "Referer": "https://roxiestreams.info/indycar",
             "Origin": "https://roxiestreams.info",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
             "Accept": "*/*"
           },
           "drm_keys": null,
-          "sport": "nascar",
-          "event_title": "Nascar Cup Series",
+          "sport": "indycar",
+          "event_title": "Indycar Race",
           "matchup": null,
-          "display_name": "Nascar Cup Series - Stream 1"
+          "display_name": "Indycar Race - Stream 1"
         },
         {
-          "label": "nascar.m3u8",
-          "url": "https://daffodil.shadow-ran.online/nascar.m3u8",
+          "label": "indy.m3u8",
+          "url": "https://daffodil.shadow-ran.online/indy.m3u8",
           "type": "m3u8",
-          "source_page": "https://roxiestreams.info/nascar",
+          "source_page": "https://roxiestreams.info/indycar",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "daffodil",
-          "path": "nascar.m3u8",
+          "path": "indy.m3u8",
           "headers": {
-            "Referer": "https://roxiestreams.info/nascar",
+            "Referer": "https://roxiestreams.info/indycar",
             "Origin": "https://roxiestreams.info",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
             "Accept": "*/*"
           },
           "drm_keys": null,
-          "sport": "nascar",
-          "event_title": "Nascar Cup Series",
+          "sport": "indycar",
+          "event_title": "Indycar Race",
           "matchup": null,
-          "display_name": "Nascar Cup Series - nascar.m3u8"
+          "display_name": "Indycar Race - indy.m3u8"
+        }
+      ]
+    },
+    "wwe": {
+      "pages": [
+        "https://roxiestreams.info/wwe-streams"
+      ],
+      "streams": [
+        {
+          "label": "Stream 1",
+          "url": "https://admin2.shadow-ran.online/wwe.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/wwe-streams",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "admin2",
+          "path": "wwe.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/wwe-streams",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "wwe",
+          "event_title": "WWE RAW",
+          "matchup": null,
+          "display_name": "WWE RAW - Stream 1"
+        },
+        {
+          "label": "Stream 2",
+          "url": "https://admin2.shadow-ran.online/wwe2.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/wwe-streams",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "admin2",
+          "path": "wwe2.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/wwe-streams",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "wwe",
+          "event_title": "WWE RAW",
+          "matchup": null,
+          "display_name": "WWE RAW - Stream 2"
+        },
+        {
+          "label": "wwe.m3u8",
+          "url": "https://daffodil.shadow-ran.online/wwe.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/wwe-streams",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "wwe.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/wwe-streams",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "wwe",
+          "event_title": "WWE RAW",
+          "matchup": null,
+          "display_name": "WWE RAW - wwe.m3u8"
         }
       ]
     }
   },
-  "stream_count": 40,
+  "stream_count": 43,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
