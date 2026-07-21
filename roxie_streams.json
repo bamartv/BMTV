@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-21T21:40:44+00:00",
+  "scraped_at": "2026-07-21T22:40:05+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
@@ -9,11 +9,6 @@
       "name": "Copa Sudamericana",
       "page": "https://roxiestreams.info/soccer",
       "start_time": "July 21, 2026 3:00 PM"
-    },
-    {
-      "name": "Dirt Racing",
-      "page": "https://roxiestreams.info/motorsports",
-      "start_time": "July 21, 2026 3:15 PM"
     },
     {
       "name": "WWE NXT",
@@ -54,6 +49,29 @@
               "away": "Tigre"
             },
             "display_name": "Nacional vs Tigre - Stream 1"
+          },
+          {
+            "label": "Sportdigital FUSSBALL",
+            "url": "https://admin2.shadow-ran.online/sportdigital.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-1",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "admin2",
+            "path": "sportdigital.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-1",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Nacional vs Tigre",
+            "matchup": {
+              "home": "Nacional",
+              "away": "Tigre"
+            },
+            "display_name": "Nacional vs Tigre - Sportdigital FUSSBALL"
           },
           {
             "label": "bein.m3u8",
@@ -114,12 +132,12 @@
           },
           {
             "label": "Stream 2 (ES)",
-            "url": "https://admin2.shadow-ran.online/fanatiz1.m3u8",
+            "url": "https://admin2.shadow-ran.online/fanaes.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-2",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "admin2",
-            "path": "fanatiz1.m3u8",
+            "path": "fanaes.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-2",
               "Origin": "https://roxiestreams.info",
@@ -1491,6 +1509,7 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Stream 1",
+        "Sportdigital FUSSBALL",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -3724,8 +3743,8 @@
         "Motorsports",
         "Stream Request (Discord)",
         "MultiView (NEW)",
-        "High Limit Racing",
-        "WoO Sprint Cars",
+        "High Limit Racing (CANCELED)",
+        "WoO Sprint Cars (RAINED OUT)",
         "Stream Request (Discord)"
       ],
       "links": [
@@ -3770,11 +3789,11 @@
           "url": "https://roxiestreams.info/multiview"
         },
         {
-          "label": "High Limit Racing",
+          "label": "High Limit Racing (CANCELED)",
           "url": "https://roxiestreams.info/floracing-1"
         },
         {
-          "label": "WoO Sprint Cars",
+          "label": "WoO Sprint Cars (RAINED OUT)",
           "url": "https://roxiestreams.info/floracing-2"
         },
         {
@@ -3950,6 +3969,29 @@
           "display_name": "Nacional vs Tigre - Stream 1"
         },
         {
+          "label": "Sportdigital FUSSBALL",
+          "url": "https://admin2.shadow-ran.online/sportdigital.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-1",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "admin2",
+          "path": "sportdigital.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-1",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Nacional vs Tigre",
+          "matchup": {
+            "home": "Nacional",
+            "away": "Tigre"
+          },
+          "display_name": "Nacional vs Tigre - Sportdigital FUSSBALL"
+        },
+        {
           "label": "bein.m3u8",
           "url": "https://daffodil.shadow-ran.online/bein.m3u8",
           "type": "m3u8",
@@ -3997,12 +4039,12 @@
         },
         {
           "label": "Stream 2 (ES)",
-          "url": "https://admin2.shadow-ran.online/fanatiz1.m3u8",
+          "url": "https://admin2.shadow-ran.online/fanaes.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-2",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "admin2",
-          "path": "fanatiz1.m3u8",
+          "path": "fanaes.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-2",
             "Origin": "https://roxiestreams.info",
@@ -5039,7 +5081,7 @@
       ]
     }
   },
-  "stream_count": 48,
+  "stream_count": 49,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
