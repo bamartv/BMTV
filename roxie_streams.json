@@ -1,19 +1,24 @@
 {
-  "scraped_at": "2026-07-21T09:57:41+00:00",
+  "scraped_at": "2026-07-21T11:54:26+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
   ],
   "events": [
     {
-      "name": "Indycar Race",
-      "page": "https://roxiestreams.info/indycar",
-      "start_time": "July 20, 2026 12:00 PM"
+      "name": "Copa Sudamericana",
+      "page": "https://roxiestreams.info/soccer",
+      "start_time": "July 21, 2026 3:00 PM"
     },
     {
-      "name": "WWE RAW",
+      "name": "Dirt Racing",
+      "page": "https://roxiestreams.info/motorsports",
+      "start_time": "July 21, 2026 3:15 PM"
+    },
+    {
+      "name": "WWE NXT",
       "page": "https://roxiestreams.info/wwe-streams",
-      "start_time": "July 20, 2026 5:00 PM"
+      "start_time": "July 21, 2026 5:00 PM"
     }
   ],
   "events_by_sport": {
@@ -29,12 +34,12 @@
         "streams": [
           {
             "label": "Stream 1",
-            "url": "https://admin2.shadow-ran.online/prem.m3u8",
+            "url": "https://admin2.shadow-ran.online/bein.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-1",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "admin2",
-            "path": "prem.m3u8",
+            "path": "bein.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-1",
               "Origin": "https://roxiestreams.info",
@@ -51,13 +56,13 @@
             "display_name": "Nacional vs Tigre - Stream 1"
           },
           {
-            "label": "prem.m3u8",
-            "url": "https://daffodil.shadow-ran.online/prem.m3u8",
+            "label": "bein.m3u8",
+            "url": "https://daffodil.shadow-ran.online/bein.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-1",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "daffodil",
-            "path": "prem.m3u8",
+            "path": "bein.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-1",
               "Origin": "https://roxiestreams.info",
@@ -71,7 +76,7 @@
               "home": "Nacional",
               "away": "Tigre"
             },
-            "display_name": "Nacional vs Tigre - prem.m3u8"
+            "display_name": "Nacional vs Tigre - bein.m3u8"
           }
         ]
       },
@@ -152,63 +157,6 @@
               "away": "Bahia"
             },
             "display_name": "Atlético Mineiro vs Bahia - fana.m3u8"
-          }
-        ]
-      },
-      {
-        "title": "UCV vs Santos",
-        "sport": "soccer",
-        "matchup": {
-          "home": "UCV",
-          "away": "Santos"
-        },
-        "page": "https://roxiestreams.info/soccer-streams-3",
-        "streams": [
-          {
-            "label": "Stream 1",
-            "url": "https://admin2.shadow-ran.online/bein.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/soccer-streams-3",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "admin2",
-            "path": "bein.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/soccer-streams-3",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "soccer",
-            "event_title": "UCV vs Santos",
-            "matchup": {
-              "home": "UCV",
-              "away": "Santos"
-            },
-            "display_name": "UCV vs Santos - Stream 1"
-          },
-          {
-            "label": "bein.m3u8",
-            "url": "https://daffodil.shadow-ran.online/bein.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/soccer-streams-3",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "daffodil",
-            "path": "bein.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/soccer-streams-3",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "soccer",
-            "event_title": "UCV vs Santos",
-            "matchup": {
-              "home": "UCV",
-              "away": "Santos"
-            },
-            "display_name": "UCV vs Santos - bein.m3u8"
           }
         ]
       },
@@ -337,12 +285,12 @@
         "streams": [
           {
             "label": "CANAL 5",
-            "url": "https://admin2.shadow-ran.online/5mx.m3u8",
+            "url": "https://tedesco.shadow-ran.online/prem.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-6",
             "cdn_domain": "shadow-ran.online",
-            "subdomain": "admin2",
-            "path": "5mx.m3u8",
+            "subdomain": "tedesco",
+            "path": "prem.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-6",
               "Origin": "https://roxiestreams.info",
@@ -359,13 +307,13 @@
             "display_name": "Sturm Graz vs Hearts - CANAL 5"
           },
           {
-            "label": "5mx.m3u8",
-            "url": "https://daffodil.shadow-ran.online/5mx.m3u8",
+            "label": "prem.m3u8",
+            "url": "https://daffodil.shadow-ran.online/prem.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-6",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "daffodil",
-            "path": "5mx.m3u8",
+            "path": "prem.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-6",
               "Origin": "https://roxiestreams.info",
@@ -379,7 +327,7 @@
               "home": "Sturm Graz",
               "away": "Hearts"
             },
-            "display_name": "Sturm Graz vs Hearts - 5mx.m3u8"
+            "display_name": "Sturm Graz vs Hearts - prem.m3u8"
           }
         ]
       }
@@ -1359,56 +1307,6 @@
       }
     ],
     "multiview": [],
-    "indycar": [
-      {
-        "title": "Indycar Race",
-        "sport": "indycar",
-        "matchup": null,
-        "page": "https://roxiestreams.info/indycar",
-        "streams": [
-          {
-            "label": "Stream 1",
-            "url": "https://admin2.shadow-ran.online/indy.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/indycar",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "admin2",
-            "path": "indy.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/indycar",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "indycar",
-            "event_title": "Indycar Race",
-            "matchup": null,
-            "display_name": "Indycar Race - Stream 1"
-          },
-          {
-            "label": "indy.m3u8",
-            "url": "https://daffodil.shadow-ran.online/indy.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/indycar",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "daffodil",
-            "path": "indy.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/indycar",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "indycar",
-            "event_title": "Indycar Race",
-            "matchup": null,
-            "display_name": "Indycar Race - indy.m3u8"
-          }
-        ]
-      }
-    ],
     "wwe": [
       {
         "title": "WWE NXT",
@@ -4014,72 +3912,6 @@
           "url": "https://roxiestreams.info/multiview"
         }
       ]
-    },
-    "https://roxiestreams.info/indycar": {
-      "url": "https://roxiestreams.info/indycar",
-      "title": "Roxiestreams - Watch Live Sports, F1, UFC, NFL, TV",
-      "headings": [],
-      "controls": [
-        "RoxieStreams",
-        "Soccer (WC 2026)",
-        "MLB",
-        "NBA",
-        "NFL",
-        "NHL",
-        "Fighting",
-        "Motorsports",
-        "Stream Request (Discord)",
-        "MultiView (NEW)",
-        "Stream 1",
-        "Switch to Chatango",
-        "Stream Request (Discord)"
-      ],
-      "links": [
-        {
-          "label": "RoxieStreams",
-          "url": "https://roxiestreams.info/"
-        },
-        {
-          "label": "Soccer (WC 2026)",
-          "url": "https://roxiestreams.info/soccer"
-        },
-        {
-          "label": "MLB",
-          "url": "https://roxiestreams.info/mlb"
-        },
-        {
-          "label": "NBA",
-          "url": "https://roxiestreams.info/nba"
-        },
-        {
-          "label": "NFL",
-          "url": "https://roxiestreams.info/nfl"
-        },
-        {
-          "label": "NHL",
-          "url": "https://roxiestreams.info/nhl"
-        },
-        {
-          "label": "Fighting",
-          "url": "https://roxiestreams.info/fighting"
-        },
-        {
-          "label": "Motorsports",
-          "url": "https://roxiestreams.info/motorsports"
-        },
-        {
-          "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/JhkVmejRmn"
-        },
-        {
-          "label": "MultiView (NEW)",
-          "url": "https://roxiestreams.info/multiview"
-        },
-        {
-          "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/JhkVmejRmn"
-        }
-      ]
     }
   },
   "sports": {
@@ -4096,12 +3928,12 @@
       "streams": [
         {
           "label": "Stream 1",
-          "url": "https://admin2.shadow-ran.online/prem.m3u8",
+          "url": "https://admin2.shadow-ran.online/bein.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-1",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "admin2",
-          "path": "prem.m3u8",
+          "path": "bein.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-1",
             "Origin": "https://roxiestreams.info",
@@ -4118,13 +3950,13 @@
           "display_name": "Nacional vs Tigre - Stream 1"
         },
         {
-          "label": "prem.m3u8",
-          "url": "https://daffodil.shadow-ran.online/prem.m3u8",
+          "label": "bein.m3u8",
+          "url": "https://daffodil.shadow-ran.online/bein.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-1",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "daffodil",
-          "path": "prem.m3u8",
+          "path": "bein.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-1",
             "Origin": "https://roxiestreams.info",
@@ -4138,7 +3970,7 @@
             "home": "Nacional",
             "away": "Tigre"
           },
-          "display_name": "Nacional vs Tigre - prem.m3u8"
+          "display_name": "Nacional vs Tigre - bein.m3u8"
         },
         {
           "label": "Stream 1",
@@ -4208,52 +4040,6 @@
             "away": "Bahia"
           },
           "display_name": "Atlético Mineiro vs Bahia - fana.m3u8"
-        },
-        {
-          "label": "Stream 1",
-          "url": "https://admin2.shadow-ran.online/bein.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/soccer-streams-3",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "admin2",
-          "path": "bein.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/soccer-streams-3",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "soccer",
-          "event_title": "UCV vs Santos",
-          "matchup": {
-            "home": "UCV",
-            "away": "Santos"
-          },
-          "display_name": "UCV vs Santos - Stream 1"
-        },
-        {
-          "label": "bein.m3u8",
-          "url": "https://daffodil.shadow-ran.online/bein.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/soccer-streams-3",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "daffodil",
-          "path": "bein.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/soccer-streams-3",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "soccer",
-          "event_title": "UCV vs Santos",
-          "matchup": {
-            "home": "UCV",
-            "away": "Santos"
-          },
-          "display_name": "UCV vs Santos - bein.m3u8"
         },
         {
           "label": "Stream 1",
@@ -4349,12 +4135,12 @@
         },
         {
           "label": "CANAL 5",
-          "url": "https://admin2.shadow-ran.online/5mx.m3u8",
+          "url": "https://tedesco.shadow-ran.online/prem.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-6",
           "cdn_domain": "shadow-ran.online",
-          "subdomain": "admin2",
-          "path": "5mx.m3u8",
+          "subdomain": "tedesco",
+          "path": "prem.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-6",
             "Origin": "https://roxiestreams.info",
@@ -4371,13 +4157,13 @@
           "display_name": "Sturm Graz vs Hearts - CANAL 5"
         },
         {
-          "label": "5mx.m3u8",
-          "url": "https://daffodil.shadow-ran.online/5mx.m3u8",
+          "label": "prem.m3u8",
+          "url": "https://daffodil.shadow-ran.online/prem.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-6",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "daffodil",
-          "path": "5mx.m3u8",
+          "path": "prem.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-6",
             "Origin": "https://roxiestreams.info",
@@ -4391,7 +4177,7 @@
             "home": "Sturm Graz",
             "away": "Hearts"
           },
-          "display_name": "Sturm Graz vs Hearts - 5mx.m3u8"
+          "display_name": "Sturm Graz vs Hearts - prem.m3u8"
         }
       ]
     },
@@ -5185,53 +4971,6 @@
       ],
       "streams": []
     },
-    "indycar": {
-      "pages": [
-        "https://roxiestreams.info/indycar"
-      ],
-      "streams": [
-        {
-          "label": "Stream 1",
-          "url": "https://admin2.shadow-ran.online/indy.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/indycar",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "admin2",
-          "path": "indy.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/indycar",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "indycar",
-          "event_title": "Indycar Race",
-          "matchup": null,
-          "display_name": "Indycar Race - Stream 1"
-        },
-        {
-          "label": "indy.m3u8",
-          "url": "https://daffodil.shadow-ran.online/indy.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/indycar",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "daffodil",
-          "path": "indy.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/indycar",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "indycar",
-          "event_title": "Indycar Race",
-          "matchup": null,
-          "display_name": "Indycar Race - indy.m3u8"
-        }
-      ]
-    },
     "wwe": {
       "pages": [
         "https://roxiestreams.info/wwe-streams"
@@ -5300,7 +5039,7 @@
       ]
     }
   },
-  "stream_count": 52,
+  "stream_count": 48,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
