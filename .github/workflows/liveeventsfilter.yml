@@ -30,7 +30,7 @@ jobs:
         # Fixed the formatting to ensure both commands run correctly
         run: |
           curl -L -o events.m3u8 https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/events.m3u8
-          python3 src/liveeventsfilter.py events.m3u8 liveeventsfilter.m3u8
+          python3 src/liveeventsfilter.py
 
       - name: 💾 Commit & Safely Push
         env:
