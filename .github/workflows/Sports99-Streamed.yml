@@ -24,10 +24,10 @@ jobs:
         run: pip install requests 
       
       - name: Avvio sports99
-        run: python scripts/sports99.py
+        run: python src/sports99.py
 
       - name: Avvio streamed
-        run: python scripts/streamed.py
+        run: python src/streamed.py
       
       - name: Commit and push if changed
         run: |
