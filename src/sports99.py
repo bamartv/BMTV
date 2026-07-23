@@ -26,7 +26,7 @@ class StreamSportsClient:
     def __init__(self, user: str = "streamsports99", plan: str = "vip"):
         self.user = user
         self.plan = plan
-        self.base_api = "https://api.cdnlivetv.ru/api/v1"
+        self.base_api = "https://api.cdnlivetv.is/api/v1"
         self.player_referer = "https://streamsports99.su/"
         self.player_referer = "https://streamsports99.su/"
 
