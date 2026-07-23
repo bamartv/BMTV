@@ -11,7 +11,7 @@ from typing import Optional
 
 import os
 
-EVENTS_API = "https://api.cdnlivetv.tv/api/v1/events/sports/?user=cdnlivetv&plan=free"
+EVENTS_API = "https://api.cdnlivetv.is/api/v1/events/sports/?user=cdnlivetv&plan=free"
 IPTV_CHANNELS_API = "https://iptv-org.github.io/api/channels.json"
 IPTV_LOGOS_API = "https://iptv-org.github.io/api/logos.json"
 CACHE_DIR = Path(__file__).resolve().parent.parent / "data"
@@ -28,10 +28,10 @@ HEADERS = {
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
         "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
     ),
-    "Referer": "https://cdnlivetv.tv/",
+    "Referer": "https://cdnlivetv.is/",
 }
 
-STREAM_REFERER = "https://cdnlivetv.tv/"
+STREAM_REFERER = "https://cdnlivetv.is/"
 STREAM_UA      = HEADERS["User-Agent"]
 
 
@@ -94,7 +94,7 @@ def extract_m3u8(html: str) -> Optional[str]:
     token_qs   = next((v for v in decoded if v.startswith("?token=")), None)
 
     if channel_id and token_qs:
-        return f"https://cdnlivetv.tv/secure/api/v1/{channel_id}/playlist.m3u8{token_qs}"
+        return f"https://cdnlivetv.is/secure/api/v1/{channel_id}/playlist.m3u8{token_qs}"
 
     m = re.search(r"https://[^\s\"']+playlist\.m3u8[^\s\"']*", html)
     return m.group() if m else None
