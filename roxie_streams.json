@@ -1,19 +1,29 @@
 {
-  "scraped_at": "2026-07-24T09:40:54+00:00",
+  "scraped_at": "2026-07-24T11:27:22+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
   ],
   "events": [
     {
-      "name": "Copa Sudamericana",
+      "name": "Formula 1 - Practice",
+      "page": "https://roxiestreams.info/f1",
+      "start_time": "July 24, 2026 4:30 AM"
+    },
+    {
+      "name": "Friendlies",
       "page": "https://roxiestreams.info/soccer",
-      "start_time": "July 23, 2026 3:00 PM"
+      "start_time": "July 24, 2026 8:00 AM"
     },
     {
       "name": "Dirt Racing",
       "page": "https://roxiestreams.info/motorsports",
-      "start_time": "July 23, 2026 3:30 PM"
+      "start_time": "July 24, 2026 3:30 PM"
+    },
+    {
+      "name": "WWE Smackdown",
+      "page": "https://roxiestreams.info/wwe-streams",
+      "start_time": "July 24, 2026 5:00 PM"
     }
   ],
   "events_by_sport": {
@@ -428,12 +438,12 @@
         "streams": [
           {
             "label": "Stream 1",
-            "url": "https://admin2.shadow-ran.online/fana2.m3u8",
+            "url": "https://tedesco.shadow-ran.online/mutv.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-8",
             "cdn_domain": "shadow-ran.online",
-            "subdomain": "admin2",
-            "path": "fana2.m3u8",
+            "subdomain": "tedesco",
+            "path": "mutv.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-8",
               "Origin": "https://roxiestreams.info",
@@ -450,107 +460,50 @@
             "display_name": "Rosenborg vs Manchester United - Stream 1"
           },
           {
-            "label": "Stream 2 (ENGLISH)",
-            "url": "https://admin2.shadow-ran.online/fana2en.m3u8",
+            "label": "Stream 2",
+            "url": "https://admin2.shadow-ran.online/mutv.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-8",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "admin2",
-            "path": "fana2en.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/soccer-streams-8",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "soccer",
-            "event_title": "Rosenborg vs Manchester United",
-            "matchup": {
-              "home": "Rosenborg",
-              "away": "Manchester United"
-            },
-            "display_name": "Rosenborg vs Manchester United - Stream 2 (ENGLISH)"
-          },
-          {
-            "label": "fana2.m3u8",
-            "url": "https://daffodil.shadow-ran.online/fana2.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/soccer-streams-8",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "daffodil",
-            "path": "fana2.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/soccer-streams-8",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "soccer",
-            "event_title": "Rosenborg vs Manchester United",
-            "matchup": {
-              "home": "Rosenborg",
-              "away": "Manchester United"
-            },
-            "display_name": "Rosenborg vs Manchester United - fana2.m3u8"
-          }
-        ]
-      },
-      {
-        "title": "Colo-Colo vs Deportes Limache",
-        "sport": "soccer",
-        "matchup": {
-          "home": "Colo-Colo",
-          "away": "Deportes Limache"
-        },
-        "page": "https://roxiestreams.info/soccer-streams-9",
-        "streams": [
-          {
-            "label": "Stream 1",
-            "url": "https://tedesco.shadow-ran.online/mutv.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/soccer-streams-9",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "tedesco",
             "path": "mutv.m3u8",
             "headers": {
-              "Referer": "https://roxiestreams.info/soccer-streams-9",
+              "Referer": "https://roxiestreams.info/soccer-streams-8",
               "Origin": "https://roxiestreams.info",
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
               "Accept": "*/*"
             },
             "drm_keys": null,
             "sport": "soccer",
-            "event_title": "Colo-Colo vs Deportes Limache",
+            "event_title": "Rosenborg vs Manchester United",
             "matchup": {
-              "home": "Colo-Colo",
-              "away": "Deportes Limache"
+              "home": "Rosenborg",
+              "away": "Manchester United"
             },
-            "display_name": "Colo-Colo vs Deportes Limache - Stream 1"
+            "display_name": "Rosenborg vs Manchester United - Stream 2"
           },
           {
             "label": "mutv.m3u8",
             "url": "https://daffodil.shadow-ran.online/mutv.m3u8",
             "type": "m3u8",
-            "source_page": "https://roxiestreams.info/soccer-streams-9",
+            "source_page": "https://roxiestreams.info/soccer-streams-8",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "daffodil",
             "path": "mutv.m3u8",
             "headers": {
-              "Referer": "https://roxiestreams.info/soccer-streams-9",
+              "Referer": "https://roxiestreams.info/soccer-streams-8",
               "Origin": "https://roxiestreams.info",
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
               "Accept": "*/*"
             },
             "drm_keys": null,
             "sport": "soccer",
-            "event_title": "Colo-Colo vs Deportes Limache",
+            "event_title": "Rosenborg vs Manchester United",
             "matchup": {
-              "home": "Colo-Colo",
-              "away": "Deportes Limache"
+              "home": "Rosenborg",
+              "away": "Manchester United"
             },
-            "display_name": "Colo-Colo vs Deportes Limache - mutv.m3u8"
+            "display_name": "Rosenborg vs Manchester United - mutv.m3u8"
           }
         ]
       }
@@ -1680,7 +1633,127 @@
         ]
       }
     ],
-    "multiview": []
+    "multiview": [],
+    "f1": [
+      {
+        "title": "Formula 1 - Practice",
+        "sport": "f1",
+        "matchup": null,
+        "page": "https://roxiestreams.info/f1",
+        "streams": [
+          {
+            "label": "Stream 1",
+            "url": "https://admin2.shadow-ran.online/f1.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/f1",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "admin2",
+            "path": "f1.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/f1",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "f1",
+            "event_title": "Formula 1 - Practice",
+            "matchup": null,
+            "display_name": "Formula 1 - Practice - Stream 1"
+          },
+          {
+            "label": "Stream 2",
+            "url": "https://tedesco.shadow-ran.online/f1.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/f1",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "tedesco",
+            "path": "f1.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/f1",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "f1",
+            "event_title": "Formula 1 - Practice",
+            "matchup": null,
+            "display_name": "Formula 1 - Practice - Stream 2"
+          },
+          {
+            "label": "f1.m3u8",
+            "url": "https://daffodil.shadow-ran.online/f1.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/f1",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "f1.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/f1",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "f1",
+            "event_title": "Formula 1 - Practice",
+            "matchup": null,
+            "display_name": "Formula 1 - Practice - f1.m3u8"
+          }
+        ]
+      }
+    ],
+    "wwe": [
+      {
+        "title": "WWE Smackdown",
+        "sport": "wwe",
+        "matchup": null,
+        "page": "https://roxiestreams.info/wwe-streams",
+        "streams": [
+          {
+            "label": "Stream 1",
+            "url": "https://tedesco.shadow-ran.online/wwe.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/wwe-streams",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "tedesco",
+            "path": "wwe.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/wwe-streams",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "wwe",
+            "event_title": "WWE Smackdown",
+            "matchup": null,
+            "display_name": "WWE Smackdown - Stream 1"
+          },
+          {
+            "label": "wwe.m3u8",
+            "url": "https://daffodil.shadow-ran.online/wwe.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/wwe-streams",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "wwe.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/wwe-streams",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "wwe",
+            "event_title": "WWE Smackdown",
+            "matchup": null,
+            "display_name": "WWE Smackdown - wwe.m3u8"
+          }
+        ]
+      }
+    ]
   },
   "pages": {
     "https://roxiestreams.info/soccer": {
@@ -2276,7 +2349,7 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Stream 1",
-        "Stream 2 (ENGLISH)",
+        "Stream 2",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -4653,6 +4726,73 @@
           "url": "https://roxiestreams.info/multiview"
         }
       ]
+    },
+    "https://roxiestreams.info/f1": {
+      "url": "https://roxiestreams.info/f1",
+      "title": "Roxiestreams - Watch Live Sports, F1, UFC, NFL, TV",
+      "headings": [],
+      "controls": [
+        "RoxieStreams",
+        "Soccer (WC 2026)",
+        "MLB",
+        "NBA",
+        "NFL",
+        "NHL",
+        "Fighting",
+        "Motorsports",
+        "Stream Request (Discord)",
+        "MultiView (NEW)",
+        "Stream 1",
+        "Stream 2",
+        "Switch to Chatango",
+        "Stream Request (Discord)"
+      ],
+      "links": [
+        {
+          "label": "RoxieStreams",
+          "url": "https://roxiestreams.info/"
+        },
+        {
+          "label": "Soccer (WC 2026)",
+          "url": "https://roxiestreams.info/soccer"
+        },
+        {
+          "label": "MLB",
+          "url": "https://roxiestreams.info/mlb"
+        },
+        {
+          "label": "NBA",
+          "url": "https://roxiestreams.info/nba"
+        },
+        {
+          "label": "NFL",
+          "url": "https://roxiestreams.info/nfl"
+        },
+        {
+          "label": "NHL",
+          "url": "https://roxiestreams.info/nhl"
+        },
+        {
+          "label": "Fighting",
+          "url": "https://roxiestreams.info/fighting"
+        },
+        {
+          "label": "Motorsports",
+          "url": "https://roxiestreams.info/motorsports"
+        },
+        {
+          "label": "Stream Request (Discord)",
+          "url": "https://discord.gg/JhkVmejRmn"
+        },
+        {
+          "label": "MultiView (NEW)",
+          "url": "https://roxiestreams.info/multiview"
+        },
+        {
+          "label": "Stream Request (Discord)",
+          "url": "https://discord.gg/JhkVmejRmn"
+        }
+      ]
     }
   },
   "sports": {
@@ -4994,12 +5134,12 @@
         },
         {
           "label": "Stream 1",
-          "url": "https://admin2.shadow-ran.online/fana2.m3u8",
+          "url": "https://tedesco.shadow-ran.online/mutv.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-8",
           "cdn_domain": "shadow-ran.online",
-          "subdomain": "admin2",
-          "path": "fana2.m3u8",
+          "subdomain": "tedesco",
+          "path": "mutv.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-8",
             "Origin": "https://roxiestreams.info",
@@ -5016,96 +5156,50 @@
           "display_name": "Rosenborg vs Manchester United - Stream 1"
         },
         {
-          "label": "Stream 2 (ENGLISH)",
-          "url": "https://admin2.shadow-ran.online/fana2en.m3u8",
+          "label": "Stream 2",
+          "url": "https://admin2.shadow-ran.online/mutv.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-8",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "admin2",
-          "path": "fana2en.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/soccer-streams-8",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "soccer",
-          "event_title": "Rosenborg vs Manchester United",
-          "matchup": {
-            "home": "Rosenborg",
-            "away": "Manchester United"
-          },
-          "display_name": "Rosenborg vs Manchester United - Stream 2 (ENGLISH)"
-        },
-        {
-          "label": "fana2.m3u8",
-          "url": "https://daffodil.shadow-ran.online/fana2.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/soccer-streams-8",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "daffodil",
-          "path": "fana2.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/soccer-streams-8",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "soccer",
-          "event_title": "Rosenborg vs Manchester United",
-          "matchup": {
-            "home": "Rosenborg",
-            "away": "Manchester United"
-          },
-          "display_name": "Rosenborg vs Manchester United - fana2.m3u8"
-        },
-        {
-          "label": "Stream 1",
-          "url": "https://tedesco.shadow-ran.online/mutv.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/soccer-streams-9",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "tedesco",
           "path": "mutv.m3u8",
           "headers": {
-            "Referer": "https://roxiestreams.info/soccer-streams-9",
+            "Referer": "https://roxiestreams.info/soccer-streams-8",
             "Origin": "https://roxiestreams.info",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
             "Accept": "*/*"
           },
           "drm_keys": null,
           "sport": "soccer",
-          "event_title": "Colo-Colo vs Deportes Limache",
+          "event_title": "Rosenborg vs Manchester United",
           "matchup": {
-            "home": "Colo-Colo",
-            "away": "Deportes Limache"
+            "home": "Rosenborg",
+            "away": "Manchester United"
           },
-          "display_name": "Colo-Colo vs Deportes Limache - Stream 1"
+          "display_name": "Rosenborg vs Manchester United - Stream 2"
         },
         {
           "label": "mutv.m3u8",
           "url": "https://daffodil.shadow-ran.online/mutv.m3u8",
           "type": "m3u8",
-          "source_page": "https://roxiestreams.info/soccer-streams-9",
+          "source_page": "https://roxiestreams.info/soccer-streams-8",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "daffodil",
           "path": "mutv.m3u8",
           "headers": {
-            "Referer": "https://roxiestreams.info/soccer-streams-9",
+            "Referer": "https://roxiestreams.info/soccer-streams-8",
             "Origin": "https://roxiestreams.info",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
             "Accept": "*/*"
           },
           "drm_keys": null,
           "sport": "soccer",
-          "event_title": "Colo-Colo vs Deportes Limache",
+          "event_title": "Rosenborg vs Manchester United",
           "matchup": {
-            "home": "Colo-Colo",
-            "away": "Deportes Limache"
+            "home": "Rosenborg",
+            "away": "Manchester United"
           },
-          "display_name": "Colo-Colo vs Deportes Limache - mutv.m3u8"
+          "display_name": "Rosenborg vs Manchester United - mutv.m3u8"
         }
       ]
     },
@@ -6019,9 +6113,123 @@
         "https://roxiestreams.info/multiview"
       ],
       "streams": []
+    },
+    "f1": {
+      "pages": [
+        "https://roxiestreams.info/f1"
+      ],
+      "streams": [
+        {
+          "label": "Stream 1",
+          "url": "https://admin2.shadow-ran.online/f1.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/f1",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "admin2",
+          "path": "f1.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/f1",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "f1",
+          "event_title": "Formula 1 - Practice",
+          "matchup": null,
+          "display_name": "Formula 1 - Practice - Stream 1"
+        },
+        {
+          "label": "Stream 2",
+          "url": "https://tedesco.shadow-ran.online/f1.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/f1",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "tedesco",
+          "path": "f1.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/f1",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "f1",
+          "event_title": "Formula 1 - Practice",
+          "matchup": null,
+          "display_name": "Formula 1 - Practice - Stream 2"
+        },
+        {
+          "label": "f1.m3u8",
+          "url": "https://daffodil.shadow-ran.online/f1.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/f1",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "f1.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/f1",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "f1",
+          "event_title": "Formula 1 - Practice",
+          "matchup": null,
+          "display_name": "Formula 1 - Practice - f1.m3u8"
+        }
+      ]
+    },
+    "wwe": {
+      "pages": [
+        "https://roxiestreams.info/wwe-streams"
+      ],
+      "streams": [
+        {
+          "label": "Stream 1",
+          "url": "https://tedesco.shadow-ran.online/wwe.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/wwe-streams",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "tedesco",
+          "path": "wwe.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/wwe-streams",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "wwe",
+          "event_title": "WWE Smackdown",
+          "matchup": null,
+          "display_name": "WWE Smackdown - Stream 1"
+        },
+        {
+          "label": "wwe.m3u8",
+          "url": "https://daffodil.shadow-ran.online/wwe.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/wwe-streams",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "wwe.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/wwe-streams",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "wwe",
+          "event_title": "WWE Smackdown",
+          "matchup": null,
+          "display_name": "WWE Smackdown - wwe.m3u8"
+        }
+      ]
     }
   },
-  "stream_count": 58,
+  "stream_count": 61,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
