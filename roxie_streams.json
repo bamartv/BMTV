@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-26T18:40:41+00:00",
+  "scraped_at": "2026-07-26T19:59:27+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
@@ -19,6 +19,11 @@
       "name": "Brasileirão",
       "page": "https://roxiestreams.info/soccer",
       "start_time": "July 26, 2026 12:00 PM"
+    },
+    {
+      "name": "AEW: Redemption",
+      "page": "https://roxiestreams.info/aew",
+      "start_time": "July 26, 2026 5:00 PM"
     },
     {
       "name": "Dirt Racing",
@@ -335,12 +340,12 @@
         "streams": [
           {
             "label": "Stream 1",
-            "url": "https://temp.shadow-ran.online/fana2.m3u8",
+            "url": "https://temp.shadow-ran.online/fana2pt.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-4",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "temp",
-            "path": "fana2.m3u8",
+            "path": "fana2pt.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-4",
               "Origin": "https://roxiestreams.info",
@@ -357,13 +362,13 @@
             "display_name": "Cruzeiro vs Botafogo - Stream 1"
           },
           {
-            "label": "fana2.m3u8",
-            "url": "https://daffodil.shadow-ran.online/fana2.m3u8",
+            "label": "Stream 2 (EN)",
+            "url": "https://temp.shadow-ran.online/fana2en.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-4",
             "cdn_domain": "shadow-ran.online",
-            "subdomain": "daffodil",
-            "path": "fana2.m3u8",
+            "subdomain": "temp",
+            "path": "fana2en.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-4",
               "Origin": "https://roxiestreams.info",
@@ -377,7 +382,76 @@
               "home": "Cruzeiro",
               "away": "Botafogo"
             },
-            "display_name": "Cruzeiro vs Botafogo - fana2.m3u8"
+            "display_name": "Cruzeiro vs Botafogo - Stream 2 (EN)"
+          },
+          {
+            "label": "Stream 3 (ES)",
+            "url": "https://temp.shadow-ran.online/fana2es.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-4",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "temp",
+            "path": "fana2es.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-4",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Cruzeiro vs Botafogo",
+            "matchup": {
+              "home": "Cruzeiro",
+              "away": "Botafogo"
+            },
+            "display_name": "Cruzeiro vs Botafogo - Stream 3 (ES)"
+          },
+          {
+            "label": "Sportdigital FUSSBALL",
+            "url": "https://temp.shadow-ran.online/sportdigital.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-4",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "temp",
+            "path": "sportdigital.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-4",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Cruzeiro vs Botafogo",
+            "matchup": {
+              "home": "Cruzeiro",
+              "away": "Botafogo"
+            },
+            "display_name": "Cruzeiro vs Botafogo - Sportdigital FUSSBALL"
+          },
+          {
+            "label": "fana2pt.m3u8",
+            "url": "https://daffodil.shadow-ran.online/fana2pt.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-4",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "fana2pt.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-4",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Cruzeiro vs Botafogo",
+            "matchup": {
+              "home": "Cruzeiro",
+              "away": "Botafogo"
+            },
+            "display_name": "Cruzeiro vs Botafogo - fana2pt.m3u8"
           }
         ]
       },
@@ -1551,7 +1625,7 @@
     "motorsports": [],
     "aew": [
       {
-        "title": "Stream 1",
+        "title": "AEW: Redemption",
         "sport": "aew",
         "matchup": null,
         "page": "https://roxiestreams.info/aew",
@@ -1572,18 +1646,10 @@
             },
             "drm_keys": null,
             "sport": "aew",
-            "event_title": "Stream 1",
+            "event_title": "AEW: Redemption",
             "matchup": null,
-            "display_name": "Stream 1"
-          }
-        ]
-      },
-      {
-        "title": "aew.m3u8",
-        "sport": "aew",
-        "matchup": null,
-        "page": "https://roxiestreams.info/aew",
-        "streams": [
+            "display_name": "AEW: Redemption - Stream 1"
+          },
           {
             "label": "aew.m3u8",
             "url": "https://daffodil.shadow-ran.online/aew.m3u8",
@@ -1600,9 +1666,9 @@
             },
             "drm_keys": null,
             "sport": "aew",
-            "event_title": "aew.m3u8",
+            "event_title": "AEW: Redemption",
             "matchup": null,
-            "display_name": "aew.m3u8"
+            "display_name": "AEW: Redemption - aew.m3u8"
           }
         ]
       }
@@ -2291,6 +2357,9 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Stream 1",
+        "Stream 2 (EN)",
+        "Stream 3 (ES)",
+        "Sportdigital FUSSBALL",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -4227,6 +4296,7 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Zuffa Boxing 9: Berlanga vs. Butler",
+        "AEW: Redemption",
         "WWE RAW",
         "Stream Request (Discord)"
       ],
@@ -4274,6 +4344,10 @@
         {
           "label": "Zuffa Boxing 9: Berlanga vs. Butler",
           "url": "https://roxiestreams.info/ppv-streams-1"
+        },
+        {
+          "label": "AEW: Redemption",
+          "url": "https://roxiestreams.info/aew"
         },
         {
           "label": "WWE RAW",
@@ -5025,12 +5099,12 @@
         },
         {
           "label": "Stream 1",
-          "url": "https://temp.shadow-ran.online/fana2.m3u8",
+          "url": "https://temp.shadow-ran.online/fana2pt.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-4",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "temp",
-          "path": "fana2.m3u8",
+          "path": "fana2pt.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-4",
             "Origin": "https://roxiestreams.info",
@@ -5047,13 +5121,13 @@
           "display_name": "Cruzeiro vs Botafogo - Stream 1"
         },
         {
-          "label": "fana2.m3u8",
-          "url": "https://daffodil.shadow-ran.online/fana2.m3u8",
+          "label": "Stream 2 (EN)",
+          "url": "https://temp.shadow-ran.online/fana2en.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-4",
           "cdn_domain": "shadow-ran.online",
-          "subdomain": "daffodil",
-          "path": "fana2.m3u8",
+          "subdomain": "temp",
+          "path": "fana2en.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-4",
             "Origin": "https://roxiestreams.info",
@@ -5067,7 +5141,76 @@
             "home": "Cruzeiro",
             "away": "Botafogo"
           },
-          "display_name": "Cruzeiro vs Botafogo - fana2.m3u8"
+          "display_name": "Cruzeiro vs Botafogo - Stream 2 (EN)"
+        },
+        {
+          "label": "Stream 3 (ES)",
+          "url": "https://temp.shadow-ran.online/fana2es.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-4",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "temp",
+          "path": "fana2es.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-4",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Cruzeiro vs Botafogo",
+          "matchup": {
+            "home": "Cruzeiro",
+            "away": "Botafogo"
+          },
+          "display_name": "Cruzeiro vs Botafogo - Stream 3 (ES)"
+        },
+        {
+          "label": "Sportdigital FUSSBALL",
+          "url": "https://temp.shadow-ran.online/sportdigital.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-4",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "temp",
+          "path": "sportdigital.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-4",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Cruzeiro vs Botafogo",
+          "matchup": {
+            "home": "Cruzeiro",
+            "away": "Botafogo"
+          },
+          "display_name": "Cruzeiro vs Botafogo - Sportdigital FUSSBALL"
+        },
+        {
+          "label": "fana2pt.m3u8",
+          "url": "https://daffodil.shadow-ran.online/fana2pt.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-4",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "fana2pt.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-4",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Cruzeiro vs Botafogo",
+          "matchup": {
+            "home": "Cruzeiro",
+            "away": "Botafogo"
+          },
+          "display_name": "Cruzeiro vs Botafogo - fana2pt.m3u8"
         },
         {
           "label": "Stream 1",
@@ -6035,9 +6178,9 @@
           },
           "drm_keys": null,
           "sport": "aew",
-          "event_title": "Stream 1",
+          "event_title": "AEW: Redemption",
           "matchup": null,
-          "display_name": "Stream 1"
+          "display_name": "AEW: Redemption - Stream 1"
         },
         {
           "label": "aew.m3u8",
@@ -6055,9 +6198,9 @@
           },
           "drm_keys": null,
           "sport": "aew",
-          "event_title": "aew.m3u8",
+          "event_title": "AEW: Redemption",
           "matchup": null,
-          "display_name": "aew.m3u8"
+          "display_name": "AEW: Redemption - aew.m3u8"
         }
       ]
     },
@@ -6202,7 +6345,7 @@
       ]
     }
   },
-  "stream_count": 61,
+  "stream_count": 64,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
