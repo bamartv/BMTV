@@ -19,12 +19,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: checkout private repository
-        uses: actions/checkout@v4
-        with:
-          repository: bamartv/my_folder
-          path: src
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
