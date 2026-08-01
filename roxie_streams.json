@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-01T17:33:18+00:00",
+  "scraped_at": "2026-08-01T18:37:59+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
@@ -812,13 +812,13 @@
         "page": "https://roxiestreams.info/soccer-streams-8",
         "streams": [
           {
-            "label": "Stream 2",
-            "url": "https://tedesco.shadow-ran.online/ziggo.m3u8",
+            "label": "Stream 1",
+            "url": "https://admin2.shadow-ran.online/nassr.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-8",
             "cdn_domain": "shadow-ran.online",
-            "subdomain": "tedesco",
-            "path": "ziggo.m3u8",
+            "subdomain": "admin2",
+            "path": "nassr.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-8",
               "Origin": "https://roxiestreams.info",
@@ -832,7 +832,30 @@
               "home": "Estrela",
               "away": "Al Nassr"
             },
-            "display_name": "Estrela vs Al Nassr - Stream 2"
+            "display_name": "Estrela vs Al Nassr - Stream 1"
+          },
+          {
+            "label": "nassr.m3u8",
+            "url": "https://daffodil.shadow-ran.online/nassr.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-8",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "nassr.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-8",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Estrela vs Al Nassr",
+            "matchup": {
+              "home": "Estrela",
+              "away": "Al Nassr"
+            },
+            "display_name": "Estrela vs Al Nassr - nassr.m3u8"
           }
         ]
       }
@@ -1657,29 +1680,6 @@
               "away": "Chamberlain"
             },
             "display_name": "O'Leary vs. Chamberlain - Stream 1"
-          },
-          {
-            "label": "Stream 2",
-            "url": "https://tedesco.shadow-ran.online/ppv.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/ppv-streams-1",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "tedesco",
-            "path": "ppv.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/ppv-streams-1",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "fighting",
-            "event_title": "O'Leary vs. Chamberlain",
-            "matchup": {
-              "home": "O'Leary",
-              "away": "Chamberlain"
-            },
-            "display_name": "O'Leary vs. Chamberlain - Stream 2"
           },
           {
             "label": "ppv.m3u8",
@@ -3371,7 +3371,6 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Stream 1",
-        "Stream 2",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -3438,6 +3437,7 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Stream 1",
+        "Stream 2",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -5205,7 +5205,6 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Stream 1",
-        "Stream 2",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -6375,13 +6374,13 @@
           "display_name": "Hamburger SV vs Everton - everton.m3u8"
         },
         {
-          "label": "Stream 2",
-          "url": "https://tedesco.shadow-ran.online/ziggo.m3u8",
+          "label": "Stream 1",
+          "url": "https://admin2.shadow-ran.online/nassr.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-8",
           "cdn_domain": "shadow-ran.online",
-          "subdomain": "tedesco",
-          "path": "ziggo.m3u8",
+          "subdomain": "admin2",
+          "path": "nassr.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-8",
             "Origin": "https://roxiestreams.info",
@@ -6395,7 +6394,30 @@
             "home": "Estrela",
             "away": "Al Nassr"
           },
-          "display_name": "Estrela vs Al Nassr - Stream 2"
+          "display_name": "Estrela vs Al Nassr - Stream 1"
+        },
+        {
+          "label": "nassr.m3u8",
+          "url": "https://daffodil.shadow-ran.online/nassr.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-8",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "nassr.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-8",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Estrela vs Al Nassr",
+          "matchup": {
+            "home": "Estrela",
+            "away": "Al Nassr"
+          },
+          "display_name": "Estrela vs Al Nassr - nassr.m3u8"
         }
       ]
     },
@@ -7046,29 +7068,6 @@
             "away": "Chamberlain"
           },
           "display_name": "O'Leary vs. Chamberlain - Stream 1"
-        },
-        {
-          "label": "Stream 2",
-          "url": "https://tedesco.shadow-ran.online/ppv.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/ppv-streams-1",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "tedesco",
-          "path": "ppv.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/ppv-streams-1",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "fighting",
-          "event_title": "O'Leary vs. Chamberlain",
-          "matchup": {
-            "home": "O'Leary",
-            "away": "Chamberlain"
-          },
-          "display_name": "O'Leary vs. Chamberlain - Stream 2"
         },
         {
           "label": "ppv.m3u8",
