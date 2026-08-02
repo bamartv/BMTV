@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-02T22:36:57+00:00",
+  "scraped_at": "2026-08-02T23:40:46+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
@@ -845,10 +845,13 @@
         "page": "https://roxiestreams.info/mlb-streams-15",
         "streams": [
           {
-            "label": "Direct Link",
-            "url": "https://admin2.formaturamaxi.com.br/mlb15.m3u8",
+            "label": "Stream 1",
+            "url": "https://tedesco.shadow-ran.online/wnba2.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/mlb-streams-15",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "tedesco",
+            "path": "wnba2.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/mlb-streams-15",
               "Origin": "https://roxiestreams.info",
@@ -862,7 +865,30 @@
               "home": "Boston Red Sox",
               "away": "Los Angeles Dodgers"
             },
-            "display_name": "Boston Red Sox vs Los Angeles Dodgers"
+            "display_name": "Boston Red Sox vs Los Angeles Dodgers - Stream 1"
+          },
+          {
+            "label": "wnba2.m3u8",
+            "url": "https://daffodil.shadow-ran.online/wnba2.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/mlb-streams-15",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "wnba2.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/mlb-streams-15",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "mlb",
+            "event_title": "Boston Red Sox vs Los Angeles Dodgers",
+            "matchup": {
+              "home": "Boston Red Sox",
+              "away": "Los Angeles Dodgers"
+            },
+            "display_name": "Boston Red Sox vs Los Angeles Dodgers - wnba2.m3u8"
           }
         ]
       },
@@ -5379,10 +5405,13 @@
           "display_name": "Minnesota Twins vs Seattle Mariners"
         },
         {
-          "label": "Direct Link",
-          "url": "https://admin2.formaturamaxi.com.br/mlb15.m3u8",
+          "label": "Stream 1",
+          "url": "https://tedesco.shadow-ran.online/wnba2.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/mlb-streams-15",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "tedesco",
+          "path": "wnba2.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/mlb-streams-15",
             "Origin": "https://roxiestreams.info",
@@ -5396,7 +5425,30 @@
             "home": "Boston Red Sox",
             "away": "Los Angeles Dodgers"
           },
-          "display_name": "Boston Red Sox vs Los Angeles Dodgers"
+          "display_name": "Boston Red Sox vs Los Angeles Dodgers - Stream 1"
+        },
+        {
+          "label": "wnba2.m3u8",
+          "url": "https://daffodil.shadow-ran.online/wnba2.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/mlb-streams-15",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "wnba2.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/mlb-streams-15",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "mlb",
+          "event_title": "Boston Red Sox vs Los Angeles Dodgers",
+          "matchup": {
+            "home": "Boston Red Sox",
+            "away": "Los Angeles Dodgers"
+          },
+          "display_name": "Boston Red Sox vs Los Angeles Dodgers - wnba2.m3u8"
         },
         {
           "label": "Stream 1",
@@ -6141,7 +6193,7 @@
       ]
     }
   },
-  "stream_count": 61,
+  "stream_count": 62,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
