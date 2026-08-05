@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-05T20:36:37+00:00",
+  "scraped_at": "2026-08-05T21:54:39+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
@@ -526,6 +526,40 @@
         ]
       },
       {
+        "title": "Tigre vs Belgrano",
+        "sport": "soccer",
+        "matchup": {
+          "home": "Tigre",
+          "away": "Belgrano"
+        },
+        "page": "https://roxiestreams.info/soccer-streams-16",
+        "streams": [
+          {
+            "label": "Stream 1",
+            "url": "https://admin2.shadow-ran.online/fana2.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-16",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "admin2",
+            "path": "fana2.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-16",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Tigre vs Belgrano",
+            "matchup": {
+              "home": "Tigre",
+              "away": "Belgrano"
+            },
+            "display_name": "Tigre vs Belgrano - Stream 1"
+          }
+        ]
+      },
+      {
         "title": "Chelsea vs Juventus",
         "sport": "soccer",
         "matchup": {
@@ -650,12 +684,12 @@
         "streams": [
           {
             "label": "Stream 1",
-            "url": "https://admin2.shadow-ran.online/fana.m3u8",
+            "url": "https://admin2.shadow-ran.online/fanaes.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-6",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "admin2",
-            "path": "fana.m3u8",
+            "path": "fanaes.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-6",
               "Origin": "https://roxiestreams.info",
@@ -672,13 +706,13 @@
             "display_name": "Boca Juniors vs Estudiantes - Stream 1"
           },
           {
-            "label": "fana.m3u8",
-            "url": "https://daffodil.shadow-ran.online/fana.m3u8",
+            "label": "Stream 2 (EN)",
+            "url": "https://admin2.shadow-ran.online/fanaen.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-6",
             "cdn_domain": "shadow-ran.online",
-            "subdomain": "daffodil",
-            "path": "fana.m3u8",
+            "subdomain": "admin2",
+            "path": "fanaen.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-6",
               "Origin": "https://roxiestreams.info",
@@ -692,7 +726,87 @@
               "home": "Boca Juniors",
               "away": "Estudiantes"
             },
-            "display_name": "Boca Juniors vs Estudiantes - fana.m3u8"
+            "display_name": "Boca Juniors vs Estudiantes - Stream 2 (EN)"
+          },
+          {
+            "label": "SPORTDIGITAL FUSSBALL",
+            "url": "https://admin2.shadow-ran.online/sportdigital.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-6",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "admin2",
+            "path": "sportdigital.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-6",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Boca Juniors vs Estudiantes",
+            "matchup": {
+              "home": "Boca Juniors",
+              "away": "Estudiantes"
+            },
+            "display_name": "Boca Juniors vs Estudiantes - SPORTDIGITAL FUSSBALL"
+          },
+          {
+            "label": "fanaes.m3u8",
+            "url": "https://daffodil.shadow-ran.online/fanaes.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-6",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "fanaes.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-6",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Boca Juniors vs Estudiantes",
+            "matchup": {
+              "home": "Boca Juniors",
+              "away": "Estudiantes"
+            },
+            "display_name": "Boca Juniors vs Estudiantes - fanaes.m3u8"
+          }
+        ]
+      },
+      {
+        "title": "Cruzeiro vs Chapecoense",
+        "sport": "soccer",
+        "matchup": {
+          "home": "Cruzeiro",
+          "away": "Chapecoense"
+        },
+        "page": "https://roxiestreams.info/soccer-streams-7",
+        "streams": [
+          {
+            "label": "Stream 1",
+            "url": "https://admin2.shadow-ran.online/sportv.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-7",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "admin2",
+            "path": "sportv.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-7",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Cruzeiro vs Chapecoense",
+            "matchup": {
+              "home": "Cruzeiro",
+              "away": "Chapecoense"
+            },
+            "display_name": "Cruzeiro vs Chapecoense - Stream 1"
           }
         ]
       },
@@ -1706,6 +1820,7 @@
         "Cruzeiro vs Chapecoense",
         "Inter Miami vs San Luis",
         "Monterrey vs Orlando City",
+        "Tigre vs Belgrano",
         "Dallas vs Queretaro",
         "Fluminense vs Vasco Gama",
         "Fortaleza vs Palmeiras",
@@ -1790,6 +1905,10 @@
         {
           "label": "Monterrey vs Orlando City",
           "url": "https://roxiestreams.info/soccer-streams-9"
+        },
+        {
+          "label": "Tigre vs Belgrano",
+          "url": "https://roxiestreams.info/soccer-streams-16"
         },
         {
           "label": "Dallas vs Queretaro",
@@ -2353,6 +2472,72 @@
         }
       ]
     },
+    "https://roxiestreams.info/soccer-streams-16": {
+      "url": "https://roxiestreams.info/soccer-streams-16",
+      "title": "Roxiestreams - Watch Live Sports, F1, UFC, NFL, TV",
+      "headings": [],
+      "controls": [
+        "RoxieStreams",
+        "Soccer",
+        "MLB",
+        "NBA",
+        "NFL",
+        "NHL",
+        "Fighting",
+        "Motorsports",
+        "Stream Request (Discord)",
+        "MultiView (NEW)",
+        "Stream 1",
+        "Switch to Chatango",
+        "Stream Request (Discord)"
+      ],
+      "links": [
+        {
+          "label": "RoxieStreams",
+          "url": "https://roxiestreams.info/"
+        },
+        {
+          "label": "Soccer",
+          "url": "https://roxiestreams.info/soccer"
+        },
+        {
+          "label": "MLB",
+          "url": "https://roxiestreams.info/mlb"
+        },
+        {
+          "label": "NBA",
+          "url": "https://roxiestreams.info/nba"
+        },
+        {
+          "label": "NFL",
+          "url": "https://roxiestreams.info/nfl"
+        },
+        {
+          "label": "NHL",
+          "url": "https://roxiestreams.info/nhl"
+        },
+        {
+          "label": "Fighting",
+          "url": "https://roxiestreams.info/fighting"
+        },
+        {
+          "label": "Motorsports",
+          "url": "https://roxiestreams.info/motorsports"
+        },
+        {
+          "label": "Stream Request (Discord)",
+          "url": "https://discord.gg/JhkVmejRmn"
+        },
+        {
+          "label": "MultiView (NEW)",
+          "url": "https://roxiestreams.info/multiview"
+        },
+        {
+          "label": "Stream Request (Discord)",
+          "url": "https://discord.gg/JhkVmejRmn"
+        }
+      ]
+    },
     "https://roxiestreams.info/soccer-streams-3": {
       "url": "https://roxiestreams.info/soccer-streams-3",
       "title": "Roxiestreams - Watch Live Sports, F1, UFC, NFL, TV",
@@ -2569,6 +2754,8 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Stream 1",
+        "Stream 2 (EN)",
+        "SPORTDIGITAL FUSSBALL",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -4855,6 +5042,7 @@
         "https://roxiestreams.info/soccer-streams-13",
         "https://roxiestreams.info/soccer-streams-14",
         "https://roxiestreams.info/soccer-streams-15",
+        "https://roxiestreams.info/soccer-streams-16",
         "https://roxiestreams.info/soccer-streams-3",
         "https://roxiestreams.info/soccer-streams-4",
         "https://roxiestreams.info/soccer-streams-5",
@@ -5280,6 +5468,29 @@
         },
         {
           "label": "Stream 1",
+          "url": "https://admin2.shadow-ran.online/fana2.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-16",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "admin2",
+          "path": "fana2.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-16",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Tigre vs Belgrano",
+          "matchup": {
+            "home": "Tigre",
+            "away": "Belgrano"
+          },
+          "display_name": "Tigre vs Belgrano - Stream 1"
+        },
+        {
+          "label": "Stream 1",
           "url": "https://tedesco.shadow-ran.online/golazo.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-3",
@@ -5372,12 +5583,12 @@
         },
         {
           "label": "Stream 1",
-          "url": "https://admin2.shadow-ran.online/fana.m3u8",
+          "url": "https://admin2.shadow-ran.online/fanaes.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-6",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "admin2",
-          "path": "fana.m3u8",
+          "path": "fanaes.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-6",
             "Origin": "https://roxiestreams.info",
@@ -5394,13 +5605,13 @@
           "display_name": "Boca Juniors vs Estudiantes - Stream 1"
         },
         {
-          "label": "fana.m3u8",
-          "url": "https://daffodil.shadow-ran.online/fana.m3u8",
+          "label": "Stream 2 (EN)",
+          "url": "https://admin2.shadow-ran.online/fanaen.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-6",
           "cdn_domain": "shadow-ran.online",
-          "subdomain": "daffodil",
-          "path": "fana.m3u8",
+          "subdomain": "admin2",
+          "path": "fanaen.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-6",
             "Origin": "https://roxiestreams.info",
@@ -5414,7 +5625,76 @@
             "home": "Boca Juniors",
             "away": "Estudiantes"
           },
-          "display_name": "Boca Juniors vs Estudiantes - fana.m3u8"
+          "display_name": "Boca Juniors vs Estudiantes - Stream 2 (EN)"
+        },
+        {
+          "label": "SPORTDIGITAL FUSSBALL",
+          "url": "https://admin2.shadow-ran.online/sportdigital.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-6",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "admin2",
+          "path": "sportdigital.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-6",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Boca Juniors vs Estudiantes",
+          "matchup": {
+            "home": "Boca Juniors",
+            "away": "Estudiantes"
+          },
+          "display_name": "Boca Juniors vs Estudiantes - SPORTDIGITAL FUSSBALL"
+        },
+        {
+          "label": "fanaes.m3u8",
+          "url": "https://daffodil.shadow-ran.online/fanaes.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-6",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "fanaes.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-6",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Boca Juniors vs Estudiantes",
+          "matchup": {
+            "home": "Boca Juniors",
+            "away": "Estudiantes"
+          },
+          "display_name": "Boca Juniors vs Estudiantes - fanaes.m3u8"
+        },
+        {
+          "label": "Stream 1",
+          "url": "https://admin2.shadow-ran.online/sportv.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-7",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "admin2",
+          "path": "sportv.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-7",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Cruzeiro vs Chapecoense",
+          "matchup": {
+            "home": "Cruzeiro",
+            "away": "Chapecoense"
+          },
+          "display_name": "Cruzeiro vs Chapecoense - Stream 1"
         },
         {
           "label": "Stream 1",
@@ -6220,7 +6500,7 @@
       "streams": []
     }
   },
-  "stream_count": 58,
+  "stream_count": 62,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
