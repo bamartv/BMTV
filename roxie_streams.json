@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-07T16:33:02+00:00",
+  "scraped_at": "2026-08-07T17:31:56+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
@@ -108,13 +108,13 @@
         "page": "https://roxiestreams.info/soccer-streams-2",
         "streams": [
           {
-            "label": "Stream 2 (ES)",
-            "url": "https://tedesco.shadow-ran.online/tv3.m3u8",
+            "label": "Stream 1",
+            "url": "https://admin2.shadow-ran.online/palace.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-2",
             "cdn_domain": "shadow-ran.online",
-            "subdomain": "tedesco",
-            "path": "tv3.m3u8",
+            "subdomain": "admin2",
+            "path": "palace.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-2",
               "Origin": "https://roxiestreams.info",
@@ -128,7 +128,30 @@
               "home": "Fulham",
               "away": "Crystal Palace"
             },
-            "display_name": "Fulham vs Crystal Palace - Stream 2 (ES)"
+            "display_name": "Fulham vs Crystal Palace - Stream 1"
+          },
+          {
+            "label": "palace.m3u8",
+            "url": "https://daffodil.shadow-ran.online/palace.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-2",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "palace.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-2",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Fulham vs Crystal Palace",
+            "matchup": {
+              "home": "Fulham",
+              "away": "Crystal Palace"
+            },
+            "display_name": "Fulham vs Crystal Palace - palace.m3u8"
           }
         ]
       },
@@ -142,13 +165,13 @@
         "page": "https://roxiestreams.info/soccer-streams-3",
         "streams": [
           {
-            "label": "Stream 1",
-            "url": "https://tedesco.shadow-ran.online/prem2.m3u8",
+            "label": "Stream 2 (ES)",
+            "url": "https://tedesco.shadow-ran.online/tv3.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-3",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "tedesco",
-            "path": "prem2.m3u8",
+            "path": "tv3.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-3",
               "Origin": "https://roxiestreams.info",
@@ -162,30 +185,7 @@
               "home": "Barcelona",
               "away": "Nottingham Forest"
             },
-            "display_name": "Barcelona vs Nottingham Forest - Stream 1"
-          },
-          {
-            "label": "prem2.m3u8",
-            "url": "https://daffodil.shadow-ran.online/prem2.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/soccer-streams-3",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "daffodil",
-            "path": "prem2.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/soccer-streams-3",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "soccer",
-            "event_title": "Barcelona vs Nottingham Forest",
-            "matchup": {
-              "home": "Barcelona",
-              "away": "Nottingham Forest"
-            },
-            "display_name": "Barcelona vs Nottingham Forest - prem2.m3u8"
+            "display_name": "Barcelona vs Nottingham Forest - Stream 2 (ES)"
           }
         ]
       },
@@ -1896,8 +1896,6 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Stream 1",
-        "Stream 2 (ES)",
-        "Stream 3",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -1964,6 +1962,8 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Stream 1",
+        "Stream 2 (ES)",
+        "Stream 3",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -4686,13 +4686,13 @@
           "display_name": "Bayern München vs Aston Villa - golazo.m3u8"
         },
         {
-          "label": "Stream 2 (ES)",
-          "url": "https://tedesco.shadow-ran.online/tv3.m3u8",
+          "label": "Stream 1",
+          "url": "https://admin2.shadow-ran.online/palace.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-2",
           "cdn_domain": "shadow-ran.online",
-          "subdomain": "tedesco",
-          "path": "tv3.m3u8",
+          "subdomain": "admin2",
+          "path": "palace.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-2",
             "Origin": "https://roxiestreams.info",
@@ -4706,16 +4706,39 @@
             "home": "Fulham",
             "away": "Crystal Palace"
           },
-          "display_name": "Fulham vs Crystal Palace - Stream 2 (ES)"
+          "display_name": "Fulham vs Crystal Palace - Stream 1"
         },
         {
-          "label": "Stream 1",
-          "url": "https://tedesco.shadow-ran.online/prem2.m3u8",
+          "label": "palace.m3u8",
+          "url": "https://daffodil.shadow-ran.online/palace.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-2",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "palace.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-2",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Fulham vs Crystal Palace",
+          "matchup": {
+            "home": "Fulham",
+            "away": "Crystal Palace"
+          },
+          "display_name": "Fulham vs Crystal Palace - palace.m3u8"
+        },
+        {
+          "label": "Stream 2 (ES)",
+          "url": "https://tedesco.shadow-ran.online/tv3.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-3",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "tedesco",
-          "path": "prem2.m3u8",
+          "path": "tv3.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-3",
             "Origin": "https://roxiestreams.info",
@@ -4729,30 +4752,7 @@
             "home": "Barcelona",
             "away": "Nottingham Forest"
           },
-          "display_name": "Barcelona vs Nottingham Forest - Stream 1"
-        },
-        {
-          "label": "prem2.m3u8",
-          "url": "https://daffodil.shadow-ran.online/prem2.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/soccer-streams-3",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "daffodil",
-          "path": "prem2.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/soccer-streams-3",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "soccer",
-          "event_title": "Barcelona vs Nottingham Forest",
-          "matchup": {
-            "home": "Barcelona",
-            "away": "Nottingham Forest"
-          },
-          "display_name": "Barcelona vs Nottingham Forest - prem2.m3u8"
+          "display_name": "Barcelona vs Nottingham Forest - Stream 2 (ES)"
         },
         {
           "label": "Stream 1",
