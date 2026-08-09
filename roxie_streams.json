@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-09T00:39:53+00:00",
+  "scraped_at": "2026-08-09T02:51:48+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
@@ -802,6 +802,29 @@
         "streams": [
           {
             "label": "Stream 1 (ES)",
+            "url": "https://admin2.shadow-ran.online/canal5mx.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-20",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "admin2",
+            "path": "canal5mx.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-20",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Toluca vs LAFC",
+            "matchup": {
+              "home": "Toluca",
+              "away": "LAFC"
+            },
+            "display_name": "Toluca vs LAFC - Stream 1 (ES)"
+          },
+          {
+            "label": "Stream 2 (ES ALT)",
             "url": "https://tedesco.shadow-ran.online/tudn.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-20",
@@ -821,10 +844,10 @@
               "home": "Toluca",
               "away": "LAFC"
             },
-            "display_name": "Toluca vs LAFC - Stream 1 (ES)"
+            "display_name": "Toluca vs LAFC - Stream 2 (ES ALT)"
           },
           {
-            "label": "Stream 2 (EN)",
+            "label": "Stream 3 (EN)",
             "url": "https://admin2.shadow-ran.online/mlb2.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-20",
@@ -844,16 +867,16 @@
               "home": "Toluca",
               "away": "LAFC"
             },
-            "display_name": "Toluca vs LAFC - Stream 2 (EN)"
+            "display_name": "Toluca vs LAFC - Stream 3 (EN)"
           },
           {
-            "label": "tudn.m3u8",
-            "url": "https://daffodil.shadow-ran.online/tudn.m3u8",
+            "label": "canal5mx.m3u8",
+            "url": "https://daffodil.shadow-ran.online/canal5mx.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-20",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "daffodil",
-            "path": "tudn.m3u8",
+            "path": "canal5mx.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-20",
               "Origin": "https://roxiestreams.info",
@@ -867,7 +890,64 @@
               "home": "Toluca",
               "away": "LAFC"
             },
-            "display_name": "Toluca vs LAFC - tudn.m3u8"
+            "display_name": "Toluca vs LAFC - canal5mx.m3u8"
+          }
+        ]
+      },
+      {
+        "title": "Real Salt Lake vs Atlante",
+        "sport": "soccer",
+        "matchup": {
+          "home": "Real Salt Lake",
+          "away": "Atlante"
+        },
+        "page": "https://roxiestreams.info/soccer-streams-21",
+        "streams": [
+          {
+            "label": "Stream 1",
+            "url": "https://admin2.shadow-ran.online/mls3.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-21",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "admin2",
+            "path": "mls3.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-21",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Real Salt Lake vs Atlante",
+            "matchup": {
+              "home": "Real Salt Lake",
+              "away": "Atlante"
+            },
+            "display_name": "Real Salt Lake vs Atlante - Stream 1"
+          },
+          {
+            "label": "mls3.m3u8",
+            "url": "https://daffodil.shadow-ran.online/mls3.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-21",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "mls3.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-21",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Real Salt Lake vs Atlante",
+            "matchup": {
+              "home": "Real Salt Lake",
+              "away": "Atlante"
+            },
+            "display_name": "Real Salt Lake vs Atlante - mls3.m3u8"
           }
         ]
       },
@@ -996,12 +1076,12 @@
         "streams": [
           {
             "label": "Stream 1",
-            "url": "https://admin2.shadow-ran.online/ajax.m3u8",
+            "url": "https://admin2.shadow-ran.online/l1max.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-24",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "admin2",
-            "path": "ajax.m3u8",
+            "path": "l1max.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-24",
               "Origin": "https://roxiestreams.info",
@@ -1018,13 +1098,13 @@
             "display_name": "Sport Boys vs Alianza Lima - Stream 1"
           },
           {
-            "label": "ajax.m3u8",
-            "url": "https://daffodil.shadow-ran.online/ajax.m3u8",
+            "label": "l1max.m3u8",
+            "url": "https://daffodil.shadow-ran.online/l1max.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-24",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "daffodil",
-            "path": "ajax.m3u8",
+            "path": "l1max.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-24",
               "Origin": "https://roxiestreams.info",
@@ -1038,7 +1118,7 @@
               "home": "Sport Boys",
               "away": "Alianza Lima"
             },
-            "display_name": "Sport Boys vs Alianza Lima - ajax.m3u8"
+            "display_name": "Sport Boys vs Alianza Lima - l1max.m3u8"
           }
         ]
       },
@@ -3947,7 +4027,9 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Stream 1 (ES)",
-        "Stream 2 (EN)",
+        "Stream 2 (ES ALT)",
+        "Stream 3 (EN)",
+        "IMAGEN MX VPN",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -7795,6 +7877,29 @@
         },
         {
           "label": "Stream 1 (ES)",
+          "url": "https://admin2.shadow-ran.online/canal5mx.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-20",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "admin2",
+          "path": "canal5mx.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-20",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Toluca vs LAFC",
+          "matchup": {
+            "home": "Toluca",
+            "away": "LAFC"
+          },
+          "display_name": "Toluca vs LAFC - Stream 1 (ES)"
+        },
+        {
+          "label": "Stream 2 (ES ALT)",
           "url": "https://tedesco.shadow-ran.online/tudn.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-20",
@@ -7814,10 +7919,10 @@
             "home": "Toluca",
             "away": "LAFC"
           },
-          "display_name": "Toluca vs LAFC - Stream 1 (ES)"
+          "display_name": "Toluca vs LAFC - Stream 2 (ES ALT)"
         },
         {
-          "label": "Stream 2 (EN)",
+          "label": "Stream 3 (EN)",
           "url": "https://admin2.shadow-ran.online/mlb2.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-20",
@@ -7837,16 +7942,16 @@
             "home": "Toluca",
             "away": "LAFC"
           },
-          "display_name": "Toluca vs LAFC - Stream 2 (EN)"
+          "display_name": "Toluca vs LAFC - Stream 3 (EN)"
         },
         {
-          "label": "tudn.m3u8",
-          "url": "https://daffodil.shadow-ran.online/tudn.m3u8",
+          "label": "canal5mx.m3u8",
+          "url": "https://daffodil.shadow-ran.online/canal5mx.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-20",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "daffodil",
-          "path": "tudn.m3u8",
+          "path": "canal5mx.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-20",
             "Origin": "https://roxiestreams.info",
@@ -7860,7 +7965,53 @@
             "home": "Toluca",
             "away": "LAFC"
           },
-          "display_name": "Toluca vs LAFC - tudn.m3u8"
+          "display_name": "Toluca vs LAFC - canal5mx.m3u8"
+        },
+        {
+          "label": "Stream 1",
+          "url": "https://admin2.shadow-ran.online/mls3.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-21",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "admin2",
+          "path": "mls3.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-21",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Real Salt Lake vs Atlante",
+          "matchup": {
+            "home": "Real Salt Lake",
+            "away": "Atlante"
+          },
+          "display_name": "Real Salt Lake vs Atlante - Stream 1"
+        },
+        {
+          "label": "mls3.m3u8",
+          "url": "https://daffodil.shadow-ran.online/mls3.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-21",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "mls3.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-21",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Real Salt Lake vs Atlante",
+          "matchup": {
+            "home": "Real Salt Lake",
+            "away": "Atlante"
+          },
+          "display_name": "Real Salt Lake vs Atlante - mls3.m3u8"
         },
         {
           "label": "Stream 1",
@@ -7956,12 +8107,12 @@
         },
         {
           "label": "Stream 1",
-          "url": "https://admin2.shadow-ran.online/ajax.m3u8",
+          "url": "https://admin2.shadow-ran.online/l1max.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-24",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "admin2",
-          "path": "ajax.m3u8",
+          "path": "l1max.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-24",
             "Origin": "https://roxiestreams.info",
@@ -7978,13 +8129,13 @@
           "display_name": "Sport Boys vs Alianza Lima - Stream 1"
         },
         {
-          "label": "ajax.m3u8",
-          "url": "https://daffodil.shadow-ran.online/ajax.m3u8",
+          "label": "l1max.m3u8",
+          "url": "https://daffodil.shadow-ran.online/l1max.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-24",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "daffodil",
-          "path": "ajax.m3u8",
+          "path": "l1max.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-24",
             "Origin": "https://roxiestreams.info",
@@ -7998,7 +8149,7 @@
             "home": "Sport Boys",
             "away": "Alianza Lima"
           },
-          "display_name": "Sport Boys vs Alianza Lima - ajax.m3u8"
+          "display_name": "Sport Boys vs Alianza Lima - l1max.m3u8"
         },
         {
           "label": "Stream 1",
@@ -9560,7 +9711,7 @@
       ]
     }
   },
-  "stream_count": 102,
+  "stream_count": 105,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
