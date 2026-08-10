@@ -1,34 +1,14 @@
 {
-  "scraped_at": "2026-08-10T10:51:42+00:00",
+  "scraped_at": "2026-08-10T11:51:41+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
   ],
   "events": [
     {
-      "name": "Friendlies",
-      "page": "https://roxiestreams.info/soccer",
-      "start_time": "August 9, 2026 4:00 AM"
-    },
-    {
-      "name": "MotoGP British Grand Prix",
-      "page": "https://roxiestreams.info/soccer-streams-2",
-      "start_time": "August 9, 2026 5:00 AM"
-    },
-    {
-      "name": "Emirates Cup (Arsenal vs Dortmund)",
-      "page": "https://roxiestreams.info/soccer-streams-20",
-      "start_time": "August 9, 2026 6:00 AM"
-    },
-    {
-      "name": "Leagues Cup",
-      "page": "https://roxiestreams.info/soccer",
-      "start_time": "August 9, 2026 12:30 PM"
-    },
-    {
-      "name": "NASCAR Cup Series - Race",
-      "page": "https://roxiestreams.info/nascar",
-      "start_time": "August 9, 2026 12:40 PM"
+      "name": "WWE RAW",
+      "page": "https://roxiestreams.info/wwe-streams",
+      "start_time": "August 10, 2026 5:00 PM"
     }
   ],
   "events_by_sport": {
@@ -67,12 +47,12 @@
           },
           {
             "label": "Stream 2",
-            "url": "https://admin2.shadow-ran.online/golazo.m3u8",
+            "url": "https://admin2.shadow-ran.online/main.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-1",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "admin2",
-            "path": "golazo.m3u8",
+            "path": "main.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-1",
               "Origin": "https://roxiestreams.info",
@@ -114,7 +94,7 @@
         ]
       },
       {
-        "title": "MotoGP British Grand Prix",
+        "title": "Stream 1",
         "sport": "soccer",
         "matchup": null,
         "page": "https://roxiestreams.info/soccer-streams-2",
@@ -135,10 +115,18 @@
             },
             "drm_keys": null,
             "sport": "soccer",
-            "event_title": "MotoGP British Grand Prix",
+            "event_title": "Stream 1",
             "matchup": null,
-            "display_name": "MotoGP British Grand Prix - Stream 1"
-          },
+            "display_name": "Stream 1"
+          }
+        ]
+      },
+      {
+        "title": "hub.m3u8",
+        "sport": "soccer",
+        "matchup": null,
+        "page": "https://roxiestreams.info/soccer-streams-2",
+        "streams": [
           {
             "label": "hub.m3u8",
             "url": "https://daffodil.shadow-ran.online/hub.m3u8",
@@ -155,89 +143,9 @@
             },
             "drm_keys": null,
             "sport": "soccer",
-            "event_title": "MotoGP British Grand Prix",
+            "event_title": "hub.m3u8",
             "matchup": null,
-            "display_name": "MotoGP British Grand Prix - hub.m3u8"
-          }
-        ]
-      },
-      {
-        "title": "Emirates Cup (Arsenal vs Dortmund)",
-        "sport": "soccer",
-        "matchup": {
-          "home": "Emirates Cup (Arsenal",
-          "away": "Dortmund)"
-        },
-        "page": "https://roxiestreams.info/soccer-streams-20",
-        "streams": [
-          {
-            "label": "ESPN MX",
-            "url": "https://admin2.shadow-ran.online/espn1mx.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/soccer-streams-20",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "admin2",
-            "path": "espn1mx.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/soccer-streams-20",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "soccer",
-            "event_title": "Emirates Cup (Arsenal vs Dortmund)",
-            "matchup": {
-              "home": "Emirates Cup (Arsenal",
-              "away": "Dortmund)"
-            },
-            "display_name": "Emirates Cup (Arsenal vs Dortmund) - ESPN MX"
-          },
-          {
-            "label": "VIX",
-            "url": "https://admin2.shadow-ran.online/vix1.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/soccer-streams-20",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "admin2",
-            "path": "vix1.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/soccer-streams-20",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "soccer",
-            "event_title": "Emirates Cup (Arsenal vs Dortmund)",
-            "matchup": {
-              "home": "Emirates Cup (Arsenal",
-              "away": "Dortmund)"
-            },
-            "display_name": "Emirates Cup (Arsenal vs Dortmund) - VIX"
-          },
-          {
-            "label": "espn1mx.m3u8",
-            "url": "https://daffodil.shadow-ran.online/espn1mx.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/soccer-streams-20",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "daffodil",
-            "path": "espn1mx.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/soccer-streams-20",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "soccer",
-            "event_title": "Emirates Cup (Arsenal vs Dortmund)",
-            "matchup": {
-              "home": "Emirates Cup (Arsenal",
-              "away": "Dortmund)"
-            },
-            "display_name": "Emirates Cup (Arsenal vs Dortmund) - espn1mx.m3u8"
+            "display_name": "hub.m3u8"
           }
         ]
       }
@@ -1109,52 +1017,72 @@
       }
     ],
     "multiview": [],
-    "nascar": [
+    "wwe": [
       {
-        "title": "NASCAR Cup Series - Race",
-        "sport": "nascar",
+        "title": "WWE RAW",
+        "sport": "wwe",
         "matchup": null,
-        "page": "https://roxiestreams.info/nascar",
+        "page": "https://roxiestreams.info/wwe-streams",
         "streams": [
           {
             "label": "Stream 1",
-            "url": "https://tedesco.shadow-ran.online/nascar.m3u8",
+            "url": "https://admin2.shadow-ran.online/wwe.m3u8",
             "type": "m3u8",
-            "source_page": "https://roxiestreams.info/nascar",
+            "source_page": "https://roxiestreams.info/wwe-streams",
             "cdn_domain": "shadow-ran.online",
-            "subdomain": "tedesco",
-            "path": "nascar.m3u8",
+            "subdomain": "admin2",
+            "path": "wwe.m3u8",
             "headers": {
-              "Referer": "https://roxiestreams.info/nascar",
+              "Referer": "https://roxiestreams.info/wwe-streams",
               "Origin": "https://roxiestreams.info",
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
               "Accept": "*/*"
             },
             "drm_keys": null,
-            "sport": "nascar",
-            "event_title": "NASCAR Cup Series - Race",
+            "sport": "wwe",
+            "event_title": "WWE RAW",
             "matchup": null,
-            "display_name": "NASCAR Cup Series - Race - Stream 1"
+            "display_name": "WWE RAW - Stream 1"
           },
           {
-            "label": "nascar.m3u8",
-            "url": "https://daffodil.shadow-ran.online/nascar.m3u8",
+            "label": "Stream 2",
+            "url": "https://tedesco.shadow-ran.online/wwe.m3u8",
             "type": "m3u8",
-            "source_page": "https://roxiestreams.info/nascar",
+            "source_page": "https://roxiestreams.info/wwe-streams",
             "cdn_domain": "shadow-ran.online",
-            "subdomain": "daffodil",
-            "path": "nascar.m3u8",
+            "subdomain": "tedesco",
+            "path": "wwe.m3u8",
             "headers": {
-              "Referer": "https://roxiestreams.info/nascar",
+              "Referer": "https://roxiestreams.info/wwe-streams",
               "Origin": "https://roxiestreams.info",
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
               "Accept": "*/*"
             },
             "drm_keys": null,
-            "sport": "nascar",
-            "event_title": "NASCAR Cup Series - Race",
+            "sport": "wwe",
+            "event_title": "WWE RAW",
             "matchup": null,
-            "display_name": "NASCAR Cup Series - Race - nascar.m3u8"
+            "display_name": "WWE RAW - Stream 2"
+          },
+          {
+            "label": "wwe.m3u8",
+            "url": "https://daffodil.shadow-ran.online/wwe.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/wwe-streams",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "wwe.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/wwe-streams",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "wwe",
+            "event_title": "WWE RAW",
+            "matchup": null,
+            "display_name": "WWE RAW - wwe.m3u8"
           }
         ]
       }
@@ -1315,74 +1243,6 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Stream 1",
-        "Switch to Chatango",
-        "Stream Request (Discord)"
-      ],
-      "links": [
-        {
-          "label": "RoxieStreams",
-          "url": "https://roxiestreams.info/"
-        },
-        {
-          "label": "Soccer",
-          "url": "https://roxiestreams.info/soccer"
-        },
-        {
-          "label": "MLB",
-          "url": "https://roxiestreams.info/mlb"
-        },
-        {
-          "label": "NBA",
-          "url": "https://roxiestreams.info/nba"
-        },
-        {
-          "label": "NFL",
-          "url": "https://roxiestreams.info/nfl"
-        },
-        {
-          "label": "NHL",
-          "url": "https://roxiestreams.info/nhl"
-        },
-        {
-          "label": "Fighting",
-          "url": "https://roxiestreams.info/fighting"
-        },
-        {
-          "label": "Motorsports",
-          "url": "https://roxiestreams.info/motorsports"
-        },
-        {
-          "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/JhkVmejRmn"
-        },
-        {
-          "label": "MultiView (NEW)",
-          "url": "https://roxiestreams.info/multiview"
-        },
-        {
-          "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/JhkVmejRmn"
-        }
-      ]
-    },
-    "https://roxiestreams.info/soccer-streams-20": {
-      "url": "https://roxiestreams.info/soccer-streams-20",
-      "title": "Roxiestreams - Watch Live Sports, F1, UFC, NFL, TV",
-      "headings": [],
-      "controls": [
-        "RoxieStreams",
-        "Soccer",
-        "MLB",
-        "NBA",
-        "NFL",
-        "NHL",
-        "Fighting",
-        "Motorsports",
-        "Stream Request (Discord)",
-        "MultiView (NEW)",
-        "ESPN MX",
-        "ESPN MX VPN",
-        "VIX",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -3129,72 +2989,6 @@
           "url": "https://roxiestreams.info/multiview"
         }
       ]
-    },
-    "https://roxiestreams.info/nascar": {
-      "url": "https://roxiestreams.info/nascar",
-      "title": "Roxiestreams - Watch Live Sports, F1, UFC, NFL, TV",
-      "headings": [],
-      "controls": [
-        "RoxieStreams",
-        "Soccer",
-        "MLB",
-        "NBA",
-        "NFL",
-        "NHL",
-        "Fighting",
-        "Motorsports",
-        "Stream Request (Discord)",
-        "MultiView (NEW)",
-        "Stream 1",
-        "Switch to Chatango",
-        "Stream Request (Discord)"
-      ],
-      "links": [
-        {
-          "label": "RoxieStreams",
-          "url": "https://roxiestreams.info/"
-        },
-        {
-          "label": "Soccer",
-          "url": "https://roxiestreams.info/soccer"
-        },
-        {
-          "label": "MLB",
-          "url": "https://roxiestreams.info/mlb"
-        },
-        {
-          "label": "NBA",
-          "url": "https://roxiestreams.info/nba"
-        },
-        {
-          "label": "NFL",
-          "url": "https://roxiestreams.info/nfl"
-        },
-        {
-          "label": "NHL",
-          "url": "https://roxiestreams.info/nhl"
-        },
-        {
-          "label": "Fighting",
-          "url": "https://roxiestreams.info/fighting"
-        },
-        {
-          "label": "Motorsports",
-          "url": "https://roxiestreams.info/motorsports"
-        },
-        {
-          "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/JhkVmejRmn"
-        },
-        {
-          "label": "MultiView (NEW)",
-          "url": "https://roxiestreams.info/multiview"
-        },
-        {
-          "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/JhkVmejRmn"
-        }
-      ]
     }
   },
   "sports": {
@@ -3202,8 +2996,7 @@
       "pages": [
         "https://roxiestreams.info/soccer",
         "https://roxiestreams.info/soccer-streams-1",
-        "https://roxiestreams.info/soccer-streams-2",
-        "https://roxiestreams.info/soccer-streams-20"
+        "https://roxiestreams.info/soccer-streams-2"
       ],
       "streams": [
         {
@@ -3231,12 +3024,12 @@
         },
         {
           "label": "Stream 2",
-          "url": "https://admin2.shadow-ran.online/golazo.m3u8",
+          "url": "https://admin2.shadow-ran.online/main.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-1",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "admin2",
-          "path": "golazo.m3u8",
+          "path": "main.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-1",
             "Origin": "https://roxiestreams.info",
@@ -3291,9 +3084,9 @@
           },
           "drm_keys": null,
           "sport": "soccer",
-          "event_title": "MotoGP British Grand Prix",
+          "event_title": "Stream 1",
           "matchup": null,
-          "display_name": "MotoGP British Grand Prix - Stream 1"
+          "display_name": "Stream 1"
         },
         {
           "label": "hub.m3u8",
@@ -3311,78 +3104,9 @@
           },
           "drm_keys": null,
           "sport": "soccer",
-          "event_title": "MotoGP British Grand Prix",
+          "event_title": "hub.m3u8",
           "matchup": null,
-          "display_name": "MotoGP British Grand Prix - hub.m3u8"
-        },
-        {
-          "label": "ESPN MX",
-          "url": "https://admin2.shadow-ran.online/espn1mx.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/soccer-streams-20",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "admin2",
-          "path": "espn1mx.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/soccer-streams-20",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "soccer",
-          "event_title": "Emirates Cup (Arsenal vs Dortmund)",
-          "matchup": {
-            "home": "Emirates Cup (Arsenal",
-            "away": "Dortmund)"
-          },
-          "display_name": "Emirates Cup (Arsenal vs Dortmund) - ESPN MX"
-        },
-        {
-          "label": "VIX",
-          "url": "https://admin2.shadow-ran.online/vix1.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/soccer-streams-20",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "admin2",
-          "path": "vix1.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/soccer-streams-20",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "soccer",
-          "event_title": "Emirates Cup (Arsenal vs Dortmund)",
-          "matchup": {
-            "home": "Emirates Cup (Arsenal",
-            "away": "Dortmund)"
-          },
-          "display_name": "Emirates Cup (Arsenal vs Dortmund) - VIX"
-        },
-        {
-          "label": "espn1mx.m3u8",
-          "url": "https://daffodil.shadow-ran.online/espn1mx.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/soccer-streams-20",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "daffodil",
-          "path": "espn1mx.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/soccer-streams-20",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "soccer",
-          "event_title": "Emirates Cup (Arsenal vs Dortmund)",
-          "matchup": {
-            "home": "Emirates Cup (Arsenal",
-            "away": "Dortmund)"
-          },
-          "display_name": "Emirates Cup (Arsenal vs Dortmund) - espn1mx.m3u8"
+          "display_name": "hub.m3u8"
         }
       ]
     },
@@ -4118,55 +3842,75 @@
       ],
       "streams": []
     },
-    "nascar": {
+    "wwe": {
       "pages": [
-        "https://roxiestreams.info/nascar"
+        "https://roxiestreams.info/wwe-streams"
       ],
       "streams": [
         {
           "label": "Stream 1",
-          "url": "https://tedesco.shadow-ran.online/nascar.m3u8",
+          "url": "https://admin2.shadow-ran.online/wwe.m3u8",
           "type": "m3u8",
-          "source_page": "https://roxiestreams.info/nascar",
+          "source_page": "https://roxiestreams.info/wwe-streams",
           "cdn_domain": "shadow-ran.online",
-          "subdomain": "tedesco",
-          "path": "nascar.m3u8",
+          "subdomain": "admin2",
+          "path": "wwe.m3u8",
           "headers": {
-            "Referer": "https://roxiestreams.info/nascar",
+            "Referer": "https://roxiestreams.info/wwe-streams",
             "Origin": "https://roxiestreams.info",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
             "Accept": "*/*"
           },
           "drm_keys": null,
-          "sport": "nascar",
-          "event_title": "NASCAR Cup Series - Race",
+          "sport": "wwe",
+          "event_title": "WWE RAW",
           "matchup": null,
-          "display_name": "NASCAR Cup Series - Race - Stream 1"
+          "display_name": "WWE RAW - Stream 1"
         },
         {
-          "label": "nascar.m3u8",
-          "url": "https://daffodil.shadow-ran.online/nascar.m3u8",
+          "label": "Stream 2",
+          "url": "https://tedesco.shadow-ran.online/wwe.m3u8",
           "type": "m3u8",
-          "source_page": "https://roxiestreams.info/nascar",
+          "source_page": "https://roxiestreams.info/wwe-streams",
           "cdn_domain": "shadow-ran.online",
-          "subdomain": "daffodil",
-          "path": "nascar.m3u8",
+          "subdomain": "tedesco",
+          "path": "wwe.m3u8",
           "headers": {
-            "Referer": "https://roxiestreams.info/nascar",
+            "Referer": "https://roxiestreams.info/wwe-streams",
             "Origin": "https://roxiestreams.info",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
             "Accept": "*/*"
           },
           "drm_keys": null,
-          "sport": "nascar",
-          "event_title": "NASCAR Cup Series - Race",
+          "sport": "wwe",
+          "event_title": "WWE RAW",
           "matchup": null,
-          "display_name": "NASCAR Cup Series - Race - nascar.m3u8"
+          "display_name": "WWE RAW - Stream 2"
+        },
+        {
+          "label": "wwe.m3u8",
+          "url": "https://daffodil.shadow-ran.online/wwe.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/wwe-streams",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "wwe.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/wwe-streams",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "wwe",
+          "event_title": "WWE RAW",
+          "matchup": null,
+          "display_name": "WWE RAW - wwe.m3u8"
         }
       ]
     }
   },
-  "stream_count": 41,
+  "stream_count": 39,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
