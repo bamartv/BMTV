@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-10T15:35:43+00:00",
+  "scraped_at": "2026-08-10T16:29:36+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
@@ -94,9 +94,12 @@
         ]
       },
       {
-        "title": "Stream 1",
+        "title": "Banfield vs Belgrano",
         "sport": "soccer",
-        "matchup": null,
+        "matchup": {
+          "home": "Banfield",
+          "away": "Belgrano"
+        },
         "page": "https://roxiestreams.info/soccer-streams-2",
         "streams": [
           {
@@ -115,18 +118,13 @@
             },
             "drm_keys": null,
             "sport": "soccer",
-            "event_title": "Stream 1",
-            "matchup": null,
-            "display_name": "Stream 1"
-          }
-        ]
-      },
-      {
-        "title": "hub.m3u8",
-        "sport": "soccer",
-        "matchup": null,
-        "page": "https://roxiestreams.info/soccer-streams-2",
-        "streams": [
+            "event_title": "Banfield vs Belgrano",
+            "matchup": {
+              "home": "Banfield",
+              "away": "Belgrano"
+            },
+            "display_name": "Banfield vs Belgrano - Stream 1"
+          },
           {
             "label": "hub.m3u8",
             "url": "https://daffodil.shadow-ran.online/hub.m3u8",
@@ -143,9 +141,69 @@
             },
             "drm_keys": null,
             "sport": "soccer",
-            "event_title": "hub.m3u8",
-            "matchup": null,
-            "display_name": "hub.m3u8"
+            "event_title": "Banfield vs Belgrano",
+            "matchup": {
+              "home": "Banfield",
+              "away": "Belgrano"
+            },
+            "display_name": "Banfield vs Belgrano - hub.m3u8"
+          }
+        ]
+      },
+      {
+        "title": "Unión Santa Fe vs Central Córdoba SdE",
+        "sport": "soccer",
+        "matchup": {
+          "home": "Unión Santa Fe",
+          "away": "Central Córdoba SdE"
+        },
+        "page": "https://roxiestreams.info/soccer-streams-3",
+        "streams": [
+          {
+            "label": "Stream 2",
+            "url": "https://admin2.shadow-ran.online/golazo.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-3",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "admin2",
+            "path": "golazo.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-3",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Unión Santa Fe vs Central Córdoba SdE",
+            "matchup": {
+              "home": "Unión Santa Fe",
+              "away": "Central Córdoba SdE"
+            },
+            "display_name": "Unión Santa Fe vs Central Córdoba SdE - Stream 2"
+          },
+          {
+            "label": "main.m3u8",
+            "url": "https://daffodil.shadow-ran.online/main.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-3",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "main.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-3",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Unión Santa Fe vs Central Córdoba SdE",
+            "matchup": {
+              "home": "Unión Santa Fe",
+              "away": "Central Córdoba SdE"
+            },
+            "display_name": "Unión Santa Fe vs Central Córdoba SdE - main.m3u8"
           }
         ]
       }
@@ -1107,6 +1165,8 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Plymouth Argyle vs Exeter City",
+        "Banfield vs Belgrano",
+        "Unión Santa Fe vs Central Córdoba SdE",
         "Stream Request (Discord)"
       ],
       "links": [
@@ -1153,6 +1213,14 @@
         {
           "label": "Plymouth Argyle vs Exeter City",
           "url": "https://roxiestreams.info/soccer-streams-1"
+        },
+        {
+          "label": "Banfield vs Belgrano",
+          "url": "https://roxiestreams.info/soccer-streams-2"
+        },
+        {
+          "label": "Unión Santa Fe vs Central Córdoba SdE",
+          "url": "https://roxiestreams.info/soccer-streams-3"
         },
         {
           "label": "Stream Request (Discord)",
@@ -1243,6 +1311,73 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Stream 1",
+        "Switch to Chatango",
+        "Stream Request (Discord)"
+      ],
+      "links": [
+        {
+          "label": "RoxieStreams",
+          "url": "https://roxiestreams.info/"
+        },
+        {
+          "label": "Soccer",
+          "url": "https://roxiestreams.info/soccer"
+        },
+        {
+          "label": "MLB",
+          "url": "https://roxiestreams.info/mlb"
+        },
+        {
+          "label": "NBA",
+          "url": "https://roxiestreams.info/nba"
+        },
+        {
+          "label": "NFL",
+          "url": "https://roxiestreams.info/nfl"
+        },
+        {
+          "label": "NHL",
+          "url": "https://roxiestreams.info/nhl"
+        },
+        {
+          "label": "Fighting",
+          "url": "https://roxiestreams.info/fighting"
+        },
+        {
+          "label": "Motorsports",
+          "url": "https://roxiestreams.info/motorsports"
+        },
+        {
+          "label": "Stream Request (Discord)",
+          "url": "https://discord.gg/JhkVmejRmn"
+        },
+        {
+          "label": "MultiView (NEW)",
+          "url": "https://roxiestreams.info/multiview"
+        },
+        {
+          "label": "Stream Request (Discord)",
+          "url": "https://discord.gg/JhkVmejRmn"
+        }
+      ]
+    },
+    "https://roxiestreams.info/soccer-streams-3": {
+      "url": "https://roxiestreams.info/soccer-streams-3",
+      "title": "Roxiestreams - Watch Live Sports, F1, UFC, NFL, TV",
+      "headings": [],
+      "controls": [
+        "RoxieStreams",
+        "Soccer",
+        "MLB",
+        "NBA",
+        "NFL",
+        "NHL",
+        "Fighting",
+        "Motorsports",
+        "Stream Request (Discord)",
+        "MultiView (NEW)",
+        "Stream 1",
+        "Stream 2",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -2996,7 +3131,8 @@
       "pages": [
         "https://roxiestreams.info/soccer",
         "https://roxiestreams.info/soccer-streams-1",
-        "https://roxiestreams.info/soccer-streams-2"
+        "https://roxiestreams.info/soccer-streams-2",
+        "https://roxiestreams.info/soccer-streams-3"
       ],
       "streams": [
         {
@@ -3084,9 +3220,12 @@
           },
           "drm_keys": null,
           "sport": "soccer",
-          "event_title": "Stream 1",
-          "matchup": null,
-          "display_name": "Stream 1"
+          "event_title": "Banfield vs Belgrano",
+          "matchup": {
+            "home": "Banfield",
+            "away": "Belgrano"
+          },
+          "display_name": "Banfield vs Belgrano - Stream 1"
         },
         {
           "label": "hub.m3u8",
@@ -3104,9 +3243,58 @@
           },
           "drm_keys": null,
           "sport": "soccer",
-          "event_title": "hub.m3u8",
-          "matchup": null,
-          "display_name": "hub.m3u8"
+          "event_title": "Banfield vs Belgrano",
+          "matchup": {
+            "home": "Banfield",
+            "away": "Belgrano"
+          },
+          "display_name": "Banfield vs Belgrano - hub.m3u8"
+        },
+        {
+          "label": "Stream 2",
+          "url": "https://admin2.shadow-ran.online/golazo.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-3",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "admin2",
+          "path": "golazo.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-3",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Unión Santa Fe vs Central Córdoba SdE",
+          "matchup": {
+            "home": "Unión Santa Fe",
+            "away": "Central Córdoba SdE"
+          },
+          "display_name": "Unión Santa Fe vs Central Córdoba SdE - Stream 2"
+        },
+        {
+          "label": "main.m3u8",
+          "url": "https://daffodil.shadow-ran.online/main.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-3",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "main.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-3",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Unión Santa Fe vs Central Córdoba SdE",
+          "matchup": {
+            "home": "Unión Santa Fe",
+            "away": "Central Córdoba SdE"
+          },
+          "display_name": "Unión Santa Fe vs Central Córdoba SdE - main.m3u8"
         }
       ]
     },
@@ -3910,7 +4098,7 @@
       ]
     }
   },
-  "stream_count": 39,
+  "stream_count": 41,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
