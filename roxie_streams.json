@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-11T22:19:49+00:00",
+  "scraped_at": "2026-08-11T23:09:30+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
@@ -419,6 +419,29 @@
               "away": "Rivadavia"
             },
             "display_name": "Fluminense vs Rivadavia - Stream 1"
+          },
+          {
+            "label": "Stream 2 (ES)",
+            "url": "https://admin2.shadow-ran.online/bein3es.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-5",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "admin2",
+            "path": "bein3es.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-5",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Fluminense vs Rivadavia",
+            "matchup": {
+              "home": "Fluminense",
+              "away": "Rivadavia"
+            },
+            "display_name": "Fluminense vs Rivadavia - Stream 2 (ES)"
           },
           {
             "label": "beinalt.m3u8",
@@ -2428,6 +2451,7 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Stream 1",
+        "Stream 2 (ES)",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -5214,6 +5238,29 @@
           "display_name": "Fluminense vs Rivadavia - Stream 1"
         },
         {
+          "label": "Stream 2 (ES)",
+          "url": "https://admin2.shadow-ran.online/bein3es.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-5",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "admin2",
+          "path": "bein3es.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-5",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Fluminense vs Rivadavia",
+          "matchup": {
+            "home": "Fluminense",
+            "away": "Rivadavia"
+          },
+          "display_name": "Fluminense vs Rivadavia - Stream 2 (ES)"
+        },
+        {
           "label": "beinalt.m3u8",
           "url": "https://daffodil.shadow-ran.online/beinalt.m3u8",
           "type": "m3u8",
@@ -6377,7 +6424,7 @@
       ]
     }
   },
-  "stream_count": 64,
+  "stream_count": 65,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
