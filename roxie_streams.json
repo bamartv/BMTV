@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-12T17:45:30+00:00",
+  "scraped_at": "2026-08-12T18:40:35+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
@@ -906,13 +906,13 @@
             "display_name": "PSG vs Aston Villa - Stream 2 (ES)"
           },
           {
-            "label": "cbssn.m3u8",
-            "url": "https://daffodil.shadow-ran.online/cbssn.m3u8",
+            "label": "Stream 3",
+            "url": "https://admin2.shadow-ran.online/tnt.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-7",
             "cdn_domain": "shadow-ran.online",
-            "subdomain": "daffodil",
-            "path": "cbssn.m3u8",
+            "subdomain": "admin2",
+            "path": "tnt.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-7",
               "Origin": "https://roxiestreams.info",
@@ -926,7 +926,30 @@
               "home": "PSG",
               "away": "Aston Villa"
             },
-            "display_name": "PSG vs Aston Villa - cbssn.m3u8"
+            "display_name": "PSG vs Aston Villa - Stream 3"
+          },
+          {
+            "label": "admin2.m3u8",
+            "url": "https://daffodil.shadow-ran.online/admin2.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-7",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "admin2.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-7",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "PSG vs Aston Villa",
+            "matchup": {
+              "home": "PSG",
+              "away": "Aston Villa"
+            },
+            "display_name": "PSG vs Aston Villa - admin2.m3u8"
           }
         ]
       },
@@ -2993,6 +3016,7 @@
         "MultiView (NEW)",
         "Stream 1",
         "Stream 2 (ES)",
+        "Stream 3",
         "TNT MX VPN",
         "Switch to Chatango",
         "Stream Request (Discord)"
@@ -6033,13 +6057,13 @@
           "display_name": "PSG vs Aston Villa - Stream 2 (ES)"
         },
         {
-          "label": "cbssn.m3u8",
-          "url": "https://daffodil.shadow-ran.online/cbssn.m3u8",
+          "label": "Stream 3",
+          "url": "https://admin2.shadow-ran.online/tnt.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-7",
           "cdn_domain": "shadow-ran.online",
-          "subdomain": "daffodil",
-          "path": "cbssn.m3u8",
+          "subdomain": "admin2",
+          "path": "tnt.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-7",
             "Origin": "https://roxiestreams.info",
@@ -6053,7 +6077,30 @@
             "home": "PSG",
             "away": "Aston Villa"
           },
-          "display_name": "PSG vs Aston Villa - cbssn.m3u8"
+          "display_name": "PSG vs Aston Villa - Stream 3"
+        },
+        {
+          "label": "admin2.m3u8",
+          "url": "https://daffodil.shadow-ran.online/admin2.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-7",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "admin2.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-7",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "PSG vs Aston Villa",
+          "matchup": {
+            "home": "PSG",
+            "away": "Aston Villa"
+          },
+          "display_name": "PSG vs Aston Villa - admin2.m3u8"
         },
         {
           "label": "Stream 1",
@@ -6968,7 +7015,7 @@
       "streams": []
     }
   },
-  "stream_count": 72,
+  "stream_count": 73,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
