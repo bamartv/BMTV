@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-15T19:10:57+00:00",
+  "scraped_at": "2026-08-15T19:39:29+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
@@ -835,13 +835,13 @@
         "page": "https://roxiestreams.info/soccer-streams-21",
         "streams": [
           {
-            "label": "Stream 2 (ENGLISH)",
-            "url": "https://admin2.shadow-ran.online/fana2en.m3u8",
+            "label": "Stream 1",
+            "url": "https://admin2.shadow-ran.online/mls.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-21",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "admin2",
-            "path": "fana2en.m3u8",
+            "path": "mls.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-21",
               "Origin": "https://roxiestreams.info",
@@ -855,7 +855,30 @@
               "home": "CF Montreal",
               "away": "DC United"
             },
-            "display_name": "CF Montreal vs DC United - Stream 2 (ENGLISH)"
+            "display_name": "CF Montreal vs DC United - Stream 1"
+          },
+          {
+            "label": "mls.m3u8",
+            "url": "https://daffodil.shadow-ran.online/mls.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-21",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "mls.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-21",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "CF Montreal vs DC United",
+            "matchup": {
+              "home": "CF Montreal",
+              "away": "DC United"
+            },
+            "display_name": "CF Montreal vs DC United - mls.m3u8"
           }
         ]
       },
@@ -984,12 +1007,12 @@
         "streams": [
           {
             "label": "Stream 1",
-            "url": "https://admin2.shadow-ran.online/fana6es.m3u8",
+            "url": "https://admin2.shadow-ran.online/mls2.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-24",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "admin2",
-            "path": "fana6es.m3u8",
+            "path": "mls2.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-24",
               "Origin": "https://roxiestreams.info",
@@ -1006,13 +1029,13 @@
             "display_name": "Nashville SC vs Inter Miami - Stream 1"
           },
           {
-            "label": "fana6es.m3u8",
-            "url": "https://daffodil.shadow-ran.online/fana6es.m3u8",
+            "label": "mls2.m3u8",
+            "url": "https://daffodil.shadow-ran.online/mls2.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-24",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "daffodil",
-            "path": "fana6es.m3u8",
+            "path": "mls2.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-24",
               "Origin": "https://roxiestreams.info",
@@ -1026,7 +1049,7 @@
               "home": "Nashville SC",
               "away": "Inter Miami"
             },
-            "display_name": "Nashville SC vs Inter Miami - fana6es.m3u8"
+            "display_name": "Nashville SC vs Inter Miami - mls2.m3u8"
           }
         ]
       },
@@ -2039,7 +2062,7 @@
         "streams": [
           {
             "label": "Direct Link",
-            "url": "https://admin2.formaturamaxi.com.br/mlb5.m3u8",
+            "url": "https://admin2.formaturamaxi.com.br/fs2.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/mlb-streams-5",
             "headers": {
@@ -2244,6 +2267,40 @@
               "away": "Connecticut Sun"
             },
             "display_name": "New York Liberty vs Connecticut Sun - Stream 1"
+          }
+        ]
+      },
+      {
+        "title": "Los Angeles Sparks vs Washington Mystics",
+        "sport": "nba",
+        "matchup": {
+          "home": "Los Angeles Sparks",
+          "away": "Washington Mystics"
+        },
+        "page": "https://roxiestreams.info/wnba-streams-2",
+        "streams": [
+          {
+            "label": "Stream 1",
+            "url": "https://daffodil.shadow-ran.online/wnba2.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/wnba-streams-2",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "wnba2.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/wnba-streams-2",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "nba",
+            "event_title": "Los Angeles Sparks vs Washington Mystics",
+            "matchup": {
+              "home": "Los Angeles Sparks",
+              "away": "Washington Mystics"
+            },
+            "display_name": "Los Angeles Sparks vs Washington Mystics - Stream 1"
           }
         ]
       },
@@ -2478,63 +2535,6 @@
         ]
       },
       {
-        "title": "Los Angeles Rams vs Kansas City Chiefs",
-        "sport": "nfl",
-        "matchup": {
-          "home": "Los Angeles Rams",
-          "away": "Kansas City Chiefs"
-        },
-        "page": "https://roxiestreams.info/nfl-streams-4",
-        "streams": [
-          {
-            "label": "Stream 1",
-            "url": "https://admin2.shadow-ran.online/nfl4.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/nfl-streams-4",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "admin2",
-            "path": "nfl4.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/nfl-streams-4",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "nfl",
-            "event_title": "Los Angeles Rams vs Kansas City Chiefs",
-            "matchup": {
-              "home": "Los Angeles Rams",
-              "away": "Kansas City Chiefs"
-            },
-            "display_name": "Los Angeles Rams vs Kansas City Chiefs - Stream 1"
-          },
-          {
-            "label": "nfl4.m3u8",
-            "url": "https://daffodil.shadow-ran.online/nfl4.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/nfl-streams-4",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "daffodil",
-            "path": "nfl4.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/nfl-streams-4",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "nfl",
-            "event_title": "Los Angeles Rams vs Kansas City Chiefs",
-            "matchup": {
-              "home": "Los Angeles Rams",
-              "away": "Kansas City Chiefs"
-            },
-            "display_name": "Los Angeles Rams vs Kansas City Chiefs - nfl4.m3u8"
-          }
-        ]
-      },
-      {
         "title": "Jacksonville Jaguars vs New Orleans Saints",
         "sport": "nfl",
         "matchup": {
@@ -2592,36 +2592,82 @@
         ]
       },
       {
-        "title": "Dallas Cowboys vs Seattle Seahawks",
+        "title": "Philadelphia Eagles vs Baltimore Ravens",
         "sport": "nfl",
         "matchup": {
-          "home": "Dallas Cowboys",
-          "away": "Seattle Seahawks"
+          "home": "Philadelphia Eagles",
+          "away": "Baltimore Ravens"
         },
-        "page": "https://roxiestreams.info/nfl-streams-7",
+        "page": "https://roxiestreams.info/nfl-streams-6",
         "streams": [
           {
             "label": "Stream 1",
-            "url": "https://daffodil.shadow-ran.online/nfl7.m3u8",
+            "url": "https://admin2.shadow-ran.online/nfl6.m3u8",
             "type": "m3u8",
-            "source_page": "https://roxiestreams.info/nfl-streams-7",
+            "source_page": "https://roxiestreams.info/nfl-streams-6",
             "cdn_domain": "shadow-ran.online",
-            "subdomain": "daffodil",
-            "path": "nfl7.m3u8",
+            "subdomain": "admin2",
+            "path": "nfl6.m3u8",
             "headers": {
-              "Referer": "https://roxiestreams.info/nfl-streams-7",
+              "Referer": "https://roxiestreams.info/nfl-streams-6",
               "Origin": "https://roxiestreams.info",
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
               "Accept": "*/*"
             },
             "drm_keys": null,
             "sport": "nfl",
-            "event_title": "Dallas Cowboys vs Seattle Seahawks",
+            "event_title": "Philadelphia Eagles vs Baltimore Ravens",
             "matchup": {
-              "home": "Dallas Cowboys",
-              "away": "Seattle Seahawks"
+              "home": "Philadelphia Eagles",
+              "away": "Baltimore Ravens"
             },
-            "display_name": "Dallas Cowboys vs Seattle Seahawks - Stream 1"
+            "display_name": "Philadelphia Eagles vs Baltimore Ravens - Stream 1"
+          },
+          {
+            "label": "Stream 2",
+            "url": "https://tedesco.shadow-ran.online/nflalt.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/nfl-streams-6",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "tedesco",
+            "path": "nflalt.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/nfl-streams-6",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "nfl",
+            "event_title": "Philadelphia Eagles vs Baltimore Ravens",
+            "matchup": {
+              "home": "Philadelphia Eagles",
+              "away": "Baltimore Ravens"
+            },
+            "display_name": "Philadelphia Eagles vs Baltimore Ravens - Stream 2"
+          },
+          {
+            "label": "nfl6.m3u8",
+            "url": "https://daffodil.shadow-ran.online/nfl6.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/nfl-streams-6",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "nfl6.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/nfl-streams-6",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "nfl",
+            "event_title": "Philadelphia Eagles vs Baltimore Ravens",
+            "matchup": {
+              "home": "Philadelphia Eagles",
+              "away": "Baltimore Ravens"
+            },
+            "display_name": "Philadelphia Eagles vs Baltimore Ravens - nfl6.m3u8"
           }
         ]
       }
@@ -2678,11 +2724,11 @@
     ],
     "fighting": [
       {
-        "title": "SHIELDS VS SCOTT",
+        "title": "DWCS (Fazil vs Brito)",
         "sport": "fighting",
         "matchup": {
-          "home": "SHIELDS",
-          "away": "SCOTT"
+          "home": "DWCS (Fazil",
+          "away": "Brito)"
         },
         "page": "https://roxiestreams.info/ppv-streams-1",
         "streams": [
@@ -2702,12 +2748,12 @@
             },
             "drm_keys": null,
             "sport": "fighting",
-            "event_title": "SHIELDS VS SCOTT",
+            "event_title": "DWCS (Fazil vs Brito)",
             "matchup": {
-              "home": "SHIELDS",
-              "away": "SCOTT"
+              "home": "DWCS (Fazil",
+              "away": "Brito)"
             },
-            "display_name": "SHIELDS VS SCOTT - Stream 1"
+            "display_name": "DWCS (Fazil vs Brito) - Stream 1"
           },
           {
             "label": "ppv.m3u8",
@@ -2725,12 +2771,12 @@
             },
             "drm_keys": null,
             "sport": "fighting",
-            "event_title": "SHIELDS VS SCOTT",
+            "event_title": "DWCS (Fazil vs Brito)",
             "matchup": {
-              "home": "SHIELDS",
-              "away": "SCOTT"
+              "home": "DWCS (Fazil",
+              "away": "Brito)"
             },
-            "display_name": "SHIELDS VS SCOTT - ppv.m3u8"
+            "display_name": "DWCS (Fazil vs Brito) - ppv.m3u8"
           }
         ]
       },
@@ -4134,7 +4180,6 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Stream 1",
-        "Stream 2 (ENGLISH)",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -6976,6 +7021,7 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Stream 1",
+        "Stream 2",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -7250,6 +7296,7 @@
         "UFC 330: Makhachev vs. Machado Garry",
         "SHIELDS VS SCOTT",
         "Redneck Brawl 14",
+        "DWCS (Fazil vs Brito)",
         "Stream Request (Discord)"
       ],
       "links": [
@@ -7304,6 +7351,10 @@
         {
           "label": "Redneck Brawl 14",
           "url": "https://roxiestreams.info/ppv-streams-2"
+        },
+        {
+          "label": "DWCS (Fazil vs Brito)",
+          "url": "https://roxiestreams.info/ppv-streams-1"
         },
         {
           "label": "Stream Request (Discord)",
@@ -8549,13 +8600,13 @@
           "display_name": "Atlante vs Toluca - azteca7mx.m3u8"
         },
         {
-          "label": "Stream 2 (ENGLISH)",
-          "url": "https://admin2.shadow-ran.online/fana2en.m3u8",
+          "label": "Stream 1",
+          "url": "https://admin2.shadow-ran.online/mls.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-21",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "admin2",
-          "path": "fana2en.m3u8",
+          "path": "mls.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-21",
             "Origin": "https://roxiestreams.info",
@@ -8569,7 +8620,30 @@
             "home": "CF Montreal",
             "away": "DC United"
           },
-          "display_name": "CF Montreal vs DC United - Stream 2 (ENGLISH)"
+          "display_name": "CF Montreal vs DC United - Stream 1"
+        },
+        {
+          "label": "mls.m3u8",
+          "url": "https://daffodil.shadow-ran.online/mls.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-21",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "mls.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-21",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "CF Montreal vs DC United",
+          "matchup": {
+            "home": "CF Montreal",
+            "away": "DC United"
+          },
+          "display_name": "CF Montreal vs DC United - mls.m3u8"
         },
         {
           "label": "Stream 1",
@@ -8665,12 +8739,12 @@
         },
         {
           "label": "Stream 1",
-          "url": "https://admin2.shadow-ran.online/fana6es.m3u8",
+          "url": "https://admin2.shadow-ran.online/mls2.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-24",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "admin2",
-          "path": "fana6es.m3u8",
+          "path": "mls2.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-24",
             "Origin": "https://roxiestreams.info",
@@ -8687,13 +8761,13 @@
           "display_name": "Nashville SC vs Inter Miami - Stream 1"
         },
         {
-          "label": "fana6es.m3u8",
-          "url": "https://daffodil.shadow-ran.online/fana6es.m3u8",
+          "label": "mls2.m3u8",
+          "url": "https://daffodil.shadow-ran.online/mls2.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-24",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "daffodil",
-          "path": "fana6es.m3u8",
+          "path": "mls2.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-24",
             "Origin": "https://roxiestreams.info",
@@ -8707,7 +8781,7 @@
             "home": "Nashville SC",
             "away": "Inter Miami"
           },
-          "display_name": "Nashville SC vs Inter Miami - fana6es.m3u8"
+          "display_name": "Nashville SC vs Inter Miami - mls2.m3u8"
         },
         {
           "label": "Stream 1",
@@ -9520,7 +9594,7 @@
         },
         {
           "label": "Direct Link",
-          "url": "https://admin2.formaturamaxi.com.br/mlb5.m3u8",
+          "url": "https://admin2.formaturamaxi.com.br/fs2.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/mlb-streams-5",
           "headers": {
@@ -9671,6 +9745,29 @@
             "away": "Connecticut Sun"
           },
           "display_name": "New York Liberty vs Connecticut Sun - Stream 1"
+        },
+        {
+          "label": "Stream 1",
+          "url": "https://daffodil.shadow-ran.online/wnba2.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/wnba-streams-2",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "wnba2.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/wnba-streams-2",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "nba",
+          "event_title": "Los Angeles Sparks vs Washington Mystics",
+          "matchup": {
+            "home": "Los Angeles Sparks",
+            "away": "Washington Mystics"
+          },
+          "display_name": "Los Angeles Sparks vs Washington Mystics - Stream 1"
         },
         {
           "label": "Stream 1",
@@ -9872,52 +9969,6 @@
         },
         {
           "label": "Stream 1",
-          "url": "https://admin2.shadow-ran.online/nfl4.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/nfl-streams-4",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "admin2",
-          "path": "nfl4.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/nfl-streams-4",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "nfl",
-          "event_title": "Los Angeles Rams vs Kansas City Chiefs",
-          "matchup": {
-            "home": "Los Angeles Rams",
-            "away": "Kansas City Chiefs"
-          },
-          "display_name": "Los Angeles Rams vs Kansas City Chiefs - Stream 1"
-        },
-        {
-          "label": "nfl4.m3u8",
-          "url": "https://daffodil.shadow-ran.online/nfl4.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/nfl-streams-4",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "daffodil",
-          "path": "nfl4.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/nfl-streams-4",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "nfl",
-          "event_title": "Los Angeles Rams vs Kansas City Chiefs",
-          "matchup": {
-            "home": "Los Angeles Rams",
-            "away": "Kansas City Chiefs"
-          },
-          "display_name": "Los Angeles Rams vs Kansas City Chiefs - nfl4.m3u8"
-        },
-        {
-          "label": "Stream 1",
           "url": "https://admin2.shadow-ran.online/nfl5.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/nfl-streams-5",
@@ -9964,26 +10015,72 @@
         },
         {
           "label": "Stream 1",
-          "url": "https://daffodil.shadow-ran.online/nfl7.m3u8",
+          "url": "https://admin2.shadow-ran.online/nfl6.m3u8",
           "type": "m3u8",
-          "source_page": "https://roxiestreams.info/nfl-streams-7",
+          "source_page": "https://roxiestreams.info/nfl-streams-6",
           "cdn_domain": "shadow-ran.online",
-          "subdomain": "daffodil",
-          "path": "nfl7.m3u8",
+          "subdomain": "admin2",
+          "path": "nfl6.m3u8",
           "headers": {
-            "Referer": "https://roxiestreams.info/nfl-streams-7",
+            "Referer": "https://roxiestreams.info/nfl-streams-6",
             "Origin": "https://roxiestreams.info",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
             "Accept": "*/*"
           },
           "drm_keys": null,
           "sport": "nfl",
-          "event_title": "Dallas Cowboys vs Seattle Seahawks",
+          "event_title": "Philadelphia Eagles vs Baltimore Ravens",
           "matchup": {
-            "home": "Dallas Cowboys",
-            "away": "Seattle Seahawks"
+            "home": "Philadelphia Eagles",
+            "away": "Baltimore Ravens"
           },
-          "display_name": "Dallas Cowboys vs Seattle Seahawks - Stream 1"
+          "display_name": "Philadelphia Eagles vs Baltimore Ravens - Stream 1"
+        },
+        {
+          "label": "Stream 2",
+          "url": "https://tedesco.shadow-ran.online/nflalt.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/nfl-streams-6",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "tedesco",
+          "path": "nflalt.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/nfl-streams-6",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "nfl",
+          "event_title": "Philadelphia Eagles vs Baltimore Ravens",
+          "matchup": {
+            "home": "Philadelphia Eagles",
+            "away": "Baltimore Ravens"
+          },
+          "display_name": "Philadelphia Eagles vs Baltimore Ravens - Stream 2"
+        },
+        {
+          "label": "nfl6.m3u8",
+          "url": "https://daffodil.shadow-ran.online/nfl6.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/nfl-streams-6",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "nfl6.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/nfl-streams-6",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "nfl",
+          "event_title": "Philadelphia Eagles vs Baltimore Ravens",
+          "matchup": {
+            "home": "Philadelphia Eagles",
+            "away": "Baltimore Ravens"
+          },
+          "display_name": "Philadelphia Eagles vs Baltimore Ravens - nfl6.m3u8"
         }
       ]
     },
@@ -10058,12 +10155,12 @@
           },
           "drm_keys": null,
           "sport": "fighting",
-          "event_title": "SHIELDS VS SCOTT",
+          "event_title": "DWCS (Fazil vs Brito)",
           "matchup": {
-            "home": "SHIELDS",
-            "away": "SCOTT"
+            "home": "DWCS (Fazil",
+            "away": "Brito)"
           },
-          "display_name": "SHIELDS VS SCOTT - Stream 1"
+          "display_name": "DWCS (Fazil vs Brito) - Stream 1"
         },
         {
           "label": "ppv.m3u8",
@@ -10081,12 +10178,12 @@
           },
           "drm_keys": null,
           "sport": "fighting",
-          "event_title": "SHIELDS VS SCOTT",
+          "event_title": "DWCS (Fazil vs Brito)",
           "matchup": {
-            "home": "SHIELDS",
-            "away": "SCOTT"
+            "home": "DWCS (Fazil",
+            "away": "Brito)"
           },
-          "display_name": "SHIELDS VS SCOTT - ppv.m3u8"
+          "display_name": "DWCS (Fazil vs Brito) - ppv.m3u8"
         },
         {
           "label": "Stream 1",
@@ -10377,7 +10474,7 @@
       ]
     }
   },
-  "stream_count": 106,
+  "stream_count": 108,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
