@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-19T18:40:43+00:00",
+  "scraped_at": "2026-08-19T19:12:55+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
@@ -321,6 +321,29 @@
               "away": "LASK Linz"
             },
             "display_name": "Celtic vs LASK Linz - Stream 1"
+          },
+          {
+            "label": "Stream 2",
+            "url": "https://admin2.shadow-ran.online/tnt.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-3",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "admin2",
+            "path": "tnt.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-3",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Celtic vs LASK Linz",
+            "matchup": {
+              "home": "Celtic",
+              "away": "LASK Linz"
+            },
+            "display_name": "Celtic vs LASK Linz - Stream 2"
           }
         ]
       },
@@ -392,12 +415,12 @@
         "streams": [
           {
             "label": "Stream 1",
-            "url": "https://tedesco.shadow-ran.online/beines.m3u8",
+            "url": "https://admin2.shadow-ran.online/tnt2.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-5",
             "cdn_domain": "shadow-ran.online",
-            "subdomain": "tedesco",
-            "path": "beines.m3u8",
+            "subdomain": "admin2",
+            "path": "tnt2.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-5",
               "Origin": "https://roxiestreams.info",
@@ -414,13 +437,13 @@
             "display_name": "Bodø / Glimt vs NEC - Stream 1"
           },
           {
-            "label": "beines.m3u8",
-            "url": "https://daffodil.shadow-ran.online/beines.m3u8",
+            "label": "tnt2.m3u8",
+            "url": "https://daffodil.shadow-ran.online/tnt2.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-5",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "daffodil",
-            "path": "beines.m3u8",
+            "path": "tnt2.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-5",
               "Origin": "https://roxiestreams.info",
@@ -434,7 +457,64 @@
               "home": "Bodø / Glimt",
               "away": "NEC"
             },
-            "display_name": "Bodø / Glimt vs NEC - beines.m3u8"
+            "display_name": "Bodø / Glimt vs NEC - tnt2.m3u8"
+          }
+        ]
+      },
+      {
+        "title": "Slovan Bratislava vs Celje",
+        "sport": "soccer",
+        "matchup": {
+          "home": "Slovan Bratislava",
+          "away": "Celje"
+        },
+        "page": "https://roxiestreams.info/soccer-streams-6",
+        "streams": [
+          {
+            "label": "Stream 1",
+            "url": "https://admin2.shadow-ran.online/tnt4.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-6",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "admin2",
+            "path": "tnt4.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-6",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Slovan Bratislava vs Celje",
+            "matchup": {
+              "home": "Slovan Bratislava",
+              "away": "Celje"
+            },
+            "display_name": "Slovan Bratislava vs Celje - Stream 1"
+          },
+          {
+            "label": "tnt4.m3u8",
+            "url": "https://daffodil.shadow-ran.online/tnt4.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-6",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "tnt4.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-6",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Slovan Bratislava vs Celje",
+            "matchup": {
+              "home": "Slovan Bratislava",
+              "away": "Celje"
+            },
+            "display_name": "Slovan Bratislava vs Celje - tnt4.m3u8"
           }
         ]
       },
@@ -492,29 +572,6 @@
               "away": "Houston Dynamo"
             },
             "display_name": "Vancouver Whitecaps vs Houston Dynamo - Stream 2 (ES)"
-          },
-          {
-            "label": "Stream 3",
-            "url": "https://admin2.shadow-ran.online/tnt.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/soccer-streams-7",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "admin2",
-            "path": "tnt.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/soccer-streams-7",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "soccer",
-            "event_title": "Vancouver Whitecaps vs Houston Dynamo",
-            "matchup": {
-              "home": "Vancouver Whitecaps",
-              "away": "Houston Dynamo"
-            },
-            "display_name": "Vancouver Whitecaps vs Houston Dynamo - Stream 3"
           },
           {
             "label": "Stream 4 (ARABIC)",
@@ -2251,6 +2308,7 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Stream 1",
+        "Stream 2",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -5349,6 +5407,29 @@
           "display_name": "Celtic vs LASK Linz - Stream 1"
         },
         {
+          "label": "Stream 2",
+          "url": "https://admin2.shadow-ran.online/tnt.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-3",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "admin2",
+          "path": "tnt.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-3",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Celtic vs LASK Linz",
+          "matchup": {
+            "home": "Celtic",
+            "away": "LASK Linz"
+          },
+          "display_name": "Celtic vs LASK Linz - Stream 2"
+        },
+        {
           "label": "Stream 1",
           "url": "https://admin2.shadow-ran.online/tnt5.m3u8",
           "type": "m3u8",
@@ -5396,12 +5477,12 @@
         },
         {
           "label": "Stream 1",
-          "url": "https://tedesco.shadow-ran.online/beines.m3u8",
+          "url": "https://admin2.shadow-ran.online/tnt2.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-5",
           "cdn_domain": "shadow-ran.online",
-          "subdomain": "tedesco",
-          "path": "beines.m3u8",
+          "subdomain": "admin2",
+          "path": "tnt2.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-5",
             "Origin": "https://roxiestreams.info",
@@ -5418,13 +5499,13 @@
           "display_name": "Bodø / Glimt vs NEC - Stream 1"
         },
         {
-          "label": "beines.m3u8",
-          "url": "https://daffodil.shadow-ran.online/beines.m3u8",
+          "label": "tnt2.m3u8",
+          "url": "https://daffodil.shadow-ran.online/tnt2.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-5",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "daffodil",
-          "path": "beines.m3u8",
+          "path": "tnt2.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-5",
             "Origin": "https://roxiestreams.info",
@@ -5438,7 +5519,53 @@
             "home": "Bodø / Glimt",
             "away": "NEC"
           },
-          "display_name": "Bodø / Glimt vs NEC - beines.m3u8"
+          "display_name": "Bodø / Glimt vs NEC - tnt2.m3u8"
+        },
+        {
+          "label": "Stream 1",
+          "url": "https://admin2.shadow-ran.online/tnt4.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-6",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "admin2",
+          "path": "tnt4.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-6",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Slovan Bratislava vs Celje",
+          "matchup": {
+            "home": "Slovan Bratislava",
+            "away": "Celje"
+          },
+          "display_name": "Slovan Bratislava vs Celje - Stream 1"
+        },
+        {
+          "label": "tnt4.m3u8",
+          "url": "https://daffodil.shadow-ran.online/tnt4.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-6",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "tnt4.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-6",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Slovan Bratislava vs Celje",
+          "matchup": {
+            "home": "Slovan Bratislava",
+            "away": "Celje"
+          },
+          "display_name": "Slovan Bratislava vs Celje - tnt4.m3u8"
         },
         {
           "label": "Stream 1",
@@ -5485,29 +5612,6 @@
             "away": "Houston Dynamo"
           },
           "display_name": "Vancouver Whitecaps vs Houston Dynamo - Stream 2 (ES)"
-        },
-        {
-          "label": "Stream 3",
-          "url": "https://admin2.shadow-ran.online/tnt.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/soccer-streams-7",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "admin2",
-          "path": "tnt.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/soccer-streams-7",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "soccer",
-          "event_title": "Vancouver Whitecaps vs Houston Dynamo",
-          "matchup": {
-            "home": "Vancouver Whitecaps",
-            "away": "Houston Dynamo"
-          },
-          "display_name": "Vancouver Whitecaps vs Houston Dynamo - Stream 3"
         },
         {
           "label": "Stream 4 (ARABIC)",
@@ -6532,7 +6636,7 @@
       "streams": []
     }
   },
-  "stream_count": 60,
+  "stream_count": 62,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
