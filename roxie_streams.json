@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-23T02:51:13+00:00",
+  "scraped_at": "2026-08-23T03:54:00+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
@@ -1023,6 +1023,29 @@
         "streams": [
           {
             "label": "Stream 1",
+            "url": "https://admin2.shadow-ran.online/5.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-23",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "admin2",
+            "path": "5.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-23",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Cruz Azul vs Atlas",
+            "matchup": {
+              "home": "Cruz Azul",
+              "away": "Atlas"
+            },
+            "display_name": "Cruz Azul vs Atlas - Stream 1"
+          },
+          {
+            "label": "Stream 2",
             "url": "https://tedesco.shadow-ran.online/tudn.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-23",
@@ -1042,16 +1065,16 @@
               "home": "Cruz Azul",
               "away": "Atlas"
             },
-            "display_name": "Cruz Azul vs Atlas - Stream 1"
+            "display_name": "Cruz Azul vs Atlas - Stream 2"
           },
           {
-            "label": "tudn.m3u8",
-            "url": "https://daffodil.shadow-ran.online/tudn.m3u8",
+            "label": "5.m3u8",
+            "url": "https://daffodil.shadow-ran.online/5.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-23",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "daffodil",
-            "path": "tudn.m3u8",
+            "path": "5.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-23",
               "Origin": "https://roxiestreams.info",
@@ -1065,7 +1088,7 @@
               "home": "Cruz Azul",
               "away": "Atlas"
             },
-            "display_name": "Cruz Azul vs Atlas - tudn.m3u8"
+            "display_name": "Cruz Azul vs Atlas - 5.m3u8"
           }
         ]
       },
@@ -4883,6 +4906,7 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Stream 1",
+        "Stream 2",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -9763,6 +9787,29 @@
         },
         {
           "label": "Stream 1",
+          "url": "https://admin2.shadow-ran.online/5.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-23",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "admin2",
+          "path": "5.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-23",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Cruz Azul vs Atlas",
+          "matchup": {
+            "home": "Cruz Azul",
+            "away": "Atlas"
+          },
+          "display_name": "Cruz Azul vs Atlas - Stream 1"
+        },
+        {
+          "label": "Stream 2",
           "url": "https://tedesco.shadow-ran.online/tudn.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-23",
@@ -9782,16 +9829,16 @@
             "home": "Cruz Azul",
             "away": "Atlas"
           },
-          "display_name": "Cruz Azul vs Atlas - Stream 1"
+          "display_name": "Cruz Azul vs Atlas - Stream 2"
         },
         {
-          "label": "tudn.m3u8",
-          "url": "https://daffodil.shadow-ran.online/tudn.m3u8",
+          "label": "5.m3u8",
+          "url": "https://daffodil.shadow-ran.online/5.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-23",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "daffodil",
-          "path": "tudn.m3u8",
+          "path": "5.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-23",
             "Origin": "https://roxiestreams.info",
@@ -9805,7 +9852,7 @@
             "home": "Cruz Azul",
             "away": "Atlas"
           },
-          "display_name": "Cruz Azul vs Atlas - tudn.m3u8"
+          "display_name": "Cruz Azul vs Atlas - 5.m3u8"
         },
         {
           "label": "Stream 1",
@@ -11916,7 +11963,7 @@
       ]
     }
   },
-  "stream_count": 127,
+  "stream_count": 128,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
