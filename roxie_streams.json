@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-23T23:51:20+00:00",
+  "scraped_at": "2026-08-24T01:39:32+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
@@ -773,6 +773,29 @@
         "streams": [
           {
             "label": "Stream 1",
+            "url": "https://admin2.shadow-ran.online/5.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-19",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "admin2",
+            "path": "5.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-19",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Pumas vs Necaxa",
+            "matchup": {
+              "home": "Pumas",
+              "away": "Necaxa"
+            },
+            "display_name": "Pumas vs Necaxa - Stream 1"
+          },
+          {
+            "label": "Stream 2",
             "url": "https://daffodil.shadow-ran.online/tudn.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-19",
@@ -792,7 +815,30 @@
               "home": "Pumas",
               "away": "Necaxa"
             },
-            "display_name": "Pumas vs Necaxa - Stream 1"
+            "display_name": "Pumas vs Necaxa - Stream 2"
+          },
+          {
+            "label": "5.m3u8",
+            "url": "https://daffodil.shadow-ran.online/5.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-19",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "5.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-19",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Pumas vs Necaxa",
+            "matchup": {
+              "home": "Pumas",
+              "away": "Necaxa"
+            },
+            "display_name": "Pumas vs Necaxa - 5.m3u8"
           }
         ]
       },
@@ -3516,6 +3562,7 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Stream 1",
+        "Stream 2",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -7127,6 +7174,29 @@
         },
         {
           "label": "Stream 1",
+          "url": "https://admin2.shadow-ran.online/5.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-19",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "admin2",
+          "path": "5.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-19",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Pumas vs Necaxa",
+          "matchup": {
+            "home": "Pumas",
+            "away": "Necaxa"
+          },
+          "display_name": "Pumas vs Necaxa - Stream 1"
+        },
+        {
+          "label": "Stream 2",
           "url": "https://daffodil.shadow-ran.online/tudn.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-19",
@@ -7146,7 +7216,30 @@
             "home": "Pumas",
             "away": "Necaxa"
           },
-          "display_name": "Pumas vs Necaxa - Stream 1"
+          "display_name": "Pumas vs Necaxa - Stream 2"
+        },
+        {
+          "label": "5.m3u8",
+          "url": "https://daffodil.shadow-ran.online/5.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-19",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "5.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-19",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Pumas vs Necaxa",
+          "matchup": {
+            "home": "Pumas",
+            "away": "Necaxa"
+          },
+          "display_name": "Pumas vs Necaxa - 5.m3u8"
         },
         {
           "label": "Stream 1",
@@ -8635,7 +8728,7 @@
       ]
     }
   },
-  "stream_count": 91,
+  "stream_count": 93,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
