@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-26T00:25:15+00:00",
+  "scraped_at": "2026-08-26T02:09:52+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
@@ -977,6 +977,29 @@
               "away": "Chicago Fire"
             },
             "display_name": "Monterrey vs Chicago Fire - Stream 1"
+          },
+          {
+            "label": "Stream 2 (ES)",
+            "url": "https://admin2.shadow-ran.online/mlses.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-7",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "admin2",
+            "path": "mlses.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-7",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Monterrey vs Chicago Fire",
+            "matchup": {
+              "home": "Monterrey",
+              "away": "Chicago Fire"
+            },
+            "display_name": "Monterrey vs Chicago Fire - Stream 2 (ES)"
           },
           {
             "label": "mls.m3u8",
@@ -3519,6 +3542,7 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Stream 1",
+        "Stream 2 (ES)",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -6711,6 +6735,29 @@
           "display_name": "Monterrey vs Chicago Fire - Stream 1"
         },
         {
+          "label": "Stream 2 (ES)",
+          "url": "https://admin2.shadow-ran.online/mlses.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-7",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "admin2",
+          "path": "mlses.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-7",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Monterrey vs Chicago Fire",
+          "matchup": {
+            "home": "Monterrey",
+            "away": "Chicago Fire"
+          },
+          "display_name": "Monterrey vs Chicago Fire - Stream 2 (ES)"
+        },
+        {
           "label": "mls.m3u8",
           "url": "https://daffodil.shadow-ran.online/mls.m3u8",
           "type": "m3u8",
@@ -7905,7 +7952,7 @@
       ]
     }
   },
-  "stream_count": 85,
+  "stream_count": 86,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
