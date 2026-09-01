@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-09-01T12:06:27+00:00",
+  "scraped_at": "2026-09-01T16:37:35+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
@@ -54,6 +54,29 @@
               "away": "Al-Ahli"
             },
             "display_name": "Al Hilal vs Al-Ahli - Stream 1"
+          },
+          {
+            "label": "Stream 2 (ES)",
+            "url": "https://admin.shadow-ran.online/foxmx.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-1",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "admin",
+            "path": "foxmx.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-1",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Al Hilal vs Al-Ahli",
+            "matchup": {
+              "home": "Al Hilal",
+              "away": "Al-Ahli"
+            },
+            "display_name": "Al Hilal vs Al-Ahli - Stream 2 (ES)"
           },
           {
             "label": "fs2.m3u8",
@@ -2067,6 +2090,7 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Stream 1",
+        "Stream 2 (ES)",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -2730,6 +2754,7 @@
         "MultiView (NEW)",
         "Stream 1",
         "Stream 2",
+        "Stream 3 (ES)",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -4995,6 +5020,29 @@
           "display_name": "Al Hilal vs Al-Ahli - Stream 1"
         },
         {
+          "label": "Stream 2 (ES)",
+          "url": "https://admin.shadow-ran.online/foxmx.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-1",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "admin",
+          "path": "foxmx.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-1",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Al Hilal vs Al-Ahli",
+          "matchup": {
+            "home": "Al Hilal",
+            "away": "Al-Ahli"
+          },
+          "display_name": "Al Hilal vs Al-Ahli - Stream 2 (ES)"
+        },
+        {
           "label": "fs2.m3u8",
           "url": "https://daffodil.shadow-ran.online/fs2.m3u8",
           "type": "m3u8",
@@ -6541,7 +6589,7 @@
       ]
     }
   },
-  "stream_count": 68,
+  "stream_count": 69,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
