@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-09-05T12:04:26+00:00",
+  "scraped_at": "2026-09-05T15:09:47+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
@@ -521,13 +521,13 @@
         "page": "https://roxiestreams.info/soccer-streams-14",
         "streams": [
           {
-            "label": "APPLE TV ES",
-            "url": "https://admin2.shadow-ran.online/mls2es.m3u8",
+            "label": "Stream 1",
+            "url": "https://admin2.shadow-ran.online/gil.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-14",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "admin2",
-            "path": "mls2es.m3u8",
+            "path": "gil.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-14",
               "Origin": "https://roxiestreams.info",
@@ -541,62 +541,16 @@
               "home": "Rochdale",
               "away": "Gillingham"
             },
-            "display_name": "Rochdale vs Gillingham - APPLE TV ES"
+            "display_name": "Rochdale vs Gillingham - Stream 1"
           },
           {
-            "label": "APPLE TV EN",
-            "url": "https://admin2.shadow-ran.online/mls2en.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/soccer-streams-14",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "admin2",
-            "path": "mls2en.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/soccer-streams-14",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "soccer",
-            "event_title": "Rochdale vs Gillingham",
-            "matchup": {
-              "home": "Rochdale",
-              "away": "Gillingham"
-            },
-            "display_name": "Rochdale vs Gillingham - APPLE TV EN"
-          },
-          {
-            "label": "ES ALT",
-            "url": "https://tedesco.shadow-ran.online/tudn.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/soccer-streams-14",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "tedesco",
-            "path": "tudn.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/soccer-streams-14",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "soccer",
-            "event_title": "Rochdale vs Gillingham",
-            "matchup": {
-              "home": "Rochdale",
-              "away": "Gillingham"
-            },
-            "display_name": "Rochdale vs Gillingham - ES ALT"
-          },
-          {
-            "label": "mls2es.m3u8",
-            "url": "https://daffodil.shadow-ran.online/mls2es.m3u8",
+            "label": "gil.m3u8",
+            "url": "https://daffodil.shadow-ran.online/gil.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-14",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "daffodil",
-            "path": "mls2es.m3u8",
+            "path": "gil.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-14",
               "Origin": "https://roxiestreams.info",
@@ -610,7 +564,7 @@
               "home": "Rochdale",
               "away": "Gillingham"
             },
-            "display_name": "Rochdale vs Gillingham - mls2es.m3u8"
+            "display_name": "Rochdale vs Gillingham - gil.m3u8"
           }
         ]
       },
@@ -794,6 +748,29 @@
         },
         "page": "https://roxiestreams.info/soccer-streams-20",
         "streams": [
+          {
+            "label": "Stream 1",
+            "url": "https://tedesco.shadow-ran.online/tudn.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-20",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "tedesco",
+            "path": "tudn.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-20",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Le Havre vs Brest",
+            "matchup": {
+              "home": "Le Havre",
+              "away": "Brest"
+            },
+            "display_name": "Le Havre vs Brest - Stream 1"
+          },
           {
             "label": "tudn.m3u8",
             "url": "https://daffodil.shadow-ran.online/tudn.m3u8",
@@ -1454,6 +1431,40 @@
               "away": "Crystal Palace"
             },
             "display_name": "Fulham vs Crystal Palace - fulham.m3u8"
+          }
+        ]
+      },
+      {
+        "title": "Man City vs Coventry",
+        "sport": "soccer",
+        "matchup": {
+          "home": "Man City",
+          "away": "Coventry"
+        },
+        "page": "https://roxiestreams.info/soccer-streams-9",
+        "streams": [
+          {
+            "label": "usa.m3u8",
+            "url": "https://daffodil.shadow-ran.online/usa.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-9",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "usa.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-9",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Man City vs Coventry",
+            "matchup": {
+              "home": "Man City",
+              "away": "Coventry"
+            },
+            "display_name": "Man City vs Coventry - usa.m3u8"
           }
         ]
       }
@@ -3996,9 +4007,7 @@
         "Motorsports",
         "Stream Request (Discord)",
         "MultiView (NEW)",
-        "APPLE TV ES",
-        "APPLE TV EN",
-        "ES ALT",
+        "Stream 1",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -4851,6 +4860,72 @@
     },
     "https://roxiestreams.info/soccer-streams-28": {
       "url": "https://roxiestreams.info/soccer-streams-28",
+      "title": "Roxiestreams - Watch Live Sports, F1, UFC, NFL, TV",
+      "headings": [],
+      "controls": [
+        "RoxieStreams",
+        "Soccer",
+        "MLB",
+        "NBA",
+        "NFL",
+        "NHL",
+        "Fighting",
+        "Motorsports",
+        "Stream Request (Discord)",
+        "MultiView (NEW)",
+        "Stream 1",
+        "Switch to Chatango",
+        "Stream Request (Discord)"
+      ],
+      "links": [
+        {
+          "label": "RoxieStreams",
+          "url": "https://roxiestreams.info/"
+        },
+        {
+          "label": "Soccer",
+          "url": "https://roxiestreams.info/soccer"
+        },
+        {
+          "label": "MLB",
+          "url": "https://roxiestreams.info/mlb"
+        },
+        {
+          "label": "NBA",
+          "url": "https://roxiestreams.info/nba"
+        },
+        {
+          "label": "NFL",
+          "url": "https://roxiestreams.info/nfl"
+        },
+        {
+          "label": "NHL",
+          "url": "https://roxiestreams.info/nhl"
+        },
+        {
+          "label": "Fighting",
+          "url": "https://roxiestreams.info/fighting"
+        },
+        {
+          "label": "Motorsports",
+          "url": "https://roxiestreams.info/motorsports"
+        },
+        {
+          "label": "Stream Request (Discord)",
+          "url": "https://discord.gg/umQC45SubZ"
+        },
+        {
+          "label": "MultiView (NEW)",
+          "url": "https://roxiestreams.info/multiview"
+        },
+        {
+          "label": "Stream Request (Discord)",
+          "url": "https://discord.gg/umQC45SubZ"
+        }
+      ]
+    },
+    "https://roxiestreams.info/soccer-streams-29": {
+      "url": "https://roxiestreams.info/soccer-streams-29",
       "title": "Roxiestreams - Watch Live Sports, F1, UFC, NFL, TV",
       "headings": [],
       "controls": [
@@ -8802,6 +8877,7 @@
         "https://roxiestreams.info/soccer-streams-26",
         "https://roxiestreams.info/soccer-streams-27",
         "https://roxiestreams.info/soccer-streams-28",
+        "https://roxiestreams.info/soccer-streams-29",
         "https://roxiestreams.info/soccer-streams-3",
         "https://roxiestreams.info/soccer-streams-4",
         "https://roxiestreams.info/soccer-streams-6",
@@ -9202,13 +9278,13 @@
           "display_name": "West Ham vs Derby County - westham.m3u8"
         },
         {
-          "label": "APPLE TV ES",
-          "url": "https://admin2.shadow-ran.online/mls2es.m3u8",
+          "label": "Stream 1",
+          "url": "https://admin2.shadow-ran.online/gil.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-14",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "admin2",
-          "path": "mls2es.m3u8",
+          "path": "gil.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-14",
             "Origin": "https://roxiestreams.info",
@@ -9222,62 +9298,16 @@
             "home": "Rochdale",
             "away": "Gillingham"
           },
-          "display_name": "Rochdale vs Gillingham - APPLE TV ES"
+          "display_name": "Rochdale vs Gillingham - Stream 1"
         },
         {
-          "label": "APPLE TV EN",
-          "url": "https://admin2.shadow-ran.online/mls2en.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/soccer-streams-14",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "admin2",
-          "path": "mls2en.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/soccer-streams-14",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "soccer",
-          "event_title": "Rochdale vs Gillingham",
-          "matchup": {
-            "home": "Rochdale",
-            "away": "Gillingham"
-          },
-          "display_name": "Rochdale vs Gillingham - APPLE TV EN"
-        },
-        {
-          "label": "ES ALT",
-          "url": "https://tedesco.shadow-ran.online/tudn.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/soccer-streams-14",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "tedesco",
-          "path": "tudn.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/soccer-streams-14",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "soccer",
-          "event_title": "Rochdale vs Gillingham",
-          "matchup": {
-            "home": "Rochdale",
-            "away": "Gillingham"
-          },
-          "display_name": "Rochdale vs Gillingham - ES ALT"
-        },
-        {
-          "label": "mls2es.m3u8",
-          "url": "https://daffodil.shadow-ran.online/mls2es.m3u8",
+          "label": "gil.m3u8",
+          "url": "https://daffodil.shadow-ran.online/gil.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-14",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "daffodil",
-          "path": "mls2es.m3u8",
+          "path": "gil.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-14",
             "Origin": "https://roxiestreams.info",
@@ -9291,7 +9321,7 @@
             "home": "Rochdale",
             "away": "Gillingham"
           },
-          "display_name": "Rochdale vs Gillingham - mls2es.m3u8"
+          "display_name": "Rochdale vs Gillingham - gil.m3u8"
         },
         {
           "label": "Stream 1",
@@ -9430,6 +9460,29 @@
             "away": "Al Nassr"
           },
           "display_name": "Al Ittihad vs Al Nassr - fana3.m3u8"
+        },
+        {
+          "label": "Stream 1",
+          "url": "https://tedesco.shadow-ran.online/tudn.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-20",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "tedesco",
+          "path": "tudn.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-20",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Le Havre vs Brest",
+          "matchup": {
+            "home": "Le Havre",
+            "away": "Brest"
+          },
+          "display_name": "Le Havre vs Brest - Stream 1"
         },
         {
           "label": "tudn.m3u8",
@@ -9959,6 +10012,29 @@
             "away": "Crystal Palace"
           },
           "display_name": "Fulham vs Crystal Palace - fulham.m3u8"
+        },
+        {
+          "label": "usa.m3u8",
+          "url": "https://daffodil.shadow-ran.online/usa.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-9",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "usa.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-9",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Man City vs Coventry",
+          "matchup": {
+            "home": "Man City",
+            "away": "Coventry"
+          },
+          "display_name": "Man City vs Coventry - usa.m3u8"
         }
       ]
     },
