@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-09-07T19:44:02+00:00",
+  "scraped_at": "2026-09-07T22:17:31+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
@@ -402,6 +402,26 @@
           {
             "label": "Direct Link",
             "url": "https://admin2.formaturamaxi.com.br/mlb10.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/mlb-streams-10",
+            "headers": {
+              "Referer": "https://roxiestreams.info/mlb-streams-10",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "mlb",
+            "event_title": "Cincinnati Reds vs Los Angeles Dodgers",
+            "matchup": {
+              "home": "Cincinnati Reds",
+              "away": "Los Angeles Dodgers"
+            },
+            "display_name": "Cincinnati Reds vs Los Angeles Dodgers"
+          },
+          {
+            "label": "Direct Link",
+            "url": "https://tedesco.formaturamaxi.com.br/mlb10.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/mlb-streams-10",
             "headers": {
@@ -2122,6 +2142,7 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Stream 1",
+        "Stream 2",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -4275,6 +4296,26 @@
         },
         {
           "label": "Direct Link",
+          "url": "https://tedesco.formaturamaxi.com.br/mlb10.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/mlb-streams-10",
+          "headers": {
+            "Referer": "https://roxiestreams.info/mlb-streams-10",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "mlb",
+          "event_title": "Cincinnati Reds vs Los Angeles Dodgers",
+          "matchup": {
+            "home": "Cincinnati Reds",
+            "away": "Los Angeles Dodgers"
+          },
+          "display_name": "Cincinnati Reds vs Los Angeles Dodgers"
+        },
+        {
+          "label": "Direct Link",
           "url": "https://admin2.formaturamaxi.com.br/mlb11.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/mlb-streams-11",
@@ -5154,7 +5195,7 @@
       ]
     }
   },
-  "stream_count": 52,
+  "stream_count": 53,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
