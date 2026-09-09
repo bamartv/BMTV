@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-09-09T21:16:14+00:00",
+  "scraped_at": "2026-09-09T23:21:09+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
@@ -1797,6 +1797,29 @@
               "away": "Seattle Seahawks"
             },
             "display_name": "New England Patriots vs Seattle Seahawks - Stream 1"
+          },
+          {
+            "label": "Stream 2",
+            "url": "https://admin2.shadow-ran.online/nflalt.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/nfl-streams-1",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "admin2",
+            "path": "nflalt.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/nfl-streams-1",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "nfl",
+            "event_title": "New England Patriots vs Seattle Seahawks",
+            "matchup": {
+              "home": "New England Patriots",
+              "away": "Seattle Seahawks"
+            },
+            "display_name": "New England Patriots vs Seattle Seahawks - Stream 2"
           },
           {
             "label": "nfl.m3u8",
@@ -4863,6 +4886,7 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Stream 1",
+        "Stream 2",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -6973,6 +6997,29 @@
           "display_name": "New England Patriots vs Seattle Seahawks - Stream 1"
         },
         {
+          "label": "Stream 2",
+          "url": "https://admin2.shadow-ran.online/nflalt.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/nfl-streams-1",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "admin2",
+          "path": "nflalt.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/nfl-streams-1",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "nfl",
+          "event_title": "New England Patriots vs Seattle Seahawks",
+          "matchup": {
+            "home": "New England Patriots",
+            "away": "Seattle Seahawks"
+          },
+          "display_name": "New England Patriots vs Seattle Seahawks - Stream 2"
+        },
+        {
           "label": "nfl.m3u8",
           "url": "https://daffodil.shadow-ran.online/nfl.m3u8",
           "type": "m3u8",
@@ -7234,7 +7281,7 @@
       "streams": []
     }
   },
-  "stream_count": 73,
+  "stream_count": 74,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
