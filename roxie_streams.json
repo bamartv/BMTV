@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-09-11T01:12:05+00:00",
+  "scraped_at": "2026-09-11T06:06:54+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
@@ -216,6 +216,29 @@
             "display_name": "Flamengo vs Independiente Del Valle - Stream 1"
           },
           {
+            "label": "Stream 2",
+            "url": "https://admin2.shadow-ran.online/espn.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-8",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "admin2",
+            "path": "espn.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-8",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Flamengo vs Independiente Del Valle",
+            "matchup": {
+              "home": "Flamengo",
+              "away": "Independiente Del Valle"
+            },
+            "display_name": "Flamengo vs Independiente Del Valle - Stream 2"
+          },
+          {
             "label": "fla.m3u8",
             "url": "https://daffodil.shadow-ran.online/fla.m3u8",
             "type": "m3u8",
@@ -251,12 +274,12 @@
         "streams": [
           {
             "label": "Stream 1",
-            "url": "https://admin2.shadow-ran.online/main.m3u8",
+            "url": "https://admin2.shadow-ran.online/tudnus.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-10",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "admin2",
-            "path": "main.m3u8",
+            "path": "tudnus.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-10",
               "Origin": "https://roxiestreams.info",
@@ -273,13 +296,13 @@
             "display_name": "Pumas vs León - Stream 1"
           },
           {
-            "label": "main.m3u8",
-            "url": "https://daffodil.shadow-ran.online/main.m3u8",
+            "label": "tudnus.m3u8",
+            "url": "https://daffodil.shadow-ran.online/tudnus.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-10",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "daffodil",
-            "path": "main.m3u8",
+            "path": "tudnus.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-10",
               "Origin": "https://roxiestreams.info",
@@ -293,7 +316,7 @@
               "home": "Pumas",
               "away": "León"
             },
-            "display_name": "Pumas vs León - main.m3u8"
+            "display_name": "Pumas vs León - tudnus.m3u8"
           }
         ]
       },
@@ -465,6 +488,63 @@
               "away": "Bodø / Glimt"
             },
             "display_name": "Bayern München vs Bodø / Glimt - tnt2.m3u8"
+          }
+        ]
+      },
+      {
+        "title": "Stevenage vs Luton",
+        "sport": "soccer",
+        "matchup": {
+          "home": "Stevenage",
+          "away": "Luton"
+        },
+        "page": "https://roxiestreams.info/soccer-streams-7",
+        "streams": [
+          {
+            "label": "Stream 1",
+            "url": "https://admin2.shadow-ran.online/main.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-7",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "admin2",
+            "path": "main.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-7",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Stevenage vs Luton",
+            "matchup": {
+              "home": "Stevenage",
+              "away": "Luton"
+            },
+            "display_name": "Stevenage vs Luton - Stream 1"
+          },
+          {
+            "label": "main.m3u8",
+            "url": "https://daffodil.shadow-ran.online/main.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-7",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "main.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-7",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Stevenage vs Luton",
+            "matchup": {
+              "home": "Stevenage",
+              "away": "Luton"
+            },
+            "display_name": "Stevenage vs Luton - main.m3u8"
           }
         ]
       },
@@ -1227,26 +1307,6 @@
             "display_name": "TNA - Stream 1"
           },
           {
-            "label": "Stream 2",
-            "url": "https://tedesco.shadow-ran.online/ppv.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/ppv-streams-1",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "tedesco",
-            "path": "ppv.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/ppv-streams-1",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "fighting",
-            "event_title": "TNA",
-            "matchup": null,
-            "display_name": "TNA - Stream 2"
-          },
-          {
             "label": "ppv.m3u8",
             "url": "https://daffodil.shadow-ran.online/ppv.m3u8",
             "type": "m3u8",
@@ -1396,7 +1456,7 @@
         "Motorsports",
         "Stream Request (Discord)",
         "MultiView (NEW)",
-        "https://discord.gg/HWZCUwA7Pg",
+        "https://discord.gg/NCkz2YNKSE",
         "https://roxiestreams.biz/",
         "PSV vs Shakhtar Donetsk",
         "Fenerbahçe vs Roma",
@@ -1445,15 +1505,15 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         },
         {
           "label": "MultiView (NEW)",
           "url": "https://roxiestreams.info/multiview"
         },
         {
-          "label": "https://discord.gg/HWZCUwA7Pg",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "label": "https://discord.gg/NCkz2YNKSE",
+          "url": "https://discord.gg/NCkz2YNKSE"
         },
         {
           "label": "https://roxiestreams.biz/",
@@ -1501,7 +1561,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         }
       ]
     },
@@ -1559,7 +1619,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         },
         {
           "label": "MultiView (NEW)",
@@ -1567,7 +1627,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         }
       ]
     },
@@ -1627,7 +1687,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         },
         {
           "label": "MultiView (NEW)",
@@ -1635,7 +1695,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         }
       ]
     },
@@ -1655,6 +1715,7 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Stream 1",
+        "Stream 2",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -1693,7 +1754,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         },
         {
           "label": "MultiView (NEW)",
@@ -1701,7 +1762,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         }
       ]
     },
@@ -1759,7 +1820,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         },
         {
           "label": "MultiView (NEW)",
@@ -1767,7 +1828,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         }
       ]
     },
@@ -1825,7 +1886,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         },
         {
           "label": "MultiView (NEW)",
@@ -1833,7 +1894,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         }
       ]
     },
@@ -1892,7 +1953,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         },
         {
           "label": "MultiView (NEW)",
@@ -1900,7 +1961,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         }
       ]
     },
@@ -1958,7 +2019,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         },
         {
           "label": "MultiView (NEW)",
@@ -1966,7 +2027,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         }
       ]
     },
@@ -2025,7 +2086,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         },
         {
           "label": "MultiView (NEW)",
@@ -2033,7 +2094,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         }
       ]
     },
@@ -2091,7 +2152,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         },
         {
           "label": "MultiView (NEW)",
@@ -2099,7 +2160,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         }
       ]
     },
@@ -2157,7 +2218,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         },
         {
           "label": "MultiView (NEW)",
@@ -2165,7 +2226,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         }
       ]
     },
@@ -2186,7 +2247,7 @@
         "Motorsports",
         "Stream Request (Discord)",
         "MultiView (NEW)",
-        "https://discord.gg/HWZCUwA7Pg",
+        "https://discord.gg/NCkz2YNKSE",
         "https://roxiestreams.biz/",
         "Tampa Bay Rays vs Atlanta Braves",
         "Houston Astros vs Philadelphia Phillies",
@@ -2230,15 +2291,15 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         },
         {
           "label": "MultiView (NEW)",
           "url": "https://roxiestreams.info/multiview"
         },
         {
-          "label": "https://discord.gg/HWZCUwA7Pg",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "label": "https://discord.gg/NCkz2YNKSE",
+          "url": "https://discord.gg/NCkz2YNKSE"
         },
         {
           "label": "https://roxiestreams.biz/",
@@ -2266,7 +2327,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         }
       ]
     },
@@ -2324,7 +2385,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         },
         {
           "label": "MultiView (NEW)",
@@ -2332,7 +2393,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         }
       ]
     },
@@ -2390,7 +2451,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         },
         {
           "label": "MultiView (NEW)",
@@ -2398,7 +2459,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         }
       ]
     },
@@ -2456,7 +2517,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         },
         {
           "label": "MultiView (NEW)",
@@ -2464,7 +2525,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         }
       ]
     },
@@ -2522,7 +2583,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         },
         {
           "label": "MultiView (NEW)",
@@ -2530,7 +2591,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         }
       ]
     },
@@ -2588,7 +2649,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         },
         {
           "label": "MultiView (NEW)",
@@ -2596,7 +2657,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         }
       ]
     },
@@ -2618,7 +2679,7 @@
         "Motorsports",
         "Stream Request (Discord)",
         "MultiView (NEW)",
-        "https://discord.gg/HWZCUwA7Pg",
+        "https://discord.gg/NCkz2YNKSE",
         "https://roxiestreams.biz/",
         "Minnesota Lynx vs Atlanta Dream",
         "Los Angeles Sparks vs Seattle Storm",
@@ -2661,15 +2722,15 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         },
         {
           "label": "MultiView (NEW)",
           "url": "https://roxiestreams.info/multiview"
         },
         {
-          "label": "https://discord.gg/HWZCUwA7Pg",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "label": "https://discord.gg/NCkz2YNKSE",
+          "url": "https://discord.gg/NCkz2YNKSE"
         },
         {
           "label": "https://roxiestreams.biz/",
@@ -2693,7 +2754,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         }
       ]
     },
@@ -2751,7 +2812,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         },
         {
           "label": "MultiView (NEW)",
@@ -2759,7 +2820,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         }
       ]
     },
@@ -2817,7 +2878,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         },
         {
           "label": "MultiView (NEW)",
@@ -2825,7 +2886,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         }
       ]
     },
@@ -2883,7 +2944,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         },
         {
           "label": "MultiView (NEW)",
@@ -2891,7 +2952,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         }
       ]
     },
@@ -2949,7 +3010,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         },
         {
           "label": "MultiView (NEW)",
@@ -2957,7 +3018,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         }
       ]
     },
@@ -3015,7 +3076,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         },
         {
           "label": "MultiView (NEW)",
@@ -3023,7 +3084,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         }
       ]
     },
@@ -3044,7 +3105,7 @@
         "Motorsports",
         "Stream Request (Discord)",
         "MultiView (NEW)",
-        "https://discord.gg/HWZCUwA7Pg",
+        "https://discord.gg/NCkz2YNKSE",
         "https://roxiestreams.biz/",
         "San Francisco 49ers vs Los Angeles Rams"
       ],
@@ -3083,15 +3144,15 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         },
         {
           "label": "MultiView (NEW)",
           "url": "https://roxiestreams.info/multiview"
         },
         {
-          "label": "https://discord.gg/HWZCUwA7Pg",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "label": "https://discord.gg/NCkz2YNKSE",
+          "url": "https://discord.gg/NCkz2YNKSE"
         },
         {
           "label": "https://roxiestreams.biz/",
@@ -3158,7 +3219,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         },
         {
           "label": "MultiView (NEW)",
@@ -3166,7 +3227,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         }
       ]
     },
@@ -3187,7 +3248,7 @@
         "Motorsports",
         "Stream Request (Discord)",
         "MultiView (NEW)",
-        "https://discord.gg/HWZCUwA7Pg",
+        "https://discord.gg/NCkz2YNKSE",
         "https://roxiestreams.biz/",
         "NHL Draft 2026",
         "Stream Request (Discord)"
@@ -3227,15 +3288,15 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         },
         {
           "label": "MultiView (NEW)",
           "url": "https://roxiestreams.info/multiview"
         },
         {
-          "label": "https://discord.gg/HWZCUwA7Pg",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "label": "https://discord.gg/NCkz2YNKSE",
+          "url": "https://discord.gg/NCkz2YNKSE"
         },
         {
           "label": "https://roxiestreams.biz/",
@@ -3247,7 +3308,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         }
       ]
     },
@@ -3306,7 +3367,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         },
         {
           "label": "MultiView (NEW)",
@@ -3314,7 +3375,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         }
       ]
     },
@@ -3335,7 +3396,7 @@
         "Motorsports",
         "Stream Request (Discord)",
         "MultiView (NEW)",
-        "https://discord.gg/HWZCUwA7Pg",
+        "https://discord.gg/NCkz2YNKSE",
         "https://roxiestreams.biz/",
         "Super RIZIN 5",
         "TNA",
@@ -3377,15 +3438,15 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         },
         {
           "label": "MultiView (NEW)",
           "url": "https://roxiestreams.info/multiview"
         },
         {
-          "label": "https://discord.gg/HWZCUwA7Pg",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "label": "https://discord.gg/NCkz2YNKSE",
+          "url": "https://discord.gg/NCkz2YNKSE"
         },
         {
           "label": "https://roxiestreams.biz/",
@@ -3405,7 +3466,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         }
       ]
     },
@@ -3425,7 +3486,6 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Stream 1",
-        "Stream 2",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -3464,7 +3524,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         },
         {
           "label": "MultiView (NEW)",
@@ -3472,7 +3532,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         }
       ]
     },
@@ -3530,7 +3590,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         },
         {
           "label": "MultiView (NEW)",
@@ -3538,7 +3598,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         }
       ]
     },
@@ -3559,7 +3619,7 @@
         "Motorsports",
         "Stream Request (Discord)",
         "MultiView (NEW)",
-        "https://discord.gg/HWZCUwA7Pg",
+        "https://discord.gg/NCkz2YNKSE",
         "https://roxiestreams.biz/",
         "MXGP (MX2) - Race",
         "MXGP - Race",
@@ -3606,15 +3666,15 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         },
         {
           "label": "MultiView (NEW)",
           "url": "https://roxiestreams.info/multiview"
         },
         {
-          "label": "https://discord.gg/HWZCUwA7Pg",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "label": "https://discord.gg/NCkz2YNKSE",
+          "url": "https://discord.gg/NCkz2YNKSE"
         },
         {
           "label": "https://roxiestreams.biz/",
@@ -3654,7 +3714,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         }
       ]
     },
@@ -3712,7 +3772,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         },
         {
           "label": "MultiView (NEW)",
@@ -3720,7 +3780,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         }
       ]
     },
@@ -3780,7 +3840,7 @@
         },
         {
           "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/HWZCUwA7Pg"
+          "url": "https://discord.gg/NCkz2YNKSE"
         },
         {
           "label": "MultiView (NEW)",
@@ -3967,6 +4027,29 @@
           "display_name": "Flamengo vs Independiente Del Valle - Stream 1"
         },
         {
+          "label": "Stream 2",
+          "url": "https://admin2.shadow-ran.online/espn.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-8",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "admin2",
+          "path": "espn.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-8",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Flamengo vs Independiente Del Valle",
+          "matchup": {
+            "home": "Flamengo",
+            "away": "Independiente Del Valle"
+          },
+          "display_name": "Flamengo vs Independiente Del Valle - Stream 2"
+        },
+        {
           "label": "fla.m3u8",
           "url": "https://daffodil.shadow-ran.online/fla.m3u8",
           "type": "m3u8",
@@ -3991,12 +4074,12 @@
         },
         {
           "label": "Stream 1",
-          "url": "https://admin2.shadow-ran.online/main.m3u8",
+          "url": "https://admin2.shadow-ran.online/tudnus.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-10",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "admin2",
-          "path": "main.m3u8",
+          "path": "tudnus.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-10",
             "Origin": "https://roxiestreams.info",
@@ -4013,13 +4096,13 @@
           "display_name": "Pumas vs León - Stream 1"
         },
         {
-          "label": "main.m3u8",
-          "url": "https://daffodil.shadow-ran.online/main.m3u8",
+          "label": "tudnus.m3u8",
+          "url": "https://daffodil.shadow-ran.online/tudnus.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-10",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "daffodil",
-          "path": "main.m3u8",
+          "path": "tudnus.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-10",
             "Origin": "https://roxiestreams.info",
@@ -4033,7 +4116,7 @@
             "home": "Pumas",
             "away": "León"
           },
-          "display_name": "Pumas vs León - main.m3u8"
+          "display_name": "Pumas vs León - tudnus.m3u8"
         },
         {
           "label": "Stream 1",
@@ -4172,6 +4255,52 @@
             "away": "Bodø / Glimt"
           },
           "display_name": "Bayern München vs Bodø / Glimt - tnt2.m3u8"
+        },
+        {
+          "label": "Stream 1",
+          "url": "https://admin2.shadow-ran.online/main.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-7",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "admin2",
+          "path": "main.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-7",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Stevenage vs Luton",
+          "matchup": {
+            "home": "Stevenage",
+            "away": "Luton"
+          },
+          "display_name": "Stevenage vs Luton - Stream 1"
+        },
+        {
+          "label": "main.m3u8",
+          "url": "https://daffodil.shadow-ran.online/main.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-7",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "main.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-7",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Stevenage vs Luton",
+          "matchup": {
+            "home": "Stevenage",
+            "away": "Luton"
+          },
+          "display_name": "Stevenage vs Luton - main.m3u8"
         },
         {
           "label": "Stream 1",
@@ -4820,26 +4949,6 @@
           "display_name": "TNA - Stream 1"
         },
         {
-          "label": "Stream 2",
-          "url": "https://tedesco.shadow-ran.online/ppv.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/ppv-streams-1",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "tedesco",
-          "path": "ppv.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/ppv-streams-1",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "fighting",
-          "event_title": "TNA",
-          "matchup": null,
-          "display_name": "TNA - Stream 2"
-        },
-        {
           "label": "ppv.m3u8",
           "url": "https://daffodil.shadow-ran.online/ppv.m3u8",
           "type": "m3u8",
@@ -4961,7 +5070,7 @@
       "streams": []
     }
   },
-  "stream_count": 49,
+  "stream_count": 51,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
