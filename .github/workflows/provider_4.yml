@@ -37,7 +37,7 @@ jobs:
           pip install requests pytz
 
       - name: Run live4.py
-        run: python src/live4s.py
+        run: python src/live4.py
 
       - name: Commit and Push Changes
         run: |
@@ -58,5 +58,7 @@ jobs:
             echo "Push failed, retrying attempt $i of 5..."
             sleep $((RANDOM % 10 + 1))
           done
+
+          echo "All push attempts failed." && exit 1   # ← ADDED: fail loudly
 
           echo "All push attempts failed." && exit 1   # ← ADDED: fail loudly
