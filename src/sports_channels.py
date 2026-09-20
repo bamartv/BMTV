@@ -4,7 +4,7 @@ import urllib.request
 import datetime
 
 # Configuration
-JSON_URL = "https://raw.githubusercontent.com/darkbyteprojects/iptv_png/refs/heads/main/provider_3/sports_channels.json"
+JSON_URL = "https://api.cdnlivetv.is/api/v1/events/sports/?user=cdnlivetv&plan=free"
 OUTPUT_FILE = "sports_channels.m3u"
 
 
