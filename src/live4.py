@@ -24,7 +24,6 @@ def build_m3u_header():
         "#EXTM3U",
         "#PLAYLIST:Live Events",
         f"#LAST_UPDATE:{timestamp}",
-        "#Created by - Sayan 10",
     ]
     return "\n".join(header_lines) + "\n"
 
