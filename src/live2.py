@@ -5,7 +5,7 @@ import datetime
 
 # Configuration
 JSON_URL = "https://raw.githubusercontent.com/darkbyteprojects/iptv_png/refs/heads/main/provider_2/live_events.json"
-OUTPUT_FILE = "LiveEvent.m3u"
+OUTPUT_FILE = "provider_2.m3u"
 
 
 def fetch_json(url):
