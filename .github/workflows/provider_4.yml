@@ -8,7 +8,7 @@ on:
     branches:
       - main
     paths:
-      - 'src/sports_channels.py'
+      - 'src/live4.py'
 
 concurrency:
   group: update-playlist
@@ -36,15 +36,15 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests pytz
 
-      - name: Run sports_channels.py
-        run: python src/sports_channels.py
+      - name: Run live4.py
+        run: python src/live4s.py
 
       - name: Commit and Push Changes
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add sports_channels.m3u
+          git add provider_4.m3u
 
           if git diff --cached --quiet; then    # ← ADDED: skip if no changes
             echo "No changes to commit. Skipping push."
