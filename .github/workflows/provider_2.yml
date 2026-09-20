@@ -1,4 +1,4 @@
-name: LIVE Event 2
+name: provider 2
 
 on:
   schedule:
@@ -8,7 +8,7 @@ on:
     branches:
       - main
     paths:
-      - 'live.py'
+      - 'src/provider_2.py'
 
 concurrency:
   group: update-playlist
