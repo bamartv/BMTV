@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-09-29T13:07:21+00:00",
+  "scraped_at": "2026-09-29T18:38:15+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
@@ -8,17 +8,32 @@
     {
       "name": "UEFA Nations League",
       "page": "https://roxiestreams.info/soccer",
-      "start_time": "September 28, 2026 9:00 AM"
+      "start_time": "September 29, 2026 9:00 AM"
     },
     {
-      "name": "WWE RAW",
+      "name": "MLB Playoffs",
+      "page": "https://roxiestreams.info/mlb",
+      "start_time": "September 29, 2026 9:00 AM"
+    },
+    {
+      "name": "WNBA Playoffs",
+      "page": "https://roxiestreams.info/nba",
+      "start_time": "September 29, 2026 3:30 PM"
+    },
+    {
+      "name": "Friendlies",
+      "page": "https://roxiestreams.info/soccer",
+      "start_time": "September 29, 2026 4:00 PM"
+    },
+    {
+      "name": "Dana White's Contender Series",
+      "page": "https://roxiestreams.info/ppv-streams-1",
+      "start_time": "September 29, 2026 4:00 PM"
+    },
+    {
+      "name": "WWE NXT",
       "page": "https://roxiestreams.info/wwe-streams",
-      "start_time": "September 28, 2026 5:00 PM"
-    },
-    {
-      "name": "NFL (MNF)",
-      "page": "https://roxiestreams.info/nfl-streams-1",
-      "start_time": "September 28, 2026 5:00 PM"
+      "start_time": "September 29, 2026 5:00 PM"
     }
   ],
   "events_by_sport": {
@@ -699,16 +714,39 @@
     ],
     "mlb": [
       {
-        "title": "Philadelphia Phillies vs Atlanta Braves",
+        "title": "Chicago White Sox vs Houston Astros",
         "sport": "mlb",
         "matchup": {
-          "home": "Philadelphia Phillies",
-          "away": "Atlanta Braves"
+          "home": "Chicago White Sox",
+          "away": "Houston Astros"
         },
         "page": "https://roxiestreams.info/mlb-streams-1",
         "streams": [
           {
-            "label": "Stream 1",
+            "label": "Stream a",
+            "url": "https://admin.shadow-ran.online/mlb.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/mlb-streams-1",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "admin",
+            "path": "mlb.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/mlb-streams-1",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "mlb",
+            "event_title": "Chicago White Sox vs Houston Astros",
+            "matchup": {
+              "home": "Chicago White Sox",
+              "away": "Houston Astros"
+            },
+            "display_name": "Chicago White Sox vs Houston Astros - Stream a"
+          },
+          {
+            "label": "Stream 2",
             "url": "https://admin2.shadow-ran.online/mlb.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/mlb-streams-1",
@@ -723,12 +761,12 @@
             },
             "drm_keys": null,
             "sport": "mlb",
-            "event_title": "Philadelphia Phillies vs Atlanta Braves",
+            "event_title": "Chicago White Sox vs Houston Astros",
             "matchup": {
-              "home": "Philadelphia Phillies",
-              "away": "Atlanta Braves"
+              "home": "Chicago White Sox",
+              "away": "Houston Astros"
             },
-            "display_name": "Philadelphia Phillies vs Atlanta Braves - Stream 1"
+            "display_name": "Chicago White Sox vs Houston Astros - Stream 2"
           },
           {
             "label": "mlb.m3u8",
@@ -746,69 +784,12 @@
             },
             "drm_keys": null,
             "sport": "mlb",
-            "event_title": "Philadelphia Phillies vs Atlanta Braves",
-            "matchup": {
-              "home": "Philadelphia Phillies",
-              "away": "Atlanta Braves"
-            },
-            "display_name": "Philadelphia Phillies vs Atlanta Braves - mlb.m3u8"
-          }
-        ]
-      },
-      {
-        "title": "Chicago White Sox vs Houston Astros",
-        "sport": "mlb",
-        "matchup": {
-          "home": "Chicago White Sox",
-          "away": "Houston Astros"
-        },
-        "page": "https://roxiestreams.info/mlb-streams-2",
-        "streams": [
-          {
-            "label": "Stream 1",
-            "url": "https://admin2.shadow-ran.online/mlb2.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/mlb-streams-2",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "admin2",
-            "path": "mlb2.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/mlb-streams-2",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "mlb",
             "event_title": "Chicago White Sox vs Houston Astros",
             "matchup": {
               "home": "Chicago White Sox",
               "away": "Houston Astros"
             },
-            "display_name": "Chicago White Sox vs Houston Astros - Stream 1"
-          },
-          {
-            "label": "mlb2.m3u8",
-            "url": "https://daffodil.shadow-ran.online/mlb2.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/mlb-streams-2",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "daffodil",
-            "path": "mlb2.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/mlb-streams-2",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "mlb",
-            "event_title": "Chicago White Sox vs Houston Astros",
-            "matchup": {
-              "home": "Chicago White Sox",
-              "away": "Houston Astros"
-            },
-            "display_name": "Chicago White Sox vs Houston Astros - mlb2.m3u8"
+            "display_name": "Chicago White Sox vs Houston Astros - mlb.m3u8"
           }
         ]
       },
@@ -1474,6 +1455,56 @@
       }
     ],
     "multiview": [],
+    "ppv": [
+      {
+        "title": "Dana White's Contender Series",
+        "sport": "ppv",
+        "matchup": null,
+        "page": "https://roxiestreams.info/ppv-streams-1",
+        "streams": [
+          {
+            "label": "Stream 1",
+            "url": "https://admin2.shadow-ran.online/ppv.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/ppv-streams-1",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "admin2",
+            "path": "ppv.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/ppv-streams-1",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "ppv",
+            "event_title": "Dana White's Contender Series",
+            "matchup": null,
+            "display_name": "Dana White's Contender Series - Stream 1"
+          },
+          {
+            "label": "ppv.m3u8",
+            "url": "https://daffodil.shadow-ran.online/ppv.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/ppv-streams-1",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "ppv.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/ppv-streams-1",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "ppv",
+            "event_title": "Dana White's Contender Series",
+            "matchup": null,
+            "display_name": "Dana White's Contender Series - ppv.m3u8"
+          }
+        ]
+      }
+    ],
     "wwe": [
       {
         "title": "WWE NXT",
@@ -2526,7 +2557,7 @@
         },
         {
           "label": "Chicago White Sox vs Houston Astros",
-          "url": "https://roxiestreams.info/mlb-streams-2"
+          "url": "https://roxiestreams.info/mlb-streams-1"
         },
         {
           "label": "Boston Red Sox vs New York Yankees",
@@ -2557,73 +2588,8 @@
         "Motorsports",
         "Stream Request (Discord)",
         "MultiView (NEW)",
-        "Stream 1",
-        "Switch to Chatango",
-        "Stream Request (Discord)"
-      ],
-      "links": [
-        {
-          "label": "RoxieStreams",
-          "url": "https://roxiestreams.info/"
-        },
-        {
-          "label": "Soccer",
-          "url": "https://roxiestreams.info/soccer"
-        },
-        {
-          "label": "MLB",
-          "url": "https://roxiestreams.info/mlb"
-        },
-        {
-          "label": "NBA",
-          "url": "https://roxiestreams.info/nba"
-        },
-        {
-          "label": "NFL",
-          "url": "https://roxiestreams.info/nfl"
-        },
-        {
-          "label": "NHL",
-          "url": "https://roxiestreams.info/nhl"
-        },
-        {
-          "label": "Fighting",
-          "url": "https://roxiestreams.info/fighting"
-        },
-        {
-          "label": "Motorsports",
-          "url": "https://roxiestreams.info/motorsports"
-        },
-        {
-          "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/NCkz2YNKSE"
-        },
-        {
-          "label": "MultiView (NEW)",
-          "url": "https://roxiestreams.info/multiview"
-        },
-        {
-          "label": "Stream Request (Discord)",
-          "url": "https://discord.gg/NCkz2YNKSE"
-        }
-      ]
-    },
-    "https://roxiestreams.info/mlb-streams-2": {
-      "url": "https://roxiestreams.info/mlb-streams-2",
-      "title": "Roxiestreams - Watch Live Sports, F1, UFC, NFL, TV",
-      "headings": [],
-      "controls": [
-        "RoxieStreams",
-        "Soccer",
-        "MLB",
-        "NBA",
-        "NFL",
-        "NHL",
-        "Fighting",
-        "Motorsports",
-        "Stream Request (Discord)",
-        "MultiView (NEW)",
-        "Stream 1",
+        "Stream a",
+        "Stream 2",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -4686,13 +4652,35 @@
       "pages": [
         "https://roxiestreams.info/mlb",
         "https://roxiestreams.info/mlb-streams-1",
-        "https://roxiestreams.info/mlb-streams-2",
         "https://roxiestreams.info/mlb-streams-3",
         "https://roxiestreams.info/mlb-streams-4"
       ],
       "streams": [
         {
-          "label": "Stream 1",
+          "label": "Stream a",
+          "url": "https://admin.shadow-ran.online/mlb.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/mlb-streams-1",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "admin",
+          "path": "mlb.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/mlb-streams-1",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "mlb",
+          "event_title": "Chicago White Sox vs Houston Astros",
+          "matchup": {
+            "home": "Chicago White Sox",
+            "away": "Houston Astros"
+          },
+          "display_name": "Chicago White Sox vs Houston Astros - Stream a"
+        },
+        {
+          "label": "Stream 2",
           "url": "https://admin2.shadow-ran.online/mlb.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/mlb-streams-1",
@@ -4707,12 +4695,12 @@
           },
           "drm_keys": null,
           "sport": "mlb",
-          "event_title": "Philadelphia Phillies vs Atlanta Braves",
+          "event_title": "Chicago White Sox vs Houston Astros",
           "matchup": {
-            "home": "Philadelphia Phillies",
-            "away": "Atlanta Braves"
+            "home": "Chicago White Sox",
+            "away": "Houston Astros"
           },
-          "display_name": "Philadelphia Phillies vs Atlanta Braves - Stream 1"
+          "display_name": "Chicago White Sox vs Houston Astros - Stream 2"
         },
         {
           "label": "mlb.m3u8",
@@ -4730,58 +4718,12 @@
           },
           "drm_keys": null,
           "sport": "mlb",
-          "event_title": "Philadelphia Phillies vs Atlanta Braves",
-          "matchup": {
-            "home": "Philadelphia Phillies",
-            "away": "Atlanta Braves"
-          },
-          "display_name": "Philadelphia Phillies vs Atlanta Braves - mlb.m3u8"
-        },
-        {
-          "label": "Stream 1",
-          "url": "https://admin2.shadow-ran.online/mlb2.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/mlb-streams-2",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "admin2",
-          "path": "mlb2.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/mlb-streams-2",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "mlb",
           "event_title": "Chicago White Sox vs Houston Astros",
           "matchup": {
             "home": "Chicago White Sox",
             "away": "Houston Astros"
           },
-          "display_name": "Chicago White Sox vs Houston Astros - Stream 1"
-        },
-        {
-          "label": "mlb2.m3u8",
-          "url": "https://daffodil.shadow-ran.online/mlb2.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/mlb-streams-2",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "daffodil",
-          "path": "mlb2.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/mlb-streams-2",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "mlb",
-          "event_title": "Chicago White Sox vs Houston Astros",
-          "matchup": {
-            "home": "Chicago White Sox",
-            "away": "Houston Astros"
-          },
-          "display_name": "Chicago White Sox vs Houston Astros - mlb2.m3u8"
+          "display_name": "Chicago White Sox vs Houston Astros - mlb.m3u8"
         },
         {
           "label": "Direct Link",
@@ -5359,6 +5301,53 @@
       ],
       "streams": []
     },
+    "ppv": {
+      "pages": [
+        "https://roxiestreams.info/ppv-streams-1"
+      ],
+      "streams": [
+        {
+          "label": "Stream 1",
+          "url": "https://admin2.shadow-ran.online/ppv.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/ppv-streams-1",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "admin2",
+          "path": "ppv.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/ppv-streams-1",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "ppv",
+          "event_title": "Dana White's Contender Series",
+          "matchup": null,
+          "display_name": "Dana White's Contender Series - Stream 1"
+        },
+        {
+          "label": "ppv.m3u8",
+          "url": "https://daffodil.shadow-ran.online/ppv.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/ppv-streams-1",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "ppv.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/ppv-streams-1",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "ppv",
+          "event_title": "Dana White's Contender Series",
+          "matchup": null,
+          "display_name": "Dana White's Contender Series - ppv.m3u8"
+        }
+      ]
+    },
     "wwe": {
       "pages": [
         "https://roxiestreams.info/wwe-streams"
@@ -5427,7 +5416,7 @@
       ]
     }
   },
-  "stream_count": 55,
+  "stream_count": 56,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
