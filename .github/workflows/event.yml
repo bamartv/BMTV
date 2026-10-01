@@ -8,7 +8,7 @@ on:
     branches:
       - main
     paths:
-      - 'script/live.py'
+      - 'scripts/live.py'
 
 concurrency:
   group: update-playlist
@@ -37,7 +37,7 @@ jobs:
           pip install requests pytz
 
       - name: Run live.py
-        run: python script/live.py
+        run: python scripts/live.py
 
       - name: Commit and Push Changes
         run: |
