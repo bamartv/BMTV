@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-10-02T22:36:53+00:00",
+  "scraped_at": "2026-10-03T01:26:36+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
@@ -352,12 +352,12 @@
         "streams": [
           {
             "label": "Stream 1",
-            "url": "https://admin.shadow-ran.online/fana.m3u8",
+            "url": "https://admin.shadow-ran.online/fanapt.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-7",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "admin",
-            "path": "fana.m3u8",
+            "path": "fanapt.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-7",
               "Origin": "https://roxiestreams.info",
@@ -374,13 +374,13 @@
             "display_name": "São Paulo vs Santos - Stream 1"
           },
           {
-            "label": "fana.m3u8",
-            "url": "https://daffodil.shadow-ran.online/fana.m3u8",
+            "label": "Stream 2 (ES)",
+            "url": "https://admin.shadow-ran.online/fanaes.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-7",
             "cdn_domain": "shadow-ran.online",
-            "subdomain": "daffodil",
-            "path": "fana.m3u8",
+            "subdomain": "admin",
+            "path": "fanaes.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-7",
               "Origin": "https://roxiestreams.info",
@@ -394,7 +394,30 @@
               "home": "São Paulo",
               "away": "Santos"
             },
-            "display_name": "São Paulo vs Santos - fana.m3u8"
+            "display_name": "São Paulo vs Santos - Stream 2 (ES)"
+          },
+          {
+            "label": "fanapt.m3u8",
+            "url": "https://daffodil.shadow-ran.online/fanapt.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-7",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "fanapt.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-7",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "São Paulo vs Santos",
+            "matchup": {
+              "home": "São Paulo",
+              "away": "Santos"
+            },
+            "display_name": "São Paulo vs Santos - fanapt.m3u8"
           }
         ]
       },
@@ -1844,6 +1867,7 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Stream 1",
+        "Stream 2 (ES)",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -3792,12 +3816,12 @@
         },
         {
           "label": "Stream 1",
-          "url": "https://admin.shadow-ran.online/fana.m3u8",
+          "url": "https://admin.shadow-ran.online/fanapt.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-7",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "admin",
-          "path": "fana.m3u8",
+          "path": "fanapt.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-7",
             "Origin": "https://roxiestreams.info",
@@ -3814,13 +3838,13 @@
           "display_name": "São Paulo vs Santos - Stream 1"
         },
         {
-          "label": "fana.m3u8",
-          "url": "https://daffodil.shadow-ran.online/fana.m3u8",
+          "label": "Stream 2 (ES)",
+          "url": "https://admin.shadow-ran.online/fanaes.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-7",
           "cdn_domain": "shadow-ran.online",
-          "subdomain": "daffodil",
-          "path": "fana.m3u8",
+          "subdomain": "admin",
+          "path": "fanaes.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-7",
             "Origin": "https://roxiestreams.info",
@@ -3834,7 +3858,30 @@
             "home": "São Paulo",
             "away": "Santos"
           },
-          "display_name": "São Paulo vs Santos - fana.m3u8"
+          "display_name": "São Paulo vs Santos - Stream 2 (ES)"
+        },
+        {
+          "label": "fanapt.m3u8",
+          "url": "https://daffodil.shadow-ran.online/fanapt.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-7",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "fanapt.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-7",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "São Paulo vs Santos",
+          "matchup": {
+            "home": "São Paulo",
+            "away": "Santos"
+          },
+          "display_name": "São Paulo vs Santos - fanapt.m3u8"
         },
         {
           "label": "Stream 1",
@@ -4678,7 +4725,7 @@
       ]
     }
   },
-  "stream_count": 48,
+  "stream_count": 49,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
