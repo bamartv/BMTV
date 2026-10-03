@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-10-03T19:28:07+00:00",
+  "scraped_at": "2026-10-03T22:22:57+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
@@ -28,7 +28,7 @@
     {
       "name": "UFC 332: Silva vs Wang",
       "page": "https://roxiestreams.info/ufc",
-      "start_time": "October 3, 2026 2:00 PM"
+      "start_time": "October 3, 2026 1:00 PM"
     },
     {
       "name": "MotoGP - Grand Prix of Japan",
@@ -2654,30 +2654,7 @@
         "page": "https://roxiestreams.info/ufc",
         "streams": [
           {
-            "label": "Stream 1 (Hub)",
-            "url": "https://admin2.shadow-ran.online/hub.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/ufc",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "admin2",
-            "path": "hub.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/ufc",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "ufc",
-            "event_title": "UFC 332: Silva vs Wang",
-            "matchup": {
-              "home": "UFC 332: Silva",
-              "away": "Wang"
-            },
-            "display_name": "UFC 332: Silva vs Wang - Stream 1 (Hub)"
-          },
-          {
-            "label": "Stream 2 (Para)",
+            "label": "Stream 1 (PARA+)",
             "url": "https://admin2.shadow-ran.online/abbiecadabrii.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/ufc",
@@ -2697,38 +2674,15 @@
               "home": "UFC 332: Silva",
               "away": "Wang"
             },
-            "display_name": "UFC 332: Silva vs Wang - Stream 2 (Para)"
+            "display_name": "UFC 332: Silva vs Wang - Stream 1 (PARA+)"
           },
           {
-            "label": "Stream 3 (TNT)",
-            "url": "https://tedesco.shadow-ran.online/tnt.m3u8",
+            "label": "Stream 2 (CITY)",
+            "url": "https://admin2.shadow-ran.online/hub.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/ufc",
             "cdn_domain": "shadow-ran.online",
-            "subdomain": "tedesco",
-            "path": "tnt.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/ufc",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "ufc",
-            "event_title": "UFC 332: Silva vs Wang",
-            "matchup": {
-              "home": "UFC 332: Silva",
-              "away": "Wang"
-            },
-            "display_name": "UFC 332: Silva vs Wang - Stream 3 (TNT)"
-          },
-          {
-            "label": "hub.m3u8",
-            "url": "https://daffodil.shadow-ran.online/hub.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/ufc",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "daffodil",
+            "subdomain": "admin2",
             "path": "hub.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/ufc",
@@ -2743,7 +2697,53 @@
               "home": "UFC 332: Silva",
               "away": "Wang"
             },
-            "display_name": "UFC 332: Silva vs Wang - hub.m3u8"
+            "display_name": "UFC 332: Silva vs Wang - Stream 2 (CITY)"
+          },
+          {
+            "label": "Stream 3 (CBS)",
+            "url": "https://admin.shadow-ran.online/ncaa10.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/ufc",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "admin",
+            "path": "ncaa10.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/ufc",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "ufc",
+            "event_title": "UFC 332: Silva vs Wang",
+            "matchup": {
+              "home": "UFC 332: Silva",
+              "away": "Wang"
+            },
+            "display_name": "UFC 332: Silva vs Wang - Stream 3 (CBS)"
+          },
+          {
+            "label": "abbiecadabrii.m3u8",
+            "url": "https://daffodil.shadow-ran.online/abbiecadabrii.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/ufc",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "abbiecadabrii.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/ufc",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "ufc",
+            "event_title": "UFC 332: Silva vs Wang",
+            "matchup": {
+              "home": "UFC 332: Silva",
+              "away": "Wang"
+            },
+            "display_name": "UFC 332: Silva vs Wang - abbiecadabrii.m3u8"
           }
         ]
       }
@@ -2757,12 +2757,12 @@
         "streams": [
           {
             "label": "Stream 1",
-            "url": "https://admin2.shadow-ran.online/tnt2.m3u8",
+            "url": "https://admin2.shadow-ran.online/mlb2.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/motogp",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "admin2",
-            "path": "tnt2.m3u8",
+            "path": "mlb2.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/motogp",
               "Origin": "https://roxiestreams.info",
@@ -2776,13 +2776,13 @@
             "display_name": "MotoGP - Grand Prix of Japan - Stream 1"
           },
           {
-            "label": "tnt2.m3u8",
-            "url": "https://daffodil.shadow-ran.online/tnt2.m3u8",
+            "label": "Stream 2",
+            "url": "https://tedesco.shadow-ran.online/fs2.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/motogp",
             "cdn_domain": "shadow-ran.online",
-            "subdomain": "daffodil",
-            "path": "tnt2.m3u8",
+            "subdomain": "tedesco",
+            "path": "fs2.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/motogp",
               "Origin": "https://roxiestreams.info",
@@ -2793,7 +2793,27 @@
             "sport": "motogp",
             "event_title": "MotoGP - Grand Prix of Japan",
             "matchup": null,
-            "display_name": "MotoGP - Grand Prix of Japan - tnt2.m3u8"
+            "display_name": "MotoGP - Grand Prix of Japan - Stream 2"
+          },
+          {
+            "label": "mlb2.m3u8",
+            "url": "https://daffodil.shadow-ran.online/mlb2.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/motogp",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "mlb2.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/motogp",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "motogp",
+            "event_title": "MotoGP - Grand Prix of Japan",
+            "matchup": null,
+            "display_name": "MotoGP - Grand Prix of Japan - mlb2.m3u8"
           }
         ]
       }
@@ -7475,9 +7495,9 @@
         "Motorsports",
         "Stream Request (Discord)",
         "MultiView (NEW)",
-        "Stream 1 (Hub)",
-        "Stream 2 (Para)",
-        "Stream 3 (TNT)",
+        "Stream 1 (PARA+)",
+        "Stream 2 (CITY)",
+        "Stream 3 (CBS)",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -7544,6 +7564,7 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Stream 1",
+        "Stream 2",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -9774,30 +9795,7 @@
       ],
       "streams": [
         {
-          "label": "Stream 1 (Hub)",
-          "url": "https://admin2.shadow-ran.online/hub.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/ufc",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "admin2",
-          "path": "hub.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/ufc",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "ufc",
-          "event_title": "UFC 332: Silva vs Wang",
-          "matchup": {
-            "home": "UFC 332: Silva",
-            "away": "Wang"
-          },
-          "display_name": "UFC 332: Silva vs Wang - Stream 1 (Hub)"
-        },
-        {
-          "label": "Stream 2 (Para)",
+          "label": "Stream 1 (PARA+)",
           "url": "https://admin2.shadow-ran.online/abbiecadabrii.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/ufc",
@@ -9817,38 +9815,15 @@
             "home": "UFC 332: Silva",
             "away": "Wang"
           },
-          "display_name": "UFC 332: Silva vs Wang - Stream 2 (Para)"
+          "display_name": "UFC 332: Silva vs Wang - Stream 1 (PARA+)"
         },
         {
-          "label": "Stream 3 (TNT)",
-          "url": "https://tedesco.shadow-ran.online/tnt.m3u8",
+          "label": "Stream 2 (CITY)",
+          "url": "https://admin2.shadow-ran.online/hub.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/ufc",
           "cdn_domain": "shadow-ran.online",
-          "subdomain": "tedesco",
-          "path": "tnt.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/ufc",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "ufc",
-          "event_title": "UFC 332: Silva vs Wang",
-          "matchup": {
-            "home": "UFC 332: Silva",
-            "away": "Wang"
-          },
-          "display_name": "UFC 332: Silva vs Wang - Stream 3 (TNT)"
-        },
-        {
-          "label": "hub.m3u8",
-          "url": "https://daffodil.shadow-ran.online/hub.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/ufc",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "daffodil",
+          "subdomain": "admin2",
           "path": "hub.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/ufc",
@@ -9863,7 +9838,53 @@
             "home": "UFC 332: Silva",
             "away": "Wang"
           },
-          "display_name": "UFC 332: Silva vs Wang - hub.m3u8"
+          "display_name": "UFC 332: Silva vs Wang - Stream 2 (CITY)"
+        },
+        {
+          "label": "Stream 3 (CBS)",
+          "url": "https://admin.shadow-ran.online/ncaa10.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/ufc",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "admin",
+          "path": "ncaa10.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/ufc",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "ufc",
+          "event_title": "UFC 332: Silva vs Wang",
+          "matchup": {
+            "home": "UFC 332: Silva",
+            "away": "Wang"
+          },
+          "display_name": "UFC 332: Silva vs Wang - Stream 3 (CBS)"
+        },
+        {
+          "label": "abbiecadabrii.m3u8",
+          "url": "https://daffodil.shadow-ran.online/abbiecadabrii.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/ufc",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "abbiecadabrii.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/ufc",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "ufc",
+          "event_title": "UFC 332: Silva vs Wang",
+          "matchup": {
+            "home": "UFC 332: Silva",
+            "away": "Wang"
+          },
+          "display_name": "UFC 332: Silva vs Wang - abbiecadabrii.m3u8"
         }
       ]
     },
@@ -9874,12 +9895,12 @@
       "streams": [
         {
           "label": "Stream 1",
-          "url": "https://admin2.shadow-ran.online/tnt2.m3u8",
+          "url": "https://admin2.shadow-ran.online/mlb2.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/motogp",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "admin2",
-          "path": "tnt2.m3u8",
+          "path": "mlb2.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/motogp",
             "Origin": "https://roxiestreams.info",
@@ -9893,13 +9914,13 @@
           "display_name": "MotoGP - Grand Prix of Japan - Stream 1"
         },
         {
-          "label": "tnt2.m3u8",
-          "url": "https://daffodil.shadow-ran.online/tnt2.m3u8",
+          "label": "Stream 2",
+          "url": "https://tedesco.shadow-ran.online/fs2.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/motogp",
           "cdn_domain": "shadow-ran.online",
-          "subdomain": "daffodil",
-          "path": "tnt2.m3u8",
+          "subdomain": "tedesco",
+          "path": "fs2.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/motogp",
             "Origin": "https://roxiestreams.info",
@@ -9910,7 +9931,27 @@
           "sport": "motogp",
           "event_title": "MotoGP - Grand Prix of Japan",
           "matchup": null,
-          "display_name": "MotoGP - Grand Prix of Japan - tnt2.m3u8"
+          "display_name": "MotoGP - Grand Prix of Japan - Stream 2"
+        },
+        {
+          "label": "mlb2.m3u8",
+          "url": "https://daffodil.shadow-ran.online/mlb2.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/motogp",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "mlb2.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/motogp",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "motogp",
+          "event_title": "MotoGP - Grand Prix of Japan",
+          "matchup": null,
+          "display_name": "MotoGP - Grand Prix of Japan - mlb2.m3u8"
         }
       ]
     },
@@ -9962,7 +10003,7 @@
       ]
     }
   },
-  "stream_count": 98,
+  "stream_count": 99,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
