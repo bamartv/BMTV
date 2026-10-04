@@ -1,7 +1,7 @@
-name: Automated SonyLiv JSON & M3U Updater
+name: SonyLiv JSON & M3U Updater
 on:
   schedule:
-    - cron: '*/10 * * * *'
+    - cron: '*/9 * * * *'
   workflow_dispatch:
   push:
     branches:
