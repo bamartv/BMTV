@@ -1,8 +1,8 @@
-name: Automated Sports JSON Updater
+name: Sports JSON Updater
 
 on:
   schedule:
-    - cron: '*/7 * * * *'
+    - cron: '*/9 * * * *'
   workflow_dispatch:
   push:
     branches:
