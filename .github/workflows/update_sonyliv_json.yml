@@ -31,7 +31,7 @@ jobs:
           curl -sS -f -L -o sonyliv2.m3u "https://raw.githubusercontent.com/doctor-8trange/zyphora/refs/heads/main/data/sony.m3u" || echo "⚠️ sonyliv2.m3u fetch failed"
 
           # ⬇️ NEW: Fetch sony.m3u
-          curl -sS -f -L -o sony.m3u "https://premiumplugx.com/Sliv/sony_playlist.php?m3u" || echo "⚠️ sony.m3u fetch failed"
+          curl -sS -f -L -o sony.m3u "https://premiumplugx.com/Sliv/sony_playlist.php" || echo "⚠️ sony.m3u fetch failed"
 
           echo "🚀 SonyLiv Synced | IST: $(date +'%Y-%m-%d %H:%M:%S') | ID: $RANDOM" >> sonyliv.txt
       - name: Commit and Push
