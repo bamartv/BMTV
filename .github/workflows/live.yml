@@ -2,7 +2,7 @@ name: Automated live
 
 on:
   schedule:
-    - cron: '*/30 * * * *'  
+    - cron: '*/9 * * * *'  
   workflow_dispatch:
 
 concurrency:
@@ -25,8 +25,8 @@ jobs:
 
       - name: Configure Git User
         run: |
-          git config user.name "sportlive18"
-          git config user.email "271363488+sportlive18@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
       - name: Sync and Update
         run: |
