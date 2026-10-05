@@ -2,7 +2,7 @@ name: Live Events Filter
 
 on:
   schedule:
-    - cron: '*/9 * * * *'  # ⏰ Aligned to every 30 minutes as per your comment
+    - cron: '*/10 * * * *'  # ⏰ Aligned to every 10 minutes as per your comment
   workflow_dispatch:        # 🔘 Manual trigger
 
 permissions:
