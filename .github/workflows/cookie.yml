@@ -2,7 +2,7 @@ name: Update cookie
 
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '*/10 * * * *'
   workflow_dispatch: # Allows manual triggering
   push:
     branches:
