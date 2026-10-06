@@ -9,17 +9,21 @@ on:
 jobs:
   update-playlist:
     runs-on: ubuntu-latest
+    
     permissions:
       contents: write
+      
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
         with:
           fetch-depth: 0
+          
       - name: Configure Git User
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
       - name: Sync and Update Log
         run: |
           export TZ="Asia/Kolkata"
@@ -31,6 +35,7 @@ jobs:
           mv papaos_new.m3u8 papaos.m3u8
           # Always write a new timestamped log line
           echo "🚀 FIFA Synced | IST: $(date +'%Y-%m-%d %H:%M:%S') | UUID: $(cat /proc/sys/kernel/random/uuid)" >> fifa.txt
+          
       - name: Commit and Push
         run: |
           export TZ="Asia/Kolkata"
