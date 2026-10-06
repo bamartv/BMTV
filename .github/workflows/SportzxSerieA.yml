@@ -11,12 +11,12 @@ jobs:
 
     steps:
       - name: Checkout repository with custom token
-        uses: actions/checkout@v4  # Aggiornato alla versione più recente
+        uses: actions/checkout@v5  # Aggiornato alla versione più recente
         with:
           token: ${{ secrets.ACTIONS_TOKEN }}
 
       - name: Set up Python
-        uses: actions/setup-python@v5  # Aggiornato alla versione più recente
+        uses: actions/setup-python@v6  # Aggiornato alla versione più recente
         with:
           python-version: '3.9'
 
