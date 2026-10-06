@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-10-06T15:06:22+00:00",
+  "scraped_at": "2026-10-06T20:14:39+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
@@ -49,29 +49,6 @@
         "streams": [
           {
             "label": "Stream 1",
-            "url": "https://tedesco.shadow-ran.online/sony.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/soccer-streams-1",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "tedesco",
-            "path": "sony.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/soccer-streams-1",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "soccer",
-            "event_title": "India vs Uruguay",
-            "matchup": {
-              "home": "India",
-              "away": "Uruguay"
-            },
-            "display_name": "India vs Uruguay - Stream 1"
-          },
-          {
-            "label": "Stream 2 (HINDI)",
             "url": "https://admin2.shadow-ran.online/sonyhindi.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-1",
@@ -91,16 +68,16 @@
               "home": "India",
               "away": "Uruguay"
             },
-            "display_name": "India vs Uruguay - Stream 2 (HINDI)"
+            "display_name": "India vs Uruguay - Stream 1"
           },
           {
-            "label": "sony.m3u8",
-            "url": "https://daffodil.shadow-ran.online/sony.m3u8",
+            "label": "sonyhindi.m3u8",
+            "url": "https://daffodil.shadow-ran.online/sonyhindi.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-1",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "daffodil",
-            "path": "sony.m3u8",
+            "path": "sonyhindi.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-1",
               "Origin": "https://roxiestreams.info",
@@ -114,7 +91,7 @@
               "home": "India",
               "away": "Uruguay"
             },
-            "display_name": "India vs Uruguay - sony.m3u8"
+            "display_name": "India vs Uruguay - sonyhindi.m3u8"
           }
         ]
       },
@@ -209,12 +186,12 @@
         "streams": [
           {
             "label": "Stream 1",
-            "url": "https://admin2.shadow-ran.online/sportv.m3u8",
+            "url": "https://admin2.shadow-ran.online/vixmx.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-7",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "admin2",
-            "path": "sportv.m3u8",
+            "path": "vixmx.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-7",
               "Origin": "https://roxiestreams.info",
@@ -231,13 +208,13 @@
             "display_name": "Argentina vs Benin (Messi's Farewell) - Stream 1"
           },
           {
-            "label": "sportv.m3u8",
-            "url": "https://daffodil.shadow-ran.online/sportv.m3u8",
+            "label": "Stream 2 (DE)",
+            "url": "https://admin2.shadow-ran.online/sportdigital.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-7",
             "cdn_domain": "shadow-ran.online",
-            "subdomain": "daffodil",
-            "path": "sportv.m3u8",
+            "subdomain": "admin2",
+            "path": "sportdigital.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-7",
               "Origin": "https://roxiestreams.info",
@@ -251,7 +228,30 @@
               "home": "Argentina",
               "away": "Benin (Messi's Farewell)"
             },
-            "display_name": "Argentina vs Benin (Messi's Farewell) - sportv.m3u8"
+            "display_name": "Argentina vs Benin (Messi's Farewell) - Stream 2 (DE)"
+          },
+          {
+            "label": "vixmx.m3u8",
+            "url": "https://daffodil.shadow-ran.online/vixmx.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-7",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "vixmx.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-7",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Argentina vs Benin (Messi's Farewell)",
+            "matchup": {
+              "home": "Argentina",
+              "away": "Benin (Messi's Farewell)"
+            },
+            "display_name": "Argentina vs Benin (Messi's Farewell) - vixmx.m3u8"
           }
         ]
       },
@@ -1953,7 +1953,6 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Stream 1",
-        "Stream 2 (HINDI)",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -2087,6 +2086,7 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Stream 1",
+        "Stream 2 (DE)",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -4452,29 +4452,6 @@
       "streams": [
         {
           "label": "Stream 1",
-          "url": "https://tedesco.shadow-ran.online/sony.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/soccer-streams-1",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "tedesco",
-          "path": "sony.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/soccer-streams-1",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "soccer",
-          "event_title": "India vs Uruguay",
-          "matchup": {
-            "home": "India",
-            "away": "Uruguay"
-          },
-          "display_name": "India vs Uruguay - Stream 1"
-        },
-        {
-          "label": "Stream 2 (HINDI)",
           "url": "https://admin2.shadow-ran.online/sonyhindi.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-1",
@@ -4494,16 +4471,16 @@
             "home": "India",
             "away": "Uruguay"
           },
-          "display_name": "India vs Uruguay - Stream 2 (HINDI)"
+          "display_name": "India vs Uruguay - Stream 1"
         },
         {
-          "label": "sony.m3u8",
-          "url": "https://daffodil.shadow-ran.online/sony.m3u8",
+          "label": "sonyhindi.m3u8",
+          "url": "https://daffodil.shadow-ran.online/sonyhindi.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-1",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "daffodil",
-          "path": "sony.m3u8",
+          "path": "sonyhindi.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-1",
             "Origin": "https://roxiestreams.info",
@@ -4517,7 +4494,7 @@
             "home": "India",
             "away": "Uruguay"
           },
-          "display_name": "India vs Uruguay - sony.m3u8"
+          "display_name": "India vs Uruguay - sonyhindi.m3u8"
         },
         {
           "label": "Stream 1",
@@ -4590,12 +4567,12 @@
         },
         {
           "label": "Stream 1",
-          "url": "https://admin2.shadow-ran.online/sportv.m3u8",
+          "url": "https://admin2.shadow-ran.online/vixmx.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-7",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "admin2",
-          "path": "sportv.m3u8",
+          "path": "vixmx.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-7",
             "Origin": "https://roxiestreams.info",
@@ -4612,13 +4589,13 @@
           "display_name": "Argentina vs Benin (Messi's Farewell) - Stream 1"
         },
         {
-          "label": "sportv.m3u8",
-          "url": "https://daffodil.shadow-ran.online/sportv.m3u8",
+          "label": "Stream 2 (DE)",
+          "url": "https://admin2.shadow-ran.online/sportdigital.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-7",
           "cdn_domain": "shadow-ran.online",
-          "subdomain": "daffodil",
-          "path": "sportv.m3u8",
+          "subdomain": "admin2",
+          "path": "sportdigital.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-7",
             "Origin": "https://roxiestreams.info",
@@ -4632,7 +4609,30 @@
             "home": "Argentina",
             "away": "Benin (Messi's Farewell)"
           },
-          "display_name": "Argentina vs Benin (Messi's Farewell) - sportv.m3u8"
+          "display_name": "Argentina vs Benin (Messi's Farewell) - Stream 2 (DE)"
+        },
+        {
+          "label": "vixmx.m3u8",
+          "url": "https://daffodil.shadow-ran.online/vixmx.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-7",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "vixmx.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-7",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Argentina vs Benin (Messi's Farewell)",
+          "matchup": {
+            "home": "Argentina",
+            "away": "Benin (Messi's Farewell)"
+          },
+          "display_name": "Argentina vs Benin (Messi's Farewell) - vixmx.m3u8"
         },
         {
           "label": "Stream 1",
