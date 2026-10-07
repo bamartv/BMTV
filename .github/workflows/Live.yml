@@ -5,9 +5,9 @@ on:
     - cron: '*/10 * * * *'  
   workflow_dispatch:
 
-concurrency:
-  group: jtv-auto-update
-  cancel-in-progress: false
+# concurrency:
+# group: jtv-auto-update
+# cancel-in-progress: false
 
 jobs:
   update-file:
