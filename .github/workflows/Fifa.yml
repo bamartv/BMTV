@@ -39,7 +39,8 @@ jobs:
       - name: Commit and Push
         run: |
           export TZ="Asia/Kolkata"
-          git add papaos.m3u8 fifa.txt
+          git add papaos.m3u8 
+          # fifa.txt
           # Show what changed (for debug visibility in Actions log)
           git diff --cached --stat
           # Always commit since fifa.txt UUID guarantees a change
