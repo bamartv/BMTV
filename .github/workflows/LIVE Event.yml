@@ -10,9 +10,9 @@ on:
     paths:
       - 'scripts/live.py'
 
-concurrency:
-  group: update-playlist
-  cancel-in-progress: false
+# concurrency:
+# group: update-playlist
+# cancel-in-progress: false
 
 jobs:
   update-playlist:
