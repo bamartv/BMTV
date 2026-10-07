@@ -37,7 +37,7 @@ jobs:
       - name: Commit and Push
         run: |
           export TZ="Asia/Kolkata"
-          git add sonyliv.json sonyliv.m3u sonyliv2.json sonyliv2.m3u sony.m3u sonyliv.txt
+          git add sonyliv.m3u sony.m3u # sonyliv.txt sonyliv.json sonyliv2.json sonyliv2.m3u
           git diff --cached --quiet && echo "No changes to commit" && exit 0
           git commit -m "SonyLiv Database Updated ✅ [$(date +'%d-%m-%Y %H:%M')]"
           git push origin main
