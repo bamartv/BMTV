@@ -17,9 +17,9 @@ jobs:
     permissions:
       contents: write
 
-    concurrency:
-      group: update-jtv2
-      cancel-in-progress: true
+    # concurrency:
+    # group: update-jtv2
+    # cancel-in-progress: true
 
     env:
       TZ: Asia/Kolkata                # sets timezone for commit message
