@@ -7,14 +7,14 @@ on:
     branches:
       - main
 jobs:
-  update-playlist:
+  build:
     runs-on: ubuntu-latest
     
     permissions:
       contents: write
       
     steps:
-      - name: Checkout repository
+      - name: Checkout Repository
         uses: actions/checkout@v5
         with:
           fetch-depth: 0
@@ -39,8 +39,7 @@ jobs:
       - name: Commit and Push
         run: |
           export TZ="Asia/Kolkata"
-          git add papaos.m3u8 
-          # fifa.txt
+          git add papaos.m3u8 fifa.txt
           # Show what changed (for debug visibility in Actions log)
           git diff --cached --stat
           # Always commit since fifa.txt UUID guarantees a change
