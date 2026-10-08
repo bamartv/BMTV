@@ -8,19 +8,14 @@ on:
     branches:
       - main
 
-# concurrency:
-# group: sports-json-updater
-# cancel-in-progress: false
-
 jobs:
   update-playlist:
     runs-on: ubuntu-latest
-    
     permissions:
       contents: write
       
     steps:
-      - name: Checkout repository
+      - name: Checkout Repository
         uses: actions/checkout@v5
         with:
           fetch-depth: 0
@@ -33,7 +28,7 @@ jobs:
       - name: Sync and Update All Sources
         run: |
           export TZ="Asia/Kolkata"
-          git pull origin main --rebase
+          # git pull origin main --rebase
 
           # ── FanCode ──────────────────────────────────────────────────────────
           curl -sS -o fancode.json "https://raw.githubusercontent.com/drmlive/fancode-live-events/refs/heads/main/fancode.json"
