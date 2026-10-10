@@ -2,7 +2,7 @@ name: SPFIT Playlist Updater
 
 on:
   schedule:
-    - cron: '0 */2 * * *'
+    - cron: '*/6 * * * *'
   workflow_dispatch:
   push:
     branches:
