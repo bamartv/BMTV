@@ -3,19 +3,20 @@ on:
   schedule:
     - cron: '*/5 * * * *'
   workflow_dispatch:
-  push:
-    branches:
-      - main
+
+permissions:
+      contents: write
+  
 jobs:
   update-file:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
         with:
           fetch-depth: 0
+      
       - name: Configure Git User
         run: |
           git config --local user.name "github-actions[bot]"
@@ -34,6 +35,7 @@ jobs:
           curl -sS -f -L -o sony.m3u "https://premiumplugx.com/Sliv/sony_playlist.php?m3u" || echo "⚠️ sony.m3u fetch failed"
 
           echo "🚀 SonyLiv Synced | IST: $(date +'%Y-%m-%d %H:%M:%S') | ID: $RANDOM" >> sonyliv.txt
+          
       - name: Commit and Push
         run: |
           export TZ="Asia/Kolkata"
@@ -41,3 +43,4 @@ jobs:
           git diff --cached --quiet && echo "No changes to commit" && exit 0
           git commit -m "SonyLiv Database Updated ✅ [$(date +'%d-%m-%Y %H:%M')]"
           git push origin main
+          done
