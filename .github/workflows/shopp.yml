@@ -2,7 +2,7 @@ name: SHOPP Playlist Generator
 
 on:
   schedule:
-    - cron: '0 */1 * * *'
+    - cron: '*/6 * * * *'
   workflow_dispatch:
 
 # REQUIRED for git push
