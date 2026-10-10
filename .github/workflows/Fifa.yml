@@ -3,15 +3,14 @@ on:
   schedule:
     - cron: '*/10 * * * *'
   workflow_dispatch:
-  push:
-    branches:
-      - main
+
+permissions:
+      contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v5
