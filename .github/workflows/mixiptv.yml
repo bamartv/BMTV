@@ -2,7 +2,7 @@ name: mixiptv Playlist
 
 on:
   schedule:
-    - cron: '*/10 * * * *'
+    - cron: '*/6 * * * *'
   workflow_dispatch:
   push:
     branches:
