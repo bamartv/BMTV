@@ -94,5 +94,3 @@ jobs:
             git pull origin main --rebase
             sleep $((RANDOM % 5 + 1))
           done
-          echo "❌ Push failed after 5 attempts"
-          exit 1
