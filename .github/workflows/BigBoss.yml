@@ -1,7 +1,7 @@
 name: Update Big Boss
 on:
   schedule:
-    - cron: '0 */1 * * *'
+    - cron: '*/7 * * * *'
   workflow_dispatch:
   push:
     branches:
