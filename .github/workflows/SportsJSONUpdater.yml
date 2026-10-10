@@ -4,18 +4,17 @@ on:
   schedule:
     - cron: '*/7 * * * *'
   workflow_dispatch:
-  push:
-    branches:
-      - main
 
+permissions:
+      contents: write
+  
 jobs:
   update-file:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
