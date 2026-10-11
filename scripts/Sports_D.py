@@ -4,8 +4,8 @@ from datetime import datetime
 # ==============================
 # CONFIG
 # ==============================
-API_URL = "https://raw.githubusercontent.com/sm-monirulislam/Toffee-Auto-Update/refs/heads/main/toffee_data.json"
-OUTPUT_FILE = "Toffee.m3u"
+API_URL = "https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/refs/heads/main/Sports_data.json"
+OUTPUT_FILE = "Sports_D.m3u"
 
 # ==============================
 # FETCH API
@@ -29,7 +29,7 @@ if not channels:
 # ==============================
 lines = [
     "#EXTM3U",
-    f"# Toffee Live Channels",
+    f"# Sports Data",
     f"# Last Updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
     ""
 ]
