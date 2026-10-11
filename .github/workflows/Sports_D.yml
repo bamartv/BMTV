@@ -30,7 +30,7 @@ jobs:
 
       - name: Run scraper
         run: |
-          python Scripts/Sports_D.py
+          python scripts/Sports_D.py
 
       - name: Commit updated outputs
         run: |
