@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-10-15T21:43:27+00:00",
+  "scraped_at": "2026-10-15T23:55:18+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
@@ -290,12 +290,12 @@
         "streams": [
           {
             "label": "Stream 1",
-            "url": "https://tedesco.shadow-ran.online/golazo.m3u8",
+            "url": "https://admin.shadow-ran.online/beines.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-13",
             "cdn_domain": "shadow-ran.online",
-            "subdomain": "tedesco",
-            "path": "golazo.m3u8",
+            "subdomain": "admin",
+            "path": "beines.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-13",
               "Origin": "https://roxiestreams.info",
@@ -312,13 +312,13 @@
             "display_name": "Estudiantes vs Flamengo - Stream 1"
           },
           {
-            "label": "golazo.m3u8",
-            "url": "https://daffodil.shadow-ran.online/golazo.m3u8",
+            "label": "Stream 2 (EN)",
+            "url": "https://tedesco.shadow-ran.online/bein.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-13",
             "cdn_domain": "shadow-ran.online",
-            "subdomain": "daffodil",
-            "path": "golazo.m3u8",
+            "subdomain": "tedesco",
+            "path": "bein.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-13",
               "Origin": "https://roxiestreams.info",
@@ -332,7 +332,30 @@
               "home": "Estudiantes",
               "away": "Flamengo"
             },
-            "display_name": "Estudiantes vs Flamengo - golazo.m3u8"
+            "display_name": "Estudiantes vs Flamengo - Stream 2 (EN)"
+          },
+          {
+            "label": "beines.m3u8",
+            "url": "https://daffodil.shadow-ran.online/beines.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-13",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "beines.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-13",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Estudiantes vs Flamengo",
+            "matchup": {
+              "home": "Estudiantes",
+              "away": "Flamengo"
+            },
+            "display_name": "Estudiantes vs Flamengo - beines.m3u8"
           }
         ]
       },
@@ -738,29 +761,6 @@
             "display_name": "Toronto Raptors vs New York Knicks - Stream 1"
           },
           {
-            "label": "Stream 2",
-            "url": "https://admin.shadow-ran.online/heat.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/nba-streams-1",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "admin",
-            "path": "heat.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/nba-streams-1",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "nba",
-            "event_title": "Toronto Raptors vs New York Knicks",
-            "matchup": {
-              "home": "Toronto Raptors",
-              "away": "New York Knicks"
-            },
-            "display_name": "Toronto Raptors vs New York Knicks - Stream 2"
-          },
-          {
             "label": "nba.m3u8",
             "url": "https://daffodil.shadow-ran.online/nba.m3u8",
             "type": "m3u8",
@@ -796,11 +796,11 @@
         "streams": [
           {
             "label": "Stream 1",
-            "url": "https://admin2.shadow-ran.online/nba2.m3u8",
+            "url": "https://tedesco.shadow-ran.online/nba2.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/nba-streams-2",
             "cdn_domain": "shadow-ran.online",
-            "subdomain": "admin2",
+            "subdomain": "tedesco",
             "path": "nba2.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/nba-streams-2",
@@ -855,12 +855,12 @@
         "streams": [
           {
             "label": "Stream 1",
-            "url": "https://admin2.shadow-ran.online/tnt8.m3u8",
+            "url": "https://tedesco.shadow-ran.online/ncaa.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/ncaa-streams-1",
             "cdn_domain": "shadow-ran.online",
-            "subdomain": "admin2",
-            "path": "tnt8.m3u8",
+            "subdomain": "tedesco",
+            "path": "ncaa.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/ncaa-streams-1",
               "Origin": "https://roxiestreams.info",
@@ -877,13 +877,13 @@
             "display_name": "East Carolina vs UAB - Stream 1"
           },
           {
-            "label": "tnt8.m3u8",
-            "url": "https://daffodil.shadow-ran.online/tnt8.m3u8",
+            "label": "ncaa.m3u8",
+            "url": "https://daffodil.shadow-ran.online/ncaa.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/ncaa-streams-1",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "daffodil",
-            "path": "tnt8.m3u8",
+            "path": "ncaa.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/ncaa-streams-1",
               "Origin": "https://roxiestreams.info",
@@ -897,7 +897,7 @@
               "home": "East Carolina",
               "away": "UAB"
             },
-            "display_name": "East Carolina vs UAB - tnt8.m3u8"
+            "display_name": "East Carolina vs UAB - ncaa.m3u8"
           }
         ]
       },
@@ -969,12 +969,12 @@
         "streams": [
           {
             "label": "Stream 1",
-            "url": "https://admin2.shadow-ran.online/besiktas.m3u8",
+            "url": "https://tedesco.shadow-ran.online/ncaa3.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/ncaa-streams-3",
             "cdn_domain": "shadow-ran.online",
-            "subdomain": "admin2",
-            "path": "besiktas.m3u8",
+            "subdomain": "tedesco",
+            "path": "ncaa3.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/ncaa-streams-3",
               "Origin": "https://roxiestreams.info",
@@ -991,13 +991,13 @@
             "display_name": "Colorado State vs Texas State - Stream 1"
           },
           {
-            "label": "besiktas.m3u8",
-            "url": "https://daffodil.shadow-ran.online/besiktas.m3u8",
+            "label": "ncaa3.m3u8",
+            "url": "https://daffodil.shadow-ran.online/ncaa3.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/ncaa-streams-3",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "daffodil",
-            "path": "besiktas.m3u8",
+            "path": "ncaa3.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/ncaa-streams-3",
               "Origin": "https://roxiestreams.info",
@@ -1011,7 +1011,7 @@
               "home": "Colorado State",
               "away": "Texas State"
             },
-            "display_name": "Colorado State vs Texas State - besiktas.m3u8"
+            "display_name": "Colorado State vs Texas State - ncaa3.m3u8"
           }
         ]
       },
@@ -1049,29 +1049,6 @@
           },
           {
             "label": "Stream 2",
-            "url": "https://admin2.shadow-ran.online/nflalt.m3u8",
-            "type": "m3u8",
-            "source_page": "https://roxiestreams.info/nfl-streams-1",
-            "cdn_domain": "shadow-ran.online",
-            "subdomain": "admin2",
-            "path": "nflalt.m3u8",
-            "headers": {
-              "Referer": "https://roxiestreams.info/nfl-streams-1",
-              "Origin": "https://roxiestreams.info",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-              "Accept": "*/*"
-            },
-            "drm_keys": null,
-            "sport": "nfl",
-            "event_title": "Seattle Seahawks vs Denver Broncos",
-            "matchup": {
-              "home": "Seattle Seahawks",
-              "away": "Denver Broncos"
-            },
-            "display_name": "Seattle Seahawks vs Denver Broncos - Stream 2"
-          },
-          {
-            "label": "Stream 3",
             "url": "https://tedesco.shadow-ran.online/nfl.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/nfl-streams-1",
@@ -1091,7 +1068,7 @@
               "home": "Seattle Seahawks",
               "away": "Denver Broncos"
             },
-            "display_name": "Seattle Seahawks vs Denver Broncos - Stream 3"
+            "display_name": "Seattle Seahawks vs Denver Broncos - Stream 2"
           },
           {
             "label": "nfl.m3u8",
@@ -1219,7 +1196,7 @@
         "streams": [
           {
             "label": "Direct Link",
-            "url": "https://tedesco.formaturamaxi.com.br/nhl11.m3u8",
+            "url": "https://admin2.formaturamaxi.com.br/nhl11.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/nhl-streams-11",
             "headers": {
@@ -1307,11 +1284,11 @@
         "streams": [
           {
             "label": "Stream 1",
-            "url": "https://tedesco.shadow-ran.online/nhl3.m3u8",
+            "url": "https://admin2.shadow-ran.online/nhl3.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/nhl-streams-3",
             "cdn_domain": "shadow-ran.online",
-            "subdomain": "tedesco",
+            "subdomain": "admin2",
             "path": "nhl3.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/nhl-streams-3",
@@ -2138,6 +2115,7 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Stream 1",
+        "Stream 2 (EN)",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -2844,7 +2822,6 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Stream 1",
-        "Stream 2",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -3268,7 +3245,6 @@
         "MultiView (NEW)",
         "Stream 1",
         "Stream 2",
-        "Stream 3",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -4847,12 +4823,12 @@
         },
         {
           "label": "Stream 1",
-          "url": "https://tedesco.shadow-ran.online/golazo.m3u8",
+          "url": "https://admin.shadow-ran.online/beines.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-13",
           "cdn_domain": "shadow-ran.online",
-          "subdomain": "tedesco",
-          "path": "golazo.m3u8",
+          "subdomain": "admin",
+          "path": "beines.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-13",
             "Origin": "https://roxiestreams.info",
@@ -4869,13 +4845,13 @@
           "display_name": "Estudiantes vs Flamengo - Stream 1"
         },
         {
-          "label": "golazo.m3u8",
-          "url": "https://daffodil.shadow-ran.online/golazo.m3u8",
+          "label": "Stream 2 (EN)",
+          "url": "https://tedesco.shadow-ran.online/bein.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-13",
           "cdn_domain": "shadow-ran.online",
-          "subdomain": "daffodil",
-          "path": "golazo.m3u8",
+          "subdomain": "tedesco",
+          "path": "bein.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-13",
             "Origin": "https://roxiestreams.info",
@@ -4889,7 +4865,30 @@
             "home": "Estudiantes",
             "away": "Flamengo"
           },
-          "display_name": "Estudiantes vs Flamengo - golazo.m3u8"
+          "display_name": "Estudiantes vs Flamengo - Stream 2 (EN)"
+        },
+        {
+          "label": "beines.m3u8",
+          "url": "https://daffodil.shadow-ran.online/beines.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-13",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "beines.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-13",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Estudiantes vs Flamengo",
+          "matchup": {
+            "home": "Estudiantes",
+            "away": "Flamengo"
+          },
+          "display_name": "Estudiantes vs Flamengo - beines.m3u8"
         },
         {
           "label": "Stream 1",
@@ -5231,29 +5230,6 @@
           "display_name": "Toronto Raptors vs New York Knicks - Stream 1"
         },
         {
-          "label": "Stream 2",
-          "url": "https://admin.shadow-ran.online/heat.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/nba-streams-1",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "admin",
-          "path": "heat.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/nba-streams-1",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "nba",
-          "event_title": "Toronto Raptors vs New York Knicks",
-          "matchup": {
-            "home": "Toronto Raptors",
-            "away": "New York Knicks"
-          },
-          "display_name": "Toronto Raptors vs New York Knicks - Stream 2"
-        },
-        {
           "label": "nba.m3u8",
           "url": "https://daffodil.shadow-ran.online/nba.m3u8",
           "type": "m3u8",
@@ -5278,11 +5254,11 @@
         },
         {
           "label": "Stream 1",
-          "url": "https://admin2.shadow-ran.online/nba2.m3u8",
+          "url": "https://tedesco.shadow-ran.online/nba2.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/nba-streams-2",
           "cdn_domain": "shadow-ran.online",
-          "subdomain": "admin2",
+          "subdomain": "tedesco",
           "path": "nba2.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/nba-streams-2",
@@ -5335,12 +5311,12 @@
       "streams": [
         {
           "label": "Stream 1",
-          "url": "https://admin2.shadow-ran.online/tnt8.m3u8",
+          "url": "https://tedesco.shadow-ran.online/ncaa.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/ncaa-streams-1",
           "cdn_domain": "shadow-ran.online",
-          "subdomain": "admin2",
-          "path": "tnt8.m3u8",
+          "subdomain": "tedesco",
+          "path": "ncaa.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/ncaa-streams-1",
             "Origin": "https://roxiestreams.info",
@@ -5357,13 +5333,13 @@
           "display_name": "East Carolina vs UAB - Stream 1"
         },
         {
-          "label": "tnt8.m3u8",
-          "url": "https://daffodil.shadow-ran.online/tnt8.m3u8",
+          "label": "ncaa.m3u8",
+          "url": "https://daffodil.shadow-ran.online/ncaa.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/ncaa-streams-1",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "daffodil",
-          "path": "tnt8.m3u8",
+          "path": "ncaa.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/ncaa-streams-1",
             "Origin": "https://roxiestreams.info",
@@ -5377,7 +5353,7 @@
             "home": "East Carolina",
             "away": "UAB"
           },
-          "display_name": "East Carolina vs UAB - tnt8.m3u8"
+          "display_name": "East Carolina vs UAB - ncaa.m3u8"
         },
         {
           "label": "Stream 1",
@@ -5427,12 +5403,12 @@
         },
         {
           "label": "Stream 1",
-          "url": "https://admin2.shadow-ran.online/besiktas.m3u8",
+          "url": "https://tedesco.shadow-ran.online/ncaa3.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/ncaa-streams-3",
           "cdn_domain": "shadow-ran.online",
-          "subdomain": "admin2",
-          "path": "besiktas.m3u8",
+          "subdomain": "tedesco",
+          "path": "ncaa3.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/ncaa-streams-3",
             "Origin": "https://roxiestreams.info",
@@ -5449,13 +5425,13 @@
           "display_name": "Colorado State vs Texas State - Stream 1"
         },
         {
-          "label": "besiktas.m3u8",
-          "url": "https://daffodil.shadow-ran.online/besiktas.m3u8",
+          "label": "ncaa3.m3u8",
+          "url": "https://daffodil.shadow-ran.online/ncaa3.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/ncaa-streams-3",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "daffodil",
-          "path": "besiktas.m3u8",
+          "path": "ncaa3.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/ncaa-streams-3",
             "Origin": "https://roxiestreams.info",
@@ -5469,7 +5445,7 @@
             "home": "Colorado State",
             "away": "Texas State"
           },
-          "display_name": "Colorado State vs Texas State - besiktas.m3u8"
+          "display_name": "Colorado State vs Texas State - ncaa3.m3u8"
         },
         {
           "label": "Stream 1",
@@ -5496,29 +5472,6 @@
         },
         {
           "label": "Stream 2",
-          "url": "https://admin2.shadow-ran.online/nflalt.m3u8",
-          "type": "m3u8",
-          "source_page": "https://roxiestreams.info/nfl-streams-1",
-          "cdn_domain": "shadow-ran.online",
-          "subdomain": "admin2",
-          "path": "nflalt.m3u8",
-          "headers": {
-            "Referer": "https://roxiestreams.info/nfl-streams-1",
-            "Origin": "https://roxiestreams.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Accept": "*/*"
-          },
-          "drm_keys": null,
-          "sport": "nfl",
-          "event_title": "Seattle Seahawks vs Denver Broncos",
-          "matchup": {
-            "home": "Seattle Seahawks",
-            "away": "Denver Broncos"
-          },
-          "display_name": "Seattle Seahawks vs Denver Broncos - Stream 2"
-        },
-        {
-          "label": "Stream 3",
           "url": "https://tedesco.shadow-ran.online/nfl.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/nfl-streams-1",
@@ -5538,7 +5491,7 @@
             "home": "Seattle Seahawks",
             "away": "Denver Broncos"
           },
-          "display_name": "Seattle Seahawks vs Denver Broncos - Stream 3"
+          "display_name": "Seattle Seahawks vs Denver Broncos - Stream 2"
         },
         {
           "label": "nfl.m3u8",
@@ -5649,7 +5602,7 @@
         },
         {
           "label": "Direct Link",
-          "url": "https://tedesco.formaturamaxi.com.br/nhl11.m3u8",
+          "url": "https://admin2.formaturamaxi.com.br/nhl11.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/nhl-streams-11",
           "headers": {
@@ -5715,11 +5668,11 @@
         },
         {
           "label": "Stream 1",
-          "url": "https://tedesco.shadow-ran.online/nhl3.m3u8",
+          "url": "https://admin2.shadow-ran.online/nhl3.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/nhl-streams-3",
           "cdn_domain": "shadow-ran.online",
-          "subdomain": "tedesco",
+          "subdomain": "admin2",
           "path": "nhl3.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/nhl-streams-3",
@@ -6056,7 +6009,7 @@
       "streams": []
     }
   },
-  "stream_count": 60,
+  "stream_count": 59,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
