@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-10-16T23:27:07+00:00",
+  "scraped_at": "2026-10-17T01:29:04+00:00",
   "base_url": "https://roxiestreams.info",
   "domains": [
     "shadow-ran.online"
@@ -603,12 +603,12 @@
         "streams": [
           {
             "label": "Stream 1",
-            "url": "https://admin.shadow-ran.online/fana2.m3u8",
+            "url": "https://admin.shadow-ran.online/afaplay2.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-7",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "admin",
-            "path": "fana2.m3u8",
+            "path": "afaplay2.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-7",
               "Origin": "https://roxiestreams.info",
@@ -625,13 +625,13 @@
             "display_name": "Boca Juniors vs Talleres Cordoba - Stream 1"
           },
           {
-            "label": "fana2.m3u8",
-            "url": "https://daffodil.shadow-ran.online/fana2.m3u8",
+            "label": "Stream 2 (EN)",
+            "url": "https://admin.shadow-ran.online/afaplay2en.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-7",
             "cdn_domain": "shadow-ran.online",
-            "subdomain": "daffodil",
-            "path": "fana2.m3u8",
+            "subdomain": "admin",
+            "path": "afaplay2en.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-7",
               "Origin": "https://roxiestreams.info",
@@ -645,7 +645,30 @@
               "home": "Boca Juniors",
               "away": "Talleres Cordoba"
             },
-            "display_name": "Boca Juniors vs Talleres Cordoba - fana2.m3u8"
+            "display_name": "Boca Juniors vs Talleres Cordoba - Stream 2 (EN)"
+          },
+          {
+            "label": "afaplay2.m3u8",
+            "url": "https://daffodil.shadow-ran.online/afaplay2.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/soccer-streams-7",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "daffodil",
+            "path": "afaplay2.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/soccer-streams-7",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "soccer",
+            "event_title": "Boca Juniors vs Talleres Cordoba",
+            "matchup": {
+              "home": "Boca Juniors",
+              "away": "Talleres Cordoba"
+            },
+            "display_name": "Boca Juniors vs Talleres Cordoba - afaplay2.m3u8"
           }
         ]
       },
@@ -660,12 +683,12 @@
         "streams": [
           {
             "label": "Stream 1",
-            "url": "https://admin2.shadow-ran.online/tnt4.m3u8",
+            "url": "https://admin2.shadow-ran.online/foxdep.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-8",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "admin2",
-            "path": "tnt4.m3u8",
+            "path": "foxdep.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-8",
               "Origin": "https://roxiestreams.info",
@@ -682,13 +705,13 @@
             "display_name": "Necaxa vs Atlas - Stream 1"
           },
           {
-            "label": "tnt4.m3u8",
-            "url": "https://daffodil.shadow-ran.online/tnt4.m3u8",
+            "label": "foxdep.m3u8",
+            "url": "https://daffodil.shadow-ran.online/foxdep.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/soccer-streams-8",
             "cdn_domain": "shadow-ran.online",
             "subdomain": "daffodil",
-            "path": "tnt4.m3u8",
+            "path": "foxdep.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/soccer-streams-8",
               "Origin": "https://roxiestreams.info",
@@ -702,7 +725,7 @@
               "home": "Necaxa",
               "away": "Atlas"
             },
-            "display_name": "Necaxa vs Atlas - tnt4.m3u8"
+            "display_name": "Necaxa vs Atlas - foxdep.m3u8"
           }
         ]
       },
@@ -1508,11 +1531,11 @@
         "streams": [
           {
             "label": "Stream 1",
-            "url": "https://tedesco.shadow-ran.online/nba9.m3u8",
+            "url": "https://admin2.shadow-ran.online/nba9.m3u8",
             "type": "m3u8",
             "source_page": "https://roxiestreams.info/nba-streams-9",
             "cdn_domain": "shadow-ran.online",
-            "subdomain": "tedesco",
+            "subdomain": "admin2",
             "path": "nba9.m3u8",
             "headers": {
               "Referer": "https://roxiestreams.info/nba-streams-9",
@@ -1920,6 +1943,26 @@
             "display_name": "WWE Smackdown - Stream 1"
           },
           {
+            "label": "Stream 2",
+            "url": "https://tedesco.shadow-ran.online/wwe.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/wwe-streams",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "tedesco",
+            "path": "wwe.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/wwe-streams",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "fighting",
+            "event_title": "WWE Smackdown",
+            "matchup": null,
+            "display_name": "WWE Smackdown - Stream 2"
+          },
+          {
             "label": "wwe.m3u8",
             "url": "https://daffodil.shadow-ran.online/wwe.m3u8",
             "type": "m3u8",
@@ -2078,6 +2121,26 @@
             "event_title": "WWE Smackdown",
             "matchup": null,
             "display_name": "WWE Smackdown - Stream 1"
+          },
+          {
+            "label": "Stream 2",
+            "url": "https://tedesco.shadow-ran.online/wwe.m3u8",
+            "type": "m3u8",
+            "source_page": "https://roxiestreams.info/wwe-streams",
+            "cdn_domain": "shadow-ran.online",
+            "subdomain": "tedesco",
+            "path": "wwe.m3u8",
+            "headers": {
+              "Referer": "https://roxiestreams.info/wwe-streams",
+              "Origin": "https://roxiestreams.info",
+              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+              "Accept": "*/*"
+            },
+            "drm_keys": null,
+            "sport": "wwe",
+            "event_title": "WWE Smackdown",
+            "matchup": null,
+            "display_name": "WWE Smackdown - Stream 2"
           },
           {
             "label": "wwe.m3u8",
@@ -2852,6 +2915,7 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Stream 1",
+        "Stream 2 (EN)",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -4788,6 +4852,7 @@
         "Stream Request (Discord)",
         "MultiView (NEW)",
         "Stream 1",
+        "Stream 2",
         "Switch to Chatango",
         "Stream Request (Discord)"
       ],
@@ -5555,12 +5620,12 @@
         },
         {
           "label": "Stream 1",
-          "url": "https://admin.shadow-ran.online/fana2.m3u8",
+          "url": "https://admin.shadow-ran.online/afaplay2.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-7",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "admin",
-          "path": "fana2.m3u8",
+          "path": "afaplay2.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-7",
             "Origin": "https://roxiestreams.info",
@@ -5577,13 +5642,13 @@
           "display_name": "Boca Juniors vs Talleres Cordoba - Stream 1"
         },
         {
-          "label": "fana2.m3u8",
-          "url": "https://daffodil.shadow-ran.online/fana2.m3u8",
+          "label": "Stream 2 (EN)",
+          "url": "https://admin.shadow-ran.online/afaplay2en.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-7",
           "cdn_domain": "shadow-ran.online",
-          "subdomain": "daffodil",
-          "path": "fana2.m3u8",
+          "subdomain": "admin",
+          "path": "afaplay2en.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-7",
             "Origin": "https://roxiestreams.info",
@@ -5597,16 +5662,39 @@
             "home": "Boca Juniors",
             "away": "Talleres Cordoba"
           },
-          "display_name": "Boca Juniors vs Talleres Cordoba - fana2.m3u8"
+          "display_name": "Boca Juniors vs Talleres Cordoba - Stream 2 (EN)"
+        },
+        {
+          "label": "afaplay2.m3u8",
+          "url": "https://daffodil.shadow-ran.online/afaplay2.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/soccer-streams-7",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "daffodil",
+          "path": "afaplay2.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/soccer-streams-7",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "soccer",
+          "event_title": "Boca Juniors vs Talleres Cordoba",
+          "matchup": {
+            "home": "Boca Juniors",
+            "away": "Talleres Cordoba"
+          },
+          "display_name": "Boca Juniors vs Talleres Cordoba - afaplay2.m3u8"
         },
         {
           "label": "Stream 1",
-          "url": "https://admin2.shadow-ran.online/tnt4.m3u8",
+          "url": "https://admin2.shadow-ran.online/foxdep.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-8",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "admin2",
-          "path": "tnt4.m3u8",
+          "path": "foxdep.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-8",
             "Origin": "https://roxiestreams.info",
@@ -5623,13 +5711,13 @@
           "display_name": "Necaxa vs Atlas - Stream 1"
         },
         {
-          "label": "tnt4.m3u8",
-          "url": "https://daffodil.shadow-ran.online/tnt4.m3u8",
+          "label": "foxdep.m3u8",
+          "url": "https://daffodil.shadow-ran.online/foxdep.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/soccer-streams-8",
           "cdn_domain": "shadow-ran.online",
           "subdomain": "daffodil",
-          "path": "tnt4.m3u8",
+          "path": "foxdep.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/soccer-streams-8",
             "Origin": "https://roxiestreams.info",
@@ -5643,7 +5731,7 @@
             "home": "Necaxa",
             "away": "Atlas"
           },
-          "display_name": "Necaxa vs Atlas - tnt4.m3u8"
+          "display_name": "Necaxa vs Atlas - foxdep.m3u8"
         },
         {
           "label": "Stream 1",
@@ -6318,11 +6406,11 @@
         },
         {
           "label": "Stream 1",
-          "url": "https://tedesco.shadow-ran.online/nba9.m3u8",
+          "url": "https://admin2.shadow-ran.online/nba9.m3u8",
           "type": "m3u8",
           "source_page": "https://roxiestreams.info/nba-streams-9",
           "cdn_domain": "shadow-ran.online",
-          "subdomain": "tedesco",
+          "subdomain": "admin2",
           "path": "nba9.m3u8",
           "headers": {
             "Referer": "https://roxiestreams.info/nba-streams-9",
@@ -6681,6 +6769,26 @@
           "display_name": "WWE Smackdown - Stream 1"
         },
         {
+          "label": "Stream 2",
+          "url": "https://tedesco.shadow-ran.online/wwe.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/wwe-streams",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "tedesco",
+          "path": "wwe.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/wwe-streams",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "fighting",
+          "event_title": "WWE Smackdown",
+          "matchup": null,
+          "display_name": "WWE Smackdown - Stream 2"
+        },
+        {
           "label": "wwe.m3u8",
           "url": "https://daffodil.shadow-ran.online/wwe.m3u8",
           "type": "m3u8",
@@ -6834,6 +6942,26 @@
           "display_name": "WWE Smackdown - Stream 1"
         },
         {
+          "label": "Stream 2",
+          "url": "https://tedesco.shadow-ran.online/wwe.m3u8",
+          "type": "m3u8",
+          "source_page": "https://roxiestreams.info/wwe-streams",
+          "cdn_domain": "shadow-ran.online",
+          "subdomain": "tedesco",
+          "path": "wwe.m3u8",
+          "headers": {
+            "Referer": "https://roxiestreams.info/wwe-streams",
+            "Origin": "https://roxiestreams.info",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Accept": "*/*"
+          },
+          "drm_keys": null,
+          "sport": "wwe",
+          "event_title": "WWE Smackdown",
+          "matchup": null,
+          "display_name": "WWE Smackdown - Stream 2"
+        },
+        {
           "label": "wwe.m3u8",
           "url": "https://daffodil.shadow-ran.online/wwe.m3u8",
           "type": "m3u8",
@@ -6856,7 +6984,7 @@
       ]
     }
   },
-  "stream_count": 74,
+  "stream_count": 77,
   "notes": [
     "Playlist header tags are player hints. Browser CORS requires a server-side proxy."
   ]
