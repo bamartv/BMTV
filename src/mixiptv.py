@@ -1,6 +1,6 @@
 import urllib.request
 import urllib.error
-url = 'https://premiumplugx.com/VIP/pluglist.php '
+url = 'https://plugxvipplaylist.lovable.app/api/playlist'
 
 headers = {
     'User-Agent': 'OTT Navigator'
