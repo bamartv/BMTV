@@ -3,7 +3,7 @@ on:
   push:
     branches: [main]        # adjust if your default branch is different
   schedule:
-    - cron: '*/30 * * * *'   # every 10 minutes 
+    - cron: '*/10 * * * *'   # every 10 minutes 
   workflow_dispatch:
 
 concurrency:
@@ -30,7 +30,7 @@ jobs:
           pip install requests
 
       - name: Run merge script
-        run: python script/merge.py
+        run: python scripts/merge.py
 
       - name: Always commit (with or without changes)
         run: |
