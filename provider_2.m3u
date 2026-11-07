@@ -1,6 +1,6 @@
 #EXTM3U
 #PLAYLIST:Live Events
-#LAST_UPDATE:01:17 AM 11-07-2026
+#LAST_UPDATE:07:21 AM 11-07-2026
 #EXTINF:-1 tvg-id="17" tvg-name="AFGHANISTAN VS ZIMBABWE IN UAE: AFG vs ZIM - Willow Cricbuzz - AQ" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/11191/image/dark" group-title="Cricket",AFGHANISTAN VS ZIMBABWE IN UAE: AFG vs ZIM - Willow Cricbuzz - AQ
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -78,6 +78,14 @@ https://sonymtmnew-akamaized.pages.dev/hls/live/2120303/footlive0611/HIN/std_lrh
 #EXTVLCOPT:http-origin=https%3A%2F%2Fwww.sonyliv.com
 https://sonymtmnew-akamaized.pages.dev/hls/live/2120301/footlive0611/ENG/std_lrh-800300010.m3u8
 
+#EXTINF:-1 tvg-id="12" tvg-name="INDIA A TOUR OF NEW ZEALAND, UNOFFICIAL: NZ vs IND - ENG | 3rd Unofficial Test - Day 1 - 7 Nov 2026" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/11191/image/dark" group-title="Cricket",INDIA A TOUR OF NEW ZEALAND, UNOFFICIAL: NZ vs IND - ENG | 3rd Unofficial Test - Day 1 - 7 Nov 2026
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%3B+rv%3A158.0%29+Gecko%2F20100101+Firefox%2F158.0
+#EXTVLCOPT:http-referrer=https%3A%2F%2Fwww.sonyliv.com%2F
+#EXTVLCOPT:http-origin=https%3A%2F%2Fwww.sonyliv.com
+https://sonymtmnew-akamaized.pages.dev/hls/live/2120304/Criclive0611/ENG/std_lrh-800300010.m3u8
+
 #EXTINF:-1 tvg-id="267" tvg-name="Formula1 - SPORTS TV - FHD" tvg-logo="https://scdnmain.net/assets/tournament/40-c.png" group-title="Racing",Formula1 - SPORTS TV - FHD
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -119,30 +127,11 @@ http://193.47.62.44/hls/KYYYAAAA.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://live.kinescopecdn.net/on-air/5bf2c07e-3604-42cf-959a-67ed8914ffd5/f38259fb-2171-4893-9cfa-c78d2d277ff6/master.m3u8
 
-#EXTINF:-1 tvg-id="295" tvg-name="Friday Night SmackDown - HD SERVER 1" tvg-logo="https://static.wikia.nocookie.net/wweuniverse/images/f/f6/Wwelogo.png/revision/latest?cb=20101124080717" group-title="WWE",Friday Night SmackDown - HD SERVER 1
+#EXTINF:-1 tvg-id="295" tvg-name="Friday Night SmackDown - USA SPORTS HD" tvg-logo="https://static.wikia.nocookie.net/wweuniverse/images/f/f6/Wwelogo.png/revision/latest?cb=20101124080717" group-title="WWE",Friday Night SmackDown - USA SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://jellyfin.fromthyheart.site/dailymotion/live/playlist/5.m3u8
-
-#EXTINF:-1 tvg-id="295" tvg-name="Friday Night SmackDown - HD SERVER 2" tvg-logo="https://static.wikia.nocookie.net/wweuniverse/images/f/f6/Wwelogo.png/revision/latest?cb=20101124080717" group-title="WWE",Friday Night SmackDown - HD SERVER 2
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://ubuntu.fromthyheart.site/dailymotion/live/playlist/5.m3u8
-
-#EXTINF:-1 tvg-id="295" tvg-name="Friday Night SmackDown - HD SERVER 3" tvg-logo="https://static.wikia.nocookie.net/wweuniverse/images/f/f6/Wwelogo.png/revision/latest?cb=20101124080717" group-title="WWE",Friday Night SmackDown - HD SERVER 3
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://plex.fromthyheart.site/dailymotion/live/playlist/5.m3u8
-
-#EXTINF:-1 tvg-id="295" tvg-name="Friday Night SmackDown - HD SERVER 4" tvg-logo="https://static.wikia.nocookie.net/wweuniverse/images/f/f6/Wwelogo.png/revision/latest?cb=20101124080717" group-title="WWE",Friday Night SmackDown - HD SERVER 4
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://raw.githubusercontent.com/athenapanda26/hls/refs/heads/main/smack.m3u8
-
-#EXTINF:-1 tvg-id="295" tvg-name="Friday Night SmackDown - HD SERVER 5" tvg-logo="https://static.wikia.nocookie.net/wweuniverse/images/f/f6/Wwelogo.png/revision/latest?cb=20101124080717" group-title="WWE",Friday Night SmackDown - HD SERVER 5
-#KODIPROP:inputstream=inputstream.ffmpeg
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://admin2.formaturamaxi.com.br/wwe.m3u8
+#EXTVLCOPT:http-referrer=https://gooz.aapmains.net
+https://chatgpt.hereisman.net/playlist/58881/load-playlist?&.m3u8
 
 #EXTINF:-1 tvg-id="295" tvg-name="Friday Night SmackDown - GHD SPORTS HD" tvg-logo="https://static.wikia.nocookie.net/wweuniverse/images/f/f6/Wwelogo.png/revision/latest?cb=20101124080717" group-title="WWE",Friday Night SmackDown - GHD SPORTS HD
 #KODIPROP:inputstream=inputstream.ffmpeg
@@ -150,12 +139,68 @@ https://admin2.formaturamaxi.com.br/wwe.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-origin=http://www.fawanews.sc
-http://193.47.62.41/hls/Y999AAAA.m3u8
+http://193.47.62.41/hls/JJJJAA.m3u8
 
-#EXTINF:-1 tvg-id="295" tvg-name="Friday Night SmackDown - GHD SPORTS SD" tvg-logo="https://static.wikia.nocookie.net/wweuniverse/images/f/f6/Wwelogo.png/revision/latest?cb=20101124080717" group-title="WWE",Friday Night SmackDown - GHD SPORTS SD
+#EXTINF:-1 tvg-id="295" tvg-name="Friday Night SmackDown - WWE Network HD" tvg-logo="https://static.wikia.nocookie.net/wweuniverse/images/f/f6/Wwelogo.png/revision/latest?cb=20101124080717" group-title="WWE",Friday Night SmackDown - WWE Network HD
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://admin2.formaturamaxi.com.br/wwe.m3u8
+https://jellyfin.fromthyheart.site/dailymotion/live/playlist/1.m3u8
+
+#EXTINF:-1 tvg-id="295" tvg-name="Friday Night SmackDown - SmackDown HD" tvg-logo="https://static.wikia.nocookie.net/wweuniverse/images/f/f6/Wwelogo.png/revision/latest?cb=20101124080717" group-title="WWE",Friday Night SmackDown - SmackDown HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://ubuntu.fromthyheart.site/dailymotion/live/playlist/4.m3u8
+
+#EXTINF:-1 tvg-id="295" tvg-name="Friday Night SmackDown - Premium Sports SD" tvg-logo="https://static.wikia.nocookie.net/wweuniverse/images/f/f6/Wwelogo.png/revision/latest?cb=20101124080717" group-title="WWE",Friday Night SmackDown - Premium Sports SD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://raw.githubusercontent.com/athenapanda26/hls/refs/heads/main/smack.m3u8
+
+#EXTINF:-1 tvg-id="295" tvg-name="Friday Night SmackDown - Main Event HD" tvg-logo="https://static.wikia.nocookie.net/wweuniverse/images/f/f6/Wwelogo.png/revision/latest?cb=20101124080717" group-title="WWE",Friday Night SmackDown - Main Event HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://plex.fromthyheart.site/dailymotion/live/playlist/5.m3u8
+
+#EXTINF:-1 tvg-id="295" tvg-name="Friday Night SmackDown - Wrestling Zone HD" tvg-logo="https://static.wikia.nocookie.net/wweuniverse/images/f/f6/Wwelogo.png/revision/latest?cb=20101124080717" group-title="WWE",Friday Night SmackDown - Wrestling Zone HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://ubuntu.fromthyheart.site/dailymotion/live/playlist/6.m3u8
+
+#EXTINF:-1 tvg-id="295" tvg-name="Friday Night SmackDown - Action Arena HD" tvg-logo="https://static.wikia.nocookie.net/wweuniverse/images/f/f6/Wwelogo.png/revision/latest?cb=20101124080717" group-title="WWE",Friday Night SmackDown - Action Arena HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://ubuntu.fromthyheart.site/dailymotion/live/playlist/5.m3u8
+
+#EXTINF:-1 tvg-id="722" tvg-name="Saudi Pro League: Al-Ahli vs Al-Taawoun - Al Taawon vs Al Ettifaq" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/955/image/dark" group-title="Football",Saudi Pro League: Al-Ahli vs Al-Taawoun - Al Taawon vs Al Ettifaq
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F128.0.0.0+Safari%2F537.36
+#EXTVLCOPT:http-referrer=http%3A%2F%2Fwww.fawanews.sc%2F
+#EXTVLCOPT:http-origin=http%3A%2F%2Fwww.fawanews.sc
+http://193.47.62.44/hls/BDDDAAAAQQAAAA.m3u8
+
+#EXTINF:-1 tvg-id="723" tvg-name="Saudi Pro League: Al-Ettifaq vs Al-Hilal - Al Fayha vs Al Faisaly" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/955/image/dark" group-title="Football",Saudi Pro League: Al-Ettifaq vs Al-Hilal - Al Fayha vs Al Faisaly
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F128.0.0.0+Safari%2F537.36
+#EXTVLCOPT:http-referrer=http%3A%2F%2Fwww.fawanews.sc%2F
+#EXTVLCOPT:http-origin=http%3A%2F%2Fwww.fawanews.sc
+http://193.47.62.44/hls/kkkkAAAAAQQQQQQ.m3u8
+
+#EXTINF:-1 tvg-id="724" tvg-name="Saudi Pro League: Al Faisaly vs Diriyah - GHD SPORTS SD" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/955/image/dark" group-title="Football",Saudi Pro League: Al Faisaly vs Diriyah - GHD SPORTS SD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-referrer=https://xlz.domainkqt.cc/
+https://live2.jorvakstreamcache.com/live/channel17.m3u8
+
+#EXTINF:-1 tvg-id="724" tvg-name="Saudi Pro League: Al Faisaly vs Diriyah - Sport TV6 Portugal" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/955/image/dark" group-title="Football",Saudi Pro League: Al Faisaly vs Diriyah - Sport TV6 Portugal
+https://thedaddy.pk/watch.php?id=291
+
+#EXTINF:-1 tvg-id="724" tvg-name="Saudi Pro League: Al Faisaly vs Diriyah - Movistar Liga de Campeones 2" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/955/image/dark" group-title="Football",Saudi Pro League: Al Faisaly vs Diriyah - Movistar Liga de Campeones 2
+https://thedaddy.pk/watch.php?id=16
+
+#EXTINF:-1 tvg-id="724" tvg-name="Saudi Pro League: Al Faisaly vs Diriyah - Fox Soccer Plus" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/955/image/dark" group-title="Football",Saudi Pro League: Al Faisaly vs Diriyah - Fox Soccer Plus
+https://thedaddy.pk/watch.php?id=756
 
 #EXTINF:-1 tvg-id="747" tvg-name="Premier League: Everton vs Coventry - FUBO SPORTS FHD" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/17/image/dark" group-title="Football",Premier League: Everton vs Coventry - FUBO SPORTS FHD
 #KODIPROP:inputstream=inputstream.adaptive
@@ -412,28 +457,28 @@ https://thedaddy.pk/watch.php?id=402
 #EXTINF:-1 tvg-id="757" tvg-name="LaLiga: Osasuna vs Athletic Club - Prima Sport 3 Romania" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/8/image/dark" group-title="Football",LaLiga: Osasuna vs Athletic Club - Prima Sport 3 Romania
 https://thedaddy.pk/watch.php?id=585
 
-#EXTINF:-1 tvg-id="759" tvg-name="U19 Asia Cup: IND-U19 vs NEP-U19 - WILLOW CRICBUZZ - AQ" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/11486/image/dark" group-title="Cricket",U19 Asia Cup: IND-U19 vs NEP-U19 - WILLOW CRICBUZZ - AQ
+#EXTINF:-1 tvg-id="759" tvg-name="U19 Asia Cup: SL-U19 vs BAN-U19 - WILLOW CRICBUZZ - AQ" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/11486/image/dark" group-title="Cricket",U19 Asia Cup: SL-U19 vs BAN-U19 - WILLOW CRICBUZZ - AQ
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=5d52529b6ff19eca2315013244513b68:ba5c7dfad287aab538463d9da6811a8c
 https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/3qvpw810gz/out/v1/e4b320f9ef924fe59188752dcf9c7fbf/cenc.mpd
 
-#EXTINF:-1 tvg-id="759" tvg-name="U19 Asia Cup: IND-U19 vs NEP-U19 - WILLOW CRICBUZZ - ALT" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/11486/image/dark" group-title="Cricket",U19 Asia Cup: IND-U19 vs NEP-U19 - WILLOW CRICBUZZ - ALT
+#EXTINF:-1 tvg-id="759" tvg-name="U19 Asia Cup: SL-U19 vs BAN-U19 - WILLOW CRICBUZZ - ALT" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/11486/image/dark" group-title="Cricket",U19 Asia Cup: SL-U19 vs BAN-U19 - WILLOW CRICBUZZ - ALT
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=5d52529b6ff19eca2315013244513b68:ba5c7dfad287aab538463d9da6811a8c
 https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/3qvpw810gz/out/v1/e4b320f9ef924fe59188752dcf9c7fbf/cenc.mpd
 
-#EXTINF:-1 tvg-id="759" tvg-name="U19 Asia Cup: IND-U19 vs NEP-U19 - SonyLiv English - AQ" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/11486/image/dark" group-title="Cricket",U19 Asia Cup: IND-U19 vs NEP-U19 - SonyLiv English - AQ
+#EXTINF:-1 tvg-id="759" tvg-name="U19 Asia Cup: SL-U19 vs BAN-U19 - SonyLiv English - AQ" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/11486/image/dark" group-title="Cricket",U19 Asia Cup: SL-U19 vs BAN-U19 - SonyLiv English - AQ
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=01e7554c8d5b1fb6c77f214754f37fde:cc17f51040f551dcbf45dea424c80fa3
 https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/evcwvvskwy/out/v1/646f7a7c35594dd4947ff7c030d20c39/cenc.mpd
 
-#EXTINF:-1 tvg-id="759" tvg-name="U19 Asia Cup: IND-U19 vs NEP-U19 - TEN CRICKET - AQ" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/11486/image/dark" group-title="Cricket",U19 Asia Cup: IND-U19 vs NEP-U19 - TEN CRICKET - AQ
+#EXTINF:-1 tvg-id="759" tvg-name="U19 Asia Cup: SL-U19 vs BAN-U19 - TEN CRICKET - AQ" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/11486/image/dark" group-title="Cricket",U19 Asia Cup: SL-U19 vs BAN-U19 - TEN CRICKET - AQ
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://app.uckingcrazy1.workers.dev/api/play/Ten%20Cricket.m3u8
@@ -524,6 +569,35 @@ https://thedaddy.pk/watch.php?id=428
 
 #EXTINF:-1 tvg-id="765" tvg-name="Bundesliga: Dortmund vs Elversberg - Digi Sport 3 Romania" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/35/image/dark" group-title="Football",Bundesliga: Dortmund vs Elversberg - Digi Sport 3 Romania
 https://thedaddy.pk/watch.php?id=402
+
+#EXTINF:-1 tvg-id="767" tvg-name="MLS: Inter Miami vs Charlotte - Apple Tv HD" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/242/image/dark" group-title="Football",MLS: Inter Miami vs Charlotte - Apple Tv HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-origin=http://www.fawanews.sc
+http://193.47.62.41/hls/ROOOA.m3u8
+
+#EXTINF:-1 tvg-id="767" tvg-name="MLS: Inter Miami vs Charlotte - Apple Tv SD" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/242/image/dark" group-title="Football",MLS: Inter Miami vs Charlotte - Apple Tv SD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://www.rtmpcdn.com/live/97097ee6-d144-4ea2-b904-4f79069e3d57.m3u8
+
+#EXTINF:-1 tvg-id="767" tvg-name="MLS: Inter Miami vs Charlotte - GHD SPORTS HD" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/242/image/dark" group-title="Football",MLS: Inter Miami vs Charlotte - GHD SPORTS HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://hwyypull.ncctrials.com/live/stream-746673_lhd.m3u8
+
+#EXTINF:-1 tvg-id="767" tvg-name="MLS: Inter Miami vs Charlotte - FAST SERVER HD" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/242/image/dark" group-title="Football",MLS: Inter Miami vs Charlotte - FAST SERVER HD
+#KODIPROP:inputstream=inputstream.ffmpeg
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://live2.jorvakstreamcache.com/live/channel11.m3u8
+
+#EXTINF:-1 tvg-id="767" tvg-name="MLS: Inter Miami vs Charlotte - MAX Sport 4 Bulgaria" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/242/image/dark" group-title="Football",MLS: Inter Miami vs Charlotte - MAX Sport 4 Bulgaria
+https://thedaddy.pk/watch.php?id=475
+
+#EXTINF:-1 tvg-id="767" tvg-name="MLS: Inter Miami vs Charlotte - Sport 2 Israel" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/242/image/dark" group-title="Football",MLS: Inter Miami vs Charlotte - Sport 2 Israel
+https://thedaddy.pk/watch.php?id=141
 
 #EXTINF:-1 tvg-id="769" tvg-name="Serie A: Venezia vs Udinese - BeIN SPORTS FHD" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/23/image/dark" group-title="Football",Serie A: Venezia vs Udinese - BeIN SPORTS FHD
 #KODIPROP:inputstream=inputstream.adaptive
@@ -898,31 +972,31 @@ https://thedaddy.pk/watch.php?id=947
 #EXTINF:-1 tvg-id="766" tvg-name="Bundesliga: Mainz 05 vs Bayern - beIN Sports MAX 8 France" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/35/image/dark" group-title="Football",Bundesliga: Mainz 05 vs Bayern - beIN Sports MAX 8 France
 https://thedaddy.pk/watch.php?id=498
 
-#EXTINF:-1 tvg-id="758" tvg-name="U19 Asia Cup: PAK-U19 vs UAE-U19 - WILLOW CRICBUZZ - AQ" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/11486/image/dark" group-title="Cricket",U19 Asia Cup: PAK-U19 vs UAE-U19 - WILLOW CRICBUZZ - AQ
+#EXTINF:-1 tvg-id="758" tvg-name="U19 Asia Cup: AFG-U19 vs MAS-U19 - WILLOW CRICBUZZ - AQ" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/11486/image/dark" group-title="Cricket",U19 Asia Cup: AFG-U19 vs MAS-U19 - WILLOW CRICBUZZ - AQ
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1dcfabc6b441908d78cc7106e30e906f:8e086929f79491b9a2076d0d04eb7317
 https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/quzxcdfmpz/out/v1/9e6286a4302b4f4eb0815473ae87ba8a/cenc.mpd
 
-#EXTINF:-1 tvg-id="758" tvg-name="U19 Asia Cup: PAK-U19 vs UAE-U19 - WILLOW CRICBUZZ - ALT" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/11486/image/dark" group-title="Cricket",U19 Asia Cup: PAK-U19 vs UAE-U19 - WILLOW CRICBUZZ - ALT
+#EXTINF:-1 tvg-id="758" tvg-name="U19 Asia Cup: AFG-U19 vs MAS-U19 - WILLOW CRICBUZZ - ALT" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/11486/image/dark" group-title="Cricket",U19 Asia Cup: AFG-U19 vs MAS-U19 - WILLOW CRICBUZZ - ALT
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1dcfabc6b441908d78cc7106e30e906f:8e086929f79491b9a2076d0d04eb7317
 https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/quzxcdfmpz/out/v1/9e6286a4302b4f4eb0815473ae87ba8a/cenc.mpd
 
-#EXTINF:-1 tvg-id="758" tvg-name="U19 Asia Cup: PAK-U19 vs UAE-U19 - SonyLiv English - AQ" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/11486/image/dark" group-title="Cricket",U19 Asia Cup: PAK-U19 vs UAE-U19 - SonyLiv English - AQ
+#EXTINF:-1 tvg-id="758" tvg-name="U19 Asia Cup: AFG-U19 vs MAS-U19 - SonyLiv English - AQ" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/11486/image/dark" group-title="Cricket",U19 Asia Cup: AFG-U19 vs MAS-U19 - SonyLiv English - AQ
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://sonyeventsglobal.akamaized.net/hls/live/2037139/criclive0611/ENG/std_lrh-800300010.m3u8?hdnea=exp=1793984296~acl=/*~id=23768035385980182528766917948988~hmac=599a216b634da83a130a3ce668e5380b606178ae829dc8e8458e8c6a793a2a24
 
-#EXTINF:-1 tvg-id="758" tvg-name="U19 Asia Cup: PAK-U19 vs UAE-U19 - PTV SPORTS - AQ" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/11486/image/dark" group-title="Cricket",U19 Asia Cup: PAK-U19 vs UAE-U19 - PTV SPORTS - AQ
+#EXTINF:-1 tvg-id="758" tvg-name="U19 Asia Cup: AFG-U19 vs MAS-U19 - PTV SPORTS - AQ" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/11486/image/dark" group-title="Cricket",U19 Asia Cup: AFG-U19 vs MAS-U19 - PTV SPORTS - AQ
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://live.msnetworks.net/ptv-sports/master.m3u8
 
-#EXTINF:-1 tvg-id="758" tvg-name="U19 Asia Cup: PAK-U19 vs UAE-U19 - TEN SPORTS - AQ" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/11486/image/dark" group-title="Cricket",U19 Asia Cup: PAK-U19 vs UAE-U19 - TEN SPORTS - AQ
+#EXTINF:-1 tvg-id="758" tvg-name="U19 Asia Cup: AFG-U19 vs MAS-U19 - TEN SPORTS - AQ" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/11486/image/dark" group-title="Cricket",U19 Asia Cup: AFG-U19 vs MAS-U19 - TEN SPORTS - AQ
 #KODIPROP:inputstream=inputstream.ffmpeg
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://live.msnetworks.net/ten-sports/master.m3u8
@@ -1040,6 +1114,13 @@ https://edgestream2.pro/hls/sqdahach1ax.m3u8
 #EXTVLCOPT:http-origin=https://ondemand.st/embed/?id=ligue1/2026-09-19/tou-hac
 https://messi.damitv.st/live-hls/channel/ligue1/2026-09-19/tou-hac/playlist.m3u8?tk=r9-xH4Ys2mZ451hiS9T8OQ&e=1789885810
 
+#EXTINF:-1 tvg-id="11" tvg-name="INDIA TOUR OF NEW ZEALAND: NZ vs IND - TNT SPORTS 4 FHD" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/11191/image/dark" group-title="Cricket",INDIA TOUR OF NEW ZEALAND: NZ vs IND - TNT SPORTS 4 FHD
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd
+
 #EXTINF:-1 tvg-id="11" tvg-name="INDIA TOUR OF NEW ZEALAND: NZ vs IND - WILLOW CRICBUZZ - AQ" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/11191/image/dark" group-title="Cricket",INDIA TOUR OF NEW ZEALAND: NZ vs IND - WILLOW CRICBUZZ - AQ
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -1062,14 +1143,6 @@ https://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/ppmrp8tlzz/
 #KODIPROP:inputstream.adaptive.license_key=db4b3e1da015cf0f03c2a5f4b9ee8433:964bab777741f2b59adedcbbcd463374
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/rtlq2she5l/out/v1/8965a8b295c4453eb5afd8706e65586a/cenc.mpd
-
-#EXTINF:-1 tvg-id="11" tvg-name="INDIA TOUR OF NEW ZEALAND: NZ vs IND - TNT SPORTS FHD" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/11191/image/dark" group-title="Cricket",INDIA TOUR OF NEW ZEALAND: NZ vs IND - TNT SPORTS FHD
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd
 
 #EXTINF:-1 tvg-id="11" tvg-name="INDIA TOUR OF NEW ZEALAND: NZ vs IND - WILLOW SPORTS AQ" tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/11191/image/dark" group-title="Cricket",INDIA TOUR OF NEW ZEALAND: NZ vs IND - WILLOW SPORTS AQ
 #KODIPROP:inputstream=inputstream.adaptive
